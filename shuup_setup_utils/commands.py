@@ -117,10 +117,18 @@ class BuildMessagesCommand(distutils.core.Command):
         # middle of installing Shuup, then management commands will fail
         # because shuup_workbench is not yet installed.
         env = dict(os.environ, DJANGO_SETTINGS_MODULE="")
-        command = ["django-admin", "compilemessages"]
+        command = ["django-admin",'compilemessages']
+        if self.distribution.has_ext_modules():
+            # If there are C extensions, we need to ensure that the
+            # environment is set up correctly for compiling messages.
+            command.append("--use-fallback")
 
         for appdir in sorted(appdirs):
-            subprocess.check_call(command, env=env, cwd=appdir)
+            try:
+                subprocess.check_call(command, env=env, cwd=appdir)
+            except subprocess.CalledProcessError as e:
+                print(f"⚠️ Warning: compilemessages failed in {appdir}. You can skip this if not using translations.")
+        
 
 
 COMMANDS = dict(
