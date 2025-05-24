@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 19:59+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: apps/registration/forms.py:33
+msgid "Name of the company"
+msgstr ""
+
+#: apps/registration/notify_events.py:23
+msgid "Registration Received"
+msgstr ""
+
+#: apps/registration/notify_events.py:24
+msgid "Customer"
+msgstr ""
+
+#: apps/registration/notify_events.py:25
+msgid "Customer Email"
+msgstr ""
+
+#: apps/registration/notify_events.py:26
+msgid "Activation URL"
+msgstr ""
+
+#: apps/registration/notify_events.py:27
+msgid "Is User Active"
+msgstr ""
+
+#: apps/registration/notify_events.py:32
+msgid "Account Reactivation"
+msgstr ""
+
+#: apps/registration/notify_events.py:37
+msgid "Company Registration Received"
+msgstr ""
+
+#: apps/registration/notify_events.py:42
+msgid "Company Approved"
+msgstr ""
+
+#: apps/registration/notify_events.py:47
+msgid "Account Activation"
+msgstr ""
+
+#: apps/registration/notify_events.py:110
+msgid "Company has been activated."
+msgstr ""
+
+#: apps/registration/notify_events.py:131
+msgid "Send Registration Received Email"
+msgstr ""
+
+#: apps/registration/notify_events.py:132
+msgid "Send email when a user registers."
+msgstr ""
+
+#: apps/registration/notify_events.py:134
+#: apps/registration/notify_events.py:156
+msgid ""
+"This script will send an email to the user or to any configured email right "
+"after a user get registered."
+msgstr ""
+
+#: apps/registration/notify_events.py:136
+#: apps/registration/notify_events.py:158
+#: apps/registration/notify_events.py:169
+msgid "{{ order.shop }} - Welcome!"
+msgstr ""
+
+#: apps/registration/notify_events.py:142
+msgid "Send account reactivation email"
+msgstr ""
+
+#: apps/registration/notify_events.py:143
+msgid "Send email when a user account gets reactivated"
+msgstr ""
+
+#: apps/registration/notify_events.py:145
+msgid ""
+"This script will send an email to the user or to any configured email when a "
+"account get's reactivated"
+msgstr ""
+
+#: apps/registration/notify_events.py:147
+msgid "{{ customer.username }} is now active again!"
+msgstr ""
+
+#: apps/registration/notify_events.py:153
+msgid "Send Company Registration Received Email"
+msgstr ""
+
+#: apps/registration/notify_events.py:154
+msgid "Send email when a user registers as a company."
+msgstr ""
+
+#: apps/registration/notify_events.py:164
+msgid "Send Company Activated Email"
+msgstr ""
+
+#: apps/registration/notify_events.py:165
+msgid "Notify company's contact person that company account is activated"
+msgstr ""
+
+#: apps/registration/notify_events.py:167
+msgid ""
+"This script will send an email to the user or to any configured email right "
+"after a company is activated."
+msgstr ""
+
+#: apps/registration/notify_events.py:176
+msgid "Send account activation email"
+msgstr ""
+
+#: apps/registration/notify_events.py:177
+msgid "Send email when a user account gets activated for the first time"
+msgstr ""
+
+#: apps/registration/notify_events.py:179
+msgid ""
+"This script will send an email to the user or to any configured email when "
+"an account gets activated for the first time"
+msgstr ""
+
+#: apps/registration/notify_events.py:182
+msgid "{{ customer.username }} is now active!"
+msgstr ""
+
+#: apps/registration/views.py:25
+msgid "Activation successful"
+msgstr ""
+
+#: apps/registration/views.py:35
+msgid ""
+"Registration complete. Please follow the instructions sent to your email "
+"address."
+msgstr ""

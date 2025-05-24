@@ -6,16 +6,16 @@
 
 2. Thiết lập cơ sở dữ liệu:
     - Chạy: python -m shuup_workbench manage.py migrate
-
+    - Chạy: django-admin compilemessages để chạy comile ngôn ngữ
 3. Tạo tài khoản quản trị:
     - Chạy: python -m shuup_workbench manage.py createsuperuser
 
 4. Chạy thử dự án:
-    - Chạy: python -m shuup_workbench manage.py runserver
+    - Chạy: python -m shuup_workbench runserver
     - Truy cập: http://127.0.0.1:8000/
 
 5. Đăng nhập trang quản trị:
-    - Truy cập: http://127.0.0.1:8000/admin/
+    - Truy cập: http://127.0.0.1:8000/sa/
     - Đăng nhập bằng tài khoản đã tạo ở bước 3.
 
 Chúc bạn thành công!

@@ -105,8 +105,8 @@ DATABASES = {
     }
 }
 
-LANGUAGE_CODE = "en"
-TIME_ZONE = "UTC"
+LANGUAGE_CODE = "vi"
+TIME_ZONE = "Asia/Ho_Chi_Minh"
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
@@ -135,6 +135,7 @@ LANGUAGES = [
     # Should be a subset of django.conf.global_settings.LANGUAGES.  Use
     # same spelling for the language names for utilizing the language
     # name translations from Django.
+    ("vi", "Vietnamese"),
     ("en", "English"),
     ("fi", "Finnish"),
     ("it", "Italian"),
@@ -147,7 +148,7 @@ LANGUAGES = [
     ("es", "Spanish"),
 ]
 
-PARLER_DEFAULT_LANGUAGE_CODE = "en"
+PARLER_DEFAULT_LANGUAGE_CODE = "vi"
 
 PARLER_LANGUAGES = {
     None: [{"code": c, "name": n} for (c, n) in LANGUAGES],
@@ -210,6 +211,10 @@ SHUUP_ERROR_PAGE_HANDLERS_SPEC = [
 ]
 
 SHUUP_SIMPLE_SEARCH_LIMIT = 150
+
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, "front", "locale"),
+]
 
 
 def configure(setup):
