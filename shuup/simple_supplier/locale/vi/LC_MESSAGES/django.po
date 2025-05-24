@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: simple_supplier/admin_module/__init__.py:18
+#: simple_supplier/admin_module/views.py:97
+msgid "Stock management"
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:32
+msgid "SKU"
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:36
+msgid "Filter by SKU..."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:40
+msgid "Name"
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:44
+msgid "Filter by name..."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:48 simple_supplier/notify_events.py:22
+msgid "Supplier"
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:57
+msgid "Stock information"
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:65
+msgid "Adjust stock"
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:116
+#, python-format
+msgid ""
+"Success! Added %(delta)s `%(unit_symbol)s` for product `%(product_name)s` "
+"stock (%(supplier_name)s)."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:121
+#, python-format
+msgid ""
+"Success! Removed %(delta)s `%(unit_symbol)s` from product `%(product_name)s` "
+"stock (%(supplier_name)s)."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:163
+#: simple_supplier/admin_module/views.py:209
+msgid "Please check submitted values and try again ({})."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:166
+#: simple_supplier/admin_module/views.py:213
+#, python-format
+msgid "Please check submitted values and try again (%(error)s)."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:183
+#, python-format
+msgid "Alert limit for product `%(product_name)s` set to `%(value)s`."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:232
+#, python-brace-format
+msgid "Stock management is now enabled for {product}."
+msgstr ""
+
+#: simple_supplier/admin_module/views.py:234
+#, python-brace-format
+msgid "Stock management is now disabled for {product}."
+msgstr ""
+
+#: simple_supplier/forms.py:25 simple_supplier/forms.py:36
+#, python-brace-format
+msgid "Purchase price per unit ({currency_name})"
+msgstr ""
+
+#: simple_supplier/forms.py:29 simple_supplier/forms.py:42
+msgid "Quantity"
+msgstr ""
+
+#: simple_supplier/forms.py:47
+msgid "Only non-zero values can be added to stock."
+msgstr ""
+
+#: simple_supplier/forms.py:57 simple_supplier/forms.py:65
+msgid "Alert limit"
+msgstr ""
+
+#: simple_supplier/models.py:38 simple_supplier/models.py:73
+msgid "product"
+msgstr ""
+
+#: simple_supplier/models.py:40 simple_supplier/models.py:75
+msgid "supplier"
+msgstr ""
+
+#: simple_supplier/models.py:41
+msgid "created on"
+msgstr ""
+
+#: simple_supplier/models.py:43
+msgid "created by"
+msgstr ""
+
+#: simple_supplier/models.py:45
+msgid "delta"
+msgstr ""
+
+#: simple_supplier/models.py:49
+msgid "type"
+msgstr ""
+
+#: simple_supplier/models.py:62
+msgid "alert limit"
+msgstr ""
+
+#: simple_supplier/models.py:64
+msgid "stock managed"
+msgstr ""
+
+#: simple_supplier/models.py:66
+msgid "Use this to override the supplier default stock behavior per product."
+msgstr ""
+
+#: simple_supplier/models.py:76
+msgid "logical count"
+msgstr ""
+
+#: simple_supplier/models.py:77
+msgid "physical count"
+msgstr ""
+
+#: simple_supplier/module.py:29
+msgid "Simple Supplier"
+msgstr ""
+
+#: simple_supplier/module.py:53
+msgid "Error! Insufficient quantity in stock."
+msgstr ""
+
+#: simple_supplier/module.py:182
+#, python-format
+msgid "%(name)s (physical stock: %(quantity)s)"
+msgstr ""
+
+#: simple_supplier/module.py:187
+#, python-format
+msgid ""
+"Insufficient physical stock count for the following products: "
+"`%(product_counts)s`."
+msgstr ""
+
+#: simple_supplier/notify_events.py:20
+msgid "Alert Limit Reached"
+msgstr ""
+
+#: simple_supplier/notify_events.py:23
+msgid "Product"
+msgstr ""
+
+#: simple_supplier/notify_events.py:25
+msgid "Supplier Email"
+msgstr ""
+
+#: simple_supplier/notify_events.py:26
+msgid "Shop Email"
+msgstr ""
+
+#: simple_supplier/notify_events.py:29
+msgid "Fired in the last 24 hours?"
+msgstr ""
+
+#: simple_supplier/notify_events.py:32
+msgid ""
+"This will be True if this event was already dispatched in the last 24 hours "
+"for the same product and supplier. This is useful to prevent sending "
+"identical notifications in a short period of time."
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:23
+msgid "Send to?"
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:23
+msgid "Send email to whom?"
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:25
+msgid "Do not send the same email within 24 hours."
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:28
+msgid ""
+"If enabled, avoids sending the same email for the same product and supplier "
+"within 24 hours."
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:35
+msgid "Send Stock Limit Alert Email"
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:36
+msgid ""
+"Send me an email when a product stock is lower than the configured limit."
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:38
+msgid ""
+"This script will send an email to the configured destination alerting about "
+"the a product's low stock of a supplier. You can configure to not send the "
+"same email multiple times in a period of 24 hours. Every time a product's "
+"stock reach its configured limit, this notification will be fired and the "
+"email sent."
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:100
+msgid "Low stock of: {{ product }} from {{ supplier }}"
+msgstr ""
+
+#: simple_supplier/notify_script_template.py:104
+msgid ""
+"Hi!\n"
+"You are receiving this message because the product {{ product}} from "
+"{{ supplier }} has a low stock."
+msgstr ""

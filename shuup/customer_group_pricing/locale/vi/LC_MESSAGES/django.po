@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: customer_group_pricing/__init__.py:16
+msgid "Shuup Customer Group Pricing"
+msgstr ""
+
+#: customer_group_pricing/admin_form_part.py:52
+#, python-format
+msgid "Price (%(shop)s/%(group)s)"
+msgstr ""
+
+#: customer_group_pricing/admin_form_part.py:130
+#, python-format
+msgid "Discount (%(shop)s/%(group)s)"
+msgstr ""
+
+#: customer_group_pricing/models.py:19
+msgid "product"
+msgstr ""
+
+#: customer_group_pricing/models.py:20
+msgid "shop"
+msgstr ""
+
+#: customer_group_pricing/models.py:22
+msgid "contact group"
+msgstr ""
+
+#: customer_group_pricing/models.py:32
+msgid "price"
+msgstr ""
+
+#: customer_group_pricing/models.py:36
+msgid "product price"
+msgstr ""
+
+#: customer_group_pricing/models.py:37
+msgid "product prices"
+msgstr ""
+
+#: customer_group_pricing/models.py:57
+msgid "discount amount"
+msgstr ""
+
+#: customer_group_pricing/models.py:61
+msgid "product discount"
+msgstr ""
+
+#: customer_group_pricing/models.py:62
+msgid "product discounts"
+msgstr ""
+
+#: customer_group_pricing/module.py:27
+msgid "Customer Group Pricing"
+msgstr ""
+
+#: customer_group_pricing/module.py:102
+msgid "Customer Group Discount"
+msgstr ""

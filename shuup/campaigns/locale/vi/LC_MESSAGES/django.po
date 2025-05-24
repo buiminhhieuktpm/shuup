@@ -1,0 +1,731 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: campaigns/admin_module/__init__.py:24 campaigns/models/campaigns.py:110
+#: campaigns/modules.py:22
+msgid "Campaigns"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:58
+msgid "Basket Campaigns"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:63
+msgid "Show Basket Campaigns"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:66
+msgid "Coupons"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:71
+msgid "Show Coupons"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:78
+msgid "Catalog Campaigns"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:83
+msgid "Show Catalog Campaigns"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:92
+msgid "Set up a sales campaign"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:94
+msgid "New basket campaign"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:95
+msgid "New coupon"
+msgstr ""
+
+#: campaigns/admin_module/__init__.py:115
+msgid "Allow the user to select coupons in admin."
+msgstr ""
+
+#: campaigns/admin_module/form_parts.py:32
+msgid "Minimum value"
+msgstr ""
+
+#: campaigns/admin_module/form_parts.py:32
+msgid "Maximum value"
+msgstr ""
+
+#: campaigns/admin_module/form_parts.py:33
+msgid "Leave empty for no maximum"
+msgstr ""
+
+#: campaigns/admin_module/forms/_base.py:47
+msgid "Campaign end date can't be before a start date."
+msgstr ""
+
+#: campaigns/admin_module/forms/_basket.py:35
+msgid "Define the required coupon for this campaign."
+msgstr ""
+
+#: campaigns/admin_module/forms/_basket.py:36
+#: campaigns/admin_module/views/_edit.py:128 campaigns/reports.py:22
+msgid "Coupon"
+msgstr ""
+
+#: campaigns/admin_module/forms/_basket_effects.py:35
+#: campaigns/admin_module/forms/_basket_effects.py:47
+#: campaigns/admin_module/forms/_basket_effects.py:87
+#: campaigns/admin_module/forms/_catalog_effects.py:27
+#: campaigns/models/basket_effects.py:71 campaigns/models/basket_effects.py:102
+#: campaigns/models/basket_line_effects.py:153
+#: campaigns/models/product_effects.py:69
+msgid "discount percentage"
+msgstr ""
+
+#: campaigns/admin_module/forms/_basket_effects.py:36
+#: campaigns/admin_module/forms/_basket_effects.py:48
+#: campaigns/admin_module/forms/_basket_effects.py:89
+#: campaigns/admin_module/forms/_catalog_effects.py:28
+#: campaigns/models/basket_effects.py:72 campaigns/models/basket_effects.py:103
+#: campaigns/models/basket_line_effects.py:154
+#: campaigns/models/product_effects.py:70
+msgid "The discount percentage for this campaign."
+msgstr ""
+
+#: campaigns/admin_module/forms/_basket_effects.py:71
+#, python-format
+msgid "Product %(product)s is not available in the %(shop)s shop."
+msgstr ""
+
+#: campaigns/admin_module/forms/_basket_effects.py:102
+msgid "Only amount or percentage can be set, not both."
+msgstr ""
+
+#: campaigns/admin_module/forms/_coupon.py:17
+msgid "Autogenerate code"
+msgstr ""
+
+#: campaigns/admin_module/forms/_coupon.py:48
+msgid "Discount Code is already in use."
+msgstr ""
+
+#: campaigns/admin_module/sections.py:19
+msgid "Active Basket Campaigns"
+msgstr ""
+
+#: campaigns/admin_module/views/_edit.py:84
+msgid "Catalog Campaign"
+msgstr ""
+
+#: campaigns/admin_module/views/_edit.py:111
+msgid "Basket Campaign"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:24
+msgid "Title"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:30
+msgid "Starts"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:31
+msgid "Ends"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:32
+#: campaigns/admin_module/views/_list.py:115
+msgid "Active"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:32
+msgid "No"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:32
+msgid "Yes"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:55
+msgid "CatalogCampaign"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:70
+msgid "Create new Catalog Campaign"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:88
+msgid "Create new Basket Campaign"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:106
+msgid "Code"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:112
+msgid "Usages"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:113
+msgid "Usages Limit per contact"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:114
+msgid "Usage Limit"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:116
+msgid "Created by"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:117
+msgid "Date created"
+msgstr ""
+
+#: campaigns/admin_module/views/_list.py:130
+msgid "Create new Coupon"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:25
+msgid "Basket condition"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:36
+msgid "Basket product count"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:39
+msgid "product count in basket"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:50
+msgid ""
+"Limit the campaign to match when basket has at least the product count "
+"entered here."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:63
+msgid "Basket total value"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:66
+#: campaigns/models/basket_conditions.py:91
+msgid "basket total amount"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:75
+msgid ""
+"Limit the campaign to match when it has at least the total value entered "
+"here worth of products."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:88
+msgid "Undiscounted basket total value"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:115
+msgid ""
+"Limit the campaign to match when it has at least the total value entered "
+"here worth of products which doesn't have already discounts."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:130
+msgid "Basket maximum product count"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:133
+msgid "maximum product count in basket"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:143
+msgid ""
+"Limit the campaign to match when basket has at maximum the product count "
+"entered here."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:156
+msgid "Basket maximum total value"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:159
+msgid "maximum basket total amount"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:168
+msgid ""
+"Limit the campaign to match when it has at maximum the total value entered "
+"here worth of products."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:184
+msgid "Exactly"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:185
+msgid "Greater than or equal to"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:190
+msgid "Products in basket"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:194
+#: campaigns/models/basket_conditions.py:276
+msgid "operator"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:195
+#: campaigns/models/basket_conditions.py:277
+#: campaigns/models/basket_line_effects.py:40
+msgid "quantity"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:196
+msgid "products"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:212
+msgid "Limit the campaign to have the selected products in basket."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:226
+#: campaigns/models/context_conditions.py:31
+msgid "Contact Group"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:228
+#: campaigns/models/context_conditions.py:33
+msgid "contact groups"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:236
+#: campaigns/models/context_conditions.py:42
+msgid "Limit the campaign to members of the selected contact groups."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:250
+#: campaigns/models/context_conditions.py:56
+msgid "Contact"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:252
+#: campaigns/models/context_conditions.py:58
+msgid "contacts"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:260
+#: campaigns/models/context_conditions.py:66
+msgid "Limit the campaign to selected contacts."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:274
+msgid "Category products in basket"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:278
+#: campaigns/models/catalog_filters.py:97
+msgid "categories"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:283
+msgid "excluded categories"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:285
+msgid ""
+"If the customer has even a single product in the basket from these "
+"categories this rule won't match thus the campaign cannot be applied to the "
+"basket."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:308
+msgid "Limit the campaign to match the products from selected categories."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:313
+#: campaigns/models/context_conditions.py:79
+msgid "Day and hour"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:316
+#: campaigns/models/context_conditions.py:82
+msgid "start time"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:316
+#: campaigns/models/context_conditions.py:82
+msgid "12pm is considered noon and 12am as midnight."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:319
+#: campaigns/models/context_conditions.py:85
+msgid "end time"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:320
+#: campaigns/models/context_conditions.py:86
+msgid ""
+"12pm is considered noon and 12am as midnight. End time is not considered "
+"match."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:322
+#: campaigns/models/context_conditions.py:88
+msgid "days"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:329
+#: campaigns/models/context_conditions.py:95
+msgid "Limit the campaign to selected days."
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:338
+msgid "Product Variation Child"
+msgstr ""
+
+#: campaigns/models/basket_conditions.py:358
+msgid ""
+"Limit the campaign to match only variation children of the selected product."
+msgstr ""
+
+#: campaigns/models/basket_effects.py:24
+#: campaigns/models/basket_line_effects.py:22
+#: campaigns/models/product_effects.py:21
+msgid "campaign"
+msgstr ""
+
+#: campaigns/models/basket_effects.py:39 campaigns/models/product_effects.py:37
+msgid "Discount amount value"
+msgstr ""
+
+#: campaigns/models/basket_effects.py:42
+#: campaigns/models/basket_line_effects.py:102
+#: campaigns/models/basket_line_effects.py:146
+#: campaigns/models/product_effects.py:40
+msgid "discount amount"
+msgstr ""
+
+#: campaigns/models/basket_effects.py:42
+#: campaigns/models/basket_line_effects.py:102
+#: campaigns/models/basket_line_effects.py:146
+#: campaigns/models/product_effects.py:40
+msgid "Flat amount of discount."
+msgstr ""
+
+#: campaigns/models/basket_effects.py:47 campaigns/models/product_effects.py:45
+msgid "Give discount amount."
+msgstr ""
+
+#: campaigns/models/basket_effects.py:63 campaigns/models/product_effects.py:61
+msgid "Discount amount percentage"
+msgstr ""
+
+#: campaigns/models/basket_effects.py:77 campaigns/models/product_effects.py:75
+msgid "Give percentage discount."
+msgstr ""
+
+#: campaigns/models/basket_effects.py:94
+msgid "Discount amount percentage from undiscounted amount"
+msgstr ""
+
+#: campaigns/models/basket_effects.py:108
+msgid "Give percentage discount based on undiscounted product prices."
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:38
+msgid "Free Product(s)"
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:41
+#: campaigns/models/basket_line_effects.py:105
+#: campaigns/models/catalog_filters.py:65
+msgid "product"
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:45
+msgid "Select product(s) to give free."
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:93
+msgid "Discount from Product"
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:97
+msgid "per line discount"
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:98
+msgid "Disable this if you want to give discount for each matched product."
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:109
+msgid "Select discount amount and products."
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:143
+msgid "Discount from Category products"
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:156
+msgid "category"
+msgstr ""
+
+#: campaigns/models/basket_line_effects.py:161
+msgid ""
+"Select discount amount and category. Please note that the discount will be "
+"given to all matching products in basket."
+msgstr ""
+
+#: campaigns/models/campaigns.py:58 campaigns/models/campaigns.py:414
+#: campaigns/models/contact_group_sales_ranges.py:31
+msgid "shop"
+msgstr ""
+
+#: campaigns/models/campaigns.py:58
+msgid "The shop where the campaign is active."
+msgstr ""
+
+#: campaigns/models/campaigns.py:60
+msgid "name"
+msgstr ""
+
+#: campaigns/models/campaigns.py:60
+msgid "The name for this campaign."
+msgstr ""
+
+#: campaigns/models/campaigns.py:67 campaigns/models/catalog_filters.py:21
+msgid "active"
+msgstr ""
+
+#: campaigns/models/campaigns.py:68
+msgid ""
+"Enable this if the campaign is currently active. Please also set a start and "
+"an end date."
+msgstr ""
+
+#: campaigns/models/campaigns.py:73
+msgid "start date and time"
+msgstr ""
+
+#: campaigns/models/campaigns.py:75
+msgid ""
+"The date and time the campaign starts. This is only applicable if the "
+"campaign is marked as active."
+msgstr ""
+
+#: campaigns/models/campaigns.py:81
+msgid "end date and time"
+msgstr ""
+
+#: campaigns/models/campaigns.py:83
+msgid ""
+"The date and time the campaign ends. This is only applicable if the campaign "
+"is marked as active."
+msgstr ""
+
+#: campaigns/models/campaigns.py:92 campaigns/models/campaigns.py:369
+#: campaigns/models/campaigns.py:434
+msgid "created by"
+msgstr ""
+
+#: campaigns/models/campaigns.py:100 campaigns/models/campaigns.py:377
+#: campaigns/models/campaigns.py:442
+msgid "modified by"
+msgstr ""
+
+#: campaigns/models/campaigns.py:102 campaigns/models/campaigns.py:380
+#: campaigns/models/campaigns.py:445
+msgid "created on"
+msgstr ""
+
+#: campaigns/models/campaigns.py:103 campaigns/models/campaigns.py:381
+#: campaigns/models/campaigns.py:446
+msgid "modified on"
+msgstr ""
+
+#: campaigns/models/campaigns.py:109
+msgid "Campaign"
+msgstr ""
+
+#: campaigns/models/campaigns.py:147 campaigns/models/campaigns.py:256
+msgid "The campaign name to show in the store front."
+msgstr ""
+
+#: campaigns/models/campaigns.py:152
+#, python-brace-format
+msgid "Catalog Campaign: {name}"
+msgstr ""
+
+#: campaigns/models/campaigns.py:234
+msgid "basket line text"
+msgstr ""
+
+#: campaigns/models/campaigns.py:234
+msgid "This text will be shown in a basket."
+msgstr ""
+
+#: campaigns/models/campaigns.py:239
+msgid "coupon"
+msgstr ""
+
+#: campaigns/models/campaigns.py:246 campaigns/models/campaigns.py:424
+msgid "supplier"
+msgstr ""
+
+#: campaigns/models/campaigns.py:248
+msgid ""
+"When set, this campaign will match only products from the selected supplier. "
+"Rules and Effects will also be restricted to include only the products of "
+"this supplier."
+msgstr ""
+
+#: campaigns/models/campaigns.py:256
+msgid "public name"
+msgstr ""
+
+#: campaigns/models/campaigns.py:261
+#, python-brace-format
+msgid "Basket Campaign: {name}"
+msgstr ""
+
+#: campaigns/models/campaigns.py:269 campaigns/models/campaigns.py:272
+msgid "Can't have multiple active campaigns with same code."
+msgstr ""
+
+#: campaigns/models/campaigns.py:398
+msgid "usage limit per customer"
+msgstr ""
+
+#: campaigns/models/campaigns.py:399
+msgid "Limit the amount of usages per a single customer."
+msgstr ""
+
+#: campaigns/models/campaigns.py:404
+msgid "usage limit"
+msgstr ""
+
+#: campaigns/models/campaigns.py:406
+msgid ""
+"Set the absolute limit of usages for this coupon. If the limit is zero (0), "
+"coupon can't be used."
+msgstr ""
+
+#: campaigns/models/campaigns.py:410
+msgid "is active"
+msgstr ""
+
+#: campaigns/models/campaigns.py:417
+msgid "The shop where the coupon is active."
+msgstr ""
+
+#: campaigns/models/campaigns.py:456
+msgid "Can not have multiple active campaigns with the same code."
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:19
+msgid "Base Catalog Filter"
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:33
+msgid "Product type"
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:35
+msgid "product Types"
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:49
+msgid "Limit the campaign only to selected product types."
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:63
+msgid "Product"
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:81
+msgid "Limit the campaign only to selected products."
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:95
+msgid "Product Category"
+msgstr ""
+
+#: campaigns/models/catalog_filters.py:139
+msgid "Limit the campaign only to products in selected categories."
+msgstr ""
+
+#: campaigns/models/contact_group_sales_ranges.py:30
+msgid "group"
+msgstr ""
+
+#: campaigns/models/contact_group_sales_ranges.py:32
+msgid "min amount"
+msgstr ""
+
+#: campaigns/models/contact_group_sales_ranges.py:33
+msgid "max amount"
+msgstr ""
+
+#: campaigns/models/contact_group_sales_ranges.py:50
+msgid "Can not add sales limits for default contact groups."
+msgstr ""
+
+#: campaigns/models/context_conditions.py:19
+#: campaigns/models/context_conditions.py:20
+msgid "Context Condition"
+msgstr ""
+
+#: campaigns/modules.py:69
+msgid "Campaign Basket Discounts"
+msgstr ""
+
+#: campaigns/modules.py:85
+msgid "Coupon Code:"
+msgstr ""
+
+#: campaigns/reports.py:22
+msgid "Filter report results by coupon."
+msgstr ""
+
+#: campaigns/reports.py:36
+msgid "Coupons Usage"
+msgstr ""
+
+#: campaigns/reports.py:41
+msgid "Date"
+msgstr ""
+
+#: campaigns/reports.py:42
+msgid "Coupon code"
+msgstr ""
+
+#: campaigns/reports.py:43
+msgid "Order"
+msgstr ""
+
+#: campaigns/reports.py:44
+msgid "Taxful total"
+msgstr ""
+
+#: campaigns/reports.py:45
+msgid "Taxful subtotal"
+msgstr ""
+
+#: campaigns/reports.py:46
+msgid "Total discount"
+msgstr ""

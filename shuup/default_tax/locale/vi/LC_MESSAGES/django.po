@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: default_tax/__init__.py:16
+msgid "Shuup Default Tax"
+msgstr ""
+
+#: default_tax/admin_module/__init__.py:19
+#: default_tax/admin_module/__init__.py:32
+msgid "Tax Rules"
+msgstr ""
+
+#: default_tax/admin_module/__init__.py:37
+msgid "Show tax rules"
+msgstr ""
+
+#: default_tax/admin_module/views.py:35
+msgid "Use ISO 3166-1 country codes (US, FI etc.)"
+msgstr ""
+
+#: default_tax/admin_module/views.py:38
+msgid "Use two letter state codes for the US"
+msgstr ""
+
+#: default_tax/admin_module/views.py:62
+msgid "Tax Rule"
+msgstr ""
+
+#: default_tax/admin_module/views.py:63
+msgid "Tax"
+msgstr ""
+
+#: default_tax/admin_module/views.py:64
+msgid "Tax Classes"
+msgstr ""
+
+#: default_tax/admin_module/views.py:65
+msgid "Customer Tax Groups"
+msgstr ""
+
+#: default_tax/admin_module/views.py:66
+msgid "Countries"
+msgstr ""
+
+#: default_tax/admin_module/views.py:67
+msgid "Regions"
+msgstr ""
+
+#: default_tax/admin_module/views.py:68
+msgid "Postal Codes"
+msgstr ""
+
+#: default_tax/admin_module/views.py:69
+msgid "Priority"
+msgstr ""
+
+#: default_tax/admin_module/views.py:70
+msgid "Override Group"
+msgstr ""
+
+#: default_tax/admin_module/views.py:71
+msgid "Enabled"
+msgstr ""
+
+#: default_tax/models.py:30
+msgid "enabled"
+msgstr ""
+
+#: default_tax/models.py:30
+msgid "Enable this if this tax rule is active."
+msgstr ""
+
+#: default_tax/models.py:33
+msgid "tax classes"
+msgstr ""
+
+#: default_tax/models.py:33
+msgid "Tax classes of the items to be taxed"
+msgstr ""
+
+#: default_tax/models.py:38
+msgid "customer tax groups"
+msgstr ""
+
+#: default_tax/models.py:39
+msgid "The customer tax groups for which this tax rule is limited."
+msgstr ""
+
+#: default_tax/models.py:41
+msgid "country codes pattern"
+msgstr ""
+
+#: default_tax/models.py:42
+msgid "region codes pattern"
+msgstr ""
+
+#: default_tax/models.py:43
+msgid "postal codes pattern"
+msgstr ""
+
+#: default_tax/models.py:50
+msgid "priority"
+msgstr ""
+
+#: default_tax/models.py:52
+msgid ""
+"Rules with same priority define added taxes (e.g. US taxes) and rules with "
+"different priority define compound taxes (e.g. Canada Quebec PST case)"
+msgstr ""
+
+#: default_tax/models.py:59
+msgid "override group number"
+msgstr ""
+
+#: default_tax/models.py:61
+msgid ""
+"If several rules match, only the rules with the highest override group "
+"number will be effective.  This can be used, for example, to implement tax "
+"exemption by adding a rule with very high override group that sets a zero "
+"tax."
+msgstr ""
+
+#: default_tax/models.py:68
+msgid "tax"
+msgstr ""
+
+#: default_tax/models.py:68
+msgid "The tax to apply when this rule is applied."
+msgstr ""
+
+#: default_tax/models.py:102
+msgid "Tax rule {} ({})"
+msgstr ""
+
+#: default_tax/module.py:20
+msgid "Default Taxation"
+msgstr ""

@@ -1,0 +1,3410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: core/basket/command_dispatcher.py:72
+#, python-format
+msgid "Error! Invalid command `%s`."
+msgstr ""
+
+#: core/basket/commands.py:70
+#, python-format
+msgid "Error! The quantity `%f` is not allowed. Please use an integer value."
+msgstr ""
+
+#: core/basket/commands.py:74
+#, python-format
+msgid "Error! The quantity `%s` is not valid."
+msgstr ""
+
+#: core/basket/commands.py:78
+#, python-format
+msgid "Error! The quantity `%s` is not valid, should be bigger than zero."
+msgstr ""
+
+#: core/basket/commands.py:139
+msgid "Error! This variation is not available."
+msgstr ""
+
+#: core/basket/commands.py:190
+msgid "Customer is not active."
+msgstr ""
+
+#: core/basket/commands.py:196
+msgid "Shop does not have all the necessary permissions for this customer."
+msgstr ""
+
+#: core/basket/commands.py:216
+msgid "You don't have the required permission to assign this customer."
+msgstr ""
+
+#: core/basket/commands.py:224
+msgid "You must specify the order, in which customer is a company."
+msgstr ""
+
+#: core/basket/commands.py:230
+msgid "Invalid customer."
+msgstr ""
+
+#: core/basket/commands.py:235
+msgid "Orderer is not a member of the company."
+msgstr ""
+
+#: core/basket/commands.py:238
+msgid "You are not a member of the company."
+msgstr ""
+
+#: core/basket/objects.py:176
+#, python-format
+msgid "Basket loading failed: Incompatible basket (%s)."
+msgstr ""
+
+#: core/basket/objects.py:729
+msgid "Try to remove some products from the basket and order them separately."
+msgstr ""
+
+#: core/basket/objects.py:732
+#, python-format
+msgid "Products in basket can't be shipped together. %s"
+msgstr ""
+
+#: core/basket/objects.py:736
+#, python-format
+msgid "Products in basket have no common payment method. %s"
+msgstr ""
+
+#: core/fields/__init__.py:42
+msgid "internal identifier"
+msgstr ""
+
+#: core/fields/__init__.py:43
+msgid "Do not change this value if you are not sure what you are doing."
+msgstr ""
+
+#: core/fields/__init__.py:205
+msgid "Invalid color"
+msgstr ""
+
+#: core/fields/__init__.py:259
+msgid "Enter a valid JSON."
+msgstr ""
+
+#: core/middleware.py:36
+msgid "Error!"
+msgstr ""
+
+#: core/middleware.py:80
+msgid "No such shop is configured."
+msgstr ""
+
+#: core/models/_addresses.py:125 core/models/_contacts.py:227
+#: core/models/_orders.py:458
+msgid "shipping address"
+msgstr ""
+
+#: core/models/_addresses.py:126 core/models/_contacts.py:235
+#: core/models/_orders.py:450
+msgid "billing address"
+msgstr ""
+
+#: core/models/_addresses.py:134 core/models/_shops.py:46
+msgid "disabled"
+msgstr ""
+
+#: core/models/_addresses.py:135 core/models/_product_media.py:71
+#: core/models/_service_base.py:49 core/models/_service_base.py:218
+#: core/models/_shops.py:47 core/models/_suppliers.py:123
+#: core/models/_taxes.py:64 core/models/_taxes.py:117 core/models/_taxes.py:137
+msgid "enabled"
+msgstr ""
+
+#: core/models/_addresses.py:144 core/models/_contacts.py:274
+msgid "name prefix"
+msgstr ""
+
+#: core/models/_addresses.py:147
+msgid "The name prefix. For example, Mr, Mrs, Ms, Dr, etc."
+msgstr ""
+
+#: core/models/_addresses.py:149 core/models/_attributes.py:152
+#: core/models/_attributes.py:263 core/models/_categories.py:160
+#: core/models/_contacts.py:115 core/models/_contacts.py:279
+#: core/models/_labels.py:27 core/models/_manufacturers.py:29
+#: core/models/_orders.py:188 core/models/_product_shops.py:243
+#: core/models/_product_variation.py:42 core/models/_products.py:137
+#: core/models/_products.py:373 core/models/_service_base.py:56
+#: core/models/_service_payment.py:34 core/models/_service_shipping.py:28
+#: core/models/_shops.py:136 core/models/_suppliers.py:75
+#: core/models/_taxes.py:36 core/models/_taxes.py:110 core/models/_taxes.py:130
+#: core/models/_units.py:133 core/models/_units.py:215
+msgid "name"
+msgstr ""
+
+#: core/models/_addresses.py:149
+msgid "The name for the address."
+msgstr ""
+
+#: core/models/_addresses.py:151 core/models/_contacts.py:281
+msgid "name suffix"
+msgstr ""
+
+#: core/models/_addresses.py:154
+msgid "The name suffix. For example, Jr, Sr, etc."
+msgstr ""
+
+#: core/models/_addresses.py:157 core/models/_contacts.py:286
+msgid "name extension"
+msgstr ""
+
+#: core/models/_addresses.py:161
+msgid ""
+"Any other text to display along with the address. This could be department "
+"names (for companies) or titles (for people)."
+msgstr ""
+
+#: core/models/_addresses.py:166
+msgid "company name"
+msgstr ""
+
+#: core/models/_addresses.py:166
+msgid "The company name for the address."
+msgstr ""
+
+#: core/models/_addresses.py:169 core/models/_contacts.py:460
+#: core/models/_orders.py:460
+msgid "tax number"
+msgstr ""
+
+#: core/models/_addresses.py:172
+msgid ""
+"The business tax number. For example, EIN in the USA or VAT code in the EU."
+msgstr ""
+
+#: core/models/_addresses.py:175 core/models/_contacts.py:256
+#: core/models/_orders.py:461
+msgid "phone"
+msgstr ""
+
+#: core/models/_addresses.py:175
+msgid "The primary phone number for the address."
+msgstr ""
+
+#: core/models/_addresses.py:178 core/models/_contacts.py:290
+msgid "email"
+msgstr ""
+
+#: core/models/_addresses.py:178
+msgid "The primary email for the address."
+msgstr ""
+
+#: core/models/_addresses.py:180
+msgid "street"
+msgstr ""
+
+#: core/models/_addresses.py:180
+msgid "The street address."
+msgstr ""
+
+#: core/models/_addresses.py:182
+msgid "street (2)"
+msgstr ""
+
+#: core/models/_addresses.py:182
+msgid "An additional street address line."
+msgstr ""
+
+#: core/models/_addresses.py:185
+msgid "street (3)"
+msgstr ""
+
+#: core/models/_addresses.py:185
+msgid "Any additional street address line."
+msgstr ""
+
+#: core/models/_addresses.py:188
+msgid "postal code"
+msgstr ""
+
+#: core/models/_addresses.py:188
+msgid "The address postal/zip code."
+msgstr ""
+
+#: core/models/_addresses.py:190
+msgid "city"
+msgstr ""
+
+#: core/models/_addresses.py:190
+msgid "The address city."
+msgstr ""
+
+#: core/models/_addresses.py:192
+msgid "region code"
+msgstr ""
+
+#: core/models/_addresses.py:192 core/models/_addresses.py:195
+msgid "The address region, province, or state."
+msgstr ""
+
+#: core/models/_addresses.py:195
+msgid "region"
+msgstr ""
+
+#: core/models/_addresses.py:197
+msgid "country"
+msgstr ""
+
+#: core/models/_addresses.py:197
+msgid "The address country."
+msgstr ""
+
+#: core/models/_addresses.py:203 core/models/_addresses.py:328
+msgid "address"
+msgstr ""
+
+#: core/models/_addresses.py:204
+msgid "addresses"
+msgstr ""
+
+#: core/models/_addresses.py:326
+msgid "owner"
+msgstr ""
+
+#: core/models/_addresses.py:330 core/models/_orders.py:168
+msgid "role"
+msgstr ""
+
+#: core/models/_addresses.py:331 core/models/_background_tasks.py:66
+#: core/models/_categories.py:110 core/models/_orders.py:505
+#: core/models/_product_variation.py:95 core/models/_shipments.py:72
+#: core/models/_shops.py:72
+msgid "status"
+msgstr ""
+
+#: core/models/_addresses.py:332 core/models/_basket.py:58
+#: core/models/_product_media.py:90
+msgid "title"
+msgstr ""
+
+#: core/models/_addresses.py:336
+msgid "saved address"
+msgstr ""
+
+#: core/models/_addresses.py:337
+msgid "saved addresses"
+msgstr ""
+
+#: core/models/_attributes.py:47
+msgid "hidden"
+msgstr ""
+
+#: core/models/_attributes.py:48
+msgid "shown on product page"
+msgstr ""
+
+#: core/models/_attributes.py:49
+msgid "searchable metadata"
+msgstr ""
+
+#: core/models/_attributes.py:50
+msgid "private metadata"
+msgstr ""
+
+#: core/models/_attributes.py:68
+msgid "integer"
+msgstr ""
+
+#: core/models/_attributes.py:69
+msgid "decimal"
+msgstr ""
+
+#: core/models/_attributes.py:70
+msgid "boolean"
+msgstr ""
+
+#: core/models/_attributes.py:71
+msgid "time interval"
+msgstr ""
+
+#: core/models/_attributes.py:73
+msgid "date and time"
+msgstr ""
+
+#: core/models/_attributes.py:74
+msgid "date only"
+msgstr ""
+
+#: core/models/_attributes.py:76
+msgid "translated string"
+msgstr ""
+
+#: core/models/_attributes.py:77
+msgid "untranslated string"
+msgstr ""
+
+#: core/models/_attributes.py:79
+msgid "choices"
+msgstr ""
+
+#: core/models/_attributes.py:110 core/models/_product_shops.py:43
+msgid "searchable"
+msgstr ""
+
+#: core/models/_attributes.py:111
+msgid ""
+"Searchable attributes will be used for product lookup when customers search "
+"in your store."
+msgstr ""
+
+#: core/models/_attributes.py:116 core/models/_products.py:851
+#: core/models/_shipments.py:83
+msgid "type"
+msgstr ""
+
+#: core/models/_attributes.py:117
+msgid ""
+"The attribute data type. Attribute values can be set on the product editor "
+"page."
+msgstr ""
+
+#: core/models/_attributes.py:121
+msgid "Minimum amount of choices"
+msgstr ""
+
+#: core/models/_attributes.py:123
+msgid ""
+"Minimum amount of choices that user can choose from existing options. This "
+"field has affect only for choices type."
+msgstr ""
+
+#: core/models/_attributes.py:129
+msgid "Maximum amount of choices"
+msgstr ""
+
+#: core/models/_attributes.py:131
+msgid ""
+"Maximum amount of choices that user can choose from existing options. This "
+"field has affect only for choices type."
+msgstr ""
+
+#: core/models/_attributes.py:138
+msgid "visibility mode"
+msgstr ""
+
+#: core/models/_attributes.py:140
+msgid ""
+"Select the attribute visibility setting. Attributes can be shown on the "
+"product detail page or can be used to enhance product search results."
+msgstr ""
+
+#: core/models/_attributes.py:146
+msgid "The ordering in which your attribute will be displayed."
+msgstr ""
+
+#: core/models/_attributes.py:154
+msgid ""
+"The attribute name. Product attributes can be used to list the various "
+"features of a product and can be shown on the product detail page. The "
+"product attributes for a product are determined by the product type and can "
+"be set on the product editor page."
+msgstr ""
+
+#: core/models/_attributes.py:165 core/models/_attributes.py:257
+#: core/models/_attributes.py:272
+msgid "attribute"
+msgstr ""
+
+#: core/models/_attributes.py:166 core/models/_products.py:148
+msgid "attributes"
+msgstr ""
+
+#: core/models/_attributes.py:264
+msgid "The attribute choice option name. "
+msgstr ""
+
+#: core/models/_attributes.py:274
+msgid "chosen options"
+msgstr ""
+
+#: core/models/_attributes.py:277
+msgid "numeric value"
+msgstr ""
+
+#: core/models/_attributes.py:280
+msgid "datetime value"
+msgstr ""
+
+#: core/models/_attributes.py:282
+msgid "untranslated value"
+msgstr ""
+
+#: core/models/_background_tasks.py:16
+msgid "queue name"
+msgstr ""
+
+#: core/models/_background_tasks.py:17
+msgid "task identifier"
+msgstr ""
+
+#: core/models/_background_tasks.py:18 core/models/_basket.py:53
+#: core/models/_contacts.py:195 core/models/_labels.py:24
+#: core/models/_order_lines.py:115 core/models/_orders.py:247
+#: core/models/_orders.py:410 core/models/_payments.py:20
+#: core/models/_products.py:217 core/models/_shipments.py:71
+#: core/models/_shops.py:55 core/models/_suppliers.py:71
+msgid "created on"
+msgstr ""
+
+#: core/models/_background_tasks.py:19 core/models/_contacts.py:197
+#: core/models/_labels.py:25 core/models/_order_lines.py:117
+#: core/models/_orders.py:411 core/models/_products.py:218
+#: core/models/_shops.py:56 core/models/_suppliers.py:72
+msgid "modified on"
+msgstr ""
+
+#: core/models/_background_tasks.py:20
+msgid "task function"
+msgstr ""
+
+#: core/models/_background_tasks.py:21
+msgid "task arguments"
+msgstr ""
+
+#: core/models/_background_tasks.py:23 core/models/_basket.py:26
+#: core/models/_configurations.py:23 core/models/_configurations.py:46
+#: core/models/_contacts.py:108 core/models/_orders.py:409
+#: core/models/_product_shops.py:49 core/models/_service_base.py:222
+#: core/models/_shops.py:178
+msgid "shop"
+msgstr ""
+
+#: core/models/_background_tasks.py:28 core/models/_order_lines.py:86
+#: core/models/_service_base.py:72 core/models/_service_base.py:226
+#: core/models/_shipments.py:68 core/models/_supplied_products.py:16
+msgid "supplier"
+msgstr ""
+
+#: core/models/_background_tasks.py:35 core/models/_contacts.py:496
+msgid "user"
+msgstr ""
+
+#: core/models/_background_tasks.py:41 core/models/_background_tasks.py:60
+msgid "background task"
+msgstr ""
+
+#: core/models/_background_tasks.py:42
+msgid "background tasks"
+msgstr ""
+
+#: core/models/_background_tasks.py:51
+msgid "running"
+msgstr ""
+
+#: core/models/_background_tasks.py:52
+msgid "success"
+msgstr ""
+
+#: core/models/_background_tasks.py:53
+msgid "error"
+msgstr ""
+
+#: core/models/_background_tasks.py:63
+msgid "started on"
+msgstr ""
+
+#: core/models/_background_tasks.py:64
+msgid "finished on"
+msgstr ""
+
+#: core/models/_background_tasks.py:68
+msgid "results"
+msgstr ""
+
+#: core/models/_background_tasks.py:69
+msgid "error log"
+msgstr ""
+
+#: core/models/_background_tasks.py:72
+msgid "background task execution"
+msgstr ""
+
+#: core/models/_background_tasks.py:73
+msgid "background task executions"
+msgstr ""
+
+#: core/models/_base.py:106
+msgid "The following fields are protected and can not be changed."
+msgstr ""
+
+#: core/models/_basket.py:24 core/models/_configurations.py:25
+#: core/models/_configurations.py:48 core/models/_orders.py:417
+#: core/models/_persistent_cache.py:15
+msgid "key"
+msgstr ""
+
+#: core/models/_basket.py:34 core/models/_orders.py:434
+msgid "customer"
+msgstr ""
+
+#: core/models/_basket.py:42 core/models/_orders.py:442
+msgid "orderer"
+msgstr ""
+
+#: core/models/_basket.py:50
+msgid "creator"
+msgstr ""
+
+#: core/models/_basket.py:54
+msgid "updated on"
+msgstr ""
+
+#: core/models/_basket.py:55
+msgid "persistent"
+msgstr ""
+
+#: core/models/_basket.py:56 core/models/_categories.py:37
+#: core/models/_orders.py:504 core/models/_products.py:219
+#: core/models/_suppliers.py:154
+msgid "deleted"
+msgstr ""
+
+#: core/models/_basket.py:57
+msgid "finished"
+msgstr ""
+
+#: core/models/_basket.py:59 core/models/_persistent_cache.py:17
+msgid "data"
+msgstr ""
+
+#: core/models/_basket.py:65
+msgid "taxless total price"
+msgstr ""
+
+#: core/models/_basket.py:66
+msgid "taxful total price"
+msgstr ""
+
+#: core/models/_basket.py:67 core/models/_currencies.py:54
+#: core/models/_orders.py:556 core/models/_shops.py:82
+msgid "currency"
+msgstr ""
+
+#: core/models/_basket.py:68 core/models/_orders.py:557
+#: core/models/_shops.py:87
+msgid "prices include tax"
+msgstr ""
+
+#: core/models/_basket.py:70
+msgid "product_count"
+msgstr ""
+
+#: core/models/_basket.py:71 core/models/_products.py:436
+msgid "products"
+msgstr ""
+
+#: core/models/_basket.py:74
+msgid "basket"
+msgstr ""
+
+#: core/models/_basket.py:75
+msgid "baskets"
+msgstr ""
+
+#: core/models/_categories.py:35 core/models/_product_variation.py:31
+msgid "invisible"
+msgstr ""
+
+#: core/models/_categories.py:36 core/models/_media.py:44
+#: core/models/_product_variation.py:32
+msgid "visible"
+msgstr ""
+
+#: core/models/_categories.py:46 core/models/_products.py:83
+msgid "visible to all"
+msgstr ""
+
+#: core/models/_categories.py:47
+msgid "visible to logged-in customers"
+msgstr ""
+
+#: core/models/_categories.py:48
+msgid "visible to certain customer groups"
+msgstr ""
+
+#: core/models/_categories.py:95
+msgid "parent category"
+msgstr ""
+
+#: core/models/_categories.py:97
+msgid ""
+"If your category is a sub-category of another category, you can link them "
+"here."
+msgstr ""
+
+#: core/models/_categories.py:103 core/models/_contacts.py:209
+#: core/models/_manufacturers.py:26 core/models/_media.py:24
+#: core/models/_media.py:38 core/models/_product_media.py:43
+#: core/models/_service_base.py:61 core/models/_shops.py:179
+#: core/models/_suppliers.py:117
+msgid "shops"
+msgstr ""
+
+#: core/models/_categories.py:104
+msgid "You can select which shops the category is visible in."
+msgstr ""
+
+#: core/models/_categories.py:112
+msgid "Choose if you want this category to be visible in your store."
+msgstr ""
+
+#: core/models/_categories.py:115 core/models/_product_media.py:31
+msgid "image"
+msgstr ""
+
+#: core/models/_categories.py:119
+msgid ""
+"Category image. Will be shown in places defined by the graphical theme in "
+"use."
+msgstr ""
+
+#: core/models/_categories.py:123 core/models/_order_lines.py:97
+#: core/models/_order_lines.py:211 core/models/_orders.py:161
+msgid "ordering"
+msgstr ""
+
+#: core/models/_categories.py:125
+msgid ""
+"You can assign numerical values to images to tell the order in which they "
+"shall be displayed on the vendor page. You can also use the `Organize` "
+"button in the list view to order them visually with a drag-and-drop."
+msgstr ""
+
+#: core/models/_categories.py:134 core/models/_product_shops.py:81
+msgid "visibility limitations"
+msgstr ""
+
+#: core/models/_categories.py:136
+msgid ""
+"You can choose to limit who sees your category based on whether they are "
+"logged in or if they are part of a certain customer group."
+msgstr ""
+
+#: core/models/_categories.py:141
+msgid "visible in menu"
+msgstr ""
+
+#: core/models/_categories.py:143
+msgid "Enable if this category should be visible in the store front's menu."
+msgstr ""
+
+#: core/models/_categories.py:148 core/models/_product_shops.py:91
+msgid "visible for groups"
+msgstr ""
+
+#: core/models/_categories.py:151
+msgid ""
+"Select the customer groups you want to see this category. There are three "
+"groups created by default: Company, Person, Anonymous. In addition you can "
+"also define custom groups by searching for `Contact Groups`."
+msgstr ""
+
+#: core/models/_categories.py:163
+msgid ""
+"Enter a descriptive name for your product category. Products can be found in "
+"the store front under the defined product category either directly in menus "
+"or while searching."
+msgstr ""
+
+#: core/models/_categories.py:169 core/models/_orders.py:249
+#: core/models/_payments.py:31 core/models/_product_media.py:97
+#: core/models/_product_shops.py:249 core/models/_products.py:379
+#: core/models/_service_behavior.py:37 core/models/_service_behavior.py:66
+#: core/models/_service_behavior.py:160 core/models/_service_payment.py:40
+#: core/models/_service_shipping.py:31 core/models/_shipments.py:75
+#: core/models/_shops.py:149 core/models/_suppliers.py:141
+msgid "description"
+msgstr ""
+
+#: core/models/_categories.py:172
+msgid ""
+"Give your product category a detailed description. This will help shoppers "
+"find your products under that category in your store and on the web."
+msgstr ""
+
+#: core/models/_categories.py:179 core/models/_products.py:398
+#: core/models/_suppliers.py:143
+msgid "slug"
+msgstr ""
+
+#: core/models/_categories.py:181
+msgid ""
+"Enter a URL slug for your category. Slug is user- and search engine-friendly "
+"short text used in a URL to identify and describe a resource. In this case "
+"it will determine what your product category page URL in the browser address "
+"bar will look like. A default will be created using the category name."
+msgstr ""
+
+#: core/models/_categories.py:193
+msgid "category"
+msgstr ""
+
+#: core/models/_categories.py:194 core/models/_product_shops.py:182
+msgid "categories"
+msgstr ""
+
+#: core/models/_configurations.py:26 core/models/_configurations.py:49
+#: core/models/_counters.py:26 core/models/_product_variation.py:68
+msgid "value"
+msgstr ""
+
+#: core/models/_configurations.py:30 core/models/_configurations.py:53
+msgid "configuration item"
+msgstr ""
+
+#: core/models/_configurations.py:31 core/models/_configurations.py:54
+msgid "configuration items"
+msgstr ""
+
+#: core/models/_configurations.py:35 core/models/_configurations.py:58
+#, python-format
+msgid "%(key)s for shop %(shop)s"
+msgstr ""
+
+#: core/models/_configurations.py:37 core/models/_configurations.py:60
+#, python-format
+msgid "%(key)s (global)"
+msgstr ""
+
+#: core/models/_contacts.py:67
+msgid "show as pricing option"
+msgstr ""
+
+#: core/models/_contacts.py:69
+msgid "show prices including taxes"
+msgstr ""
+
+#: core/models/_contacts.py:71
+msgid "hide prices"
+msgstr ""
+
+#: core/models/_contacts.py:76
+msgid "Unknown"
+msgstr ""
+
+#: core/models/_contacts.py:77
+#, python-format
+msgid "Price Display Options for Contact Group %s"
+msgstr ""
+
+#: core/models/_contacts.py:80
+msgid "contact group price display"
+msgstr ""
+
+#: core/models/_contacts.py:81
+msgid "contact group price displays"
+msgstr ""
+
+#: core/models/_contacts.py:110 core/models/_contacts.py:457
+msgid "members"
+msgstr ""
+
+#: core/models/_contacts.py:117
+msgid ""
+"The contact group name. Contact groups can be used to target sales and "
+"campaigns to a specific set of users."
+msgstr ""
+
+#: core/models/_contacts.py:126
+msgid "contact group"
+msgstr ""
+
+#: core/models/_contacts.py:127
+msgid "contact groups"
+msgstr ""
+
+#: core/models/_contacts.py:134
+msgid "Cannot set shop for default Contact Group."
+msgstr ""
+
+#: core/models/_contacts.py:166
+msgid "Can't delete. This object is protected."
+msgstr ""
+
+#: core/models/_contacts.py:203
+msgid "active"
+msgstr ""
+
+#: core/models/_contacts.py:204
+msgid "Enable this if the contact is an active customer."
+msgstr ""
+
+#: core/models/_contacts.py:210
+msgid "Inform which shops have access to this contact."
+msgstr ""
+
+#: core/models/_contacts.py:217
+msgid "registration shop"
+msgstr ""
+
+#: core/models/_contacts.py:239
+msgid "default shipping method"
+msgstr ""
+
+#: core/models/_contacts.py:242
+msgid "default payment method"
+msgstr ""
+
+#: core/models/_contacts.py:246 core/models/_orders.py:570
+msgid "language"
+msgstr ""
+
+#: core/models/_contacts.py:248
+msgid "The primary language to be used in all communications with the contact."
+msgstr ""
+
+#: core/models/_contacts.py:252 core/models/_orders.py:575
+msgid "marketing permission"
+msgstr ""
+
+#: core/models/_contacts.py:253
+msgid ""
+"Enable this if the contact can receive marketing and promotional materials."
+msgstr ""
+
+#: core/models/_contacts.py:256
+msgid "The primary phone number of the contact."
+msgstr ""
+
+#: core/models/_contacts.py:261
+msgid "web address"
+msgstr ""
+
+#: core/models/_contacts.py:262
+msgid "The web address of the contact, if any."
+msgstr ""
+
+#: core/models/_contacts.py:267
+msgid "time zone"
+msgstr ""
+
+#: core/models/_contacts.py:269
+msgid ""
+"The timezone in which the contact resides. This can be used to target the "
+"delivery of promotional materials at a particular time."
+msgstr ""
+
+#: core/models/_contacts.py:277
+msgid "The name prefix of the contact. For example, Mr, Mrs, Dr, etc."
+msgstr ""
+
+#: core/models/_contacts.py:279
+msgid "The contact name"
+msgstr ""
+
+#: core/models/_contacts.py:284
+msgid "The name suffix of the contact. For example, Sr, Jr, etc."
+msgstr ""
+
+#: core/models/_contacts.py:291
+msgid ""
+"The email that will receive order confirmations and promotional materials "
+"(if permitted)."
+msgstr ""
+
+#: core/models/_contacts.py:298 core/models/_orders.py:484
+msgid "tax group"
+msgstr ""
+
+#: core/models/_contacts.py:300
+msgid ""
+"Select the contact tax group to use for this contact. Tax groups can be used "
+"to customize the tax rules the that apply to any of this contact's orders. "
+"Tax groups are defined in `Customer Tax Groups` and can be applied to tax "
+"rules in `Tax Rules`."
+msgstr ""
+
+#: core/models/_contacts.py:308
+msgid "merchant notes"
+msgstr ""
+
+#: core/models/_contacts.py:309
+msgid ""
+"Enter any private notes for this customer that are only accessible in Shuup "
+"admin."
+msgstr ""
+
+#: core/models/_contacts.py:312 core/models/_orders.py:471
+msgid "account manager"
+msgstr ""
+
+#: core/models/_contacts.py:314 core/models/_shops.py:79
+#: core/models/_suppliers.py:140
+msgid "options"
+msgstr ""
+
+#: core/models/_contacts.py:316
+msgid "picture"
+msgstr ""
+
+#: core/models/_contacts.py:321
+msgid ""
+"Contact picture. Can be used alongside contact profile, reviews and messages "
+"for example."
+msgstr ""
+
+#: core/models/_contacts.py:328 core/models/_shops.py:78
+msgid "contact"
+msgstr ""
+
+#: core/models/_contacts.py:329
+msgid "contacts"
+msgstr ""
+
+#: core/models/_contacts.py:454
+msgid "Company Contacts"
+msgstr ""
+
+#: core/models/_contacts.py:460
+msgid "e.g. EIN in US or VAT code in Europe"
+msgstr ""
+
+#: core/models/_contacts.py:464
+msgid "company"
+msgstr ""
+
+#: core/models/_contacts.py:465
+msgid "companies"
+msgstr ""
+
+#: core/models/_contacts.py:479
+msgid "undisclosed"
+msgstr ""
+
+#: core/models/_contacts.py:480
+msgid "male"
+msgstr ""
+
+#: core/models/_contacts.py:481
+msgid "female"
+msgstr ""
+
+#: core/models/_contacts.py:482 core/models/_order_lines.py:45
+msgid "other"
+msgstr ""
+
+#: core/models/_contacts.py:488
+msgid "Person Contacts"
+msgstr ""
+
+#: core/models/_contacts.py:502
+msgid "gender"
+msgstr ""
+
+#: core/models/_contacts.py:503
+msgid "The gender of the contact."
+msgstr ""
+
+#: core/models/_contacts.py:506
+msgid "birth date"
+msgstr ""
+
+#: core/models/_contacts.py:506
+msgid "The birth date of the contact."
+msgstr ""
+
+#: core/models/_contacts.py:509
+msgid "first name"
+msgstr ""
+
+#: core/models/_contacts.py:509
+msgid "The first name of the contact."
+msgstr ""
+
+#: core/models/_contacts.py:512
+msgid "last name"
+msgstr ""
+
+#: core/models/_contacts.py:512
+msgid "The last name of the contact."
+msgstr ""
+
+#: core/models/_contacts.py:517
+msgid "person"
+msgstr ""
+
+#: core/models/_contacts.py:518
+msgid "persons"
+msgstr ""
+
+#: core/models/_contacts.py:568
+msgid "Anonymous Contacts"
+msgstr ""
+
+#: core/models/_counters.py:21
+msgid "order reference"
+msgstr ""
+
+#: core/models/_counters.py:25 core/models/_payments.py:22
+#: core/models/_service_base.py:215
+msgid "identifier"
+msgstr ""
+
+#: core/models/_counters.py:29
+msgid "counter"
+msgstr ""
+
+#: core/models/_counters.py:30
+msgid "counters"
+msgstr ""
+
+#: core/models/_currencies.py:27 core/models/_taxes.py:30
+msgid "code"
+msgstr ""
+
+#: core/models/_currencies.py:32
+msgid "The ISO-4217 code of the currency"
+msgstr ""
+
+#: core/models/_currencies.py:36 core/models/_units.py:181
+msgid "decimal places"
+msgstr ""
+
+#: core/models/_currencies.py:39
+msgid "The number of decimal places supported by this currency."
+msgstr ""
+
+#: core/models/_currencies.py:47
+msgid "Enter a valid ISO-4217 currency code."
+msgstr ""
+
+#: core/models/_currencies.py:55
+msgid "currencies"
+msgstr ""
+
+#: core/models/_labels.py:30 core/models/_orders.py:414
+msgid "label"
+msgstr ""
+
+#: core/models/_labels.py:31 core/models/_order_lines.py:105
+#: core/models/_service_base.py:252 core/models/_shops.py:131
+msgid "labels"
+msgstr ""
+
+#: core/models/_manufacturers.py:23
+msgid "added"
+msgstr ""
+
+#: core/models/_manufacturers.py:31
+msgid ""
+"Enter the manufacturer’s name. Products can be filtered by the manufacturer "
+"and this can be useful for inventory and stock management."
+msgstr ""
+
+#: core/models/_manufacturers.py:39 core/models/_product_media.py:59
+msgid "URL"
+msgstr ""
+
+#: core/models/_manufacturers.py:41
+msgid ""
+"Enter the URL of the product manufacturer if you would like customers to be "
+"able to visit the manufacturer's website."
+msgstr ""
+
+#: core/models/_manufacturers.py:47 core/models/_service_base.py:53
+#: core/models/_service_base.py:243 core/models/_shops.py:94
+#: core/models/_suppliers.py:130
+msgid "logo"
+msgstr ""
+
+#: core/models/_manufacturers.py:51 core/models/_products.py:357
+msgid "manufacturer"
+msgstr ""
+
+#: core/models/_manufacturers.py:52
+msgid "manufacturers"
+msgstr ""
+
+#: core/models/_media.py:20 core/models/_product_media.py:30
+#: core/models/_product_media.py:55
+msgid "file"
+msgstr ""
+
+#: core/models/_media.py:25
+msgid "Select which shops you would like the files to be visible in."
+msgstr ""
+
+#: core/models/_media.py:34
+msgid "folder"
+msgstr ""
+
+#: core/models/_media.py:39
+msgid "Select which shops you would like the folder to be visible in."
+msgstr ""
+
+#: core/models/_media.py:45
+msgid "Should this folder be visible for everyone in the media browser"
+msgstr ""
+
+#: core/models/_media.py:50
+msgid "owning_media_folders"
+msgstr ""
+
+#: core/models/_media.py:51
+msgid "owners"
+msgstr ""
+
+#: core/models/_media.py:52
+msgid "Select which users will own this folder."
+msgstr ""
+
+#: core/models/_order_lines.py:41 core/models/_order_lines.py:78
+#: core/models/_product_media.py:39 core/models/_product_shops.py:51
+#: core/models/_product_variation.py:38 core/models/_product_variation.py:88
+#: core/models/_products.py:435 core/models/_products.py:860
+#: core/models/_shipments.py:188 core/models/_supplied_products.py:17
+msgid "product"
+msgstr ""
+
+#: core/models/_order_lines.py:42
+msgid "shipping"
+msgstr ""
+
+#: core/models/_order_lines.py:43 core/models/_payments.py:42
+msgid "payment"
+msgstr ""
+
+#: core/models/_order_lines.py:44
+msgid "discount"
+msgstr ""
+
+#: core/models/_order_lines.py:46
+msgid "refund"
+msgstr ""
+
+#: core/models/_order_lines.py:47
+msgid "rounding"
+msgstr ""
+
+#: core/models/_order_lines.py:95
+msgid "parent line"
+msgstr ""
+
+#: core/models/_order_lines.py:98
+msgid "line type"
+msgstr ""
+
+#: core/models/_order_lines.py:99
+msgid "line SKU"
+msgstr ""
+
+#: core/models/_order_lines.py:100
+msgid "line text"
+msgstr ""
+
+#: core/models/_order_lines.py:101
+msgid "accounting identifier"
+msgstr ""
+
+#: core/models/_order_lines.py:102
+msgid "require verification"
+msgstr ""
+
+#: core/models/_order_lines.py:103
+msgid "verified"
+msgstr ""
+
+#: core/models/_order_lines.py:104 core/models/_orders.py:548
+msgid "extra data"
+msgstr ""
+
+#: core/models/_order_lines.py:108 core/models/_product_packages.py:22
+#: core/models/_shipments.py:190
+msgid "quantity"
+msgstr ""
+
+#: core/models/_order_lines.py:112
+msgid "unit price amount (undiscounted)"
+msgstr ""
+
+#: core/models/_order_lines.py:113
+msgid "total amount of discount"
+msgstr ""
+
+#: core/models/_order_lines.py:123 core/models/_order_lines.py:198
+msgid "order line"
+msgstr ""
+
+#: core/models/_order_lines.py:124
+msgid "order lines"
+msgstr ""
+
+#: core/models/_order_lines.py:186 core/models/_orders.py:583
+#: core/models/_payments.py:39 core/models/_shipments.py:65
+msgid "order"
+msgstr ""
+
+#: core/models/_order_lines.py:200 core/models/_taxes.py:101
+msgid "tax"
+msgstr ""
+
+#: core/models/_order_lines.py:201
+msgid "tax name"
+msgstr ""
+
+#: core/models/_order_lines.py:206
+msgid "tax amount"
+msgstr ""
+
+#: core/models/_order_lines.py:208
+msgid "base amount"
+msgstr ""
+
+#: core/models/_order_lines.py:208
+msgid "Amount that this tax is calculated from."
+msgstr ""
+
+#: core/models/_orders.py:71
+msgid "not paid"
+msgstr ""
+
+#: core/models/_orders.py:72
+msgid "partially paid"
+msgstr ""
+
+#: core/models/_orders.py:73
+msgid "fully paid"
+msgstr ""
+
+#: core/models/_orders.py:74
+msgid "canceled"
+msgstr ""
+
+#: core/models/_orders.py:75
+msgid "deferred"
+msgstr ""
+
+#: core/models/_orders.py:84
+msgid "not shipped"
+msgstr ""
+
+#: core/models/_orders.py:85
+msgid "partially shipped"
+msgstr ""
+
+#: core/models/_orders.py:86
+msgid "fully shipped"
+msgstr ""
+
+#: core/models/_orders.py:98 core/models/_orders.py:114
+msgid "none"
+msgstr ""
+
+#: core/models/_orders.py:99
+msgid "Initial"
+msgstr ""
+
+#: core/models/_orders.py:100 core/models/_orders.py:116
+msgid "Complete"
+msgstr ""
+
+#: core/models/_orders.py:101 core/models/_orders.py:117
+msgid "Canceled"
+msgstr ""
+
+#: core/models/_orders.py:102
+msgid "Processing"
+msgstr ""
+
+#: core/models/_orders.py:115 core/models/_shipments.py:38
+msgid "Received"
+msgstr ""
+
+#: core/models/_orders.py:118
+msgid "In Progress"
+msgstr ""
+
+#: core/models/_orders.py:156
+msgid ""
+"Internal identifier for status. This is used to identify and distinguish the "
+"statuses in Shuup."
+msgstr ""
+
+#: core/models/_orders.py:162
+msgid "The processing order of statuses. Default is always processed first."
+msgstr ""
+
+#: core/models/_orders.py:169
+msgid "The role of this status. One role can have multiple order statuses."
+msgstr ""
+
+#: core/models/_orders.py:174
+msgid "default"
+msgstr ""
+
+#: core/models/_orders.py:175
+msgid ""
+"Defines if the status should be considered as default. Default is always "
+"processed first."
+msgstr ""
+
+#: core/models/_orders.py:181
+msgid "is active"
+msgstr ""
+
+#: core/models/_orders.py:182
+msgid "Defines if the status is usable."
+msgstr ""
+
+#: core/models/_orders.py:188
+msgid "Name of the order status."
+msgstr ""
+
+#: core/models/_orders.py:190 core/models/_shops.py:141
+msgid "public name"
+msgstr ""
+
+#: core/models/_orders.py:192
+msgid "The name shown to the customers in shop front."
+msgstr ""
+
+#: core/models/_orders.py:197
+msgid "allowed next statuses"
+msgstr ""
+
+#: core/models/_orders.py:202
+msgid "is visible for the user"
+msgstr ""
+
+#: core/models/_orders.py:203
+msgid "Indicates whether this status is visible for the customers"
+msgstr ""
+
+#: core/models/_orders.py:208
+msgid "order status"
+msgstr ""
+
+#: core/models/_orders.py:209
+msgid "order statuses"
+msgstr ""
+
+#: core/models/_orders.py:228
+msgid "order id"
+msgstr ""
+
+#: core/models/_orders.py:237
+msgid "previous order status"
+msgstr ""
+
+#: core/models/_orders.py:244
+msgid "next order status"
+msgstr ""
+
+#: core/models/_orders.py:257 core/models/_orders.py:494
+msgid "creating user"
+msgstr ""
+
+#: core/models/_orders.py:412
+msgid "order identifier"
+msgstr ""
+
+#: core/models/_orders.py:424
+msgid "reference number"
+msgstr ""
+
+#: core/models/_orders.py:462
+msgid "email address"
+msgstr ""
+
+#: core/models/_orders.py:476
+msgid "customer groups"
+msgstr ""
+
+#: core/models/_orders.py:502
+msgid "modifier user"
+msgstr ""
+
+#: core/models/_orders.py:510
+msgid "payment status"
+msgstr ""
+
+#: core/models/_orders.py:516
+msgid "shipping status"
+msgstr ""
+
+#: core/models/_orders.py:527 core/models/_service_payment.py:52
+msgid "payment method"
+msgstr ""
+
+#: core/models/_orders.py:530
+msgid "payment method name"
+msgstr ""
+
+#: core/models/_orders.py:532
+msgid "payment data"
+msgstr ""
+
+#: core/models/_orders.py:541 core/models/_service_shipping.py:40
+msgid "shipping method"
+msgstr ""
+
+#: core/models/_orders.py:544
+msgid "shipping method name"
+msgstr ""
+
+#: core/models/_orders.py:546
+msgid "shipping data"
+msgstr ""
+
+#: core/models/_orders.py:554
+msgid "grand total"
+msgstr ""
+
+#: core/models/_orders.py:555
+msgid "taxless total"
+msgstr ""
+
+#: core/models/_orders.py:559
+msgid "display currency"
+msgstr ""
+
+#: core/models/_orders.py:561
+msgid "display currency rate"
+msgstr ""
+
+#: core/models/_orders.py:565
+msgid "IP address"
+msgstr ""
+
+#: core/models/_orders.py:567
+msgid "order date"
+msgstr ""
+
+#: core/models/_orders.py:568
+msgid "payment date"
+msgstr ""
+
+#: core/models/_orders.py:571
+msgid "customer comment"
+msgstr ""
+
+#: core/models/_orders.py:572
+msgid "admin comment/notes"
+msgstr ""
+
+#: core/models/_orders.py:573
+msgid "requires verification"
+msgstr ""
+
+#: core/models/_orders.py:574
+msgid "all lines verified"
+msgstr ""
+
+#: core/models/_orders.py:576
+msgid "codes"
+msgstr ""
+
+#: core/models/_orders.py:584
+msgid "orders"
+msgstr ""
+
+#: core/models/_orders.py:730
+msgid "Order was marked as paid."
+msgstr ""
+
+#: core/models/_orders.py:737
+msgid "Order was marked as partially paid."
+msgstr ""
+
+#: core/models/_orders.py:868
+#, python-format
+msgid "Success! Shipment #%d was created."
+msgstr ""
+
+#: core/models/_orders.py:1025
+msgid "All rows requiring verification have been verified."
+msgstr ""
+
+#: core/models/_orders.py:1120
+#, python-format
+msgid "New shipping status is set to: %(shipping_status)s."
+msgstr ""
+
+#: core/models/_orders.py:1134
+#, python-format
+msgid "New payment status is set to: %(payment_status)s."
+msgstr ""
+
+#: core/models/_orders.py:1304
+msgid "Error! Can not change to this status"
+msgstr ""
+
+#: core/models/_payments.py:21
+msgid "gateway ID"
+msgstr ""
+
+#: core/models/_payments.py:27
+msgid "amount"
+msgstr ""
+
+#: core/models/_payments.py:28
+msgid "foreign amount"
+msgstr ""
+
+#: core/models/_payments.py:29
+msgid "foreign amount currency"
+msgstr ""
+
+#: core/models/_payments.py:43
+msgid "payments"
+msgstr ""
+
+#: core/models/_persistent_cache.py:14
+msgid "module"
+msgstr ""
+
+#: core/models/_persistent_cache.py:16
+msgid "time"
+msgstr ""
+
+#: core/models/_persistent_cache.py:20
+msgid "cache entry"
+msgstr ""
+
+#: core/models/_persistent_cache.py:21
+msgid "cache entries"
+msgstr ""
+
+#: core/models/_product_catalog.py:26
+msgid "Monday"
+msgstr ""
+
+#: core/models/_product_catalog.py:27
+msgid "Tuesday"
+msgstr ""
+
+#: core/models/_product_catalog.py:28
+msgid "Wednesday"
+msgstr ""
+
+#: core/models/_product_catalog.py:29
+msgid "Thursday"
+msgstr ""
+
+#: core/models/_product_catalog.py:30
+msgid "Friday"
+msgstr ""
+
+#: core/models/_product_catalog.py:31
+msgid "Saturday"
+msgstr ""
+
+#: core/models/_product_catalog.py:32
+msgid "Sunday"
+msgstr ""
+
+#: core/models/_product_catalog.py:40
+msgid "Pricing module identifier"
+msgstr ""
+
+#: core/models/_product_catalog.py:67
+msgid "price"
+msgstr ""
+
+#: core/models/_product_catalog.py:67
+msgid "The indexed product price"
+msgstr ""
+
+#: core/models/_product_catalog.py:69
+msgid "is available"
+msgstr ""
+
+#: core/models/_product_catalog.py:73
+msgid ""
+"Whether the product is available for purchasing. This status is managed by "
+"the supplier module."
+msgstr ""
+
+#: core/models/_product_catalog.py:80 core/models/_product_catalog.py:148
+msgid "Catalog rule"
+msgstr ""
+
+#: core/models/_product_catalog.py:81
+msgid "The rule in which this price is available."
+msgstr ""
+
+#: core/models/_product_catalog.py:96
+msgid "Discount module identifier"
+msgstr ""
+
+#: core/models/_product_catalog.py:107
+msgid "Valid start date and time"
+msgstr ""
+
+#: core/models/_product_catalog.py:108
+msgid "Valid end date and time"
+msgstr ""
+
+#: core/models/_product_catalog.py:109
+msgid "Valid start hour"
+msgstr ""
+
+#: core/models/_product_catalog.py:110
+msgid "Valid end hour"
+msgstr ""
+
+#: core/models/_product_catalog.py:111
+msgid "Valid weekday"
+msgstr ""
+
+#: core/models/_product_catalog.py:141
+msgid "discounted price"
+msgstr ""
+
+#: core/models/_product_catalog.py:142
+msgid "The indexed discounted product price."
+msgstr ""
+
+#: core/models/_product_catalog.py:149
+msgid "The rule in which this discounted price is available."
+msgstr ""
+
+#: core/models/_product_media.py:32
+msgid "documentation"
+msgstr ""
+
+#: core/models/_product_media.py:33
+msgid "sample"
+msgstr ""
+
+#: core/models/_product_media.py:44
+msgid "Select which shops you would like the product media to be visible in."
+msgstr ""
+
+#: core/models/_product_media.py:50
+msgid "kind"
+msgstr ""
+
+#: core/models/_product_media.py:52
+msgid ""
+"Select what type the media is. It can either be a normal file, part of the "
+"documentation, or a sample."
+msgstr ""
+
+#: core/models/_product_media.py:60
+msgid ""
+"Enter URL to external file. If this field is filled, the selected media "
+"doesn't apply."
+msgstr ""
+
+#: core/models/_product_media.py:64
+msgid "display order"
+msgstr ""
+
+#: core/models/_product_media.py:66
+msgid ""
+"You can assign numerical values to images to tell the order in which they "
+"shall be displayed on the product page."
+msgstr ""
+
+#: core/models/_product_media.py:76
+msgid "public (shown on product page)"
+msgstr ""
+
+#: core/models/_product_media.py:77
+msgid ""
+"Enable this if you want this image be shown on the product page. Enabled by "
+"default."
+msgstr ""
+
+#: core/models/_product_media.py:82
+msgid "purchased (shown for finished purchases)"
+msgstr ""
+
+#: core/models/_product_media.py:83
+msgid ""
+"Enable this if you want the product media to be shown for completed "
+"purchases."
+msgstr ""
+
+#: core/models/_product_media.py:92
+msgid ""
+"Choose a title for your product media. This will help it be found in your "
+"store and on the web."
+msgstr ""
+
+#: core/models/_product_media.py:99
+msgid ""
+"Write a description for your product media. This will help it be found in "
+"your store and on the web."
+msgstr ""
+
+#: core/models/_product_media.py:105
+msgid "product attachment"
+msgstr ""
+
+#: core/models/_product_media.py:106
+msgid "product attachments"
+msgstr ""
+
+#: core/models/_product_media.py:126
+msgid "attachment"
+msgstr ""
+
+#: core/models/_product_packages.py:17
+msgid "parent product"
+msgstr ""
+
+#: core/models/_product_packages.py:20
+msgid "child product"
+msgstr ""
+
+#: core/models/_product_shops.py:42
+msgid "not visible"
+msgstr ""
+
+#: core/models/_product_shops.py:44
+msgid "listed"
+msgstr ""
+
+#: core/models/_product_shops.py:45
+msgid "always visible"
+msgstr ""
+
+#: core/models/_product_shops.py:57
+msgid "suppliers"
+msgstr ""
+
+#: core/models/_product_shops.py:58
+msgid ""
+"List your suppliers here. Suppliers can be found by searching for "
+"`Suppliers`."
+msgstr ""
+
+#: core/models/_product_shops.py:65
+msgid "visibility"
+msgstr ""
+
+#: core/models/_product_shops.py:68
+msgid ""
+"Choose how you want your product to be seen and found by the customers. "
+"<p>Not visible: Product will not be shown in your store front nor found in "
+"search.</p><p>Searchable: Product will be shown in search, but not listed on "
+"any category page.</p><p>Listed: Product will be shown on category pages, "
+"but not shown in search results.</p><p>Always Visible: Product will be shown "
+"in your store front and found in search.</p>"
+msgstr ""
+
+#: core/models/_product_shops.py:76
+msgid "purchasable"
+msgstr ""
+
+#: core/models/_product_shops.py:83
+msgid ""
+"Select whether you want your product to have special limitations on its "
+"visibility in your store. You can make products visible to all, visible to "
+"only logged-in users, or visible only to certain customer groups."
+msgstr ""
+
+#: core/models/_product_shops.py:94
+msgid ""
+"Select the groups you want to make your product visible for. These groups "
+"are defined in Contacts Settings - Contact Groups."
+msgstr ""
+
+#: core/models/_product_shops.py:102
+msgid "backorder maximum"
+msgstr ""
+
+#: core/models/_product_shops.py:104
+msgid ""
+"The number of units that can be purchased after the product is already sold "
+"out (out of stock). Set to blank for product to be purchasable without "
+"limits."
+msgstr ""
+
+#: core/models/_product_shops.py:110
+msgid "purchase multiple"
+msgstr ""
+
+#: core/models/_product_shops.py:112
+msgid ""
+"Set this to other than 0 if the product needs to be purchased in multiples. "
+"For example, if the purchase multiple is set to 2, then customers are "
+"required to order the product in multiples of 2. Not to be confused with the "
+"Minimum Purchase Quantity."
+msgstr ""
+
+#: core/models/_product_shops.py:119
+msgid "minimum purchase quantity"
+msgstr ""
+
+#: core/models/_product_shops.py:121
+msgid ""
+"Set a minimum number of products needed to be ordered for the purchase. This "
+"is useful for setting bulk orders and B2B purchases."
+msgstr ""
+
+#: core/models/_product_shops.py:127
+msgid "limit the shipping methods"
+msgstr ""
+
+#: core/models/_product_shops.py:129
+msgid ""
+"Enable this if you want to limit your product to use only the select "
+"shipping methods. You can select the allowed shipping method(s) in the field "
+"below - all the rest are disallowed."
+msgstr ""
+
+#: core/models/_product_shops.py:136
+msgid "limit the payment methods"
+msgstr ""
+
+#: core/models/_product_shops.py:138
+msgid ""
+"Enable this if you want to limit your product to use only the select payment "
+"methods. You can select the allowed payment method(s) in the field below - "
+"all the rest are disallowed."
+msgstr ""
+
+#: core/models/_product_shops.py:146 core/models/_service_shipping.py:41
+msgid "shipping methods"
+msgstr ""
+
+#: core/models/_product_shops.py:149
+msgid ""
+"If you enabled the `Limit the payment methods` choice above, then here you "
+"can select the individual shipping methods you want to ALLOW for this "
+"product. The ones not mentioned are disabled. To change this, search for "
+"`Shipping Methods`."
+msgstr ""
+
+#: core/models/_product_shops.py:157 core/models/_service_payment.py:53
+msgid "payment methods"
+msgstr ""
+
+#: core/models/_product_shops.py:160
+msgid ""
+"If you enabled the `Limit the payment methods` choice above, then here you "
+"can select the individuals payment methods you want to ALLOW for this "
+"product. The ones not mentioned are disabled. To change this, search for "
+"`Payment Methods`."
+msgstr ""
+
+#: core/models/_product_shops.py:168
+msgid "primary category"
+msgstr ""
+
+#: core/models/_product_shops.py:173
+msgid ""
+"Choose the primary category for the product. This will be the main category "
+"for classification in the system. The product will be found under this "
+"category in your store. To change this, search for `Categories`."
+msgstr ""
+
+#: core/models/_product_shops.py:185
+msgid ""
+"Add secondary categories for your product. These are other categories that "
+"your product fits under and that it can be found by in your store."
+msgstr ""
+
+#: core/models/_product_shops.py:195 core/models/_products.py:367
+msgid "primary image"
+msgstr ""
+
+#: core/models/_product_shops.py:196
+msgid ""
+"Click this to set this image as the primary display image for the product."
+msgstr ""
+
+#: core/models/_product_shops.py:202
+msgid "default price"
+msgstr ""
+
+#: core/models/_product_shops.py:206
+msgid ""
+"This is the default individual base unit (or multi-pack) price of the "
+"product. All discounts or coupons will be calculated based off of this price."
+msgstr ""
+
+#: core/models/_product_shops.py:213
+msgid "minimum price"
+msgstr ""
+
+#: core/models/_product_shops.py:217
+msgid ""
+"This is the default price that the product cannot go under in your store, "
+"despite coupons or discounts being applied. This is useful to make sure your "
+"product price stays above the cost."
+msgstr ""
+
+#: core/models/_product_shops.py:223
+msgid "available until"
+msgstr ""
+
+#: core/models/_product_shops.py:226
+msgid "After this date this product will be invisible in store front."
+msgstr ""
+
+#: core/models/_product_shops.py:234 core/models/_units.py:223
+msgid "display unit"
+msgstr ""
+
+#: core/models/_product_shops.py:235
+msgid "Unit for displaying quantities of this product."
+msgstr ""
+
+#: core/models/_product_shops.py:244 core/models/_products.py:375
+msgid ""
+"Enter a descriptive name for your product. This will be its title in your "
+"store front."
+msgstr ""
+
+#: core/models/_product_shops.py:251
+msgid ""
+"To make your product stands out, give it an awesome description. This is "
+"what will help your shoppers learn about your products. It will also help "
+"shoppers find them in the store and on the web."
+msgstr ""
+
+#: core/models/_product_shops.py:260 core/models/_products.py:389
+#: core/models/_shops.py:159
+msgid "short description"
+msgstr ""
+
+#: core/models/_product_shops.py:262 core/models/_products.py:391
+msgid ""
+"Enter a short description for your product. The short description will be "
+"used to get the attention of your customer with a small, but precise "
+"description of your product. It also helps with getting more traffic via "
+"search engines."
+msgstr ""
+
+#: core/models/_product_shops.py:271
+msgid "status text"
+msgstr ""
+
+#: core/models/_product_shops.py:273
+msgid ""
+"This text will be shown alongside the product in the shop. It is useful for "
+"informing customers of special stock numbers or preorders. (Ex.: Available "
+"in a month)"
+msgstr ""
+
+#: core/models/_product_shops.py:287
+msgid "shop product"
+msgstr ""
+
+#: core/models/_product_shops.py:288
+msgid "shop products"
+msgstr ""
+
+#: core/models/_product_shops.py:302
+msgid ""
+"Error! Invalid display unit: Internal unit of the selected display unit does "
+"not match with the sales unit of the product."
+msgstr ""
+
+#: core/models/_product_shops.py:351
+msgid "This product has been deleted."
+msgstr ""
+
+#: core/models/_product_shops.py:357
+msgid "This product is not visible."
+msgstr ""
+
+#: core/models/_product_shops.py:361
+msgid "Error! This product is not available until the current date."
+msgstr ""
+
+#: core/models/_product_shops.py:368
+msgid "The Product is invisible to users not logged in."
+msgstr ""
+
+#: core/models/_product_shops.py:377
+msgid "This product is not visible to your group."
+msgstr ""
+
+#: core/models/_product_shops.py:424
+msgid "The product is not purchasable."
+msgstr ""
+
+#: core/models/_product_shops.py:441
+#, python-format
+msgid "The purchase quantity needs to be at least %d for this product."
+msgstr ""
+
+#: core/models/_product_shops.py:453
+#, python-brace-format
+msgid ""
+"The product can only be ordered in multiples of {package_size}, for example "
+"{amount}."
+msgstr ""
+
+#: core/models/_product_shops.py:457
+#, python-brace-format
+msgid ""
+"The product can only be ordered in multiples of {package_size}, for example "
+"{smaller_amount} or {larger_amount}."
+msgstr ""
+
+#: core/models/_product_shops.py:473
+msgid "The product has no supplier."
+msgstr ""
+
+#: core/models/_product_shops.py:476
+#, python-format
+msgid "The product is not supplied by %s."
+msgstr ""
+
+#: core/models/_product_shops.py:509 core/models/_product_shops.py:533
+msgid "Product has no sellable children."
+msgstr ""
+
+#: core/models/_product_variation.py:46 core/models/_product_variation.py:63
+msgid "variation variable"
+msgstr ""
+
+#: core/models/_product_variation.py:47
+msgid "variation variables"
+msgstr ""
+
+#: core/models/_product_variation.py:72
+msgid "variation value"
+msgstr ""
+
+#: core/models/_product_variation.py:73
+msgid "variation values"
+msgstr ""
+
+#: core/models/_product_variation.py:90
+msgid "combination hash"
+msgstr ""
+
+#: core/models/_product_variation.py:92
+msgid "result"
+msgstr ""
+
+#: core/models/_product_variation.py:109
+msgid "variation result"
+msgstr ""
+
+#: core/models/_product_variation.py:110
+msgid "variation results"
+msgstr ""
+
+#: core/models/_products.py:56
+msgid "normal"
+msgstr ""
+
+#: core/models/_products.py:57
+msgid "package parent"
+msgstr ""
+
+#: core/models/_products.py:58
+msgid "variation parent (simple)"
+msgstr ""
+
+#: core/models/_products.py:59
+msgid "variation parent (variable)"
+msgstr ""
+
+#: core/models/_products.py:60
+msgid "variation child"
+msgstr ""
+
+#: core/models/_products.py:61
+msgid "subscription"
+msgstr ""
+
+#: core/models/_products.py:84
+msgid "visible to logged in"
+msgstr ""
+
+#: core/models/_products.py:85
+msgid "visible to groups"
+msgstr ""
+
+#: core/models/_products.py:94
+msgid "stocked"
+msgstr ""
+
+#: core/models/_products.py:95
+msgid "unstocked"
+msgstr ""
+
+#: core/models/_products.py:105
+msgid "recommended"
+msgstr ""
+
+#: core/models/_products.py:106
+msgid "related"
+msgstr ""
+
+#: core/models/_products.py:107
+msgid "computed"
+msgstr ""
+
+#: core/models/_products.py:108
+msgid "bought with"
+msgstr ""
+
+#: core/models/_products.py:116
+msgid "not shipped (non-deliverable)"
+msgstr ""
+
+#: core/models/_products.py:117
+msgid "shipped (deliverable)"
+msgstr ""
+
+#: core/models/_products.py:126
+msgid "no verification required"
+msgstr ""
+
+#: core/models/_products.py:127
+msgid "admin verification required"
+msgstr ""
+
+#: core/models/_products.py:128
+msgid "third party verification required"
+msgstr ""
+
+#: core/models/_products.py:139
+msgid ""
+"Enter a descriptive name for your product type. Products and attributes for "
+"products of this type can be found under this name."
+msgstr ""
+
+#: core/models/_products.py:150
+msgid ""
+"Select attributes that go with your product type. To change available "
+"attributes search for `Attributes`."
+msgstr ""
+
+#: core/models/_products.py:155 core/models/_products.py:268
+msgid "product type"
+msgstr ""
+
+#: core/models/_products.py:156
+msgid "product types"
+msgstr ""
+
+#: core/models/_products.py:223
+msgid "mode"
+msgstr ""
+
+#: core/models/_products.py:230
+msgid "variation parent"
+msgstr ""
+
+#: core/models/_products.py:235
+msgid "shipping mode"
+msgstr ""
+
+#: core/models/_products.py:236
+msgid "Set to `shipped` if the product requires shipment."
+msgstr ""
+
+#: core/models/_products.py:240 core/models/_units.py:82
+msgid "sales unit"
+msgstr ""
+
+#: core/models/_products.py:245
+msgid ""
+"Select a sales unit for your product. This is shown in your store front and "
+"is used to determine whether the product can be purchased using fractional "
+"amounts. To change settings search for `Sales Units`."
+msgstr ""
+
+#: core/models/_products.py:252 core/models/_service_base.py:247
+#: core/models/_taxes.py:121
+msgid "tax class"
+msgstr ""
+
+#: core/models/_products.py:255
+msgid ""
+"Select a tax class for your product. The tax class is used to determine "
+"which taxes to apply to your product. Define tax classes by searching for "
+"`Tax Classes`. To define the rules by which taxes are applied search for "
+"`Tax Rules`."
+msgstr ""
+
+#: core/models/_products.py:271
+msgid ""
+"Select a product type for your product. These allow you to configure custom "
+"attributes to help with classification and analysis."
+msgstr ""
+
+#: core/models/_products.py:278 core/models/_supplied_products.py:18
+msgid "SKU"
+msgstr ""
+
+#: core/models/_products.py:281
+msgid ""
+"Enter a SKU (Stock Keeping Unit) number for your product. This is a product "
+"identification code that helps you track products through your inventory and "
+"analyze their movement. People often use the product's barcode number, but "
+"you can set up any numerical system you want to keep track of products."
+msgstr ""
+
+#: core/models/_products.py:290
+msgid "GTIN"
+msgstr ""
+
+#: core/models/_products.py:292
+msgid ""
+"You can enter a Global Trade Item Number. This is typically a 14 digit "
+"identification number for all of your trade items. It can often be found by "
+"the barcode."
+msgstr ""
+
+#: core/models/_products.py:300
+msgid "barcode"
+msgstr ""
+
+#: core/models/_products.py:302
+msgid ""
+"You can enter the barcode number for your product. This is useful for "
+"inventory/stock tracking and analysis."
+msgstr ""
+
+#: core/models/_products.py:306
+msgid "bookkeeping account"
+msgstr ""
+
+#: core/models/_products.py:307
+msgid "profit center"
+msgstr ""
+
+#: core/models/_products.py:308
+msgid "cost center"
+msgstr ""
+
+#: core/models/_products.py:313
+msgid "width ({})"
+msgstr ""
+
+#: core/models/_products.py:315
+msgid ""
+"Set the measured width of your product or product packaging. This will "
+"provide customers with the product size and help with calculating shipping "
+"costs."
+msgstr ""
+
+#: core/models/_products.py:321
+msgid "height ({})"
+msgstr ""
+
+#: core/models/_products.py:323
+msgid ""
+"Set the measured height of your product or product packaging. This will "
+"provide customers with the product size and help with calculating shipping "
+"costs."
+msgstr ""
+
+#: core/models/_products.py:329
+msgid "depth ({})"
+msgstr ""
+
+#: core/models/_products.py:331
+msgid ""
+"Set the measured depth or length of your product or product packaging. This "
+"will provide customers with the product size and help with calculating "
+"shipping costs."
+msgstr ""
+
+#: core/models/_products.py:337
+msgid "net weight ({})"
+msgstr ""
+
+#: core/models/_products.py:339
+msgid ""
+"Set the measured weight of your product WITHOUT its packaging. This will "
+"provide customers with the actual product's weight."
+msgstr ""
+
+#: core/models/_products.py:345
+msgid "gross weight ({})"
+msgstr ""
+
+#: core/models/_products.py:347
+msgid ""
+"Set the measured gross weight of your product WITH its packaging. This will "
+"help with calculating shipping costs."
+msgstr ""
+
+#: core/models/_products.py:359
+msgid ""
+"Select a manufacturer for your product. To define these, search for "
+"`Manufacturers`."
+msgstr ""
+
+#: core/models/_products.py:381
+msgid ""
+"To make your product stand out, give it an awesome description. This is what "
+"will help your shoppers learn about your products. It will also help "
+"shoppers find them in the store and on the web."
+msgstr ""
+
+#: core/models/_products.py:403
+msgid ""
+"Enter a URL slug for your product. Slug is user- and search engine-friendly "
+"short text used in a URL to identify and describe a resource. In this case "
+"it will determine what your product page URL in the browser address bar will "
+"look like. A default will be created using the product name."
+msgstr ""
+
+#: core/models/_products.py:411
+msgid "keywords"
+msgstr ""
+
+#: core/models/_products.py:413
+msgid ""
+"You can enter keywords that describe your product. This will help your "
+"shoppers learn about your products. It will also help shoppers find them in "
+"the store and on the web."
+msgstr ""
+
+#: core/models/_products.py:421
+msgid "variation name"
+msgstr ""
+
+#: core/models/_products.py:423
+msgid ""
+"You can enter a name for the variation of your product. This could be for "
+"example different colors, sizes or versions. To manage variations, at the "
+"top of the the individual product page, click `Actions` -> `Manage "
+"Variations`."
+msgstr ""
+
+#: core/models/_products.py:754
+msgid ""
+"Multilevel parentage hierarchies aren't supported (parent is a child "
+"already)."
+msgstr ""
+
+#: core/models/_products.py:758
+msgid "Parent is a variable variation parent, yet variables were not passed."
+msgstr ""
+
+#: core/models/_products.py:766
+msgid ""
+"Multilevel parentage hierarchies aren't supported (this product is a simple "
+"variation parent)."
+msgstr ""
+
+#: core/models/_products.py:771
+msgid ""
+"Multilevel parentage hierarchies aren't supported (this product is a "
+"variable variation parent)."
+msgstr ""
+
+#: core/models/_products.py:778
+msgid ""
+"Product is currently not a normal product, and can't be turned into a "
+"package."
+msgstr ""
+
+#: core/models/_products.py:783
+msgid "Package can't contain itself."
+msgstr ""
+
+#: core/models/_products.py:787
+msgid "Variation parents can't belong in the package."
+msgstr ""
+
+#: core/models/_products.py:790
+msgid "Packages can't be nested."
+msgstr ""
+
+#: core/models/_products.py:792
+#, python-format
+msgid "Quantity %s is invalid."
+msgstr ""
+
+#: core/models/_products.py:845
+msgid "primary product"
+msgstr ""
+
+#: core/models/_products.py:848
+msgid "secondary product"
+msgstr ""
+
+#: core/models/_products.py:850
+msgid "weight"
+msgstr ""
+
+#: core/models/_products.py:854
+msgid "cross sell link"
+msgstr ""
+
+#: core/models/_products.py:855
+msgid "cross sell links"
+msgstr ""
+
+#: core/models/_products.py:863
+msgid "translated value"
+msgstr ""
+
+#: core/models/_products.py:868
+msgid "product attribute"
+msgstr ""
+
+#: core/models/_products.py:869
+msgid "product attributes"
+msgstr ""
+
+#: core/models/_service_base.py:50
+msgid "Enable this if this service provider can be used when placing orders."
+msgstr ""
+
+#: core/models/_service_base.py:56
+msgid "The service provider name."
+msgstr ""
+
+#: core/models/_service_base.py:64
+msgid ""
+"This service provider will be available only for order sources of the given "
+"shop. If blank, this service provider is available for any order source."
+msgstr ""
+
+#: core/models/_service_base.py:75
+msgid ""
+"This service provider will be available only for order sources that contain "
+"all items from the configured supplier. If blank, this service provider is "
+"available for any order source."
+msgstr ""
+
+#: core/models/_service_base.py:219
+msgid "Enable this if this service should be selectable on checkout."
+msgstr ""
+
+#: core/models/_service_base.py:222
+msgid "The shop for this service."
+msgstr ""
+
+#: core/models/_service_base.py:229
+msgid ""
+"The supplier for this service. This service will be available only for order "
+"sources that contain all items from this supplier."
+msgstr ""
+
+#: core/models/_service_base.py:235
+msgid "choice identifier"
+msgstr ""
+
+#: core/models/_service_base.py:248
+msgid ""
+"The tax class to use for this service. Define by searching for `Tax Classes`."
+msgstr ""
+
+#: core/models/_service_base.py:251
+msgid "behavior components"
+msgstr ""
+
+#: core/models/_service_base.py:293
+#, python-format
+msgid "%s is disabled."
+msgstr ""
+
+#: core/models/_service_base.py:296
+#, python-format
+msgid "%s is for different shop."
+msgstr ""
+
+#: core/models/_service_base.py:357
+#, python-format
+msgid "%(service_name)s: %(sub_item)s"
+msgstr ""
+
+#: core/models/_service_behavior.py:27
+msgid "Fixed cost"
+msgstr ""
+
+#: core/models/_service_behavior.py:28
+msgid "Add a fixed cost to the price of the service."
+msgstr ""
+
+#: core/models/_service_behavior.py:30
+msgid "The fixed cost to apply to this service."
+msgstr ""
+
+#: core/models/_service_behavior.py:38 core/models/_service_behavior.py:67
+#: core/models/_service_behavior.py:161
+msgid "The order line text to display when this behavior is applied."
+msgstr ""
+
+#: core/models/_service_behavior.py:49
+msgid "Waiving cost"
+msgstr ""
+
+#: core/models/_service_behavior.py:51
+msgid ""
+"If the total price of the products is less than a waive limit add cost to "
+"the price of the service."
+msgstr ""
+
+#: core/models/_service_behavior.py:55
+msgid ""
+"The cost to apply to this service if the total price is below the waive "
+"limit."
+msgstr ""
+
+#: core/models/_service_behavior.py:58
+msgid ""
+"The total price of products limit, at which this service cost is waived."
+msgstr ""
+
+#: core/models/_service_behavior.py:93
+msgid "Weight limits"
+msgstr ""
+
+#: core/models/_service_behavior.py:94
+msgid ""
+"Limit availability of the service based on total weight of the products."
+msgstr ""
+
+#: core/models/_service_behavior.py:101
+msgid "minimum weight"
+msgstr ""
+
+#: core/models/_service_behavior.py:102
+msgid "The minimum weight required for this service to be available."
+msgstr ""
+
+#: core/models/_service_behavior.py:109
+msgid "maximum weight"
+msgstr ""
+
+#: core/models/_service_behavior.py:110
+msgid "The maximum weight allowed by this service."
+msgstr ""
+
+#: core/models/_service_behavior.py:129
+msgid "Minimum weight not met."
+msgstr ""
+
+#: core/models/_service_behavior.py:132
+msgid "Maximum weight exceeded."
+msgstr ""
+
+#: core/models/_service_behavior.py:141
+msgid "min weight ({})"
+msgstr ""
+
+#: core/models/_service_behavior.py:144
+msgid "The minimum weight for this price to apply."
+msgstr ""
+
+#: core/models/_service_behavior.py:148
+msgid "max weight ({})"
+msgstr ""
+
+#: core/models/_service_behavior.py:151
+msgid "The maximum weight before this price no longer applies."
+msgstr ""
+
+#: core/models/_service_behavior.py:153
+msgid "The cost to apply to this service when the weight criteria is met."
+msgstr ""
+
+#: core/models/_service_behavior.py:170
+msgid "Weight-based pricing"
+msgstr ""
+
+#: core/models/_service_behavior.py:172
+msgid ""
+"Define price based on basket weight. Range minimums are counted in range "
+"only as zero e.g. if there are 2 ranges (range1 = min 0, max 5; range2 = min "
+"5, max 10), only range1's 'min 0' is going to be counted, but not range2's "
+"'min 5'."
+msgstr ""
+
+#: core/models/_service_behavior.py:222
+msgid "Weight does not match with any range."
+msgstr ""
+
+#: core/models/_service_behavior.py:226
+msgid "Contact group availability"
+msgstr ""
+
+#: core/models/_service_behavior.py:227
+msgid "Make service available only for specific contact groups."
+msgstr ""
+
+#: core/models/_service_behavior.py:230
+msgid "groups"
+msgstr ""
+
+#: core/models/_service_behavior.py:230
+msgid "The contact groups for which this service is available."
+msgstr ""
+
+#: core/models/_service_behavior.py:235
+msgid "Customer does not belong to any group."
+msgstr ""
+
+#: core/models/_service_behavior.py:241
+msgid "Service is not available for any of the customer's groups."
+msgstr ""
+
+#: core/models/_service_behavior.py:245
+msgid "Access to Admin Panel only availability"
+msgstr ""
+
+#: core/models/_service_behavior.py:246
+msgid ""
+"Make service available only for people with `Access to Admin Panel` rights."
+msgstr ""
+
+#: core/models/_service_behavior.py:251
+msgid ""
+"Service is only available for people with `Access to Admin Panel` "
+"(`is_staff`) rights."
+msgstr ""
+
+#: core/models/_service_behavior.py:256
+msgid "Order total price limit"
+msgstr ""
+
+#: core/models/_service_behavior.py:257
+msgid "Limit service availability based on order's total price."
+msgstr ""
+
+#: core/models/_service_behavior.py:259
+msgid "min price value"
+msgstr ""
+
+#: core/models/_service_behavior.py:260
+msgid "max price value"
+msgstr ""
+
+#: core/models/_service_behavior.py:296
+msgid "Order's total price is not within the defined service limits."
+msgstr ""
+
+#: core/models/_service_behavior.py:301
+msgid "Country limit"
+msgstr ""
+
+#: core/models/_service_behavior.py:302
+msgid "Limit service availability based on countries selected."
+msgstr ""
+
+#: core/models/_service_behavior.py:304
+msgid "available in countries"
+msgstr ""
+
+#: core/models/_service_behavior.py:305
+msgid "available in european union"
+msgstr ""
+
+#: core/models/_service_behavior.py:306
+msgid "unavailable in countries"
+msgstr ""
+
+#: core/models/_service_behavior.py:308
+msgid "unavailable in european union"
+msgstr ""
+
+#: core/models/_service_behavior.py:315
+msgid "Service is not available without a defined country."
+msgstr ""
+
+#: core/models/_service_behavior.py:331
+msgid "Service is not available for this country."
+msgstr ""
+
+#: core/models/_service_behavior.py:341 core/models/_service_payment.py:147
+msgid "round up to the nearest number with ties going up, away from zero"
+msgstr ""
+
+#: core/models/_service_behavior.py:342 core/models/_service_payment.py:148
+msgid "round to the nearest number with ties going down, towards zero"
+msgstr ""
+
+#: core/models/_service_behavior.py:343 core/models/_service_payment.py:149
+msgid "round up, away from zero, towards the farther round number"
+msgstr ""
+
+#: core/models/_service_behavior.py:344 core/models/_service_payment.py:150
+msgid "round down, towards zero, towards the closest round number"
+msgstr ""
+
+#: core/models/_service_payment.py:28
+msgid "payment processor"
+msgstr ""
+
+#: core/models/_service_payment.py:35
+msgid ""
+"The payment method name. This name is shown to the customers on checkout."
+msgstr ""
+
+#: core/models/_service_payment.py:42
+msgid ""
+"The description of the payment method. This description is shown to the "
+"customers on checkout."
+msgstr ""
+
+#: core/models/_service_payment.py:165
+msgid "rounding quantize"
+msgstr ""
+
+#: core/models/_service_payment.py:166
+msgid "Choose rounding quantize (precision) for cash payment."
+msgstr ""
+
+#: core/models/_service_payment.py:172
+msgid "rounding mode"
+msgstr ""
+
+#: core/models/_service_payment.py:173
+msgid "Choose rounding mode for cash payment."
+msgstr ""
+
+#: core/models/_service_payment.py:177
+msgid "custom payment processor"
+msgstr ""
+
+#: core/models/_service_payment.py:178
+msgid "custom payment processors"
+msgstr ""
+
+#: core/models/_service_payment.py:181
+msgid "Manually processed payment"
+msgstr ""
+
+#: core/models/_service_payment.py:181
+msgid "Cash payment"
+msgstr ""
+
+#: core/models/_service_shipping.py:23
+msgid "carrier"
+msgstr ""
+
+#: core/models/_service_shipping.py:29
+msgid ""
+"The shipping method name. This name is shown to the customers on checkout."
+msgstr ""
+
+#: core/models/_service_shipping.py:32
+msgid ""
+"The description of the shipping method. This name is shown to the customers "
+"on checkout."
+msgstr ""
+
+#: core/models/_service_shipping.py:105
+msgid "custom carrier"
+msgstr ""
+
+#: core/models/_service_shipping.py:106
+msgid "custom carriers"
+msgstr ""
+
+#: core/models/_service_shipping.py:109
+msgid "Manually processed shipment"
+msgstr ""
+
+#: core/models/_shipments.py:36
+msgid "Not sent"
+msgstr ""
+
+#: core/models/_shipments.py:37
+msgid "Sent"
+msgstr ""
+
+#: core/models/_shipments.py:39
+msgid "Error"
+msgstr ""
+
+#: core/models/_shipments.py:40
+msgid "Deleted"
+msgstr ""
+
+#: core/models/_shipments.py:48
+msgid "outgoing"
+msgstr ""
+
+#: core/models/_shipments.py:49
+msgid "incoming"
+msgstr ""
+
+#: core/models/_shipments.py:73
+msgid "tracking code"
+msgstr ""
+
+#: core/models/_shipments.py:74
+msgid "tracking url"
+msgstr ""
+
+#: core/models/_shipments.py:77
+msgid "volume ({})"
+msgstr ""
+
+#: core/models/_shipments.py:80
+msgid "weight ({})"
+msgstr ""
+
+#: core/models/_shipments.py:88 core/models/_shipments.py:185
+msgid "shipment"
+msgstr ""
+
+#: core/models/_shipments.py:89
+msgid "shipments"
+msgstr ""
+
+#: core/models/_shipments.py:193
+msgid "unit volume ({})"
+msgstr ""
+
+#: core/models/_shipments.py:196
+msgid "unit weight ({})"
+msgstr ""
+
+#: core/models/_shipments.py:200
+msgid "sent product"
+msgstr ""
+
+#: core/models/_shipments.py:201
+msgid "sent products"
+msgstr ""
+
+#: core/models/_shops.py:53
+msgid ""
+"The following fields can't be changed because there are existing orders for "
+"this shop."
+msgstr ""
+
+#: core/models/_shops.py:63
+msgid "domain"
+msgstr ""
+
+#: core/models/_shops.py:65
+msgid ""
+"Your shop domain name. Use this field to configure the URL that is used to "
+"visit your store front. Note: this requires additional configuration through "
+"your internet domain registrar."
+msgstr ""
+
+#: core/models/_shops.py:74
+msgid ""
+"Your shop's status. Disable your shop if it's no longer in use. For "
+"temporary closing enable the maintenance mode, available in the `Maintenance "
+"Mode` tab on the left."
+msgstr ""
+
+#: core/models/_shops.py:83
+msgid ""
+"The primary shop currency. This is the currency used when selling the "
+"products."
+msgstr ""
+
+#: core/models/_shops.py:89
+msgid ""
+"This option defines whether product prices entered in admin include taxes. "
+"Note: this behavior can be overridden with contact group pricing."
+msgstr ""
+
+#: core/models/_shops.py:98
+msgid "Shop's logo. Will be shown at theme."
+msgstr ""
+
+#: core/models/_shops.py:103
+msgid "favicon"
+msgstr ""
+
+#: core/models/_shops.py:108
+msgid ""
+"Shop's favicon - a mini-image graphically representing your shop. Depending "
+"on the browser, it will be shown next to the address bar and/or on the "
+"website title tab."
+msgstr ""
+
+#: core/models/_shops.py:116
+msgid "maintenance mode"
+msgstr ""
+
+#: core/models/_shops.py:119
+msgid ""
+"Enable if you want to make your shop temporarily unavailable to visitors "
+"while you do regular shop maintenance, fight the security breach or for some "
+"other reason. If you don't plan to have this shop open again, change the "
+"`Status` on the main `General Information` tab to `Disabled`."
+msgstr ""
+
+#: core/models/_shops.py:126 core/models/_suppliers.py:135
+msgid "contact address"
+msgstr ""
+
+#: core/models/_shops.py:129
+msgid "staff members"
+msgstr ""
+
+#: core/models/_shops.py:137
+msgid "The shop name. This name is displayed throughout Admin Panel."
+msgstr ""
+
+#: core/models/_shops.py:143
+msgid ""
+"The public shop name. This name is displayed in the store front and in any "
+"customer email correspondence."
+msgstr ""
+
+#: core/models/_shops.py:151
+msgid ""
+"To make your shop stand out, give it an awesome description. This is what "
+"will help your shoppers learn about your shop. It will also help shoppers "
+"find your store from the web."
+msgstr ""
+
+#: core/models/_shops.py:161
+msgid ""
+"Enter a short description for your shop. The short description will be used "
+"to get the attention of your customer with a small, but precise description "
+"of your shop. It also helps with getting more traffic via search engines."
+msgstr ""
+
+#: core/models/_shops.py:170
+msgid "maintenance message"
+msgstr ""
+
+#: core/models/_shops.py:171
+msgid ""
+"The message to display to customers while your shop is in a maintenance mode."
+msgstr ""
+
+#: core/models/_supplied_products.py:19
+msgid "alert limit"
+msgstr ""
+
+#: core/models/_supplied_products.py:20
+msgid "physical stock count"
+msgstr ""
+
+#: core/models/_supplied_products.py:21
+msgid "logical stock count"
+msgstr ""
+
+#: core/models/_suppliers.py:39
+msgid "internal"
+msgstr ""
+
+#: core/models/_suppliers.py:40
+msgid "external"
+msgstr ""
+
+#: core/models/_suppliers.py:79
+msgid ""
+"The product supplier's name. You can enable suppliers to manage the "
+"inventory of stocked products."
+msgstr ""
+
+#: core/models/_suppliers.py:84
+msgid "supplier type"
+msgstr ""
+
+#: core/models/_suppliers.py:87
+msgid ""
+"The supplier type indicates whether the products are supplied through an "
+"internal supplier or an external supplier, and which group this supplier "
+"belongs to."
+msgstr ""
+
+#: core/models/_suppliers.py:92
+msgid "stock managed"
+msgstr ""
+
+#: core/models/_suppliers.py:95
+msgid ""
+"Enable this if this supplier will manage the inventory of the stocked "
+"products. Having a managed stock enabled is unnecessary if e.g. selling "
+"digital products that will never run out no matter how many are being sold. "
+"There are some other cases when it could be an unnecessary complication. "
+"This settingmerely assigns a sensible default behavior, which can be "
+"overwritten on a product-by-product basis."
+msgstr ""
+
+#: core/models/_suppliers.py:105
+msgid "supplier modules"
+msgstr ""
+
+#: core/models/_suppliers.py:107
+msgid ""
+"Select the supplier module to use for this supplier. Supplier modules define "
+"the rules by which inventory is managed."
+msgstr ""
+
+#: core/models/_suppliers.py:111
+msgid "module data"
+msgstr ""
+
+#: core/models/_suppliers.py:118
+msgid ""
+"You can select which particular shops fronts the supplier should be "
+"available in."
+msgstr ""
+
+#: core/models/_suppliers.py:125
+msgid ""
+"Indicates whether this supplier is currently enabled. In order to "
+"participate fully, the supplier also needs to be `Approved`."
+msgstr ""
+
+#: core/models/_suppliers.py:148
+msgid ""
+"Enter a URL slug for your supplier. Slug is user- and search engine-friendly "
+"short text used in a URL to identify and describe a resource. In this case "
+"it will determine what your supplier page URL in the browser address bar "
+"will look like. A default will be created using the supplier name."
+msgstr ""
+
+#: core/models/_suppliers.py:251
+msgid "Approved"
+msgstr ""
+
+#: core/models/_suppliers.py:252
+msgid "Indicates whether this supplier is currently approved for work."
+msgstr ""
+
+#: core/models/_suppliers.py:262
+msgid "module identifier"
+msgstr ""
+
+#: core/models/_suppliers.py:265
+msgid ""
+"Select the types of products this supplier can handle.Example for normal "
+"products select just Simple Supplier."
+msgstr ""
+
+#: core/models/_suppliers.py:271
+msgid "Module name"
+msgstr ""
+
+#: core/models/_suppliers.py:272
+msgid "Supplier modules name."
+msgstr ""
+
+#: core/models/_taxes.py:26
+msgid "Can't change the business critical fields of the Tax that is in use."
+msgstr ""
+
+#: core/models/_taxes.py:30
+msgid "The abbreviated tax code name."
+msgstr ""
+
+#: core/models/_taxes.py:37
+msgid ""
+"The name of the tax. It is shown in order lines, in order invoices and "
+"confirmations."
+msgstr ""
+
+#: core/models/_taxes.py:46
+msgid "tax rate"
+msgstr ""
+
+#: core/models/_taxes.py:48
+msgid ""
+"The percentage rate of the tax. Mutually exclusive with the flat amount tax "
+"(flat tax is rarely used and the option is therefore hidden by default; "
+"contact Shuup to enable)."
+msgstr ""
+
+#: core/models/_taxes.py:58
+msgid "tax amount value"
+msgstr ""
+
+#: core/models/_taxes.py:59
+msgid ""
+"The flat amount of the tax. Mutually exclusive with percentage rates tax."
+msgstr ""
+
+#: core/models/_taxes.py:61
+msgid "currency of the amount tax"
+msgstr ""
+
+#: core/models/_taxes.py:64
+msgid "Enable if this tax is valid and should be active."
+msgstr ""
+
+#: core/models/_taxes.py:70
+msgid "Either rate or amount tax is required."
+msgstr ""
+
+#: core/models/_taxes.py:72
+msgid "Can't have both rate and amount taxes. They are mutually exclusive."
+msgstr ""
+
+#: core/models/_taxes.py:74
+msgid "Currency is required if the amount tax value is specified."
+msgstr ""
+
+#: core/models/_taxes.py:102
+msgid "taxes"
+msgstr ""
+
+#: core/models/_taxes.py:112
+msgid ""
+"The tax class name. Tax classes are used to control how taxes are applied to "
+"the products."
+msgstr ""
+
+#: core/models/_taxes.py:117
+msgid "Enable if this tax class is valid and should be active."
+msgstr ""
+
+#: core/models/_taxes.py:122
+msgid "tax classes"
+msgstr ""
+
+#: core/models/_taxes.py:132
+msgid ""
+"The customer tax group name. Customer tax groups can be used to control how "
+"taxes are applied to a set of customers. "
+msgstr ""
+
+#: core/models/_taxes.py:140
+msgid "customer tax group"
+msgstr ""
+
+#: core/models/_taxes.py:141
+msgid "customer tax groups"
+msgstr ""
+
+#: core/models/_taxes.py:146
+msgid "Retail Customers"
+msgstr ""
+
+#: core/models/_taxes.py:153
+msgid "Company Customers"
+msgstr ""
+
+#: core/models/_units.py:70
+msgid "allowed decimal places"
+msgstr ""
+
+#: core/models/_units.py:72
+msgid ""
+"The number of decimal places allowed by this sales unit.Set this to a value "
+"greater than zero if products with this sales unit can be sold in fractional "
+"quantities."
+msgstr ""
+
+#: core/models/_units.py:83
+msgid "sales units"
+msgstr ""
+
+#: core/models/_units.py:135
+msgid ""
+"The sales unit name to use for products (e.g. 'pieces' or 'units'). Sales "
+"units can be set individually for each product through the product editor "
+"view."
+msgstr ""
+
+#: core/models/_units.py:142
+msgid "unit symbol"
+msgstr ""
+
+#: core/models/_units.py:143
+msgid ""
+"An abbreviated name for this sales unit that is shown throughout admin and "
+"order invoices."
+msgstr ""
+
+#: core/models/_units.py:158
+msgid "Value must be positive and non-zero."
+msgstr ""
+
+#: core/models/_units.py:166
+msgid "internal unit"
+msgstr ""
+
+#: core/models/_units.py:167
+msgid "The sales unit that this display unit is linked to."
+msgstr ""
+
+#: core/models/_units.py:172
+msgid "ratio"
+msgstr ""
+
+#: core/models/_units.py:174
+msgid ""
+"Size of the display unit in internal unit. E.g. if internal unit is kilogram "
+"and display unit is gram, ratio is 0.001."
+msgstr ""
+
+#: core/models/_units.py:183
+msgid ""
+"The number of decimal places to use for values in the display unit. The "
+"internal values are still rounded based on the settings of the internal unit."
+msgstr ""
+
+#: core/models/_units.py:191
+msgid "comparison value"
+msgstr ""
+
+#: core/models/_units.py:193
+msgid ""
+"Value to use when displaying unit prices. E.g. if the display unit is a gram "
+"and the comparison value is 100, then unit prices are shown per 100g, like: "
+"$2.95 per 100g."
+msgstr ""
+
+#: core/models/_units.py:200
+msgid "allow bare number"
+msgstr ""
+
+#: core/models/_units.py:202
+msgid ""
+"If true, values of this unit can occasionally be shown without the symbol "
+"attached to it. E.g. if the unit is a `piece`, then you might want for the "
+"product listings to only show '$5.95' rather than '$5.95 per pc.'."
+msgstr ""
+
+#: core/models/_units.py:210
+msgid "use by default"
+msgstr ""
+
+#: core/models/_units.py:211
+msgid ""
+"Use this display unit by default when displaying values of the internal unit."
+msgstr ""
+
+#: core/models/_units.py:215
+msgid "Name of the display unit, e.g. grams."
+msgstr ""
+
+#: core/models/_units.py:218
+msgid "symbol"
+msgstr ""
+
+#: core/models/_units.py:218
+msgid "An abbreviated name of the display unit, e.g. 'g'."
+msgstr ""
+
+#: core/models/_units.py:224
+msgid "display units"
+msgstr ""
+
+#: core/models/_units.py:270
+msgid "Pieces"
+msgstr ""
+
+#: core/models/_units.py:271
+msgctxt "Symbol for pieces unit"
+msgid "pc."
+msgstr ""
+
+#: core/models/_units.py:452
+#, python-brace-format
+msgctxt "Display the value with the unit symbol (with or without space) "
+msgid "{value}{symbol}"
+msgstr ""
+
+#: core/order_creator/_source.py:51
+msgid "inherit"
+msgstr ""
+
+#: core/order_creator/_source.py:52
+msgid "skip"
+msgstr ""
+
+#: core/order_creator/_source.py:53
+msgid "delete"
+msgstr ""
+
+#: core/order_creator/_validators.py:35
+msgid "The total price should be greater than {} to be ordered."
+msgstr ""
+
+#: core/order_creator/_validators.py:62
+#, python-format
+msgid "%s is not available in this shop."
+msgstr ""
+
+#: core/pricing/default_pricing.py:16
+msgid "Default Pricing"
+msgstr ""
+
+#: core/specs/product_kind.py:49
+#, python-brace-format
+msgid "The product kind {value} is not unique!"
+msgstr ""
+
+#: core/specs/product_kind.py:66
+msgid "Product"
+msgstr ""
+
+#: core/suppliers/enums.py:18
+msgid "inventory"
+msgstr ""
+
+#: core/suppliers/enums.py:19
+msgid "restock"
+msgstr ""
+
+#: core/suppliers/enums.py:20
+msgid "restock logical"
+msgstr ""
+
+#: core/tasks.py:161
+msgid "Failed to execute the task"
+msgstr ""
+
+#: core/tasks.py:162
+msgid "An unexpeted error occurred."
+msgstr ""
+
+#: core/taxing/_module.py:245 core/taxing/_module.py:351
+#: core/taxing/_module.py:365
+#, python-format
+msgid "Refund for %s"
+msgstr ""
+
+#: core/taxing/_module.py:290
+msgid "Misc refund"
+msgstr ""
+
+#: core/taxing/_tax_summary.py:50
+msgid "Untaxed"
+msgstr ""
+
+#: core/utils/form_mixins.py:13
+msgid "This field cannot be changed since it is protected."
+msgstr ""
+
+#: core/utils/forms.py:38
+msgid "Region"
+msgstr ""
+
+#: core/utils/forms.py:95
+msgid "Username"
+msgstr ""
+
+#: core/utils/forms.py:96
+msgid "Email"
+msgstr ""
+
+#: core/utils/forms.py:108
+msgid "Please provide either username or email, not both."
+msgstr ""
+
+#: core/utils/forms.py:113
+msgid "Please provide either username or email."
+msgstr ""
+
+#: core/utils/name_mixin.py:15
+msgid "First Last"
+msgstr ""

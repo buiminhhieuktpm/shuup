@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: importer/admin_module/__init__.py:19 importer/admin_module/__init__.py:73
+msgid "Data Import"
+msgstr ""
+
+#: importer/admin_module/__init__.py:29
+msgid "Allow the user to see the imports from all shops and suppliers."
+msgstr ""
+
+#: importer/admin_module/__init__.py:30
+msgid "Allow the user to run importers."
+msgstr ""
+
+#: importer/admin_module/__init__.py:31
+msgid "Allow the user to list imports."
+msgstr ""
+
+#: importer/admin_module/__init__.py:32
+msgid "Allow the user to import a file."
+msgstr ""
+
+#: importer/admin_module/__init__.py:33
+msgid "Allow the user to download sample files."
+msgstr ""
+
+#: importer/admin_module/__init__.py:38
+#, python-brace-format
+msgid "Allow the user to use the {importer_name} importer."
+msgstr ""
+
+#: importer/admin_module/forms.py:18 importer/admin_module/import_views.py:214
+msgid "Import mode"
+msgstr ""
+
+#: importer/admin_module/forms.py:23
+msgid "Importing language"
+msgstr ""
+
+#: importer/admin_module/forms.py:25
+msgid "The language of the data you want to import."
+msgstr ""
+
+#: importer/admin_module/forms.py:28 importer/admin_module/import_views.py:213
+msgid "Importer"
+msgstr ""
+
+#: importer/admin_module/forms.py:29
+msgid "Select a importer type matching the data you want to import"
+msgstr ""
+
+#: importer/admin_module/forms.py:31
+msgid "File"
+msgstr ""
+
+#: importer/admin_module/import_views.py:43
+#: importer/admin_module/import_views.py:242
+msgid "Data imports"
+msgstr ""
+
+#: importer/admin_module/import_views.py:51
+#: importer/admin_module/import_views.py:174
+msgid "Invalid importer."
+msgstr ""
+
+#: importer/admin_module/import_views.py:53
+msgid "File is missing."
+msgstr ""
+
+#: importer/admin_module/import_views.py:80
+msgid "The import was queued!"
+msgstr ""
+
+#: importer/admin_module/import_views.py:111
+msgid "Failed to process the file."
+msgstr ""
+
+#: importer/admin_module/import_views.py:170
+msgid "Invalid parameters."
+msgstr ""
+
+#: importer/admin_module/import_views.py:178
+msgid "Invalid file name."
+msgstr ""
+
+#: importer/admin_module/import_views.py:186
+msgid "File was not found."
+msgstr ""
+
+#: importer/admin_module/import_views.py:212
+msgid "Import date"
+msgstr ""
+
+#: importer/admin_module/import_views.py:215
+#: importer/admin_module/import_views.py:263
+msgid "User"
+msgstr ""
+
+#: importer/admin_module/import_views.py:218
+#: importer/admin_module/import_views.py:264
+msgid "Status"
+msgstr ""
+
+#: importer/admin_module/import_views.py:248
+msgid "Import file"
+msgstr ""
+
+#: importer/admin_module/import_views.py:261
+msgid "Importdate"
+msgstr ""
+
+#: importer/admin_module/import_views.py:262
+msgid "Mode"
+msgstr ""
+
+#: importer/apps.py:17
+msgid "Import"
+msgstr ""
+
+#: importer/importing/importing.py:290
+msgid "Row ignored (no existing item and creating new is not allowed)."
+msgstr ""
+
+#: importer/importing/importing.py:300
+#, python-format
+msgid ""
+"Row ignored (object already exists (%(object_name)s with id: %(object_id)s)."
+msgstr ""
+
+#: importer/importing/importing.py:407
+#, python-format
+msgid "Failed while setting value for field %(field_name)s. (%(exception)s)"
+msgstr ""
+
+#: importer/importing/importing.py:426 importer/importing/importing.py:436
+#, python-format
+msgid "Couldn't set value %(original_value)s for field %(field_name)s."
+msgstr ""
+
+#: importer/importing/session.py:49
+#, python-format
+msgid "Row import failed (%s)."
+msgstr ""
+
+#: importer/tasks.py:81
+msgid "Unexpected error while trying to import the file."
+msgstr ""
+
+#: importer/transforms.py:82
+#, python-format
+msgid "Can't import more than %s rows from one file."
+msgstr ""
+
+#: importer/utils/importer.py:28
+msgid "Allow create and update"
+msgstr ""
+
+#: importer/utils/importer.py:29
+msgid "Only create (no updates)"
+msgstr ""
+
+#: importer/utils/importer.py:30
+msgid "Only update existing (no new ones are created)"
+msgstr ""
+
+#: importer/utils/importer.py:83 importer/utils/importer.py:104
+msgid "The file doesn't contain data."
+msgstr ""
+
+#: importer/utils/importer.py:110
+msgid "Failed to import data: {}."
+msgstr ""
+
+#: importer/utils/importer.py:116
+#, python-brace-format
+msgid "{file_name} is not a valid file."
+msgstr ""
+
+#: importer/utils/importer.py:118
+msgid "The file is missing."
+msgstr ""

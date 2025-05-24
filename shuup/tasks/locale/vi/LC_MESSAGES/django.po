@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: tasks/admin_module/__init__.py:23 tasks/admin_module/__init__.py:43
+#: tasks/admin_module/__init__.py:89
+msgid "Tasks"
+msgstr ""
+
+#: tasks/admin_module/__init__.py:48
+msgid "Show Tasks"
+msgstr ""
+
+#: tasks/admin_module/__init__.py:94 tasks/admin_module/__init__.py:107
+msgid "Task Types"
+msgstr ""
+
+#: tasks/admin_module/__init__.py:112
+msgid "Show Task Types"
+msgstr ""
+
+#: tasks/admin_module/views/edit.py:80
+#, python-brace-format
+msgid "Changed assigment from {from_contact_name} to {to_contact_name}."
+msgstr ""
+
+#: tasks/admin_module/views/edit.py:152
+msgid "Set In Progress"
+msgstr ""
+
+#: tasks/admin_module/views/edit.py:163
+msgid "Set Completed"
+msgstr ""
+
+#: tasks/admin_module/views/edit.py:216
+msgid "Invalid status."
+msgstr ""
+
+#: tasks/admin_module/views/edit.py:225
+msgid "Status changed."
+msgstr ""
+
+#: tasks/admin_module/views/list.py:24 tasks/admin_module/views/list.py:64
+msgid "Name"
+msgstr ""
+
+#: tasks/admin_module/views/list.py:27 tasks/admin_module/views/list.py:67
+msgid "Filter by name..."
+msgstr ""
+
+#: tasks/admin_module/views/list.py:31
+msgid "Creator"
+msgstr ""
+
+#: tasks/admin_module/views/list.py:33
+msgid "Filter by creator..."
+msgstr ""
+
+#: tasks/admin_module/views/list.py:35 tasks/notify_events.py:21
+msgid "Status"
+msgstr ""
+
+#: tasks/admin_module/views/list.py:36 tasks/notify_events.py:22
+msgid "Priority"
+msgstr ""
+
+#: tasks/admin_module/views/list.py:38
+msgid "Comments"
+msgstr ""
+
+#: tasks/models.py:31
+msgid "New"
+msgstr ""
+
+#: tasks/models.py:32
+msgid "In progress"
+msgstr ""
+
+#: tasks/models.py:33
+msgid "Completed"
+msgstr ""
+
+#: tasks/models.py:34
+msgid "Deleted"
+msgstr ""
+
+#: tasks/models.py:43
+msgid "Public"
+msgstr ""
+
+#: tasks/models.py:44
+msgid "Staff Only"
+msgstr ""
+
+#: tasks/models.py:45
+msgid "Admins Only"
+msgstr ""
+
+#: tasks/models.py:52 tasks/models.py:87
+msgid "shop"
+msgstr ""
+
+#: tasks/models.py:54 tasks/models.py:88
+msgid "name"
+msgstr ""
+
+#: tasks/models.py:58 tasks/models.py:89
+msgid "task type"
+msgstr ""
+
+#: tasks/models.py:59
+msgid "task types"
+msgstr ""
+
+#: tasks/models.py:90
+msgid "status"
+msgstr ""
+
+#: tasks/models.py:91
+msgid "priority"
+msgstr ""
+
+#: tasks/models.py:98
+msgid "creator"
+msgstr ""
+
+#: tasks/models.py:106
+msgid "assigned to"
+msgstr ""
+
+#: tasks/models.py:114
+msgid "completed by"
+msgstr ""
+
+#: tasks/models.py:116
+msgid "completed on"
+msgstr ""
+
+#: tasks/models.py:117 tasks/models.py:189
+msgid "created on"
+msgstr ""
+
+#: tasks/models.py:118 tasks/models.py:190
+msgid "modified on"
+msgstr ""
+
+#: tasks/models.py:176
+msgid "task"
+msgstr ""
+
+#: tasks/models.py:183
+msgid "author"
+msgstr ""
+
+#: tasks/models.py:186
+msgid "visibility"
+msgstr ""
+
+#: tasks/models.py:188
+msgid "body"
+msgstr ""
+
+#: tasks/notify_events.py:17
+msgid "Task Created"
+msgstr ""
+
+#: tasks/notify_events.py:19
+msgid "Task"
+msgstr ""
+
+#: tasks/notify_events.py:20
+msgid "Type"
+msgstr ""

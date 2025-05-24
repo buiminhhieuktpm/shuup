@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: addons/admin_module/__init__.py:16 addons/admin_module/__init__.py:34
+msgid "Addons"
+msgstr ""
+
+#: addons/admin_module/views/list.py:34
+#, python-format
+msgid "Enable %s"
+msgstr ""
+
+#: addons/admin_module/views/list.py:52
+#, python-format
+msgid "%d new addons enabled."
+msgstr ""
+
+#: addons/admin_module/views/list.py:54
+#, python-format
+msgid "%d previously enabled addons disabled."
+msgstr ""
+
+#: addons/admin_module/views/list.py:65
+msgid "No changes were made."
+msgstr ""
+
+#: addons/admin_module/views/list.py:75
+msgid "Save addon changes"
+msgstr ""
+
+#: addons/admin_module/views/list.py:80
+msgid "Upload new addon"
+msgstr ""
+
+#: addons/admin_module/views/list.py:91
+msgid "Reload application"
+msgstr ""
+
+#: addons/admin_module/views/reload.py:38
+msgid ""
+"There are no viable reload methods available. Please contact your system "
+"administrator."
+msgstr ""
+
+#: addons/admin_module/views/reload.py:42
+msgid "Reload Method"
+msgstr ""
+
+#: addons/admin_module/views/reload.py:72
+msgid "Reloading."
+msgstr ""
+
+#: addons/admin_module/views/upload.py:29
+msgid "Addon file (ZIP)"
+msgstr ""
+
+#: addons/admin_module/views/upload.py:29
+msgid "Only upload the addon files you trust."
+msgstr ""
+
+#: addons/admin_module/views/upload.py:40
+msgid "Only wheel files (`.whl`) are supported."
+msgstr ""
+
+#: addons/admin_module/views/upload.py:58
+msgid "Upload"
+msgstr ""
+
+#: addons/admin_module/views/upload.py:97
+msgid "Install Addon"
+msgstr ""

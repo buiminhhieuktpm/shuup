@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: reports/admin_module/__init__.py:19
+msgid "Reports"
+msgstr ""
+
+#: reports/admin_module/views.py:52
+msgid "Type"
+msgstr ""
+
+#: reports/admin_module/views.py:55
+msgid "Select the type of report to run."
+msgstr ""
+
+#: reports/forms.py:30
+msgid "Custom"
+msgstr ""
+
+#: reports/forms.py:31
+msgid "Today"
+msgstr ""
+
+#: reports/forms.py:32
+msgid "Running Week (last 7 days)"
+msgstr ""
+
+#: reports/forms.py:33
+msgid "Running Month (last 30 days)"
+msgstr ""
+
+#: reports/forms.py:34
+msgid "This Week"
+msgstr ""
+
+#: reports/forms.py:35
+msgid "This Month"
+msgstr ""
+
+#: reports/forms.py:36
+msgid "This Year"
+msgstr ""
+
+#: reports/forms.py:37
+msgid "All Time"
+msgstr ""
+
+#: reports/forms.py:43
+msgid "Output Format"
+msgstr ""
+
+#: reports/forms.py:46
+msgid "The format to show the report results."
+msgstr ""
+
+#: reports/forms.py:49
+msgid "Download"
+msgstr ""
+
+#: reports/forms.py:49
+msgid "Enable this to download the report."
+msgstr ""
+
+#: reports/forms.py:73
+msgid "Shop"
+msgstr ""
+
+#: reports/forms.py:73
+msgid "Filter report results by shop."
+msgstr ""
+
+#: reports/forms.py:76
+msgid "Date Range"
+msgstr ""
+
+#: reports/forms.py:78
+msgid "Filter report results by a date range."
+msgstr ""
+
+#: reports/forms.py:80
+msgid "Start Date"
+msgstr ""
+
+#: reports/forms.py:80 reports/forms.py:81
+msgid "For a custom date range."
+msgstr ""
+
+#: reports/forms.py:81
+msgid "End Date"
+msgstr ""

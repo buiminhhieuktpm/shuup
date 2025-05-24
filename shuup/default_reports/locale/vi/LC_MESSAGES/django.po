@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: default_reports/forms.py:22 default_reports/reports/customer_sales.py:24
+#: default_reports/reports/orders.py:25
+msgid "Customer"
+msgstr ""
+
+#: default_reports/forms.py:25
+msgid "Filter report results by customer."
+msgstr ""
+
+#: default_reports/forms.py:32
+msgid "Orderer"
+msgstr ""
+
+#: default_reports/forms.py:35
+msgid "Filter report results by the person that made the order."
+msgstr ""
+
+#: default_reports/forms.py:53
+msgid "Order Line Type"
+msgstr ""
+
+#: default_reports/forms.py:63
+msgid "Suppliers"
+msgstr ""
+
+#: default_reports/forms.py:66
+msgid "Filter order lines by suppliers."
+msgstr ""
+
+#: default_reports/forms.py:69
+msgid "Order status"
+msgstr ""
+
+#: default_reports/forms.py:72
+msgid "Filter order lines by status of their order."
+msgstr ""
+
+#: default_reports/forms.py:92 default_reports/reports/orders.py:62
+#: default_reports/reports/product_total_sales.py:28
+msgid "Quantity"
+msgstr ""
+
+#: default_reports/forms.py:93 default_reports/forms.py:116
+#: default_reports/reports/customer_sales.py:27
+#: default_reports/reports/product_total_sales.py:29
+#: default_reports/reports/sales.py:30
+msgid "Taxless Total"
+msgstr ""
+
+#: default_reports/forms.py:94 default_reports/forms.py:117
+#: default_reports/reports/customer_sales.py:28
+#: default_reports/reports/product_total_sales.py:30
+#: default_reports/reports/sales.py:31
+msgid "Taxful Total"
+msgstr ""
+
+#: default_reports/forms.py:97 default_reports/forms.py:120
+msgid "Sort order"
+msgstr ""
+
+#: default_reports/forms.py:102
+msgid "Year"
+msgstr ""
+
+#: default_reports/forms.py:103
+msgid "Year/Month"
+msgstr ""
+
+#: default_reports/forms.py:104
+msgid "Year/Month/Day"
+msgstr ""
+
+#: default_reports/forms.py:108
+msgid "Group by"
+msgstr ""
+
+#: default_reports/forms.py:114
+msgid "Order Count"
+msgstr ""
+
+#: default_reports/forms.py:115 default_reports/reports/customer_sales.py:26
+msgid "Average Sales"
+msgstr ""
+
+#: default_reports/forms.py:126 default_reports/reports/taxes.py:27
+msgid "Tax"
+msgstr ""
+
+#: default_reports/forms.py:126
+msgid "Filter report results by tax."
+msgstr ""
+
+#: default_reports/forms.py:130
+msgid "Tax Class"
+msgstr ""
+
+#: default_reports/forms.py:133
+msgid "Filter report results by tax class."
+msgstr ""
+
+#: default_reports/forms.py:152
+msgid "Shipping Method"
+msgstr ""
+
+#: default_reports/forms.py:155
+msgid "Filter report results by shipping method."
+msgstr ""
+
+#: default_reports/forms.py:159 default_reports/reports/shipping.py:25
+msgid "Carrier"
+msgstr ""
+
+#: default_reports/forms.py:162
+msgid "Filter report results by carrier."
+msgstr ""
+
+#: default_reports/reports/customer_sales.py:19
+msgid "Customer Sales"
+msgstr ""
+
+#: default_reports/reports/customer_sales.py:25
+#: default_reports/reports/sales.py:28 default_reports/reports/shipping.py:27
+#: default_reports/reports/taxes.py:29
+msgid "Orders"
+msgstr ""
+
+#: default_reports/reports/new_customers.py:19
+msgid "New Customers"
+msgstr ""
+
+#: default_reports/reports/new_customers.py:24
+#: default_reports/reports/sales.py:27
+msgid "Date"
+msgstr ""
+
+#: default_reports/reports/new_customers.py:25
+msgid "Persons"
+msgstr ""
+
+#: default_reports/reports/new_customers.py:26
+msgid "Companies"
+msgstr ""
+
+#: default_reports/reports/new_customers.py:27
+msgid "Users"
+msgstr ""
+
+#: default_reports/reports/orders.py:18
+msgid "Orders Report"
+msgstr ""
+
+#: default_reports/reports/orders.py:23
+msgid "Order ref."
+msgstr ""
+
+#: default_reports/reports/orders.py:24
+msgid "Order date"
+msgstr ""
+
+#: default_reports/reports/orders.py:26
+msgid "Status"
+msgstr ""
+
+#: default_reports/reports/orders.py:27
+msgid "Order line quantity"
+msgstr ""
+
+#: default_reports/reports/orders.py:28
+msgid "Payment status"
+msgstr ""
+
+#: default_reports/reports/orders.py:29
+msgid "Shipment status"
+msgstr ""
+
+#: default_reports/reports/orders.py:30 default_reports/reports/taxes.py:32
+msgid "Total"
+msgstr ""
+
+#: default_reports/reports/orders.py:55
+msgid "Order Line Report"
+msgstr ""
+
+#: default_reports/reports/orders.py:60
+msgid "Order Line SKU"
+msgstr ""
+
+#: default_reports/reports/orders.py:61
+msgid "Order Line Text"
+msgstr ""
+
+#: default_reports/reports/orders.py:63
+msgid "Taxless Unit Price"
+msgstr ""
+
+#: default_reports/reports/orders.py:64
+msgid "Taxful Unit Price"
+msgstr ""
+
+#: default_reports/reports/orders.py:65
+msgid "Taxful Price"
+msgstr ""
+
+#: default_reports/reports/orders.py:66
+msgid "Created on"
+msgstr ""
+
+#: default_reports/reports/orders.py:67
+msgid "Type"
+msgstr ""
+
+#: default_reports/reports/product_total_sales.py:21
+msgid "Product Total Sales"
+msgstr ""
+
+#: default_reports/reports/product_total_sales.py:26
+msgid "Product"
+msgstr ""
+
+#: default_reports/reports/product_total_sales.py:27
+msgid "SKU"
+msgstr ""
+
+#: default_reports/reports/refunds.py:19
+msgid "Refunded Sales"
+msgstr ""
+
+#: default_reports/reports/refunds.py:24
+msgid "Refunded Orders"
+msgstr ""
+
+#: default_reports/reports/refunds.py:25
+msgid "Total Refunded"
+msgstr ""
+
+#: default_reports/reports/sales.py:22
+msgid "Sales Report"
+msgstr ""
+
+#: default_reports/reports/sales.py:29
+msgid "Products"
+msgstr ""
+
+#: default_reports/reports/sales_per_hour.py:20
+msgid "Sales Per Hour"
+msgstr ""
+
+#: default_reports/reports/sales_per_hour.py:25
+msgid "Hour"
+msgstr ""
+
+#: default_reports/reports/sales_per_hour.py:26
+#: default_reports/reports/total_sales.py:25
+msgid "Order Amount"
+msgstr ""
+
+#: default_reports/reports/sales_per_hour.py:27
+#: default_reports/reports/total_sales.py:18
+#: default_reports/reports/total_sales.py:28
+msgid "Total Sales"
+msgstr ""
+
+#: default_reports/reports/shipping.py:20
+msgid "Shipping"
+msgstr ""
+
+#: default_reports/reports/shipping.py:26
+msgid "Shipping method"
+msgstr ""
+
+#: default_reports/reports/shipping.py:28
+msgid "Total Charged"
+msgstr ""
+
+#: default_reports/reports/taxes.py:22
+msgid "Taxes"
+msgstr ""
+
+#: default_reports/reports/taxes.py:28
+msgid "Rate (%)"
+msgstr ""
+
+#: default_reports/reports/taxes.py:30
+msgid "Pre-tax Total"
+msgstr ""
+
+#: default_reports/reports/taxes.py:31
+msgid "Total Tax Amount"
+msgstr ""
+
+#: default_reports/reports/total_sales.py:23
+msgid "Shop Name"
+msgstr ""
+
+#: default_reports/reports/total_sales.py:24
+msgid "Currency"
+msgstr ""
+
+#: default_reports/reports/total_sales.py:26
+msgid "Customers"
+msgstr ""
+
+#: default_reports/reports/total_sales.py:27
+msgid "Customer Average Sale"
+msgstr ""

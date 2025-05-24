@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: gdpr/admin_module/__init__.py:18 gdpr/admin_module/__init__.py:38
+msgid "GDPR"
+msgstr ""
+
+#: gdpr/admin_module/toolbar.py:19
+msgid "Anonymize"
+msgstr ""
+
+#: gdpr/admin_module/toolbar.py:22
+msgid ""
+"This action will replace all contact personal data with random values making "
+"it impossible to be identified. The account will also be deactivated and any "
+"pending order(s) will be canceled. Are you sure?"
+msgstr ""
+
+#: gdpr/admin_module/toolbar.py:39
+msgid "Download data"
+msgstr ""
+
+#: gdpr/admin_module/views.py:43
+msgid "Save"
+msgstr ""
+
+#: gdpr/admin_module/views.py:59
+msgid "General Data Protection Regulation"
+msgstr ""
+
+#: gdpr/admin_module/views.py:117
+msgid "Contact was anonymized."
+msgstr ""
+
+#: gdpr/dashboard_items.py:15
+msgid "My Data"
+msgstr ""
+
+#: gdpr/dashboard_items.py:18
+msgid "Customer data"
+msgstr ""
+
+#: gdpr/models.py:35
+msgid "enabled"
+msgstr ""
+
+#: gdpr/models.py:35
+msgid "Define if the GDPR is active."
+msgstr ""
+
+#: gdpr/models.py:39
+msgid "skip consent on login"
+msgstr ""
+
+#: gdpr/models.py:40
+msgid "Do not require consent on login when GDPR is activated."
+msgstr ""
+
+#: gdpr/models.py:46
+msgid "privacy policy page"
+msgstr ""
+
+#: gdpr/models.py:48
+msgid ""
+"Choose your privacy policy page here. If this page changes, customers will "
+"be prompted for new consent."
+msgstr ""
+
+#: gdpr/models.py:53
+msgid "consent pages"
+msgstr ""
+
+#: gdpr/models.py:56
+msgid ""
+"Choose pages here which are being monitored for customer consent. If any of "
+"these pages change, the customer is being prompted for a new consent."
+msgstr ""
+
+#: gdpr/models.py:63
+msgid "cookie banner content"
+msgstr ""
+
+#: gdpr/models.py:64
+msgid "The text to be presented to users in a pop-up warning."
+msgstr ""
+
+#: gdpr/models.py:68
+msgid "cookie privacy excerpt"
+msgstr ""
+
+#: gdpr/models.py:69
+msgid "The summary text to be presented about cookie privacy."
+msgstr ""
+
+#: gdpr/models.py:73
+msgid "login consent text"
+msgstr ""
+
+#: gdpr/models.py:75
+msgid ""
+"Shown in login page between the form and the button. Optional, but should be "
+"considered when the consent on login is disabled."
+msgstr ""
+
+#: gdpr/models.py:82 gdpr/models.py:83
+msgid "GDPR settings"
+msgstr ""
+
+#: gdpr/models.py:86
+msgid "GDPR for {}"
+msgstr ""
+
+#: gdpr/models.py:108
+msgid "always active"
+msgstr ""
+
+#: gdpr/models.py:110
+msgid "active by default"
+msgstr ""
+
+#: gdpr/models.py:112
+msgid "whether this cookie category is active by default"
+msgstr ""
+
+#: gdpr/models.py:115
+msgid "cookies used"
+msgstr ""
+
+#: gdpr/models.py:117
+msgid ""
+"Comma separated list of cookies names, prefix or suffix that will be "
+"included in this category, e.g. _ga, mysession, user_c_"
+msgstr ""
+
+#: gdpr/models.py:125
+msgid "Snippets to block if not consented"
+msgstr ""
+
+#: gdpr/models.py:127
+msgid ""
+"Select the snippets that shouldn't be injected if the cookie is not "
+"consented."
+msgstr ""
+
+#: gdpr/models.py:130
+msgid "name"
+msgstr ""
+
+#: gdpr/models.py:132
+msgid "how we use"
+msgstr ""
+
+#: gdpr/models.py:133
+msgid "Describe the purpose of this category of cookies and how it is used."
+msgstr ""
+
+#: gdpr/models.py:139
+msgid "GDPR cookie category"
+msgstr ""
+
+#: gdpr/models.py:140
+msgid "GDPR cookie categories"
+msgstr ""
+
+#: gdpr/models.py:143
+msgid "GDPR cookie category for {}"
+msgstr ""
+
+#: gdpr/models.py:148
+msgid "created on"
+msgstr ""
+
+#: gdpr/models.py:157
+msgid "consent documents"
+msgstr ""
+
+#: gdpr/models.py:161
+msgid "GDPR user consent"
+msgstr ""
+
+#: gdpr/models.py:162
+msgid "GDPR user consents"
+msgstr ""
+
+#: gdpr/models.py:212
+msgid "GDPR user consent in {} for user {} in shop {}"
+msgstr ""
+
+#: gdpr/models.py:221
+msgid "GDPR user consent document for {} (Version: {})"
+msgstr ""
+
+#: gdpr/providers.py:73
+msgid ""
+"I have read and accept the <a href='{}' target='_blank' "
+"class='gdpr_consent_doc_check'>{}</a>"
+msgstr ""
+
+#: gdpr/providers.py:85
+msgid "You must accept this in order to register."
+msgstr ""
+
+#: gdpr/providers.py:89
+msgid "You must accept this to order."
+msgstr ""
+
+#: gdpr/providers.py:93
+msgid "You must accept this in order to authenticate."
+msgstr ""
+
+#: gdpr/settings.py:17
+msgid ""
+"<p>This website stores cookies on your computer. These cookies are used to "
+"collect information about how you interact with our website and allow us to "
+"remember you. We use this information in order to improve and customize your "
+"browsing experience and for analytics and metrics about our visitors both on "
+"this website and other media. To find out more about the cookies we use, see "
+"our Privacy Policy.</p>"
+msgstr ""
+
+#: gdpr/settings.py:27
+msgid ""
+"<p>When you visit any website, it may store or retrieve information on "
+"yourbrowser, mostly in the form of cookies. This information might be about "
+"you, your preferences or your device and is mostly used to make the site "
+"work as you expect it to. The information does not usually directly identify "
+"you, but it can give you a more personalized web experience.</p><p>Because "
+"we respect your right to privacy, you can choose not to allow some types of "
+"cookies. Click on the different category headings to find out more and "
+"change our default settings. However, blocking some types of cookies may "
+"impact your experience of the site and the services we are able to offer.</p>"
+msgstr ""
+
+#: gdpr/utils.py:102 gdpr/utils.py:124
+msgid "Privacy Policy"
+msgstr ""
+
+#: gdpr/utils.py:143 gdpr/utils.py:155
+msgid "Required"
+msgstr ""
+
+#: gdpr/utils.py:145 gdpr/utils.py:157
+msgid ""
+"We use these cookies to ensure the correct language is being chosen for you "
+"based on your region as well as the overall site functionality."
+msgstr ""
+
+#: gdpr/views.py:133
+msgid "GDPR: Anonymize"
+msgstr ""
+
+#: gdpr/views.py:140
+msgid "GDPR: Anonymize contact"
+msgstr ""
+
+#: gdpr/views.py:141
+#, python-brace-format
+msgid "Customer ID {customer_id} requested to be anonymized."
+msgstr ""
+
+#: gdpr/views.py:148
+msgid "Anonymization requested."
+msgstr ""

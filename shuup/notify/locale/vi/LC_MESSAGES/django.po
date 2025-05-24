@@ -1,0 +1,494 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: notify/actions/email.py:26
+msgid "HTML"
+msgstr ""
+
+#: notify/actions/email.py:26
+msgid "Plain text"
+msgstr ""
+
+#: notify/actions/email.py:31 notify/script_template/generic.py:26
+msgid "Subject"
+msgstr ""
+
+#: notify/actions/email.py:32 notify/admin_module/__init__.py:118
+#: notify/models/email_template.py:23
+msgid "Email Template"
+msgstr ""
+
+#: notify/actions/email.py:33
+msgid "Email Body"
+msgstr ""
+
+#: notify/actions/email.py:36
+msgid "Content type"
+msgstr ""
+
+#: notify/actions/email.py:41
+msgid "Recipient"
+msgstr ""
+
+#: notify/actions/email.py:42
+msgid "Reply-To"
+msgstr ""
+
+#: notify/actions/email.py:44
+msgid "Carbon Copy (CC)"
+msgstr ""
+
+#: notify/actions/email.py:48
+msgid "Blind Carbon Copy (BCC)"
+msgstr ""
+
+#: notify/actions/email.py:50
+msgid "From email"
+msgstr ""
+
+#: notify/actions/email.py:55
+msgid ""
+"Override the default from email to be used. It can either be binded to a "
+"variable or be a constant like support@store.com or even \"Store Support\" "
+"<support@store.com>."
+msgstr ""
+
+#: notify/actions/email.py:60 notify/typology.py:104
+msgid "Language"
+msgstr ""
+
+#: notify/actions/email.py:62
+msgid "Fallback language"
+msgstr ""
+
+#: notify/actions/email.py:68
+msgid "Send Identifier"
+msgstr ""
+
+#: notify/actions/email.py:73
+msgid ""
+"If set, this identifier will be logged into the event's log target. If the "
+"identifier has already been logged, the e-mail won't be sent again."
+msgstr ""
+
+#: notify/admin_module/__init__.py:27 notify/admin_module/__init__.py:72
+msgid "Notifications"
+msgstr ""
+
+#: notify/admin_module/__init__.py:77
+msgid "Show notification scripts"
+msgstr ""
+
+#: notify/admin_module/__init__.py:137 notify/models/email_template.py:24
+msgid "Email Templates"
+msgstr ""
+
+#: notify/admin_module/forms.py:23 notify/admin_module/views/list.py:27
+#: notify/admin_module/views/list.py:63
+msgid "Event"
+msgstr ""
+
+#: notify/admin_module/forms.py:23
+msgid "Choose which event to bind this script to."
+msgstr ""
+
+#: notify/admin_module/forms.py:24
+msgid "Script Name"
+msgstr ""
+
+#: notify/admin_module/forms.py:24
+msgid "Type in a descriptive name for your new script."
+msgstr ""
+
+#: notify/admin_module/forms.py:26
+msgid "Enable Script"
+msgstr ""
+
+#: notify/admin_module/forms.py:27
+msgid "Choose whether this script should be activated when its event fires."
+msgstr ""
+
+#: notify/admin_module/forms.py:43
+msgid ""
+"Warning! Changing the event for an existing script may have unexpected "
+"effects."
+msgstr ""
+
+#: notify/admin_module/forms.py:77 notify/models/email_template.py:15
+msgid "Template"
+msgstr ""
+
+#: notify/admin_module/forms.py:121
+msgid "Bind to Variable"
+msgstr ""
+
+#: notify/admin_module/forms.py:196
+msgid "This field is missing content."
+msgstr ""
+
+#: notify/admin_module/views/delete.py:26
+#, python-format
+msgid "%s has been marked deleted."
+msgstr ""
+
+#: notify/admin_module/views/edit.py:34
+msgid "Edit Script Contents"
+msgstr ""
+
+#: notify/admin_module/views/edit.py:44
+msgid "Edit Script (advanced)"
+msgstr ""
+
+#: notify/admin_module/views/edit.py:48
+msgid "Edit Template"
+msgstr ""
+
+#: notify/admin_module/views/edit.py:69
+msgid "Delete"
+msgstr ""
+
+#: notify/admin_module/views/edit.py:72
+#, python-format
+msgid "Are you sure you wish to delete \"%s\" notification?"
+msgstr ""
+
+#: notify/admin_module/views/editor.py:123
+msgid "Save"
+msgstr ""
+
+#: notify/admin_module/views/email_template.py:50
+#, python-format
+msgid "%s has been deleted."
+msgstr ""
+
+#: notify/admin_module/views/email_template.py:60
+#: notify/admin_module/views/list.py:26 notify/models/email_template.py:13
+msgid "Name"
+msgstr ""
+
+#: notify/admin_module/views/list.py:28 notify/admin_module/views/list.py:64
+msgid "Enabled"
+msgstr ""
+
+#: notify/admin_module/views/list.py:45
+msgid "New Script"
+msgstr ""
+
+#: notify/admin_module/views/list.py:51
+msgid "New From Template"
+msgstr ""
+
+#: notify/admin_module/views/template.py:64
+#: notify/admin_module/views/template.py:112
+msgid "Script created from template."
+msgstr ""
+
+#: notify/admin_module/views/template.py:68
+#: notify/admin_module/views/template.py:89
+msgid "Template Script not found."
+msgstr ""
+
+#: notify/admin_module/views/template.py:142
+msgid "Templated script not found."
+msgstr ""
+
+#: notify/admin_module/views/template.py:161
+msgid "Script updated."
+msgstr ""
+
+#: notify/conditions/simple.py:21
+msgid ""
+"Check whether the bound value `value` exists and is non-empty and non-zero."
+msgstr ""
+
+#: notify/conditions/simple.py:22
+msgid "Non-Empty"
+msgstr ""
+
+#: notify/conditions/simple.py:31
+msgid "Check whether the bound value `value` is empty or zero."
+msgstr ""
+
+#: notify/conditions/simple.py:32
+msgid "Empty"
+msgstr ""
+
+#: notify/enums.py:21 notify/enums.py:54
+msgid "none"
+msgstr ""
+
+#: notify/enums.py:22
+msgid "unilingual"
+msgstr ""
+
+#: notify/enums.py:23
+msgid "multilingual"
+msgstr ""
+
+#: notify/enums.py:32
+msgid "variable only"
+msgstr ""
+
+#: notify/enums.py:33
+msgid "constant only"
+msgstr ""
+
+#: notify/enums.py:34
+msgid "variable or constant"
+msgstr ""
+
+#: notify/enums.py:42
+msgid "continue to the next step"
+msgstr ""
+
+#: notify/enums.py:43
+msgid "stop processing"
+msgstr ""
+
+#: notify/enums.py:52
+msgid "all"
+msgstr ""
+
+#: notify/enums.py:53
+msgid "any"
+msgstr ""
+
+#: notify/enums.py:62
+msgid "any shop administrator"
+msgstr ""
+
+#: notify/enums.py:63
+msgid "a specific user"
+msgstr ""
+
+#: notify/enums.py:73
+msgid "low"
+msgstr ""
+
+#: notify/enums.py:74
+msgid "normal"
+msgstr ""
+
+#: notify/enums.py:75
+msgid "high"
+msgstr ""
+
+#: notify/enums.py:76
+msgid "critical"
+msgstr ""
+
+#: notify/models/email_template.py:17
+msgid ""
+"Enter the base HTML template to be used in emails. Mark the place to inject "
+"the email content using the variable `%html_body%` inside the body."
+msgstr ""
+
+#: notify/models/notification.py:47 notify/models/script.py:23
+msgid "shop"
+msgstr ""
+
+#: notify/models/notification.py:48
+msgid "recipient type"
+msgstr ""
+
+#: notify/models/notification.py:55
+msgid "recipient"
+msgstr ""
+
+#: notify/models/notification.py:57 notify/models/script.py:26
+msgid "created on"
+msgstr ""
+
+#: notify/models/notification.py:58
+msgid "message"
+msgstr ""
+
+#: notify/models/notification.py:60
+msgid "priority"
+msgstr ""
+
+#: notify/models/notification.py:63
+msgid "marked read"
+msgstr ""
+
+#: notify/models/notification.py:71
+msgid "marked read by"
+msgstr ""
+
+#: notify/models/notification.py:73
+msgid "marked read on"
+msgstr ""
+
+#: notify/models/script.py:24
+msgid "event identifier"
+msgstr ""
+
+#: notify/models/script.py:27
+msgid "name"
+msgstr ""
+
+#: notify/models/script.py:28
+msgid "enabled"
+msgstr ""
+
+#: notify/models/script.py:35
+msgid "template identifier"
+msgstr ""
+
+#: notify/models/script.py:36
+msgid "the template identifier used to create this script"
+msgstr ""
+
+#: notify/notify_events.py:17
+msgid "Password Reset"
+msgstr ""
+
+#: notify/notify_events.py:18
+msgid "This event is triggered when password reset is requested."
+msgstr ""
+
+#: notify/notify_events.py:20
+msgid "Site name"
+msgstr ""
+
+#: notify/notify_events.py:21
+msgid "User secret"
+msgstr ""
+
+#: notify/notify_events.py:22
+msgid "User to recover"
+msgstr ""
+
+#: notify/notify_events.py:23
+msgid "Token"
+msgstr ""
+
+#: notify/notify_events.py:24
+msgid "Recovery URL"
+msgstr ""
+
+#: notify/notify_events.py:28
+msgid "To Email"
+msgstr ""
+
+#: notify/script_template/generic.py:26
+msgid "The subject of the email"
+msgstr ""
+
+#: notify/script_template/generic.py:27
+msgid "Email content"
+msgstr ""
+
+#: notify/script_template/generic.py:27
+msgid "The content of the email."
+msgstr ""
+
+#: notify/script_template/generic.py:36
+msgid "Customer"
+msgstr ""
+
+#: notify/script_template/generic.py:37
+msgid "Other destination"
+msgstr ""
+
+#: notify/script_template/generic.py:40
+msgid "Send to?"
+msgstr ""
+
+#: notify/script_template/generic.py:44
+msgid ""
+"You can send this email to the customer or to other email of your choice."
+msgstr ""
+
+#: notify/script_template/generic.py:47
+msgid "Destination"
+msgstr ""
+
+#: notify/script_template/generic.py:47
+msgid "Fill with the destination email address."
+msgstr ""
+
+#: notify/script_template/generic.py:57
+msgid ""
+"Recipient is a required field when you don't want to send the email to "
+"customer."
+msgstr ""
+
+#: notify/script_templates.py:24
+msgid ""
+"\n"
+"<p>Hi {{ user_to_recover.get_full_name() }},</p>\n"
+"\n"
+"<p>In case you've forgotten, your username is {{ user_to_recover.username }}."
+"</p>\n"
+"<p>You're receiving this email because you requested a password reset for "
+"your user account at {{ site_name }}.</p>\n"
+"<p>Please go to the following page and choose a new password:</p>\n"
+"<br>\n"
+"<a href=\"{{ recovery_url }}\">{{ recovery_url }}</a>\n"
+msgstr ""
+
+#: notify/script_templates.py:40
+msgid "Send Password Reset Link"
+msgstr ""
+
+#: notify/script_templates.py:42
+msgid ""
+"\n"
+"        Send an email to user when their account password reset is "
+"requested\n"
+"    "
+msgstr ""
+
+#: notify/script_templates.py:47
+msgid ""
+"\n"
+"        This script will send an email to user once their account password "
+"reset is\n"
+"        requested either by admin, staff or user.\n"
+"    "
+msgstr ""
+
+#: notify/typology.py:71
+msgid "Boolean"
+msgstr ""
+
+#: notify/typology.py:79
+msgid "Integer Number"
+msgstr ""
+
+#: notify/typology.py:87
+msgid "Decimal Number"
+msgstr ""
+
+#: notify/typology.py:95
+msgid "Text"
+msgstr ""
+
+#: notify/typology.py:109
+msgid "Email Address"
+msgstr ""
+
+#: notify/typology.py:117
+msgid "URL Address"
+msgstr ""
+
+#: notify/typology.py:125
+msgid "Phone Number"
+msgstr ""
