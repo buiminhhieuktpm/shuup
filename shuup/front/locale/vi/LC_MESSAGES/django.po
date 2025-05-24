@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-24 19:59+0700\n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,754 +18,763 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: admin_module/__init__.py:44
+#: front/admin_module/__init__.py:44
 msgid "Abandoned Cart Value"
 msgstr ""
 
-#: admin_module/__init__.py:48
+#: front/admin_module/__init__.py:48
 #, python-brace-format
 msgid "Based on {b} carts over the last {d} days"
 msgstr ""
 
-#: admin_module/__init__.py:74 admin_module/carts/views/_list.py:83
+#: front/admin_module/__init__.py:74 front/admin_module/carts/views/_list.py:83
 msgid "Carts"
 msgstr "Giỏ hàng"
 
-#: admin_module/__init__.py:78
+#: front/admin_module/__init__.py:78
 msgid "Show carts"
 msgstr "Xem giỏ hàng"
 
-#: admin_module/carts/form_parts.py:31
+#: front/admin_module/carts/form_parts.py:31
 msgid "Cart Inactivity Delay (hours)"
 msgstr ""
 
-#: admin_module/carts/form_parts.py:32
+#: front/admin_module/carts/form_parts.py:32
 msgid ""
 "Set the number of hours the cart must be inactive before it's displayed in "
 "Orders > Carts"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:30
+#: front/admin_module/carts/views/_list.py:30
 msgid "Key"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:31 admin_module/carts/views/_list.py:90
+#: front/admin_module/carts/views/_list.py:31
+#: front/admin_module/carts/views/_list.py:90
 msgid "Last updated on"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:34
+#: front/admin_module/carts/views/_list.py:34
 msgid "Completed"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:36
+#: front/admin_module/carts/views/_list.py:36
 msgid "yes"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:36
+#: front/admin_module/carts/views/_list.py:36
 msgid "no"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:38 notify_events.py:30
+#: front/admin_module/carts/views/_list.py:38 front/notify_events.py:30
 msgid "Shop"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:39
+#: front/admin_module/carts/views/_list.py:39
 msgid "Supplier"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:42
+#: front/admin_module/carts/views/_list.py:42
 msgid "Customer"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:45
+#: front/admin_module/carts/views/_list.py:45
 msgid "Product count"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:48 admin_module/carts/views/_list.py:92
+#: front/admin_module/carts/views/_list.py:48
+#: front/admin_module/carts/views/_list.py:92
 msgid "Total"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:89
+#: front/admin_module/carts/views/_list.py:89
 msgid "Created on"
 msgstr ""
 
-#: admin_module/carts/views/_list.py:91
+#: front/admin_module/carts/views/_list.py:91
 msgid "Ordered"
 msgstr ""
 
-#: admin_module/checkout/form_parts.py:20
+#: front/admin_module/checkout/form_parts.py:20
 msgid "Require shipping method"
 msgstr ""
 
-#: admin_module/checkout/form_parts.py:21
+#: front/admin_module/checkout/form_parts.py:21
 msgid "Whether to require the shipping method in checkout phases."
 msgstr ""
 
-#: admin_module/checkout/form_parts.py:25
+#: front/admin_module/checkout/form_parts.py:25
 msgid "Require payment method"
 msgstr ""
 
-#: admin_module/checkout/form_parts.py:26
+#: front/admin_module/checkout/form_parts.py:26
 msgid "Whether to require the payment method in checkout phases."
 msgstr ""
 
-#: admin_module/companies/form_parts.py:17
+#: front/admin_module/companies/form_parts.py:17
 msgid "Registration Settings"
 msgstr ""
 
-#: admin_module/companies/form_parts.py:19
+#: front/admin_module/companies/form_parts.py:19
 msgid "Allow company registration"
 msgstr ""
 
-#: admin_module/companies/form_parts.py:20
+#: front/admin_module/companies/form_parts.py:20
 msgid "If you select this, companies can register into your store."
 msgstr ""
 
-#: admin_module/companies/form_parts.py:24
+#: front/admin_module/companies/form_parts.py:24
 msgid "Company registration requires approval"
 msgstr ""
 
-#: admin_module/companies/form_parts.py:26
+#: front/admin_module/companies/form_parts.py:26
 msgid ""
 "Registered companies must be manually approved by admin if this is checked. "
 "This option has no effect if company registration is not allowed on your "
 "site."
 msgstr ""
 
-#: admin_module/companies/form_parts.py:32
+#: front/admin_module/companies/form_parts.py:32
 msgid "Company tax number validation"
 msgstr ""
 
-#: admin_module/companies/form_parts.py:33
+#: front/admin_module/companies/form_parts.py:33
 msgid "Company tax number format is validated for European countries."
 msgstr ""
 
-#: admin_module/sorts_and_filters/form_parts.py:50
+#: front/admin_module/sorts_and_filters/form_parts.py:50
 msgid "Override shop's default configuration"
 msgstr ""
 
-#: admin_module/sorts_and_filters/form_parts.py:52
+#: front/admin_module/sorts_and_filters/form_parts.py:52
 msgid ""
 "If checked, this configuration will be used instead of the shop's default "
 "configuration."
 msgstr ""
 
-#: admin_module/translation/form_parts.py:21
+#: front/admin_module/translation/form_parts.py:21
 msgid "Available languages in storefront"
 msgstr ""
 
-#: admin_module/translation/form_parts.py:23
+#: front/admin_module/translation/form_parts.py:23
 msgid ""
 "Select all the languages that should be available in storefront. Blank means "
 "that all languages should be available."
 msgstr ""
 
-#: basket/objects.py:27
+#: front/basket/objects.py:27
 msgid "Try to remove some products from the basket and order them separately."
 msgstr ""
 
-#: basket/objects.py:34
+#: front/basket/objects.py:34
 #, python-format
 msgid "Products in basket can't be shipped together. %s"
 msgstr ""
 
-#: basket/objects.py:38
+#: front/basket/objects.py:38
 #, python-format
 msgid "Products in basket have no common payment method. %s"
 msgstr ""
 
-#: checkout/addresses.py:42
+#: front/checkout/addresses.py:42
 msgid "Tax number is required with the company name."
 msgstr ""
 
-#: checkout/addresses.py:45
+#: front/checkout/addresses.py:45
 msgid "Company name is required with the tax number."
 msgstr ""
 
-#: checkout/addresses.py:53
+#: front/checkout/addresses.py:53
 msgid "Use a saved address"
 msgstr ""
 
-#: checkout/addresses.py:66
+#: front/checkout/addresses.py:66
 msgid "Addresses"
 msgstr ""
 
-#: checkout/addresses.py:139
+#: front/checkout/addresses.py:139
 msgid "Saved addresses."
 msgstr ""
 
-#: checkout/checkout_method.py:28
+#: front/checkout/checkout_method.py:28
 msgid "Checkout as Guest"
 msgstr ""
 
-#: checkout/checkout_method.py:29 checkout/checkout_method.py:100
+#: front/checkout/checkout_method.py:29 front/checkout/checkout_method.py:100
 msgid "Register"
 msgstr ""
 
-#: checkout/checkout_method.py:36
+#: front/checkout/checkout_method.py:36
 msgid "Register with us for future convenience"
 msgstr ""
 
-#: checkout/checkout_method.py:43
+#: front/checkout/checkout_method.py:43
 msgid "Checkout Method Choice"
 msgstr ""
 
-#: checkout/confirm.py:27
+#: front/checkout/confirm.py:27
 msgid "I accept the terms and conditions"
 msgstr ""
 
-#: checkout/confirm.py:28
+#: front/checkout/confirm.py:28
 msgid "I want to receive marketing material"
 msgstr ""
 
-#: checkout/confirm.py:29
+#: front/checkout/confirm.py:29
 msgid "Comment"
 msgstr ""
 
-#: checkout/confirm.py:57
+#: front/checkout/confirm.py:57
 msgid ""
 "There has been a change in product availability. Please review your cart and "
 "reconfirm your order."
 msgstr ""
 
-#: checkout/confirm.py:63
+#: front/checkout/confirm.py:63
 msgid "Confirmation"
 msgstr ""
 
-#: checkout/confirm.py:106
+#: front/checkout/confirm.py:106
 msgid "Starting to create order."
 msgstr ""
 
-#: checkout/empty.py:16
+#: front/checkout/empty.py:16
 msgid "Empty Basket"
 msgstr ""
 
-#: checkout/methods.py:77
+#: front/checkout/methods.py:77
 msgid "shipping method"
 msgstr ""
 
-#: checkout/methods.py:83
+#: front/checkout/methods.py:83
 msgid "payment method"
 msgstr ""
 
-#: checkout/methods.py:106
+#: front/checkout/methods.py:106
 msgid "Shipping & Payment"
 msgstr ""
 
-#: checkout/methods.py:153
+#: front/checkout/methods.py:153
 msgid "Saved services."
 msgstr ""
 
-#: forms/product_list_modifiers.py:110
+#: front/forms/product_list_modifiers.py:110
 msgid "Sort products by name"
 msgstr ""
 
-#: forms/product_list_modifiers.py:112
+#: front/forms/product_list_modifiers.py:112
 msgid "Ordering for sort by name"
 msgstr ""
 
-#: forms/product_list_modifiers.py:118 forms/product_list_modifiers.py:159
-#: forms/product_list_modifiers.py:207
+#: front/forms/product_list_modifiers.py:118
+#: front/forms/product_list_modifiers.py:159
+#: front/forms/product_list_modifiers.py:207
 msgid "Sort"
 msgstr ""
 
-#: forms/product_list_modifiers.py:127
+#: front/forms/product_list_modifiers.py:127
 msgid "Name - A-Z"
 msgstr ""
 
-#: forms/product_list_modifiers.py:128
+#: front/forms/product_list_modifiers.py:128
 msgid "Name - Z-A"
 msgstr ""
 
-#: forms/product_list_modifiers.py:142
+#: front/forms/product_list_modifiers.py:142
 msgid "Enable this to allow products to be sortable by product name."
 msgstr ""
 
-#: forms/product_list_modifiers.py:144 forms/product_list_modifiers.py:192
+#: front/forms/product_list_modifiers.py:144
+#: front/forms/product_list_modifiers.py:192
 msgid ""
 "Use a numeric value to set the order in which the the filter will appear on "
 "the product listing page."
 msgstr ""
 
-#: forms/product_list_modifiers.py:151
+#: front/forms/product_list_modifiers.py:151
 msgid "Sort products by price"
 msgstr ""
 
-#: forms/product_list_modifiers.py:153
+#: front/forms/product_list_modifiers.py:153
 msgid "Ordering for sort by price"
 msgstr ""
 
-#: forms/product_list_modifiers.py:168
+#: front/forms/product_list_modifiers.py:168
 msgid "Price - Low to High"
 msgstr ""
 
-#: forms/product_list_modifiers.py:169
+#: front/forms/product_list_modifiers.py:169
 msgid "Price - High to Low"
 msgstr ""
 
-#: forms/product_list_modifiers.py:189
+#: front/forms/product_list_modifiers.py:189
 msgid ""
 "Enable this to allow products to be sortable by price (from low to high; "
 "from high to low)."
 msgstr ""
 
-#: forms/product_list_modifiers.py:199
+#: front/forms/product_list_modifiers.py:199
 msgid "Sort products by date created"
 msgstr ""
 
-#: forms/product_list_modifiers.py:201
+#: front/forms/product_list_modifiers.py:201
 msgid "Ordering for sort by date created"
 msgstr ""
 
-#: forms/product_list_modifiers.py:216
+#: front/forms/product_list_modifiers.py:216
 msgid "Date created"
 msgstr ""
 
-#: forms/product_list_modifiers.py:235
+#: front/forms/product_list_modifiers.py:235
 msgid ""
 "Enable this to allow products to be sortable from newest to oldest products."
 msgstr ""
 
-#: forms/product_list_modifiers.py:238 forms/product_list_modifiers.py:265
+#: front/forms/product_list_modifiers.py:238
+#: front/forms/product_list_modifiers.py:265
 msgid ""
 "Use a numeric value to set the order in which the filter will appear on the "
 "product listing page."
 msgstr ""
 
-#: forms/product_list_modifiers.py:245
+#: front/forms/product_list_modifiers.py:245
 msgid "Sort products by date created - oldest first"
 msgstr ""
 
-#: forms/product_list_modifiers.py:247
+#: front/forms/product_list_modifiers.py:247
 msgid "Ordering for sort by date created - oldest first"
 msgstr ""
 
-#: forms/product_list_modifiers.py:254
+#: front/forms/product_list_modifiers.py:254
 msgid "Date created - oldest first"
 msgstr ""
 
-#: forms/product_list_modifiers.py:262
+#: front/forms/product_list_modifiers.py:262
 msgid ""
 "Enable this to allow products to be sortable from oldest to newest products."
 msgstr ""
 
-#: forms/product_list_modifiers.py:272
+#: front/forms/product_list_modifiers.py:272
 msgid "Filter products by manufacturer"
 msgstr ""
 
-#: forms/product_list_modifiers.py:274
+#: front/forms/product_list_modifiers.py:274
 msgid "Ordering for filter by manufacturer"
 msgstr ""
 
-#: forms/product_list_modifiers.py:299
+#: front/forms/product_list_modifiers.py:299
 msgid "Manufacturers"
 msgstr ""
 
-#: forms/product_list_modifiers.py:313
+#: front/forms/product_list_modifiers.py:313
 msgid ""
 "Enable this to allow products to be filterable by manufacturer for this "
 "category."
 msgstr ""
 
-#: forms/product_list_modifiers.py:316
+#: front/forms/product_list_modifiers.py:316
 msgid ""
 "Use a numeric value to set the order in which the manufacturer filters will "
 "appear on the product listing page."
 msgstr ""
 
-#: forms/product_list_modifiers.py:324
+#: front/forms/product_list_modifiers.py:324
 msgid "Filter products by category"
 msgstr ""
 
-#: forms/product_list_modifiers.py:326
+#: front/forms/product_list_modifiers.py:326
 msgid "Ordering for filter by category"
 msgstr ""
 
-#: forms/product_list_modifiers.py:354
+#: front/forms/product_list_modifiers.py:354
 msgid "Categories"
 msgstr ""
 
-#: forms/product_list_modifiers.py:381
+#: front/forms/product_list_modifiers.py:381
 msgid ""
 "Enable this to allow products to be filterable by any visible product "
 "category. "
 msgstr ""
 
-#: forms/product_list_modifiers.py:384
+#: front/forms/product_list_modifiers.py:384
 msgid ""
 "Use a numeric value to set the order in which the category list filters will "
 "appear on the product listing page."
 msgstr ""
 
-#: forms/product_list_modifiers.py:392
+#: front/forms/product_list_modifiers.py:392
 msgid "Limit page size"
 msgstr ""
 
-#: forms/product_list_modifiers.py:394
+#: front/forms/product_list_modifiers.py:394
 msgid "Ordering for limit page size"
 msgstr ""
 
-#: forms/product_list_modifiers.py:401
+#: front/forms/product_list_modifiers.py:401
 msgid "Products per page"
 msgstr ""
 
-#: forms/product_list_modifiers.py:414
+#: front/forms/product_list_modifiers.py:414
 msgid ""
 "Enable this to allow the customer to be able to select the number of "
 "products to display."
 msgstr ""
 
-#: forms/product_list_modifiers.py:417
+#: front/forms/product_list_modifiers.py:417
 msgid ""
 "Use a numeric value to set the order in which the page size filter will "
 "appear on the product listing page."
 msgstr ""
 
-#: forms/product_list_modifiers.py:425
+#: front/forms/product_list_modifiers.py:425
 msgid "Filter products by variation"
 msgstr ""
 
-#: forms/product_list_modifiers.py:427
+#: front/forms/product_list_modifiers.py:427
 msgid "Ordering for filter by variation"
 msgstr ""
 
-#: forms/product_list_modifiers.py:480
+#: front/forms/product_list_modifiers.py:480
 msgid ""
 "Enable this to allow products to be filterable by their different "
 "variations. For example, size or color."
 msgstr ""
 
-#: forms/product_list_modifiers.py:484
+#: front/forms/product_list_modifiers.py:484
 msgid ""
 "Use a numeric value to set the order in which the variation filters will "
 "appear on the product listing page."
 msgstr ""
 
-#: forms/product_list_modifiers.py:492
+#: front/forms/product_list_modifiers.py:492
 msgid "Filter products by price"
 msgstr ""
 
-#: forms/product_list_modifiers.py:494
+#: front/forms/product_list_modifiers.py:494
 msgid "Ordering for filter by price"
 msgstr ""
 
-#: forms/product_list_modifiers.py:517
+#: front/forms/product_list_modifiers.py:517
 msgid "Price"
 msgstr ""
 
-#: forms/product_list_modifiers.py:542
+#: front/forms/product_list_modifiers.py:542
 msgid ""
 "Enable this to allow products to be filtered by price. Prices will be listed "
 "in groups from the price range minimum to price range maximum in increments "
 "of the configured price range step."
 msgstr ""
 
-#: forms/product_list_modifiers.py:547
+#: front/forms/product_list_modifiers.py:547
 msgid ""
 "Use a numeric value to set the order in which the price range filters will "
 "appear on the product listing page."
 msgstr ""
 
-#: forms/product_list_modifiers.py:551
+#: front/forms/product_list_modifiers.py:551
 msgid "Price range minimum"
 msgstr ""
 
-#: forms/product_list_modifiers.py:554
+#: front/forms/product_list_modifiers.py:554
 msgid ""
 "Set the minimum price for the filter. The first range will be from zero to "
 "this value."
 msgstr ""
 
-#: forms/product_list_modifiers.py:557
+#: front/forms/product_list_modifiers.py:557
 msgid "Price range maximum"
 msgstr ""
 
-#: forms/product_list_modifiers.py:560
+#: front/forms/product_list_modifiers.py:560
 msgid ""
 "Set the maximum price for the filter. The last range will include this value "
 "and above."
 msgstr ""
 
-#: forms/product_list_modifiers.py:563
+#: front/forms/product_list_modifiers.py:563
 msgid "Price range step"
 msgstr ""
 
-#: forms/product_list_modifiers.py:566
+#: front/forms/product_list_modifiers.py:566
 msgid ""
 "Set the price step for each range. Each range will increment by this value."
 msgstr ""
 
-#: forms/product_list_modifiers.py:577
+#: front/forms/product_list_modifiers.py:577
 msgid "Filter products by its attributes"
 msgstr ""
 
-#: forms/product_list_modifiers.py:664
+#: front/forms/product_list_modifiers.py:664
 msgid "Allow products to be filtered according to their attributes."
 msgstr ""
 
-#: forms/product_list_modifiers.py:668
+#: front/forms/product_list_modifiers.py:668
 msgid "Attributes that can be filtered"
 msgstr ""
 
-#: forms/product_list_modifiers.py:670
+#: front/forms/product_list_modifiers.py:670
 msgid "Select attributes that can used for filtering the products."
 msgstr ""
 
-#: forms/product_list_modifiers.py:690
+#: front/forms/product_list_modifiers.py:690
 #, python-format
 msgid "Under %(min_limit)s"
 msgstr ""
 
-#: forms/product_list_modifiers.py:700
+#: front/forms/product_list_modifiers.py:700
 #, python-format
 msgid "%(min)s to %(max)s"
 msgstr ""
 
-#: forms/product_list_modifiers.py:705
+#: front/forms/product_list_modifiers.py:705
 #, python-format
 msgid "%(max_limit)s & Above"
 msgstr ""
 
-#: forms/product_list_supplier_modifier.py:25
+#: front/forms/product_list_supplier_modifier.py:25
 msgid "Filter products by supplier"
 msgstr ""
 
-#: forms/product_list_supplier_modifier.py:27
+#: front/forms/product_list_supplier_modifier.py:27
 msgid "Ordering for filter by supplier"
 msgstr ""
 
-#: forms/product_list_supplier_modifier.py:54
-#: forms/product_list_supplier_modifier.py:67
+#: front/forms/product_list_supplier_modifier.py:54
+#: front/forms/product_list_supplier_modifier.py:67
 msgid "Suppliers"
 msgstr ""
 
-#: forms/product_list_supplier_modifier.py:84
+#: front/forms/product_list_supplier_modifier.py:84
 msgid "Enable this to allow products to be filterable by supplier."
 msgstr ""
 
-#: forms/product_list_supplier_modifier.py:86
+#: front/forms/product_list_supplier_modifier.py:86
 msgid ""
 "Use a numeric value to set the order in which the supplier filters will "
 "appear."
 msgstr ""
 
-#: forms/product_list_supplier_modifier.py:89
+#: front/forms/product_list_supplier_modifier.py:89
 msgid "Allow multiselect suppliers"
 msgstr ""
 
-#: forms/product_list_supplier_modifier.py:91
+#: front/forms/product_list_supplier_modifier.py:91
 msgid "Filter by multiple suppliers at a time."
 msgstr ""
 
-#: middleware.py:93
+#: front/middleware.py:93
 msgid "Logged out since this account is inactive."
 msgstr ""
 
-#: models/stored_basket.py:24
+#: front/models/stored_basket.py:24
 msgid "key"
 msgstr ""
 
-#: models/stored_basket.py:26
+#: front/models/stored_basket.py:26
 msgid "shop"
 msgstr ""
 
-#: models/stored_basket.py:28
+#: front/models/stored_basket.py:28
 msgid "supplier"
 msgstr ""
 
-#: models/stored_basket.py:37
+#: front/models/stored_basket.py:37
 msgid "customer"
 msgstr ""
 
-#: models/stored_basket.py:45
+#: front/models/stored_basket.py:45
 msgid "orderer"
 msgstr ""
 
-#: models/stored_basket.py:53
+#: front/models/stored_basket.py:53
 msgid "creator"
 msgstr ""
 
-#: models/stored_basket.py:56
+#: front/models/stored_basket.py:56
 msgid "created on"
 msgstr ""
 
-#: models/stored_basket.py:57
+#: front/models/stored_basket.py:57
 msgid "updated on"
 msgstr ""
 
-#: models/stored_basket.py:58
+#: front/models/stored_basket.py:58
 msgid "persistent"
 msgstr ""
 
-#: models/stored_basket.py:59
+#: front/models/stored_basket.py:59
 msgid "deleted"
 msgstr ""
 
-#: models/stored_basket.py:60
+#: front/models/stored_basket.py:60
 msgid "finished"
 msgstr ""
 
-#: models/stored_basket.py:61
+#: front/models/stored_basket.py:61
 msgid "title"
 msgstr ""
 
-#: models/stored_basket.py:62
+#: front/models/stored_basket.py:62
 msgid "data"
 msgstr ""
 
-#: models/stored_basket.py:68
+#: front/models/stored_basket.py:68
 msgid "taxless total price"
 msgstr ""
 
-#: models/stored_basket.py:69
+#: front/models/stored_basket.py:69
 msgid "taxful total price"
 msgstr ""
 
-#: models/stored_basket.py:70
+#: front/models/stored_basket.py:70
 msgid "currency"
 msgstr ""
 
-#: models/stored_basket.py:71
+#: front/models/stored_basket.py:71
 msgid "prices include tax"
 msgstr ""
 
-#: models/stored_basket.py:73
+#: front/models/stored_basket.py:73
 msgid "product_count"
 msgstr ""
 
-#: models/stored_basket.py:74
+#: front/models/stored_basket.py:74
 msgid "products"
 msgstr ""
 
-#: models/stored_basket.py:76
+#: front/models/stored_basket.py:76
 msgid "class spec"
 msgstr ""
 
-#: models/stored_basket.py:80
+#: front/models/stored_basket.py:80
 msgid "stored basket"
 msgstr ""
 
-#: models/stored_basket.py:81
+#: front/models/stored_basket.py:81
 msgid "stored baskets"
 msgstr ""
 
-#: notify_events.py:27
+#: front/notify_events.py:27
 msgid "ID"
 msgstr ""
 
-#: notify_events.py:28
+#: front/notify_events.py:28
 msgid "Reference Number"
 msgstr ""
 
-#: notify_events.py:29
+#: front/notify_events.py:29
 msgid "Currency"
 msgstr ""
 
-#: notify_events.py:31
+#: front/notify_events.py:31
 msgid "Customer Name"
 msgstr ""
 
-#: notify_events.py:32
+#: front/notify_events.py:32
 msgid "Status"
 msgstr ""
 
-#: notify_events.py:33
+#: front/notify_events.py:33
 msgid "Shipping Method"
 msgstr ""
 
-#: notify_events.py:39
+#: front/notify_events.py:39
 msgid "Order Received"
 msgstr ""
 
-#: notify_events.py:41 notify_events.py:53 notify_events.py:67
-#: notify_events.py:88 notify_events.py:101 notify_events.py:114
+#: front/notify_events.py:41 front/notify_events.py:53
+#: front/notify_events.py:67 front/notify_events.py:88
+#: front/notify_events.py:101 front/notify_events.py:114
 msgid "Order"
 msgstr ""
 
-#: notify_events.py:42 notify_events.py:54 notify_events.py:68
-#: notify_events.py:89 notify_events.py:102 notify_events.py:115
+#: front/notify_events.py:42 front/notify_events.py:54
+#: front/notify_events.py:68 front/notify_events.py:89
+#: front/notify_events.py:102 front/notify_events.py:115
 msgid "Customer Email"
 msgstr ""
 
-#: notify_events.py:43 notify_events.py:55 notify_events.py:69
-#: notify_events.py:90 notify_events.py:103 notify_events.py:116
+#: front/notify_events.py:43 front/notify_events.py:55
+#: front/notify_events.py:69 front/notify_events.py:90
+#: front/notify_events.py:103 front/notify_events.py:116
 msgid "Customer Phone"
 msgstr ""
 
-#: notify_events.py:44 notify_events.py:56
+#: front/notify_events.py:44 front/notify_events.py:56
 msgid "Shop Email"
 msgstr ""
 
-#: notify_events.py:45 notify_events.py:57
+#: front/notify_events.py:45 front/notify_events.py:57
 msgid "Shop Phone"
 msgstr ""
 
-#: notify_events.py:46 notify_events.py:60 notify_events.py:70
-#: notify_events.py:91 notify_events.py:104 notify_events.py:117
+#: front/notify_events.py:46 front/notify_events.py:60
+#: front/notify_events.py:70 front/notify_events.py:91
+#: front/notify_events.py:104 front/notify_events.py:117
 msgid "Language"
 msgstr ""
 
-#: notify_events.py:51
+#: front/notify_events.py:51
 msgid "Order Status Changed"
 msgstr ""
 
-#: notify_events.py:58
+#: front/notify_events.py:58
 msgid "Old Status"
 msgstr ""
 
-#: notify_events.py:59
+#: front/notify_events.py:59
 msgid "New Status"
 msgstr ""
 
-#: notify_events.py:65
+#: front/notify_events.py:65
 msgid "Shipment Created"
 msgstr ""
 
-#: notify_events.py:72 notify_events.py:93
+#: front/notify_events.py:72 front/notify_events.py:93
 msgid "Shipment"
 msgstr ""
 
-#: notify_events.py:73 notify_events.py:94
+#: front/notify_events.py:73 front/notify_events.py:94
 msgid "Order Shipping Status"
 msgstr ""
 
-#: notify_events.py:74
+#: front/notify_events.py:74
 msgid "Shipment Status"
 msgstr ""
 
-#: notify_events.py:75
+#: front/notify_events.py:75
 msgid "Shipment Tracking Code"
 msgstr ""
 
-#: notify_events.py:76
+#: front/notify_events.py:76
 msgid "Shipment Tracking URL"
 msgstr ""
 
-#: notify_events.py:81
+#: front/notify_events.py:81
 msgid "Shipment Sent"
 msgstr ""
 
-#: notify_events.py:86
+#: front/notify_events.py:86
 msgid "Shipment Deleted"
 msgstr ""
 
-#: notify_events.py:99
+#: front/notify_events.py:99
 msgid "Payment Created"
 msgstr ""
 
-#: notify_events.py:106 notify_events.py:119
+#: front/notify_events.py:106 front/notify_events.py:119
 msgid "Order Payment Status"
 msgstr ""
 
-#: notify_events.py:107
+#: front/notify_events.py:107
 msgid "Payment"
 msgstr ""
 
-#: notify_events.py:112
+#: front/notify_events.py:112
 msgid "Refund Created"
 msgstr ""
 
-#: notify_script_templates/generics.py:26
+#: front/notify_script_templates/generics.py:26
 msgid ""
 "<p>Dear {{ order.customer }},</p>\n"
 "<p>A shipment has been created for your order and here are the details:</p>\n"
@@ -793,204 +802,204 @@ msgid ""
 "</table>\n"
 msgstr ""
 
-#: notify_script_templates/generics.py:58
+#: front/notify_script_templates/generics.py:58
 msgid "Send Shipment Created Email"
 msgstr ""
 
-#: notify_script_templates/generics.py:59
+#: front/notify_script_templates/generics.py:59
 msgid "Send an email to customer when a shipment is created."
 msgstr ""
 
-#: notify_script_templates/generics.py:60
+#: front/notify_script_templates/generics.py:60
 msgid ""
 "This script will send an email to customer when a shipment of his order has "
 "been created."
 msgstr ""
 
-#: notify_script_templates/generics.py:62
+#: front/notify_script_templates/generics.py:62
 msgid "{{ order.shop }} - Shipment created for order {{ order.identifier }}"
 msgstr ""
 
-#: notify_script_templates/generics.py:70
+#: front/notify_script_templates/generics.py:70
 msgid "Send Shipment Deleted Email"
 msgstr ""
 
-#: notify_script_templates/generics.py:71
+#: front/notify_script_templates/generics.py:71
 msgid "Send email when a shipment is deleted."
 msgstr ""
 
-#: notify_script_templates/generics.py:73
+#: front/notify_script_templates/generics.py:73
 msgid ""
 "This script will send an email to customer or to any configured email right "
 "after a shipment gets deleted."
 msgstr ""
 
-#: notify_script_templates/generics.py:75
+#: front/notify_script_templates/generics.py:75
 msgid "{{ order.shop }} - Shipment deleted for order {{ order.identifier }}"
 msgstr ""
 
-#: notify_script_templates/generics.py:81
+#: front/notify_script_templates/generics.py:81
 msgid "Send Payment Created Email"
 msgstr ""
 
-#: notify_script_templates/generics.py:82
+#: front/notify_script_templates/generics.py:82
 msgid "Send email to customer when a payment is created."
 msgstr ""
 
-#: notify_script_templates/generics.py:84
+#: front/notify_script_templates/generics.py:84
 msgid ""
 "This script will send an email to customer or to any configured email right "
 "after a payment gets created."
 msgstr ""
 
-#: notify_script_templates/generics.py:86
+#: front/notify_script_templates/generics.py:86
 msgid "{{ order.shop }} - Payment created for order {{ order.identifier }}"
 msgstr ""
 
-#: notify_script_templates/generics.py:92
+#: front/notify_script_templates/generics.py:92
 msgid "Send Refund Created Email"
 msgstr ""
 
-#: notify_script_templates/generics.py:93
+#: front/notify_script_templates/generics.py:93
 msgid "Send email when a refund is created."
 msgstr ""
 
-#: notify_script_templates/generics.py:95
+#: front/notify_script_templates/generics.py:95
 msgid ""
 "This script will send an email to customer or to any configured email right "
 "after a refund gets created."
 msgstr ""
 
-#: notify_script_templates/generics.py:97
+#: front/notify_script_templates/generics.py:97
 msgid "{{ order.shop }} - Refund created for order {{ order.identifier }}"
 msgstr ""
 
-#: notify_script_templates/generics.py:103
+#: front/notify_script_templates/generics.py:103
 msgid "Send Order Confirmation Email"
 msgstr ""
 
-#: notify_script_templates/generics.py:104
+#: front/notify_script_templates/generics.py:104
 msgid "Send a confirmation email when the order is created."
 msgstr ""
 
-#: notify_script_templates/generics.py:106
+#: front/notify_script_templates/generics.py:106
 msgid ""
 "This script will send an email to customer or to any configured email right "
 "after an order is created. The order contents can be put on email body as "
 "well as other informations like shipping method and payment method."
 msgstr ""
 
-#: themes/__init__.py:24
+#: front/themes/__init__.py:24
 msgid "Hide prices"
 msgstr ""
 
-#: themes/__init__.py:25
+#: front/themes/__init__.py:25
 msgid "Set shop in catalog mode"
 msgstr ""
 
-#: themes/__init__.py:31
+#: front/themes/__init__.py:31
 msgid "Show supplier info"
 msgstr ""
 
-#: themes/__init__.py:32
+#: front/themes/__init__.py:32
 msgid ""
 "Show supplier name in product-box, product-detail, basket- and order-lines"
 msgstr ""
 
-#: themes/__init__.py:40
+#: front/themes/__init__.py:40
 msgid "Show Product Details"
 msgstr ""
 
-#: themes/__init__.py:41
+#: front/themes/__init__.py:41
 msgid ""
 "If you enable this, extra information will be shown on product page in "
 "frontend."
 msgstr ""
 
-#: themes/__init__.py:49
+#: front/themes/__init__.py:49
 msgid "Show Variations as Buttons"
 msgstr ""
 
-#: themes/__init__.py:50
+#: front/themes/__init__.py:50
 msgid ""
 "If you enable this, the variations will be shown as buttons instead of "
 "dropdowns."
 msgstr ""
 
-#: themes/__init__.py:57
+#: front/themes/__init__.py:57
 msgid "Product detail extra tab title"
 msgstr ""
 
-#: themes/__init__.py:58
+#: front/themes/__init__.py:58
 msgid "Enter the title for the product detail extra tab."
 msgstr ""
 
-#: themes/__init__.py:66
+#: front/themes/__init__.py:66
 msgid "Product detail extra tab content"
 msgstr ""
 
-#: themes/__init__.py:67
+#: front/themes/__init__.py:67
 msgid "Enter the content for the product detail extra tab."
 msgstr ""
 
-#: themes/__init__.py:74
+#: front/themes/__init__.py:74
 msgid "Description"
 msgstr ""
 
-#: themes/__init__.py:75
+#: front/themes/__init__.py:75
 msgid "Details"
 msgstr ""
 
-#: themes/__init__.py:76
+#: front/themes/__init__.py:76
 msgid "Attributes"
 msgstr ""
 
-#: themes/__init__.py:77
+#: front/themes/__init__.py:77
 msgid "Files"
 msgstr ""
 
-#: themes/__init__.py:80
+#: front/themes/__init__.py:80
 msgid "Product reviews"
 msgstr ""
 
-#: themes/__init__.py:94
+#: front/themes/__init__.py:94
 msgid "Product detail tabs"
 msgstr ""
 
-#: themes/__init__.py:95
+#: front/themes/__init__.py:95
 msgid "Select all tabs that should be rendered in product details."
 msgstr ""
 
-#: utils/companies.py:36
+#: front/utils/companies.py:36
 msgid "Tax number is not valid."
 msgstr ""
 
-#: utils/dashboard.py:29
+#: front/utils/dashboard.py:29
 msgid "Dashboard"
 msgstr ""
 
-#: utils/dashboard.py:53
+#: front/utils/dashboard.py:53
 msgid "Edit"
 msgstr ""
 
-#: utils/translation.py:51
+#: front/utils/translation.py:51
 #, python-brace-format
 msgid "`{language_code}` is an invalid language code."
 msgstr ""
 
-#: views/payment.py:55
+#: front/views/payment.py:55
 msgid "The order is canceled so you can't pay for it."
 msgstr ""
 
-#: views/product.py:55
+#: front/views/product.py:55
 msgid "Error! This product is not available in this shop."
 msgstr ""
 
-#: views/timezone.py:25
+#: front/views/timezone.py:25
 msgid "Invalid timezone"
 msgstr ""
 
-#: views/upload.py:24
+#: front/views/upload.py:24
 #, python-format
 msgid "Maximum file size reached (%(size)s MB)."
 msgstr ""

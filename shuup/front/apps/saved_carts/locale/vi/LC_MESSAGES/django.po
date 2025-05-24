@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-24 19:59+0700\n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: apps/saved_carts/__init__.py:16
+
+#: front/apps/saved_carts/__init__.py:16
 msgid "Shuup Frontend - Saved Baskets"
 msgstr ""
 
-#: apps/saved_carts/dashboard_items.py:16
+#: front/apps/saved_carts/dashboard_items.py:16
 msgid "Saved Carts"
 msgstr ""
 
-#: apps/saved_carts/views.py:72
+#: front/apps/saved_carts/views.py:72
 msgid "Please enter a basket title."
 msgstr ""
 
-#: apps/saved_carts/views.py:74
+#: front/apps/saved_carts/views.py:74
 msgid "Can't save an empty basket."
 msgstr ""
 
-#: apps/saved_carts/views.py:117
+#: front/apps/saved_carts/views.py:117
 msgid "Product is not available in this shop."
 msgstr ""
 
-#: apps/saved_carts/views.py:123
+#: front/apps/saved_carts/views.py:123
 msgid "Invalid supplier."
 msgstr ""
 
-#: apps/saved_carts/views.py:137
+#: front/apps/saved_carts/views.py:137
 #, python-format
 msgid "%d product(s) added to cart."
 msgstr ""

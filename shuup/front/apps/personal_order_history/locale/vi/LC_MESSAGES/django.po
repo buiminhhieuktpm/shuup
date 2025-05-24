@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-24 19:59+0700\n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: apps/personal_order_history/__init__.py:16
+
+#: front/apps/personal_order_history/__init__.py:16
 msgid "Shuup Frontend - Personal Order History"
 msgstr ""
 
-#: apps/personal_order_history/dashboard_items.py:15
+#: front/apps/personal_order_history/dashboard_items.py:15
 msgid "Order history"
 msgstr ""
 
-#: apps/personal_order_history/dashboard_items.py:18
+#: front/apps/personal_order_history/dashboard_items.py:18
 msgid "Show all"
 msgstr ""

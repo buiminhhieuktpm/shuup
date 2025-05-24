@@ -36,11 +36,11 @@ msgstr ""
 
 #: admin/forms/_auth.py:32
 msgid "Username or email address"
-msgstr ""
+msgstr "Tài khoản khoặc Email"
 
 #: admin/forms/_quick_select.py:72 admin/forms/_quick_select.py:88
 msgid "Create New"
-msgstr ""
+msgstr "Tạo mới"
 
 #: admin/forms/fields.py:65 admin/forms/fields.py:217
 msgid "Select an option"

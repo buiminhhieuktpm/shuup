@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-24 19:59+0700\n"
+"POT-Creation-Date: 2025-05-24 20:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-#: apps/auth/forms.py:24
+
+#: front/apps/auth/forms.py:24
 #, python-format
 msgid ""
 "Error! Please enter a correct %(username)s and password. Note that both "
@@ -25,18 +26,18 @@ msgid ""
 "only username can be used to log in."
 msgstr ""
 
-#: apps/auth/forms.py:28
+#: front/apps/auth/forms.py:28
 msgid "This account is inactive."
 msgstr ""
 
-#: apps/auth/forms.py:33
+#: front/apps/auth/forms.py:33
 msgid "Username or email address"
 msgstr "Tài khoản hoặc Email"
 
-#: apps/auth/forms.py:99
+#: front/apps/auth/forms.py:99
 msgid "You are not allowed to log in to this shop."
 msgstr ""
 
-#: apps/auth/views.py:117
+#: front/apps/auth/views.py:117
 msgid "Error! This recovery link is invalid."
 msgstr ""
