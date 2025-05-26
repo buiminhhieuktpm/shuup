@@ -18,5 +18,6 @@ services:
       - /app/shuup/regions/static
       - /app/shuup/themes/classic_gray/static
       - /app/shuup/xtheme/static
+      - /app/shuup.egg-info
     tty: true
     restart: unless-stopped
