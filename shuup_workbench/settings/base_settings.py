@@ -100,8 +100,12 @@ if not os.path.exists(_sqlite_folder):
     os.mkdir(_sqlite_folder)
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": os.path.join(_sqlite_folder, "db.sqlite3"),
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "shuup",
+        "USER": "shuup",
+        "PASSWORD": "shuup",
+        "HOST": "postgres",
+        "PORT": "5432",
     }
 }
 

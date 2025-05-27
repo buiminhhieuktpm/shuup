@@ -17,6 +17,7 @@ RUN apt-get update \
         libxml2-dev \
         libxslt1-dev \
         libffi-dev \
+        libpq-dev \
         curl \
     && curl https://sh.rustup.rs -sSf | sh -s -- -y \
     && rm -rf /var/lib/apt/lists/ /var/cache/apt/
@@ -32,20 +33,30 @@ WORKDIR /app
 # The default value of 0 just installs the demo for running.
 ARG editable=0
 
-RUN pip3 install --upgrade pip && pip3 install django
+RUN pip3 install psycopg2-binary==2.8.6
+RUN pip3 install markupsafe==2.0.1
+RUN pip3 install --upgrade pip && pip3 install django psycopg2-binary
 
 RUN if [ "$editable" -eq 1 ]; then pip3 install -r requirements-tests.txt && python3 setup.py build_resources; else pip3 install shuup; fi
 
-RUN python3 -m shuup_workbench migrate
-RUN python3 -m shuup_workbench shuup_init
+RUN curl -o /usr/local/bin/wait-for-it.sh https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh && \
+    chmod +x /usr/local/bin/wait-for-it.sh
 
-RUN echo '\
-from django.contrib.auth import get_user_model\n\
-from django.db import IntegrityError\n\
-try:\n\
-    get_user_model().objects.create_superuser("admin", "admin@admin.com", "admin")\n\
-except IntegrityError:\n\
-    pass\n'\
-| python3 -m shuup_workbench shell
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
 
-CMD ["python3", "-m", "shuup_workbench", "runserver", "0.0.0.0:8000"]
+# RUN python3 -m shuup_workbench migrate
+# RUN python3 -m shuup_workbench shuup_init
+
+# RUN echo '\
+# from django.contrib.auth import get_user_model\n\
+# from django.db import IntegrityError\n\
+# try:\n\
+#     get_user_model().objects.create_superuser("admin", "admin@admin.com", "admin")\n\
+# except IntegrityError:\n\
+#     pass\n'\
+# | python3 -m shuup_workbench shell
+
+
+# CMD ["python3", "-m", "shuup_workbench", "runserver", "0.0.0.0:8000"]

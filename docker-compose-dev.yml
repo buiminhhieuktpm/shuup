@@ -1,11 +1,20 @@
 version: "3.7"
 
 services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: shuup
+      POSTGRES_USER: shuup
+      POSTGRES_PASSWORD: shuup
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
   shuup:
-    build:
-      context: .
-      args:
-        editable: 1
+    build: .
+    depends_on:
+      - postgres
     ports:
       - "8000:8000"
     volumes:
@@ -21,3 +30,8 @@ services:
       - /app/shuup.egg-info
     tty: true
     restart: unless-stopped
+
+  
+
+volumes:
+  postgres_data:
