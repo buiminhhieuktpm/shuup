@@ -85,19 +85,26 @@ MIDDLEWARE = [
     "shuup.admin.middleware.ShuupAdminMiddleware",
 ]
 
+LOCALE_PATHS = [
+    # os.path.join(BASE_DIR, 'locale'),
+]
+
 ROOT_URLCONF = "shuup_workbench.test_urls"
 WSGI_APPLICATION = "shuup_workbench.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
-        "OPTIONS": {"timeout": 120},
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "shuup",
+        "USER": "shuup",
+        "PASSWORD": "shuup",
+        "HOST": "postgres",
+        "PORT": "5432",
     }
 }
 
-LANGUAGE_CODE = "en"
-TIME_ZONE = "UTC"
+LANGUAGE_CODE = "vi"
+TIME_ZONE = "Asia/Ho_Chi_Minh"
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
@@ -141,6 +148,7 @@ else:
     }
 
 LANGUAGES = [
+    ("vi", "Vietnamese"),
     ("en", "English"),
     ("fi", "Finnish"),
     ("ja", "Japanese"),
@@ -150,7 +158,7 @@ LANGUAGES = [
     ("es", "Spanish"),
 ]
 
-PARLER_DEFAULT_LANGUAGE_CODE = "en"
+PARLER_DEFAULT_LANGUAGE_CODE = "vi"
 
 PARLER_LANGUAGES = {
     None: [{"code": c, "name": n} for (c, n) in LANGUAGES],

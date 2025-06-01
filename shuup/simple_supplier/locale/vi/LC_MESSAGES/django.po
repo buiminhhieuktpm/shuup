@@ -20,35 +20,35 @@ msgstr ""
 #: simple_supplier/admin_module/__init__.py:18
 #: simple_supplier/admin_module/views.py:97
 msgid "Stock management"
-msgstr ""
+msgstr "Quản lý chứng khoán"
 
 #: simple_supplier/admin_module/views.py:32
 msgid "SKU"
-msgstr ""
+msgstr "SKU"
 
 #: simple_supplier/admin_module/views.py:36
 msgid "Filter by SKU..."
-msgstr ""
+msgstr "Lọc theo SKU ..."
 
 #: simple_supplier/admin_module/views.py:40
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: simple_supplier/admin_module/views.py:44
 msgid "Filter by name..."
-msgstr ""
+msgstr "Lọc theo tên ..."
 
 #: simple_supplier/admin_module/views.py:48 simple_supplier/notify_events.py:22
 msgid "Supplier"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: simple_supplier/admin_module/views.py:57
 msgid "Stock information"
-msgstr ""
+msgstr "Thông tin chứng khoán"
 
 #: simple_supplier/admin_module/views.py:65
 msgid "Adjust stock"
-msgstr ""
+msgstr "Điều chỉnh cổ phiếu"
 
 #: simple_supplier/admin_module/views.py:116
 #, python-format
@@ -67,102 +67,102 @@ msgstr ""
 #: simple_supplier/admin_module/views.py:163
 #: simple_supplier/admin_module/views.py:209
 msgid "Please check submitted values and try again ({})."
-msgstr ""
+msgstr "Vui lòng kiểm tra các giá trị đã gửi và thử lại ({})."
 
 #: simple_supplier/admin_module/views.py:166
 #: simple_supplier/admin_module/views.py:213
 #, python-format
 msgid "Please check submitted values and try again (%(error)s)."
-msgstr ""
+msgstr "Vui lòng kiểm tra các giá trị đã gửi và thử lại (%(error)s)."
 
 #: simple_supplier/admin_module/views.py:183
 #, python-format
 msgid "Alert limit for product `%(product_name)s` set to `%(value)s`."
-msgstr ""
+msgstr "Giới hạn cảnh báo cho sản phẩm `%(product_name)s` đặt thành`%(value)s`."
 
 #: simple_supplier/admin_module/views.py:232
 #, python-brace-format
 msgid "Stock management is now enabled for {product}."
-msgstr ""
+msgstr "Quản lý chứng khoán hiện được kích hoạt cho {product}."
 
 #: simple_supplier/admin_module/views.py:234
 #, python-brace-format
 msgid "Stock management is now disabled for {product}."
-msgstr ""
+msgstr "Quản lý chứng khoán hiện đã bị vô hiệu hóa cho {product}."
 
 #: simple_supplier/forms.py:25 simple_supplier/forms.py:36
 #, python-brace-format
 msgid "Purchase price per unit ({currency_name})"
-msgstr ""
+msgstr "Giá mua trên mỗi đơn vị ({currency_name})"
 
 #: simple_supplier/forms.py:29 simple_supplier/forms.py:42
 msgid "Quantity"
-msgstr ""
+msgstr "Số lượng"
 
 #: simple_supplier/forms.py:47
 msgid "Only non-zero values can be added to stock."
-msgstr ""
+msgstr "Chỉ các giá trị khác không có thể được thêm vào chứng khoán."
 
 #: simple_supplier/forms.py:57 simple_supplier/forms.py:65
 msgid "Alert limit"
-msgstr ""
+msgstr "Giới hạn cảnh báo"
 
 #: simple_supplier/models.py:38 simple_supplier/models.py:73
 msgid "product"
-msgstr ""
+msgstr "sản phẩm"
 
 #: simple_supplier/models.py:40 simple_supplier/models.py:75
 msgid "supplier"
-msgstr ""
+msgstr "nhà cung cấp"
 
 #: simple_supplier/models.py:41
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: simple_supplier/models.py:43
 msgid "created by"
-msgstr ""
+msgstr "được tạo bởi"
 
 #: simple_supplier/models.py:45
 msgid "delta"
-msgstr ""
+msgstr "Đồng bằng"
 
 #: simple_supplier/models.py:49
 msgid "type"
-msgstr ""
+msgstr "kiểu"
 
 #: simple_supplier/models.py:62
 msgid "alert limit"
-msgstr ""
+msgstr "giới hạn cảnh báo"
 
 #: simple_supplier/models.py:64
 msgid "stock managed"
-msgstr ""
+msgstr "quản lý cổ phiếu"
 
 #: simple_supplier/models.py:66
 msgid "Use this to override the supplier default stock behavior per product."
-msgstr ""
+msgstr "Sử dụng điều này để ghi đè hành vi cổ phiếu mặc định của nhà cung cấp trên mỗi sản phẩm."
 
 #: simple_supplier/models.py:76
 msgid "logical count"
-msgstr ""
+msgstr "số lượng logic"
 
 #: simple_supplier/models.py:77
 msgid "physical count"
-msgstr ""
+msgstr "số lượng vật lý"
 
 #: simple_supplier/module.py:29
 msgid "Simple Supplier"
-msgstr ""
+msgstr "Nhà cung cấp đơn giản"
 
 #: simple_supplier/module.py:53
 msgid "Error! Insufficient quantity in stock."
-msgstr ""
+msgstr "Lỗi!Không đủ số lượng trong kho."
 
 #: simple_supplier/module.py:182
 #, python-format
-msgid "%(name)s (physical stock: %(quantity)s)"
-msgstr ""
+msgid "%(product)s (physical stock: %(quantity)s)"
+msgstr "%(product)s (cổ phiếu vật lý: %(quantity)s)"
 
 #: simple_supplier/module.py:187
 #, python-format
@@ -173,23 +173,23 @@ msgstr ""
 
 #: simple_supplier/notify_events.py:20
 msgid "Alert Limit Reached"
-msgstr ""
+msgstr "Giới hạn cảnh báo đạt được"
 
 #: simple_supplier/notify_events.py:23
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: simple_supplier/notify_events.py:25
 msgid "Supplier Email"
-msgstr ""
+msgstr "Email nhà cung cấp"
 
 #: simple_supplier/notify_events.py:26
 msgid "Shop Email"
-msgstr ""
+msgstr "Cửa hàng email"
 
 #: simple_supplier/notify_events.py:29
 msgid "Fired in the last 24 hours?"
-msgstr ""
+msgstr "Bị sa thải trong 24 giờ qua?"
 
 #: simple_supplier/notify_events.py:32
 msgid ""
@@ -200,15 +200,15 @@ msgstr ""
 
 #: simple_supplier/notify_script_template.py:23
 msgid "Send to?"
-msgstr ""
+msgstr "Gửi đến?"
 
 #: simple_supplier/notify_script_template.py:23
 msgid "Send email to whom?"
-msgstr ""
+msgstr "Gửi email cho ai?"
 
 #: simple_supplier/notify_script_template.py:25
 msgid "Do not send the same email within 24 hours."
-msgstr ""
+msgstr "Không gửi cùng một email trong vòng 24 giờ."
 
 #: simple_supplier/notify_script_template.py:28
 msgid ""
@@ -218,7 +218,7 @@ msgstr ""
 
 #: simple_supplier/notify_script_template.py:35
 msgid "Send Stock Limit Alert Email"
-msgstr ""
+msgstr "Gửi email cảnh báo giới hạn chứng khoán"
 
 #: simple_supplier/notify_script_template.py:36
 msgid ""
@@ -236,7 +236,7 @@ msgstr ""
 
 #: simple_supplier/notify_script_template.py:100
 msgid "Low stock of: {{ product }} from {{ supplier }}"
-msgstr ""
+msgstr "Cổ phiếu thấp của: {{ product }} từ {{ supplier }}"
 
 #: simple_supplier/notify_script_template.py:104
 msgid ""

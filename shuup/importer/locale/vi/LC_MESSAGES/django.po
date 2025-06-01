@@ -19,124 +19,124 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: importer/admin_module/__init__.py:19 importer/admin_module/__init__.py:73
 msgid "Data Import"
-msgstr ""
+msgstr "Nhập dữ liệu"
 
 #: importer/admin_module/__init__.py:29
 msgid "Allow the user to see the imports from all shops and suppliers."
-msgstr ""
+msgstr "Cho phép người dùng xem nhập từ tất cả các cửa hàng và nhà cung cấp."
 
 #: importer/admin_module/__init__.py:30
 msgid "Allow the user to run importers."
-msgstr ""
+msgstr "Cho phép người dùng chạy nhập khẩu."
 
 #: importer/admin_module/__init__.py:31
 msgid "Allow the user to list imports."
-msgstr ""
+msgstr "Cho phép người dùng liệt kê nhập khẩu."
 
 #: importer/admin_module/__init__.py:32
 msgid "Allow the user to import a file."
-msgstr ""
+msgstr "Cho phép người dùng nhập tệp."
 
 #: importer/admin_module/__init__.py:33
 msgid "Allow the user to download sample files."
-msgstr ""
+msgstr "Cho phép người dùng tải xuống các tập tin mẫu."
 
 #: importer/admin_module/__init__.py:38
 #, python-brace-format
 msgid "Allow the user to use the {importer_name} importer."
-msgstr ""
+msgstr "Cho phép người dùng sử dụng nhà nhập khẩu {importer_name}."
 
 #: importer/admin_module/forms.py:18 importer/admin_module/import_views.py:214
 msgid "Import mode"
-msgstr ""
+msgstr "Chế độ nhập"
 
 #: importer/admin_module/forms.py:23
 msgid "Importing language"
-msgstr ""
+msgstr "Nhập khẩu ngôn ngữ"
 
 #: importer/admin_module/forms.py:25
 msgid "The language of the data you want to import."
-msgstr ""
+msgstr "Ngôn ngữ của dữ liệu bạn muốn nhập."
 
 #: importer/admin_module/forms.py:28 importer/admin_module/import_views.py:213
 msgid "Importer"
-msgstr ""
+msgstr "Nhà nhập khẩu"
 
 #: importer/admin_module/forms.py:29
 msgid "Select a importer type matching the data you want to import"
-msgstr ""
+msgstr "Chọn loại nhà nhập khẩu phù hợp với dữ liệu bạn muốn nhập"
 
 #: importer/admin_module/forms.py:31
 msgid "File"
-msgstr ""
+msgstr "Tài liệu"
 
 #: importer/admin_module/import_views.py:43
 #: importer/admin_module/import_views.py:242
 msgid "Data imports"
-msgstr ""
+msgstr "Nhập dữ liệu"
 
 #: importer/admin_module/import_views.py:51
 #: importer/admin_module/import_views.py:174
 msgid "Invalid importer."
-msgstr ""
+msgstr "Nhà nhập khẩu không hợp lệ."
 
 #: importer/admin_module/import_views.py:53
 msgid "File is missing."
-msgstr ""
+msgstr "Tệp bị thiếu."
 
 #: importer/admin_module/import_views.py:80
 msgid "The import was queued!"
-msgstr ""
+msgstr "Nhập khẩu đã được xếp hàng!"
 
 #: importer/admin_module/import_views.py:111
 msgid "Failed to process the file."
-msgstr ""
+msgstr "Không xử lý tệp."
 
 #: importer/admin_module/import_views.py:170
 msgid "Invalid parameters."
-msgstr ""
+msgstr "Tham số không hợp lệ."
 
 #: importer/admin_module/import_views.py:178
 msgid "Invalid file name."
-msgstr ""
+msgstr "Tên tệp không hợp lệ."
 
 #: importer/admin_module/import_views.py:186
 msgid "File was not found."
-msgstr ""
+msgstr "Tệp không được tìm thấy."
 
 #: importer/admin_module/import_views.py:212
 msgid "Import date"
-msgstr ""
+msgstr "Ngày nhập khẩu"
 
 #: importer/admin_module/import_views.py:215
 #: importer/admin_module/import_views.py:263
 msgid "User"
-msgstr ""
+msgstr "Người dùng"
 
 #: importer/admin_module/import_views.py:218
 #: importer/admin_module/import_views.py:264
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: importer/admin_module/import_views.py:248
 msgid "Import file"
-msgstr ""
+msgstr "Nhập tệp"
 
 #: importer/admin_module/import_views.py:261
 msgid "Importdate"
-msgstr ""
+msgstr "Nhập khẩu"
 
 #: importer/admin_module/import_views.py:262
 msgid "Mode"
-msgstr ""
+msgstr "Cách thức"
 
 #: importer/apps.py:17
 msgid "Import"
-msgstr ""
+msgstr "Nhập khẩu"
 
 #: importer/importing/importing.py:290
 msgid "Row ignored (no existing item and creating new is not allowed)."
-msgstr ""
+msgstr "Hàng bị bỏ qua (không có mục hiện tại và không được phép tạo mới)."
 
 #: importer/importing/importing.py:300
 #, python-format
@@ -147,52 +147,52 @@ msgstr ""
 #: importer/importing/importing.py:407
 #, python-format
 msgid "Failed while setting value for field %(field_name)s. (%(exception)s)"
-msgstr ""
+msgstr "Không thành công trong khi cài đặt giá trị cho trường %(field_name)s.(%(exception)s)"
 
 #: importer/importing/importing.py:426 importer/importing/importing.py:436
 #, python-format
 msgid "Couldn't set value %(original_value)s for field %(field_name)s."
-msgstr ""
+msgstr "Không thể đặt giá trị %(original_value)s cho trường %(field_name)s."
 
 #: importer/importing/session.py:49
 #, python-format
 msgid "Row import failed (%s)."
-msgstr ""
+msgstr "Nhập hàng không thành công (%s)."
 
 #: importer/tasks.py:81
 msgid "Unexpected error while trying to import the file."
-msgstr ""
+msgstr "Lỗi bất ngờ trong khi cố gắng nhập tệp."
 
 #: importer/transforms.py:82
 #, python-format
 msgid "Can't import more than %s rows from one file."
-msgstr ""
+msgstr "Không thể nhập nhiều hơn %s hàng từ một tệp."
 
 #: importer/utils/importer.py:28
 msgid "Allow create and update"
-msgstr ""
+msgstr "Cho phép tạo và cập nhật"
 
 #: importer/utils/importer.py:29
 msgid "Only create (no updates)"
-msgstr ""
+msgstr "Chỉ tạo (không có bản cập nhật)"
 
 #: importer/utils/importer.py:30
 msgid "Only update existing (no new ones are created)"
-msgstr ""
+msgstr "Chỉ cập nhật hiện có (không có cái mới nào được tạo)"
 
 #: importer/utils/importer.py:83 importer/utils/importer.py:104
 msgid "The file doesn't contain data."
-msgstr ""
+msgstr "Tệp không chứa dữ liệu."
 
 #: importer/utils/importer.py:110
 msgid "Failed to import data: {}."
-msgstr ""
+msgstr "Không thể nhập dữ liệu: {}."
 
 #: importer/utils/importer.py:116
 #, python-brace-format
 msgid "{file_name} is not a valid file."
-msgstr ""
+msgstr "{file_name} không phải là một tệp hợp lệ."
 
 #: importer/utils/importer.py:118
 msgid "The file is missing."
-msgstr ""
+msgstr "Các tập tin bị thiếu."

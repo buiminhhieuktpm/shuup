@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: default_importer/importers/contact.py:50
 msgid "Contact Importer"
-msgstr ""
+msgstr "Trao hàng liên hệ"
 
 #: default_importer/importers/contact.py:75
 msgid "Company Contact Importer"
-msgstr ""
+msgstr "Nhà nhập khẩu liên hệ của công ty"
 
 #: default_importer/importers/product.py:95
 msgid ""
@@ -33,26 +33,26 @@ msgstr ""
 
 #: default_importer/importers/product.py:126
 msgid "Parent SKU set for the row, but no variation variables found."
-msgstr ""
+msgstr "SKU cha mẹ đặt cho hàng, nhưng không tìm thấy biến biến thể nào."
 
 #: default_importer/importers/product.py:202
 #: default_importer/importers/product.py:210
 #, python-format
 msgid "Image '%s' was not found, please check whether the image exists."
-msgstr ""
+msgstr "Hình ảnh '%s' không được tìm thấy, vui lòng kiểm tra xem hình ảnh có tồn tại hay không."
 
 #: default_importer/importers/product.py:241
 msgid "Please add supplier to the row, before importing stock quantities."
-msgstr ""
+msgstr "Vui lòng thêm nhà cung cấp vào hàng, trước khi nhập số lượng cổ phiếu."
 
 #: default_importer/importers/product.py:251
 msgid "No supplier found, please check that the supplier exists."
-msgstr ""
+msgstr "Không tìm thấy nhà cung cấp, xin vui lòng kiểm tra xem nhà cung cấp có tồn tại không."
 
 #: default_importer/importers/product.py:274
 msgid "No supplier module set, please check that the supplier module is set."
-msgstr ""
+msgstr "Không có bộ mô -đun nhà cung cấp, vui lòng kiểm tra xem mô -đun nhà cung cấp có được đặt không."
 
 #: default_importer/importers/product.py:396
 msgid "Product Importer"
-msgstr ""
+msgstr "Nhà nhập khẩu sản phẩm"

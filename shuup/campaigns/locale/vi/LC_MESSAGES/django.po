@@ -20,72 +20,72 @@ msgstr ""
 #: campaigns/admin_module/__init__.py:24 campaigns/models/campaigns.py:110
 #: campaigns/modules.py:22
 msgid "Campaigns"
-msgstr ""
+msgstr "Chiến dịch"
 
 #: campaigns/admin_module/__init__.py:58
 msgid "Basket Campaigns"
-msgstr ""
+msgstr "Chiến dịch giỏ"
 
 #: campaigns/admin_module/__init__.py:63
 msgid "Show Basket Campaigns"
-msgstr ""
+msgstr "Hiển thị các chiến dịch giỏ"
 
 #: campaigns/admin_module/__init__.py:66
 msgid "Coupons"
-msgstr ""
+msgstr "Phiếu giảm giá"
 
 #: campaigns/admin_module/__init__.py:71
 msgid "Show Coupons"
-msgstr ""
+msgstr "Hiển thị phiếu giảm giá"
 
 #: campaigns/admin_module/__init__.py:78
 msgid "Catalog Campaigns"
-msgstr ""
+msgstr "Chiến dịch danh mục"
 
 #: campaigns/admin_module/__init__.py:83
 msgid "Show Catalog Campaigns"
-msgstr ""
+msgstr "Hiển thị Chiến dịch Danh mục Sản phẩm"
 
 #: campaigns/admin_module/__init__.py:92
 msgid "Set up a sales campaign"
-msgstr ""
+msgstr "Thiết lập chiến dịch bán hàng"
 
 #: campaigns/admin_module/__init__.py:94
 msgid "New basket campaign"
-msgstr ""
+msgstr "Chiến dịch rổ mới"
 
 #: campaigns/admin_module/__init__.py:95
 msgid "New coupon"
-msgstr ""
+msgstr "Phiếu giảm giá mới"
 
 #: campaigns/admin_module/__init__.py:115
 msgid "Allow the user to select coupons in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn phiếu giảm giá trong quản trị viên."
 
 #: campaigns/admin_module/form_parts.py:32
 msgid "Minimum value"
-msgstr ""
+msgstr "Giá trị tối thiểu"
 
 #: campaigns/admin_module/form_parts.py:32
 msgid "Maximum value"
-msgstr ""
+msgstr "Giá trị tối đa"
 
 #: campaigns/admin_module/form_parts.py:33
 msgid "Leave empty for no maximum"
-msgstr ""
+msgstr "Để trống mà không có tối đa"
 
 #: campaigns/admin_module/forms/_base.py:47
 msgid "Campaign end date can't be before a start date."
-msgstr ""
+msgstr "Ngày kết thúc chiến dịch không thể trước ngày bắt đầu."
 
 #: campaigns/admin_module/forms/_basket.py:35
 msgid "Define the required coupon for this campaign."
-msgstr ""
+msgstr "Xác định phiếu giảm giá cần thiết cho chiến dịch này."
 
 #: campaigns/admin_module/forms/_basket.py:36
 #: campaigns/admin_module/views/_edit.py:128 campaigns/reports.py:22
 msgid "Coupon"
-msgstr ""
+msgstr "Phiếu giảm giá"
 
 #: campaigns/admin_module/forms/_basket_effects.py:35
 #: campaigns/admin_module/forms/_basket_effects.py:47
@@ -95,7 +95,7 @@ msgstr ""
 #: campaigns/models/basket_line_effects.py:153
 #: campaigns/models/product_effects.py:69
 msgid "discount percentage"
-msgstr ""
+msgstr "phần trăm giảm"
 
 #: campaigns/admin_module/forms/_basket_effects.py:36
 #: campaigns/admin_module/forms/_basket_effects.py:48
@@ -105,246 +105,257 @@ msgstr ""
 #: campaigns/models/basket_line_effects.py:154
 #: campaigns/models/product_effects.py:70
 msgid "The discount percentage for this campaign."
-msgstr ""
+msgstr "Tỷ lệ giảm giá cho chiến dịch này."
 
 #: campaigns/admin_module/forms/_basket_effects.py:71
 #, python-format
 msgid "Product %(product)s is not available in the %(shop)s shop."
-msgstr ""
+msgstr "Sản phẩm %(product)s không có sẵn trong cửa hàng %(shop)s."
 
 #: campaigns/admin_module/forms/_basket_effects.py:102
 msgid "Only amount or percentage can be set, not both."
-msgstr ""
+msgstr "Chỉ số tiền hoặc tỷ lệ phần trăm có thể được đặt, không phải cả hai."
 
 #: campaigns/admin_module/forms/_coupon.py:17
 msgid "Autogenerate code"
-msgstr ""
+msgstr "Mã tự động"
 
 #: campaigns/admin_module/forms/_coupon.py:48
 msgid "Discount Code is already in use."
-msgstr ""
+msgstr "Mã giảm giá đã được sử dụng."
 
 #: campaigns/admin_module/sections.py:19
 msgid "Active Basket Campaigns"
-msgstr ""
+msgstr "Kích hoạt chiến dịch Basket"
 
 #: campaigns/admin_module/views/_edit.py:84
 msgid "Catalog Campaign"
-msgstr ""
+msgstr "Chiến dịch danh mục"
 
 #: campaigns/admin_module/views/_edit.py:111
 msgid "Basket Campaign"
-msgstr ""
+msgstr "Chiến dịch Basket"
 
 #: campaigns/admin_module/views/_list.py:24
 msgid "Title"
-msgstr ""
+msgstr "Tiêu đề"
 
 #: campaigns/admin_module/views/_list.py:30
 msgid "Starts"
-msgstr ""
+msgstr "Bắt đầu"
 
 #: campaigns/admin_module/views/_list.py:31
 msgid "Ends"
-msgstr ""
+msgstr "Kết thúc"
 
 #: campaigns/admin_module/views/_list.py:32
 #: campaigns/admin_module/views/_list.py:115
 msgid "Active"
-msgstr ""
+msgstr "Kích hoạt"
 
 #: campaigns/admin_module/views/_list.py:32
 msgid "No"
-msgstr ""
+msgstr "KHÔNG"
 
 #: campaigns/admin_module/views/_list.py:32
 msgid "Yes"
-msgstr ""
+msgstr "Đúng"
 
 #: campaigns/admin_module/views/_list.py:55
 msgid "CatalogCampaign"
-msgstr ""
+msgstr "Danh mục Campaign"
 
 #: campaigns/admin_module/views/_list.py:70
 msgid "Create new Catalog Campaign"
-msgstr ""
+msgstr "Tạo chiến dịch danh mục mới"
 
 #: campaigns/admin_module/views/_list.py:88
 msgid "Create new Basket Campaign"
-msgstr ""
+msgstr "Tạo mới chiến dịch Basket"
 
 #: campaigns/admin_module/views/_list.py:106
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #: campaigns/admin_module/views/_list.py:112
 msgid "Usages"
-msgstr ""
+msgstr "Cách sử dụng"
 
 #: campaigns/admin_module/views/_list.py:113
 msgid "Usages Limit per contact"
-msgstr ""
+msgstr "Giới hạn sử dụng cho mỗi liên hệ"
 
 #: campaigns/admin_module/views/_list.py:114
 msgid "Usage Limit"
-msgstr ""
+msgstr "Giới hạn sử dụng"
 
 #: campaigns/admin_module/views/_list.py:116
 msgid "Created by"
-msgstr ""
+msgstr "Được tạo bởi"
 
 #: campaigns/admin_module/views/_list.py:117
 msgid "Date created"
-msgstr ""
+msgstr "Ngày được tạo ra"
 
 #: campaigns/admin_module/views/_list.py:130
 msgid "Create new Coupon"
-msgstr ""
+msgstr "Tạo phiếu giảm giá mới"
 
 #: campaigns/models/basket_conditions.py:25
 msgid "Basket condition"
-msgstr ""
+msgstr "Điều kiện giỏ"
 
 #: campaigns/models/basket_conditions.py:36
 msgid "Basket product count"
-msgstr ""
+msgstr "Số lượng sản phẩm giỏ"
 
 #: campaigns/models/basket_conditions.py:39
 msgid "product count in basket"
-msgstr ""
+msgstr "đếm sản phẩm trong basket"
 
 #: campaigns/models/basket_conditions.py:50
 msgid ""
 "Limit the campaign to match when basket has at least the product count "
 "entered here."
 msgstr ""
+"Giới hạn chiến dịch để áp dụng khi giỏ hàng có ít nhất số lượng "
+"sản phẩm được nhập tại đây."
 
 #: campaigns/models/basket_conditions.py:63
 msgid "Basket total value"
-msgstr ""
+msgstr "Tổng giá trị"
 
 #: campaigns/models/basket_conditions.py:66
 #: campaigns/models/basket_conditions.py:91
 msgid "basket total amount"
-msgstr ""
+msgstr "Tổng số tiền"
 
 #: campaigns/models/basket_conditions.py:75
 msgid ""
 "Limit the campaign to match when it has at least the total value entered "
 "here worth of products."
 msgstr ""
+"Giới hạn chiến dịch để áp dụng khi tổng giá trị sản phẩm trong giỏ hàng "
+"đạt ít nhất mức giá trị được nhập tại đây."
 
 #: campaigns/models/basket_conditions.py:88
 msgid "Undiscounted basket total value"
-msgstr ""
+msgstr "Tổng giá trị không có giá trị"
 
 #: campaigns/models/basket_conditions.py:115
 msgid ""
 "Limit the campaign to match when it has at least the total value entered "
 "here worth of products which doesn't have already discounts."
 msgstr ""
+"Giới hạn chiến dịch để áp dụng khi tổng giá trị của các "
+"sản phẩm (chưa được giảm giá) trong giỏ hàng đạt ít nhất mức giá trị "
+"được nhập tại đây."
 
 #: campaigns/models/basket_conditions.py:130
 msgid "Basket maximum product count"
-msgstr ""
+msgstr "Số lượng sản phẩm tối đa"
 
 #: campaigns/models/basket_conditions.py:133
 msgid "maximum product count in basket"
-msgstr ""
+msgstr "số lượng sản phẩm tối đa trong basket"
 
 #: campaigns/models/basket_conditions.py:143
 msgid ""
 "Limit the campaign to match when basket has at maximum the product count "
 "entered here."
 msgstr ""
+"Giới hạn chiến dịch để áp dụng khi giỏ hàng có tối đa số lượng "
+"sản phẩm được nhập tại đây."
 
 #: campaigns/models/basket_conditions.py:156
 msgid "Basket maximum total value"
-msgstr ""
+msgstr "Tối đa tổng giá trị"
 
 #: campaigns/models/basket_conditions.py:159
 msgid "maximum basket total amount"
-msgstr ""
+msgstr "Tối đa tổng giá trị"
 
 #: campaigns/models/basket_conditions.py:168
 msgid ""
 "Limit the campaign to match when it has at maximum the total value entered "
 "here worth of products."
 msgstr ""
+"Giới hạn chiến dịch để áp dụng khi tổng giá trị sản phẩm trong giỏ hàng "
+"không vượt quá mức giá trị được nhập tại đây."
 
 #: campaigns/models/basket_conditions.py:184
 msgid "Exactly"
-msgstr ""
+msgstr "Chính xác"
 
 #: campaigns/models/basket_conditions.py:185
 msgid "Greater than or equal to"
-msgstr ""
+msgstr "Lớn hơn hoặc bằng"
 
 #: campaigns/models/basket_conditions.py:190
 msgid "Products in basket"
-msgstr ""
+msgstr "Sản phẩm trong giỏ"
 
 #: campaigns/models/basket_conditions.py:194
 #: campaigns/models/basket_conditions.py:276
 msgid "operator"
-msgstr ""
+msgstr "nhà điều hành"
 
 #: campaigns/models/basket_conditions.py:195
 #: campaigns/models/basket_conditions.py:277
 #: campaigns/models/basket_line_effects.py:40
 msgid "quantity"
-msgstr ""
+msgstr "Số lượng"
 
 #: campaigns/models/basket_conditions.py:196
 msgid "products"
-msgstr ""
+msgstr "các sản phẩm"
 
 #: campaigns/models/basket_conditions.py:212
 msgid "Limit the campaign to have the selected products in basket."
-msgstr ""
+msgstr "Hạn chế chiến dịch để có các sản phẩm được chọn trong giỏ."
 
 #: campaigns/models/basket_conditions.py:226
 #: campaigns/models/context_conditions.py:31
 msgid "Contact Group"
-msgstr ""
+msgstr "Nhóm liên hệ"
 
 #: campaigns/models/basket_conditions.py:228
 #: campaigns/models/context_conditions.py:33
 msgid "contact groups"
-msgstr ""
+msgstr "Các nhóm liên hệ"
 
 #: campaigns/models/basket_conditions.py:236
 #: campaigns/models/context_conditions.py:42
 msgid "Limit the campaign to members of the selected contact groups."
-msgstr ""
+msgstr "Giới hạn chiến dịch cho các thành viên của các nhóm liên hệ được chọn."
 
 #: campaigns/models/basket_conditions.py:250
 #: campaigns/models/context_conditions.py:56
 msgid "Contact"
-msgstr ""
+msgstr "Liên hệ"
 
 #: campaigns/models/basket_conditions.py:252
 #: campaigns/models/context_conditions.py:58
 msgid "contacts"
-msgstr ""
+msgstr "contacts"
 
 #: campaigns/models/basket_conditions.py:260
 #: campaigns/models/context_conditions.py:66
 msgid "Limit the campaign to selected contacts."
-msgstr ""
+msgstr "Giới hạn chiến dịch cho các liên hệ được chọn."
 
 #: campaigns/models/basket_conditions.py:274
 msgid "Category products in basket"
-msgstr ""
+msgstr "Loại sản phẩm trong giỏ"
 
 #: campaigns/models/basket_conditions.py:278
 #: campaigns/models/catalog_filters.py:97
 msgid "categories"
-msgstr ""
+msgstr "Thể loại"
 
 #: campaigns/models/basket_conditions.py:283
 msgid "excluded categories"
-msgstr ""
+msgstr "loại loại bị loại trừ"
 
 #: campaigns/models/basket_conditions.py:285
 msgid ""
@@ -352,30 +363,33 @@ msgid ""
 "categories this rule won't match thus the campaign cannot be applied to the "
 "basket."
 msgstr ""
+"Nếu khách hàng có dù chỉ một sản phẩm trong giỏ hàng thuộc các danh mục này, "
+"quy tắc này sẽ không được áp dụng, do đó chiến dịch sẽ không thể áp dụng cho "
+"giỏ hàng."
 
 #: campaigns/models/basket_conditions.py:308
 msgid "Limit the campaign to match the products from selected categories."
-msgstr ""
+msgstr "Giới hạn chiến dịch để phù hợp với các sản phẩm từ các danh mục được chọn."
 
 #: campaigns/models/basket_conditions.py:313
 #: campaigns/models/context_conditions.py:79
 msgid "Day and hour"
-msgstr ""
+msgstr "Ngày và giờ"
 
 #: campaigns/models/basket_conditions.py:316
 #: campaigns/models/context_conditions.py:82
 msgid "start time"
-msgstr ""
+msgstr "thời gian bắt đầu"
 
 #: campaigns/models/basket_conditions.py:316
 #: campaigns/models/context_conditions.py:82
 msgid "12pm is considered noon and 12am as midnight."
-msgstr ""
+msgstr "12 giờ tối được coi là trưa và 12 giờ sáng là nửa đêm."
 
 #: campaigns/models/basket_conditions.py:319
 #: campaigns/models/context_conditions.py:85
 msgid "end time"
-msgstr ""
+msgstr "thời gian kết thúc"
 
 #: campaigns/models/basket_conditions.py:320
 #: campaigns/models/context_conditions.py:86
@@ -383,209 +397,220 @@ msgid ""
 "12pm is considered noon and 12am as midnight. End time is not considered "
 "match."
 msgstr ""
+"12 giờ trưa được tính là noon (trưa) và 12 giờ sáng được tính là midnight "
+"(nửa đêm). Thời gian kết thúc không được tính là trùng khớp."
 
 #: campaigns/models/basket_conditions.py:322
 #: campaigns/models/context_conditions.py:88
 msgid "days"
-msgstr ""
+msgstr "ngày"
 
 #: campaigns/models/basket_conditions.py:329
 #: campaigns/models/context_conditions.py:95
 msgid "Limit the campaign to selected days."
-msgstr ""
+msgstr "Giới hạn chiến dịch chỉ áp dụng vào các ngày được chọn."
 
 #: campaigns/models/basket_conditions.py:338
 msgid "Product Variation Child"
-msgstr ""
+msgstr "Biến thể sản phẩm con"
 
 #: campaigns/models/basket_conditions.py:358
 msgid ""
 "Limit the campaign to match only variation children of the selected product."
 msgstr ""
+"Giới hạn chiến dịch để chỉ áp dụng cho các biến thể con của sản phẩm đã chọn."
 
 #: campaigns/models/basket_effects.py:24
 #: campaigns/models/basket_line_effects.py:22
 #: campaigns/models/product_effects.py:21
 msgid "campaign"
-msgstr ""
+msgstr "chiến dịch"
 
 #: campaigns/models/basket_effects.py:39 campaigns/models/product_effects.py:37
 msgid "Discount amount value"
-msgstr ""
+msgstr "Giá trị số tiền chiết khấu"
 
 #: campaigns/models/basket_effects.py:42
 #: campaigns/models/basket_line_effects.py:102
 #: campaigns/models/basket_line_effects.py:146
 #: campaigns/models/product_effects.py:40
 msgid "discount amount"
-msgstr ""
+msgstr "số tiền chiết khấu"
 
 #: campaigns/models/basket_effects.py:42
 #: campaigns/models/basket_line_effects.py:102
 #: campaigns/models/basket_line_effects.py:146
 #: campaigns/models/product_effects.py:40
 msgid "Flat amount of discount."
-msgstr ""
+msgstr "Số tiền giảm giá."
 
 #: campaigns/models/basket_effects.py:47 campaigns/models/product_effects.py:45
 msgid "Give discount amount."
-msgstr ""
+msgstr "Cho số tiền chiết khấu."
 
 #: campaigns/models/basket_effects.py:63 campaigns/models/product_effects.py:61
 msgid "Discount amount percentage"
-msgstr ""
+msgstr "Tỷ lệ phần trăm số tiền giảm giá"
 
 #: campaigns/models/basket_effects.py:77 campaigns/models/product_effects.py:75
 msgid "Give percentage discount."
-msgstr ""
+msgstr "Áp dụng chiết khấu theo phần trăm."
 
 #: campaigns/models/basket_effects.py:94
 msgid "Discount amount percentage from undiscounted amount"
-msgstr ""
+msgstr "Phần trăm chiết khấu tính trên số tiền chưa được giảm giá."
 
 #: campaigns/models/basket_effects.py:108
 msgid "Give percentage discount based on undiscounted product prices."
-msgstr ""
+msgstr "Cung cấp phần trăm giảm giá dựa trên giá sản phẩm chưa được ghi nhận."
 
 #: campaigns/models/basket_line_effects.py:38
 msgid "Free Product(s)"
-msgstr ""
+msgstr "(Các) sản phẩm miễn phí"
 
 #: campaigns/models/basket_line_effects.py:41
 #: campaigns/models/basket_line_effects.py:105
 #: campaigns/models/catalog_filters.py:65
 msgid "product"
-msgstr ""
+msgstr "sản phẩm"
 
 #: campaigns/models/basket_line_effects.py:45
 msgid "Select product(s) to give free."
-msgstr ""
+msgstr "Chọn (các) sản phẩm để cung cấp miễn phí."
 
 #: campaigns/models/basket_line_effects.py:93
 msgid "Discount from Product"
-msgstr ""
+msgstr "Giảm giá từ sản phẩm"
 
 #: campaigns/models/basket_line_effects.py:97
 msgid "per line discount"
-msgstr ""
+msgstr "mỗi dòng giảm giá"
 
 #: campaigns/models/basket_line_effects.py:98
 msgid "Disable this if you want to give discount for each matched product."
-msgstr ""
+msgstr "Tắt tùy chọn này nếu bạn muốn áp dụng chiết khấu cho từng sản phẩm phù hợp."
 
 #: campaigns/models/basket_line_effects.py:109
 msgid "Select discount amount and products."
-msgstr ""
+msgstr "Chọn số tiền chiết khấu và sản phẩm."
 
 #: campaigns/models/basket_line_effects.py:143
 msgid "Discount from Category products"
-msgstr ""
+msgstr "Giảm giá từ các sản phẩm danh mục"
 
 #: campaigns/models/basket_line_effects.py:156
 msgid "category"
-msgstr ""
+msgstr "loại"
 
 #: campaigns/models/basket_line_effects.py:161
 msgid ""
 "Select discount amount and category. Please note that the discount will be "
 "given to all matching products in basket."
 msgstr ""
+"Chọn số tiền chiết khấu và danh mục. Lưu ý rằng chiết khấu sẽ được áp dụng "
+"cho tất cả các sản phẩm phù hợp trong giỏ hàng."
 
 #: campaigns/models/campaigns.py:58 campaigns/models/campaigns.py:414
 #: campaigns/models/contact_group_sales_ranges.py:31
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: campaigns/models/campaigns.py:58
 msgid "The shop where the campaign is active."
-msgstr ""
+msgstr "Cửa hàng nơi chiến dịch đang hoạt động."
 
 #: campaigns/models/campaigns.py:60
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: campaigns/models/campaigns.py:60
 msgid "The name for this campaign."
-msgstr ""
+msgstr "Tên cho chiến dịch này."
 
 #: campaigns/models/campaigns.py:67 campaigns/models/catalog_filters.py:21
 msgid "active"
-msgstr ""
+msgstr "hoạt động"
 
 #: campaigns/models/campaigns.py:68
 msgid ""
 "Enable this if the campaign is currently active. Please also set a start and "
 "an end date."
 msgstr ""
+"Bật tùy chọn này nếu chiến dịch đang hoạt động. Vui lòng cũng thiết lập "
+"ngày bắt đầu và ngày kết thúc."
 
 #: campaigns/models/campaigns.py:73
 msgid "start date and time"
-msgstr ""
+msgstr "Ngày và giờ bắt đầu"
 
 #: campaigns/models/campaigns.py:75
 msgid ""
 "The date and time the campaign starts. This is only applicable if the "
 "campaign is marked as active."
 msgstr ""
+"Ngày và giờ bắt đầu chiến dịch. Chỉ áp dụng khi chiến dịch được "
+"đánh dấu là đang hoạt động."
 
 #: campaigns/models/campaigns.py:81
 msgid "end date and time"
-msgstr ""
+msgstr "Ngày và giờ kết thúc"
 
 #: campaigns/models/campaigns.py:83
 msgid ""
 "The date and time the campaign ends. This is only applicable if the campaign "
 "is marked as active."
 msgstr ""
+"Ngày và giờ kết thúc chiến dịch. Chỉ áp dụng khi chiến dịch được đánh dấu "
+"là đang hoạt động."
 
 #: campaigns/models/campaigns.py:92 campaigns/models/campaigns.py:369
 #: campaigns/models/campaigns.py:434
 msgid "created by"
-msgstr ""
+msgstr "được tạo bởi"
 
 #: campaigns/models/campaigns.py:100 campaigns/models/campaigns.py:377
 #: campaigns/models/campaigns.py:442
 msgid "modified by"
-msgstr ""
+msgstr "sửa đổi bởi"
 
 #: campaigns/models/campaigns.py:102 campaigns/models/campaigns.py:380
 #: campaigns/models/campaigns.py:445
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra vào"
 
 #: campaigns/models/campaigns.py:103 campaigns/models/campaigns.py:381
 #: campaigns/models/campaigns.py:446
 msgid "modified on"
-msgstr ""
+msgstr "sửa đổi vào"
 
 #: campaigns/models/campaigns.py:109
 msgid "Campaign"
-msgstr ""
+msgstr "Chiến dịch"
 
 #: campaigns/models/campaigns.py:147 campaigns/models/campaigns.py:256
 msgid "The campaign name to show in the store front."
-msgstr ""
+msgstr "Tên chiến dịch để hiển thị trong mặt trận cửa hàng."
 
 #: campaigns/models/campaigns.py:152
 #, python-brace-format
 msgid "Catalog Campaign: {name}"
-msgstr ""
+msgstr "Chiến dịch danh mục: {name}"
 
 #: campaigns/models/campaigns.py:234
 msgid "basket line text"
-msgstr ""
+msgstr "BASKET LINE TEXT"
 
 #: campaigns/models/campaigns.py:234
 msgid "This text will be shown in a basket."
-msgstr ""
+msgstr "Văn bản này sẽ được hiển thị trong một basket."
 
 #: campaigns/models/campaigns.py:239
 msgid "coupon"
-msgstr ""
+msgstr "phiếu giảm giá"
 
 #: campaigns/models/campaigns.py:246 campaigns/models/campaigns.py:424
 msgid "supplier"
-msgstr ""
+msgstr "nhà cung cấp"
 
 #: campaigns/models/campaigns.py:248
 msgid ""
@@ -593,139 +618,144 @@ msgid ""
 "Rules and Effects will also be restricted to include only the products of "
 "this supplier."
 msgstr ""
+"Khi được thiết lập, chiến dịch này sẽ chỉ áp dụng cho các sản phẩm từ nhà "
+"cung cấp đã chọn. Các Quy tắc và Hiệu ứng cũng sẽ bị giới hạn chỉ bao gồm "
+"các sản phẩm của nhà cung cấp này."
 
 #: campaigns/models/campaigns.py:256
 msgid "public name"
-msgstr ""
+msgstr "Tên công khai"
 
 #: campaigns/models/campaigns.py:261
 #, python-brace-format
 msgid "Basket Campaign: {name}"
-msgstr ""
+msgstr "Chiến dịch Basket: {name}"
 
 #: campaigns/models/campaigns.py:269 campaigns/models/campaigns.py:272
 msgid "Can't have multiple active campaigns with same code."
-msgstr ""
+msgstr "Không thể có nhiều chiến dịch hoạt động với cùng một mã."
 
 #: campaigns/models/campaigns.py:398
 msgid "usage limit per customer"
-msgstr ""
+msgstr "Giới hạn sử dụng cho mỗi khách hàng"
 
 #: campaigns/models/campaigns.py:399
 msgid "Limit the amount of usages per a single customer."
-msgstr ""
+msgstr "Giới hạn số lượng sử dụng cho mỗi khách hàng."
 
 #: campaigns/models/campaigns.py:404
 msgid "usage limit"
-msgstr ""
+msgstr "Giới hạn sử dụng"
 
 #: campaigns/models/campaigns.py:406
 msgid ""
 "Set the absolute limit of usages for this coupon. If the limit is zero (0), "
 "coupon can't be used."
 msgstr ""
+"Đặt giới hạn tuyệt đối về số lần sử dụng cho phiếu giảm giá này. Nếu giới "
+"hạn là số không (0), phiếu giảm giá sẽ không thể sử dụng được."
 
 #: campaigns/models/campaigns.py:410
 msgid "is active"
-msgstr ""
+msgstr "đang hoạt động"
 
 #: campaigns/models/campaigns.py:417
 msgid "The shop where the coupon is active."
-msgstr ""
+msgstr "Cửa hàng nơi phiếu giảm giá được kích hoạt."
 
 #: campaigns/models/campaigns.py:456
 msgid "Can not have multiple active campaigns with the same code."
-msgstr ""
+msgstr "Không thể có nhiều chiến dịch hoạt động với cùng một mã."
 
 #: campaigns/models/catalog_filters.py:19
 msgid "Base Catalog Filter"
-msgstr ""
+msgstr "Bộ lọc danh mục cơ sở"
 
 #: campaigns/models/catalog_filters.py:33
 msgid "Product type"
-msgstr ""
+msgstr "Loại sản phẩm"
 
 #: campaigns/models/catalog_filters.py:35
 msgid "product Types"
-msgstr ""
+msgstr "loại sản phẩm"
 
 #: campaigns/models/catalog_filters.py:49
 msgid "Limit the campaign only to selected product types."
-msgstr ""
+msgstr "Giới hạn chiến dịch chỉ đối với các loại sản phẩm được chọn."
 
 #: campaigns/models/catalog_filters.py:63
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: campaigns/models/catalog_filters.py:81
 msgid "Limit the campaign only to selected products."
-msgstr ""
+msgstr "Giới hạn chiến dịch chỉ đối với các sản phẩm được chọn."
 
 #: campaigns/models/catalog_filters.py:95
 msgid "Product Category"
-msgstr ""
+msgstr "Product Category"
 
 #: campaigns/models/catalog_filters.py:139
 msgid "Limit the campaign only to products in selected categories."
-msgstr ""
+msgstr "Giới hạn chiến dịch chỉ đối với các sản phẩm trong các danh mục được chọn."
 
 #: campaigns/models/contact_group_sales_ranges.py:30
 msgid "group"
-msgstr ""
+msgstr "nhóm"
 
 #: campaigns/models/contact_group_sales_ranges.py:32
 msgid "min amount"
-msgstr ""
+msgstr "số tiền tối thiểu"
 
 #: campaigns/models/contact_group_sales_ranges.py:33
 msgid "max amount"
-msgstr ""
+msgstr "Số tiền tối đa"
 
 #: campaigns/models/contact_group_sales_ranges.py:50
 msgid "Can not add sales limits for default contact groups."
-msgstr ""
+msgstr "Không thể thêm giới hạn bán hàng cho các nhóm liên hệ mặc định."
 
 #: campaigns/models/context_conditions.py:19
 #: campaigns/models/context_conditions.py:20
 msgid "Context Condition"
-msgstr ""
+msgstr "Điều kiện bối cảnh"
 
 #: campaigns/modules.py:69
 msgid "Campaign Basket Discounts"
-msgstr ""
+msgstr "Giảm giá giỏ chiến dịch"
 
 #: campaigns/modules.py:85
 msgid "Coupon Code:"
-msgstr ""
+msgstr "Mã phiếu giảm giá:"
 
 #: campaigns/reports.py:22
 msgid "Filter report results by coupon."
-msgstr ""
+msgstr "Lọc báo cáo kết quả bằng phiếu giảm giá."
 
 #: campaigns/reports.py:36
 msgid "Coupons Usage"
-msgstr ""
+msgstr "Lượng sử dụng phiếu giảm giá"
 
 #: campaigns/reports.py:41
 msgid "Date"
-msgstr ""
+msgstr "Ngày"
 
 #: campaigns/reports.py:42
 msgid "Coupon code"
-msgstr ""
+msgstr "Mã giảm giá"
 
 #: campaigns/reports.py:43
 msgid "Order"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: campaigns/reports.py:44
 msgid "Taxful total"
-msgstr ""
+msgstr "Tổng số thuế"
 
 #: campaigns/reports.py:45
 msgid "Taxful subtotal"
-msgstr ""
+msgstr "Tổng phụ bao gồm thuế"
 
 #: campaigns/reports.py:46
 msgid "Total discount"
-msgstr ""
+msgstr "Tổng giảm giá"

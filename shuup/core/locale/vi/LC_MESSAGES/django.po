@@ -20,126 +20,126 @@ msgstr ""
 #: core/basket/command_dispatcher.py:72
 #, python-format
 msgid "Error! Invalid command `%s`."
-msgstr ""
+msgstr "Lỗi!Lệnh không hợp lệ `%s`."
 
 #: core/basket/commands.py:70
 #, python-format
 msgid "Error! The quantity `%f` is not allowed. Please use an integer value."
-msgstr ""
+msgstr "Lỗi!Số lượng `%f` không được phép.Vui lòng sử dụng giá trị số nguyên."
 
 #: core/basket/commands.py:74
 #, python-format
 msgid "Error! The quantity `%s` is not valid."
-msgstr ""
+msgstr "Lỗi!Số lượng `%s` không hợp lệ."
 
 #: core/basket/commands.py:78
 #, python-format
 msgid "Error! The quantity `%s` is not valid, should be bigger than zero."
-msgstr ""
+msgstr "Error! The quantity `%s` is not valid, should be bigger than zero."
 
 #: core/basket/commands.py:139
 msgid "Error! This variation is not available."
-msgstr ""
+msgstr "Lỗi!Biến thể này không có sẵn."
 
 #: core/basket/commands.py:190
 msgid "Customer is not active."
-msgstr ""
+msgstr "Khách hàng không hoạt động."
 
 #: core/basket/commands.py:196
 msgid "Shop does not have all the necessary permissions for this customer."
-msgstr ""
+msgstr "Cửa hàng không có tất cả các quyền cần thiết cho khách hàng này."
 
 #: core/basket/commands.py:216
 msgid "You don't have the required permission to assign this customer."
-msgstr ""
+msgstr "You don't have the required permission to assign this customer."
 
 #: core/basket/commands.py:224
 msgid "You must specify the order, in which customer is a company."
-msgstr ""
+msgstr "You must specify the order, in which customer is a company."
 
 #: core/basket/commands.py:230
 msgid "Invalid customer."
-msgstr ""
+msgstr "Khách hàng không hợp lệ."
 
 #: core/basket/commands.py:235
 msgid "Orderer is not a member of the company."
-msgstr ""
+msgstr "Orderer không phải là thành viên của công ty."
 
 #: core/basket/commands.py:238
 msgid "You are not a member of the company."
-msgstr ""
+msgstr "Bạn không phải là thành viên của công ty."
 
 #: core/basket/objects.py:176
 #, python-format
 msgid "Basket loading failed: Incompatible basket (%s)."
-msgstr ""
+msgstr "Đang tải rổ không thành công: Giỏ không tương thích (%s)."
 
 #: core/basket/objects.py:729
 msgid "Try to remove some products from the basket and order them separately."
-msgstr ""
+msgstr "Cố gắng loại bỏ một số sản phẩm từ giỏ và đặt hàng riêng."
 
 #: core/basket/objects.py:732
 #, python-format
 msgid "Products in basket can't be shipped together. %s"
-msgstr ""
+msgstr "Sản phẩm trong giỏ không thể được vận chuyển cùng nhau. %s"
 
 #: core/basket/objects.py:736
 #, python-format
 msgid "Products in basket have no common payment method. %s"
-msgstr ""
+msgstr "Sản phẩm trong giỏ không có phương thức thanh toán chung. %s"
 
 #: core/fields/__init__.py:42
 msgid "internal identifier"
-msgstr ""
+msgstr "định danh nội bộ"
 
 #: core/fields/__init__.py:43
 msgid "Do not change this value if you are not sure what you are doing."
-msgstr ""
+msgstr "Không thay đổi giá trị này nếu bạn không chắc chắn những gì bạn đang làm."
 
 #: core/fields/__init__.py:205
 msgid "Invalid color"
-msgstr ""
+msgstr "Màu sắc không hợp lệ"
 
 #: core/fields/__init__.py:259
 msgid "Enter a valid JSON."
-msgstr ""
+msgstr "Nhập một JSON hợp lệ."
 
 #: core/middleware.py:36
 msgid "Error!"
-msgstr ""
+msgstr "Lỗi!"
 
 #: core/middleware.py:80
 msgid "No such shop is configured."
-msgstr ""
+msgstr "Không có cửa hàng như vậy được cấu hình."
 
 #: core/models/_addresses.py:125 core/models/_contacts.py:227
 #: core/models/_orders.py:458
 msgid "shipping address"
-msgstr ""
+msgstr "Địa chỉ vận chuyển"
 
 #: core/models/_addresses.py:126 core/models/_contacts.py:235
 #: core/models/_orders.py:450
 msgid "billing address"
-msgstr ""
+msgstr "địa chỉ thanh toán"
 
 #: core/models/_addresses.py:134 core/models/_shops.py:46
 msgid "disabled"
-msgstr ""
+msgstr "disabled"
 
 #: core/models/_addresses.py:135 core/models/_product_media.py:71
 #: core/models/_service_base.py:49 core/models/_service_base.py:218
 #: core/models/_shops.py:47 core/models/_suppliers.py:123
 #: core/models/_taxes.py:64 core/models/_taxes.py:117 core/models/_taxes.py:137
 msgid "enabled"
-msgstr ""
+msgstr "Đã bật"
 
 #: core/models/_addresses.py:144 core/models/_contacts.py:274
 msgid "name prefix"
-msgstr ""
+msgstr "Tên tiền tố"
 
 #: core/models/_addresses.py:147
 msgid "The name prefix. For example, Mr, Mrs, Ms, Dr, etc."
-msgstr ""
+msgstr "Tiền tố tên.Ví dụ, MR, MRS, MS, DR, v.v."
 
 #: core/models/_addresses.py:149 core/models/_attributes.py:152
 #: core/models/_attributes.py:263 core/models/_categories.py:160
@@ -153,23 +153,23 @@ msgstr ""
 #: core/models/_taxes.py:36 core/models/_taxes.py:110 core/models/_taxes.py:130
 #: core/models/_units.py:133 core/models/_units.py:215
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: core/models/_addresses.py:149
 msgid "The name for the address."
-msgstr ""
+msgstr "The name for the address."
 
 #: core/models/_addresses.py:151 core/models/_contacts.py:281
 msgid "name suffix"
-msgstr ""
+msgstr "tên hậu tố"
 
 #: core/models/_addresses.py:154
 msgid "The name suffix. For example, Jr, Sr, etc."
-msgstr ""
+msgstr "Tên hậu tố.Ví dụ, Jr, SR, v.v."
 
 #: core/models/_addresses.py:157 core/models/_contacts.py:286
 msgid "name extension"
-msgstr ""
+msgstr "tên mở rộng"
 
 #: core/models/_addresses.py:161
 msgid ""
@@ -179,16 +179,16 @@ msgstr ""
 
 #: core/models/_addresses.py:166
 msgid "company name"
-msgstr ""
+msgstr "Tên công ty"
 
 #: core/models/_addresses.py:166
 msgid "The company name for the address."
-msgstr ""
+msgstr "Tên công ty cho địa chỉ."
 
 #: core/models/_addresses.py:169 core/models/_contacts.py:460
 #: core/models/_orders.py:460
 msgid "tax number"
-msgstr ""
+msgstr "số thuế"
 
 #: core/models/_addresses.py:172
 msgid ""
@@ -198,171 +198,171 @@ msgstr ""
 #: core/models/_addresses.py:175 core/models/_contacts.py:256
 #: core/models/_orders.py:461
 msgid "phone"
-msgstr ""
+msgstr "phone"
 
 #: core/models/_addresses.py:175
 msgid "The primary phone number for the address."
-msgstr ""
+msgstr "Số điện thoại chính cho địa chỉ."
 
 #: core/models/_addresses.py:178 core/models/_contacts.py:290
 msgid "email"
-msgstr ""
+msgstr "email"
 
 #: core/models/_addresses.py:178
 msgid "The primary email for the address."
-msgstr ""
+msgstr "Email chính cho địa chỉ."
 
 #: core/models/_addresses.py:180
 msgid "street"
-msgstr ""
+msgstr "đường phố"
 
 #: core/models/_addresses.py:180
 msgid "The street address."
-msgstr ""
+msgstr "The street address."
 
 #: core/models/_addresses.py:182
 msgid "street (2)"
-msgstr ""
+msgstr "đường phố (2)"
 
 #: core/models/_addresses.py:182
 msgid "An additional street address line."
-msgstr ""
+msgstr "Một dòng địa chỉ đường phố bổ sung."
 
 #: core/models/_addresses.py:185
 msgid "street (3)"
-msgstr ""
+msgstr "đường phố (3)"
 
 #: core/models/_addresses.py:185
 msgid "Any additional street address line."
-msgstr ""
+msgstr "Bất kỳ dòng địa chỉ đường phố bổ sung."
 
 #: core/models/_addresses.py:188
 msgid "postal code"
-msgstr ""
+msgstr "Mã bưu điện"
 
 #: core/models/_addresses.py:188
 msgid "The address postal/zip code."
-msgstr ""
+msgstr "Địa chỉ mã bưu điện/mã zip."
 
 #: core/models/_addresses.py:190
 msgid "city"
-msgstr ""
+msgstr "thành phố"
 
 #: core/models/_addresses.py:190
 msgid "The address city."
-msgstr ""
+msgstr "Thành phố địa chỉ."
 
 #: core/models/_addresses.py:192
 msgid "region code"
-msgstr ""
+msgstr "Mã vùng"
 
 #: core/models/_addresses.py:192 core/models/_addresses.py:195
 msgid "The address region, province, or state."
-msgstr ""
+msgstr "Khu vực địa chỉ, tỉnh hoặc tiểu bang."
 
 #: core/models/_addresses.py:195
 msgid "region"
-msgstr ""
+msgstr "vùng đất"
 
 #: core/models/_addresses.py:197
 msgid "country"
-msgstr ""
+msgstr "quốc gia"
 
 #: core/models/_addresses.py:197
 msgid "The address country."
-msgstr ""
+msgstr "Quốc gia địa chỉ."
 
 #: core/models/_addresses.py:203 core/models/_addresses.py:328
 msgid "address"
-msgstr ""
+msgstr "Địa chỉ"
 
 #: core/models/_addresses.py:204
 msgid "addresses"
-msgstr ""
+msgstr "địa chỉ"
 
 #: core/models/_addresses.py:326
 msgid "owner"
-msgstr ""
+msgstr "người sở hữu"
 
 #: core/models/_addresses.py:330 core/models/_orders.py:168
 msgid "role"
-msgstr ""
+msgstr "vai trò"
 
 #: core/models/_addresses.py:331 core/models/_background_tasks.py:66
 #: core/models/_categories.py:110 core/models/_orders.py:505
 #: core/models/_product_variation.py:95 core/models/_shipments.py:72
 #: core/models/_shops.py:72
 msgid "status"
-msgstr ""
+msgstr "trạng thái"
 
 #: core/models/_addresses.py:332 core/models/_basket.py:58
 #: core/models/_product_media.py:90
 msgid "title"
-msgstr ""
+msgstr "tiêu đề"
 
 #: core/models/_addresses.py:336
 msgid "saved address"
-msgstr ""
+msgstr "địa chỉ lưu"
 
 #: core/models/_addresses.py:337
 msgid "saved addresses"
-msgstr ""
+msgstr "Địa chỉ lưu"
 
 #: core/models/_attributes.py:47
 msgid "hidden"
-msgstr ""
+msgstr "ẩn giấu"
 
 #: core/models/_attributes.py:48
 msgid "shown on product page"
-msgstr ""
+msgstr "shown on product page"
 
 #: core/models/_attributes.py:49
 msgid "searchable metadata"
-msgstr ""
+msgstr "searchable metadata"
 
 #: core/models/_attributes.py:50
 msgid "private metadata"
-msgstr ""
+msgstr "Siêu dữ liệu riêng"
 
 #: core/models/_attributes.py:68
 msgid "integer"
-msgstr ""
+msgstr "Số nguyên"
 
 #: core/models/_attributes.py:69
 msgid "decimal"
-msgstr ""
+msgstr "decimal"
 
 #: core/models/_attributes.py:70
 msgid "boolean"
-msgstr ""
+msgstr "Boolean"
 
 #: core/models/_attributes.py:71
 msgid "time interval"
-msgstr ""
+msgstr "khoảng thời gian"
 
 #: core/models/_attributes.py:73
 msgid "date and time"
-msgstr ""
+msgstr "ngày và thời gian"
 
 #: core/models/_attributes.py:74
 msgid "date only"
-msgstr ""
+msgstr "date only"
 
 #: core/models/_attributes.py:76
 msgid "translated string"
-msgstr ""
+msgstr "Chuỗi dịch"
 
 #: core/models/_attributes.py:77
 msgid "untranslated string"
-msgstr ""
+msgstr "Chuỗi chưa được dịch"
 
 #: core/models/_attributes.py:79
 msgid "choices"
-msgstr ""
+msgstr "sự lựa chọn"
 
 #: core/models/_attributes.py:110 core/models/_product_shops.py:43
 msgid "searchable"
-msgstr ""
+msgstr "có thể tìm kiếm"
 
 #: core/models/_attributes.py:111
 msgid ""
@@ -373,7 +373,7 @@ msgstr ""
 #: core/models/_attributes.py:116 core/models/_products.py:851
 #: core/models/_shipments.py:83
 msgid "type"
-msgstr ""
+msgstr "kiểu"
 
 #: core/models/_attributes.py:117
 msgid ""
@@ -383,7 +383,7 @@ msgstr ""
 
 #: core/models/_attributes.py:121
 msgid "Minimum amount of choices"
-msgstr ""
+msgstr "Số lượng lựa chọn tối thiểu"
 
 #: core/models/_attributes.py:123
 msgid ""
@@ -393,7 +393,7 @@ msgstr ""
 
 #: core/models/_attributes.py:129
 msgid "Maximum amount of choices"
-msgstr ""
+msgstr "Số lượng lựa chọn tối đa"
 
 #: core/models/_attributes.py:131
 msgid ""
@@ -403,7 +403,7 @@ msgstr ""
 
 #: core/models/_attributes.py:138
 msgid "visibility mode"
-msgstr ""
+msgstr "Chế độ hiển thị"
 
 #: core/models/_attributes.py:140
 msgid ""
@@ -413,7 +413,7 @@ msgstr ""
 
 #: core/models/_attributes.py:146
 msgid "The ordering in which your attribute will be displayed."
-msgstr ""
+msgstr "Thứ tự trong đó thuộc tính của bạn sẽ được hiển thị."
 
 #: core/models/_attributes.py:154
 msgid ""
@@ -426,39 +426,39 @@ msgstr ""
 #: core/models/_attributes.py:165 core/models/_attributes.py:257
 #: core/models/_attributes.py:272
 msgid "attribute"
-msgstr ""
+msgstr "thuộc tính"
 
 #: core/models/_attributes.py:166 core/models/_products.py:148
 msgid "attributes"
-msgstr ""
+msgstr "thuộc tính"
 
 #: core/models/_attributes.py:264
 msgid "The attribute choice option name. "
-msgstr ""
+msgstr "The attribute choice option name. "
 
 #: core/models/_attributes.py:274
 msgid "chosen options"
-msgstr ""
+msgstr "Tùy chọn đã chọn"
 
 #: core/models/_attributes.py:277
 msgid "numeric value"
-msgstr ""
+msgstr "numeric value"
 
 #: core/models/_attributes.py:280
 msgid "datetime value"
-msgstr ""
+msgstr "Giá trị DateTime"
 
 #: core/models/_attributes.py:282
 msgid "untranslated value"
-msgstr ""
+msgstr "giá trị chưa được dịch"
 
 #: core/models/_background_tasks.py:16
 msgid "queue name"
-msgstr ""
+msgstr "Tên hàng đợi"
 
 #: core/models/_background_tasks.py:17
 msgid "task identifier"
-msgstr ""
+msgstr "task identifier"
 
 #: core/models/_background_tasks.py:18 core/models/_basket.py:53
 #: core/models/_contacts.py:195 core/models/_labels.py:24
@@ -467,22 +467,22 @@ msgstr ""
 #: core/models/_products.py:217 core/models/_shipments.py:71
 #: core/models/_shops.py:55 core/models/_suppliers.py:71
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: core/models/_background_tasks.py:19 core/models/_contacts.py:197
 #: core/models/_labels.py:25 core/models/_order_lines.py:117
 #: core/models/_orders.py:411 core/models/_products.py:218
 #: core/models/_shops.py:56 core/models/_suppliers.py:72
 msgid "modified on"
-msgstr ""
+msgstr "sửa đổi trên"
 
 #: core/models/_background_tasks.py:20
 msgid "task function"
-msgstr ""
+msgstr "chức năng nhiệm vụ"
 
 #: core/models/_background_tasks.py:21
 msgid "task arguments"
-msgstr ""
+msgstr "đối số nhiệm vụ"
 
 #: core/models/_background_tasks.py:23 core/models/_basket.py:26
 #: core/models/_configurations.py:23 core/models/_configurations.py:46
@@ -490,164 +490,164 @@ msgstr ""
 #: core/models/_product_shops.py:49 core/models/_service_base.py:222
 #: core/models/_shops.py:178
 msgid "shop"
-msgstr ""
+msgstr "shop"
 
 #: core/models/_background_tasks.py:28 core/models/_order_lines.py:86
 #: core/models/_service_base.py:72 core/models/_service_base.py:226
 #: core/models/_shipments.py:68 core/models/_supplied_products.py:16
 msgid "supplier"
-msgstr ""
+msgstr "nhà cung cấp"
 
 #: core/models/_background_tasks.py:35 core/models/_contacts.py:496
 msgid "user"
-msgstr ""
+msgstr "người dùng"
 
 #: core/models/_background_tasks.py:41 core/models/_background_tasks.py:60
 msgid "background task"
-msgstr ""
+msgstr "Nhiệm vụ nền"
 
 #: core/models/_background_tasks.py:42
 msgid "background tasks"
-msgstr ""
+msgstr "Nhiệm vụ nền"
 
 #: core/models/_background_tasks.py:51
 msgid "running"
-msgstr ""
+msgstr "đang chạy"
 
 #: core/models/_background_tasks.py:52
 msgid "success"
-msgstr ""
+msgstr "thành công"
 
 #: core/models/_background_tasks.py:53
 msgid "error"
-msgstr ""
+msgstr "lỗi"
 
 #: core/models/_background_tasks.py:63
 msgid "started on"
-msgstr ""
+msgstr "bắt đầu"
 
 #: core/models/_background_tasks.py:64
 msgid "finished on"
-msgstr ""
+msgstr "hoàn thành trên"
 
 #: core/models/_background_tasks.py:68
 msgid "results"
-msgstr ""
+msgstr "kết quả"
 
 #: core/models/_background_tasks.py:69
 msgid "error log"
-msgstr ""
+msgstr "Nhật ký lỗi"
 
 #: core/models/_background_tasks.py:72
 msgid "background task execution"
-msgstr ""
+msgstr "thực thi nhiệm vụ nền"
 
 #: core/models/_background_tasks.py:73
 msgid "background task executions"
-msgstr ""
+msgstr "background task executions"
 
 #: core/models/_base.py:106
 msgid "The following fields are protected and can not be changed."
-msgstr ""
+msgstr "Các trường sau được bảo vệ và không thể thay đổi."
 
 #: core/models/_basket.py:24 core/models/_configurations.py:25
 #: core/models/_configurations.py:48 core/models/_orders.py:417
 #: core/models/_persistent_cache.py:15
 msgid "key"
-msgstr ""
+msgstr "chìa khóa"
 
 #: core/models/_basket.py:34 core/models/_orders.py:434
 msgid "customer"
-msgstr ""
+msgstr "khách hàng"
 
 #: core/models/_basket.py:42 core/models/_orders.py:442
 msgid "orderer"
-msgstr ""
+msgstr "người đặt hàng"
 
 #: core/models/_basket.py:50
 msgid "creator"
-msgstr ""
+msgstr "người tạo ra"
 
 #: core/models/_basket.py:54
 msgid "updated on"
-msgstr ""
+msgstr "Cập nhật trên"
 
 #: core/models/_basket.py:55
 msgid "persistent"
-msgstr ""
+msgstr "persistent"
 
 #: core/models/_basket.py:56 core/models/_categories.py:37
 #: core/models/_orders.py:504 core/models/_products.py:219
 #: core/models/_suppliers.py:154
 msgid "deleted"
-msgstr ""
+msgstr "đã xóa"
 
 #: core/models/_basket.py:57
 msgid "finished"
-msgstr ""
+msgstr "hoàn thành"
 
 #: core/models/_basket.py:59 core/models/_persistent_cache.py:17
 msgid "data"
-msgstr ""
+msgstr "dữ liệu"
 
 #: core/models/_basket.py:65
 msgid "taxless total price"
-msgstr ""
+msgstr "Tổng giá vô thuế"
 
 #: core/models/_basket.py:66
 msgid "taxful total price"
-msgstr ""
+msgstr "Tổng giá thuế"
 
 #: core/models/_basket.py:67 core/models/_currencies.py:54
 #: core/models/_orders.py:556 core/models/_shops.py:82
 msgid "currency"
-msgstr ""
+msgstr "tiền tệ"
 
 #: core/models/_basket.py:68 core/models/_orders.py:557
 #: core/models/_shops.py:87
 msgid "prices include tax"
-msgstr ""
+msgstr "Giá bao gồm thuế"
 
 #: core/models/_basket.py:70
 msgid "product_count"
-msgstr ""
+msgstr "sản phẩm_count"
 
 #: core/models/_basket.py:71 core/models/_products.py:436
 msgid "products"
-msgstr ""
+msgstr "các sản phẩm"
 
 #: core/models/_basket.py:74
 msgid "basket"
-msgstr ""
+msgstr "rổ"
 
 #: core/models/_basket.py:75
 msgid "baskets"
-msgstr ""
+msgstr "Giỏ"
 
 #: core/models/_categories.py:35 core/models/_product_variation.py:31
 msgid "invisible"
-msgstr ""
+msgstr "vô hình"
 
 #: core/models/_categories.py:36 core/models/_media.py:44
 #: core/models/_product_variation.py:32
 msgid "visible"
-msgstr ""
+msgstr "dễ thấy"
 
 #: core/models/_categories.py:46 core/models/_products.py:83
 msgid "visible to all"
-msgstr ""
+msgstr "có thể nhìn thấy cho tất cả"
 
 #: core/models/_categories.py:47
 msgid "visible to logged-in customers"
-msgstr ""
+msgstr "Có thể nhìn thấy cho khách hàng đăng nhập"
 
 #: core/models/_categories.py:48
 msgid "visible to certain customer groups"
-msgstr ""
+msgstr "visible to certain customer groups"
 
 #: core/models/_categories.py:95
 msgid "parent category"
-msgstr ""
+msgstr "Thể loại phụ huynh"
 
 #: core/models/_categories.py:97
 msgid ""
@@ -661,19 +661,19 @@ msgstr ""
 #: core/models/_service_base.py:61 core/models/_shops.py:179
 #: core/models/_suppliers.py:117
 msgid "shops"
-msgstr ""
+msgstr "Cửa hàng"
 
 #: core/models/_categories.py:104
 msgid "You can select which shops the category is visible in."
-msgstr ""
+msgstr "Bạn có thể chọn các cửa hàng nào có thể nhìn thấy."
 
 #: core/models/_categories.py:112
 msgid "Choose if you want this category to be visible in your store."
-msgstr ""
+msgstr "Chọn nếu bạn muốn danh mục này được hiển thị trong cửa hàng của bạn."
 
 #: core/models/_categories.py:115 core/models/_product_media.py:31
 msgid "image"
-msgstr ""
+msgstr "hình ảnh"
 
 #: core/models/_categories.py:119
 msgid ""
@@ -684,7 +684,7 @@ msgstr ""
 #: core/models/_categories.py:123 core/models/_order_lines.py:97
 #: core/models/_order_lines.py:211 core/models/_orders.py:161
 msgid "ordering"
-msgstr ""
+msgstr "đặt hàng"
 
 #: core/models/_categories.py:125
 msgid ""
@@ -695,7 +695,7 @@ msgstr ""
 
 #: core/models/_categories.py:134 core/models/_product_shops.py:81
 msgid "visibility limitations"
-msgstr ""
+msgstr "giới hạn khả năng hiển thị"
 
 #: core/models/_categories.py:136
 msgid ""
@@ -705,15 +705,15 @@ msgstr ""
 
 #: core/models/_categories.py:141
 msgid "visible in menu"
-msgstr ""
+msgstr "Có thể nhìn thấy trong menu"
 
 #: core/models/_categories.py:143
 msgid "Enable if this category should be visible in the store front's menu."
-msgstr ""
+msgstr "Bật nếu danh mục này có thể hiển thị trong menu của cửa hàng."
 
 #: core/models/_categories.py:148 core/models/_product_shops.py:91
 msgid "visible for groups"
-msgstr ""
+msgstr "visible for groups"
 
 #: core/models/_categories.py:151
 msgid ""
@@ -737,7 +737,7 @@ msgstr ""
 #: core/models/_service_shipping.py:31 core/models/_shipments.py:75
 #: core/models/_shops.py:149 core/models/_suppliers.py:141
 msgid "description"
-msgstr ""
+msgstr "Sự miêu tả"
 
 #: core/models/_categories.py:172
 msgid ""
@@ -748,7 +748,7 @@ msgstr ""
 #: core/models/_categories.py:179 core/models/_products.py:398
 #: core/models/_suppliers.py:143
 msgid "slug"
-msgstr ""
+msgstr "sên"
 
 #: core/models/_categories.py:181
 msgid ""
@@ -760,67 +760,67 @@ msgstr ""
 
 #: core/models/_categories.py:193
 msgid "category"
-msgstr ""
+msgstr "category"
 
 #: core/models/_categories.py:194 core/models/_product_shops.py:182
 msgid "categories"
-msgstr ""
+msgstr "Thể loại"
 
 #: core/models/_configurations.py:26 core/models/_configurations.py:49
 #: core/models/_counters.py:26 core/models/_product_variation.py:68
 msgid "value"
-msgstr ""
+msgstr "giá trị"
 
 #: core/models/_configurations.py:30 core/models/_configurations.py:53
 msgid "configuration item"
-msgstr ""
+msgstr "Mục cấu hình"
 
 #: core/models/_configurations.py:31 core/models/_configurations.py:54
 msgid "configuration items"
-msgstr ""
+msgstr "Mục cấu hình"
 
 #: core/models/_configurations.py:35 core/models/_configurations.py:58
 #, python-format
 msgid "%(key)s for shop %(shop)s"
-msgstr ""
+msgstr "%(key) s cho cửa hàng %(shop)s"
 
 #: core/models/_configurations.py:37 core/models/_configurations.py:60
 #, python-format
 msgid "%(key)s (global)"
-msgstr ""
+msgstr "%(key)s (global)"
 
 #: core/models/_contacts.py:67
 msgid "show as pricing option"
-msgstr ""
+msgstr "Hiển thị là tùy chọn định giá"
 
 #: core/models/_contacts.py:69
 msgid "show prices including taxes"
-msgstr ""
+msgstr "show prices including taxes"
 
 #: core/models/_contacts.py:71
 msgid "hide prices"
-msgstr ""
+msgstr "Ẩn giá"
 
 #: core/models/_contacts.py:76
 msgid "Unknown"
-msgstr ""
+msgstr "Không xác định"
 
 #: core/models/_contacts.py:77
 #, python-format
 msgid "Price Display Options for Contact Group %s"
-msgstr ""
+msgstr "Tùy chọn hiển thị giá cho nhóm liên hệ %s"
 
 #: core/models/_contacts.py:80
 msgid "contact group price display"
-msgstr ""
+msgstr "Hiển thị giá nhóm liên hệ"
 
 #: core/models/_contacts.py:81
 msgid "contact group price displays"
-msgstr ""
+msgstr "Hiển thị giá nhóm liên hệ"
 
 #: core/models/_contacts.py:110 core/models/_contacts.py:457
 msgid "members"
-msgstr ""
+msgstr "thành viên"
 
 #: core/models/_contacts.py:117
 msgid ""
@@ -830,55 +830,55 @@ msgstr ""
 
 #: core/models/_contacts.py:126
 msgid "contact group"
-msgstr ""
+msgstr "Nhóm liên hệ"
 
 #: core/models/_contacts.py:127
 msgid "contact groups"
-msgstr ""
+msgstr "Các nhóm liên hệ"
 
 #: core/models/_contacts.py:134
 msgid "Cannot set shop for default Contact Group."
-msgstr ""
+msgstr "Không thể đặt cửa hàng cho nhóm liên hệ mặc định."
 
 #: core/models/_contacts.py:166
 msgid "Can't delete. This object is protected."
-msgstr ""
+msgstr "Can't delete. This object is protected."
 
 #: core/models/_contacts.py:203
 msgid "active"
-msgstr ""
+msgstr "tích cực"
 
 #: core/models/_contacts.py:204
 msgid "Enable this if the contact is an active customer."
-msgstr ""
+msgstr "Kích hoạt điều này nếu liên hệ là một khách hàng tích cực."
 
 #: core/models/_contacts.py:210
 msgid "Inform which shops have access to this contact."
-msgstr ""
+msgstr "Thông báo những cửa hàng có quyền truy cập vào liên hệ này."
 
 #: core/models/_contacts.py:217
 msgid "registration shop"
-msgstr ""
+msgstr "registration shop"
 
 #: core/models/_contacts.py:239
 msgid "default shipping method"
-msgstr ""
+msgstr "default shipping method"
 
 #: core/models/_contacts.py:242
 msgid "default payment method"
-msgstr ""
+msgstr "default payment method"
 
 #: core/models/_contacts.py:246 core/models/_orders.py:570
 msgid "language"
-msgstr ""
+msgstr "ngôn ngữ"
 
 #: core/models/_contacts.py:248
 msgid "The primary language to be used in all communications with the contact."
-msgstr ""
+msgstr "Ngôn ngữ chính được sử dụng trong tất cả các giao tiếp với liên hệ."
 
 #: core/models/_contacts.py:252 core/models/_orders.py:575
 msgid "marketing permission"
-msgstr ""
+msgstr "sự cho phép tiếp thị"
 
 #: core/models/_contacts.py:253
 msgid ""
@@ -887,19 +887,19 @@ msgstr ""
 
 #: core/models/_contacts.py:256
 msgid "The primary phone number of the contact."
-msgstr ""
+msgstr "Số điện thoại chính của liên hệ."
 
 #: core/models/_contacts.py:261
 msgid "web address"
-msgstr ""
+msgstr "địa chỉ web"
 
 #: core/models/_contacts.py:262
 msgid "The web address of the contact, if any."
-msgstr ""
+msgstr "Địa chỉ web của liên hệ, nếu có."
 
 #: core/models/_contacts.py:267
 msgid "time zone"
-msgstr ""
+msgstr "múi giờ"
 
 #: core/models/_contacts.py:269
 msgid ""
@@ -909,15 +909,15 @@ msgstr ""
 
 #: core/models/_contacts.py:277
 msgid "The name prefix of the contact. For example, Mr, Mrs, Dr, etc."
-msgstr ""
+msgstr "Tiền tố tên của liên hệ.Ví dụ, MR, MRS, DR, v.v."
 
 #: core/models/_contacts.py:279
 msgid "The contact name"
-msgstr ""
+msgstr "Tên liên lạc"
 
 #: core/models/_contacts.py:284
 msgid "The name suffix of the contact. For example, Sr, Jr, etc."
-msgstr ""
+msgstr "Hậu tố tên của liên hệ.Ví dụ, SR, JR, v.v."
 
 #: core/models/_contacts.py:291
 msgid ""
@@ -927,7 +927,7 @@ msgstr ""
 
 #: core/models/_contacts.py:298 core/models/_orders.py:484
 msgid "tax group"
-msgstr ""
+msgstr "tax group"
 
 #: core/models/_contacts.py:300
 msgid ""
@@ -939,7 +939,7 @@ msgstr ""
 
 #: core/models/_contacts.py:308
 msgid "merchant notes"
-msgstr ""
+msgstr "Ghi chú thương mại"
 
 #: core/models/_contacts.py:309
 msgid ""
@@ -949,16 +949,16 @@ msgstr ""
 
 #: core/models/_contacts.py:312 core/models/_orders.py:471
 msgid "account manager"
-msgstr ""
+msgstr "Quản lý tài khoản"
 
 #: core/models/_contacts.py:314 core/models/_shops.py:79
 #: core/models/_suppliers.py:140
 msgid "options"
-msgstr ""
+msgstr "tùy chọn"
 
 #: core/models/_contacts.py:316
 msgid "picture"
-msgstr ""
+msgstr "hình ảnh"
 
 #: core/models/_contacts.py:321
 msgid ""
@@ -968,145 +968,145 @@ msgstr ""
 
 #: core/models/_contacts.py:328 core/models/_shops.py:78
 msgid "contact"
-msgstr ""
+msgstr "liên hệ"
 
 #: core/models/_contacts.py:329
 msgid "contacts"
-msgstr ""
+msgstr "Liên hệ"
 
 #: core/models/_contacts.py:454
 msgid "Company Contacts"
-msgstr ""
+msgstr "Liên hệ công ty"
 
 #: core/models/_contacts.py:460
 msgid "e.g. EIN in US or VAT code in Europe"
-msgstr ""
+msgstr "ví dụ.EIN ở Hoa Kỳ hoặc mã VAT ở Châu Âu"
 
 #: core/models/_contacts.py:464
 msgid "company"
-msgstr ""
+msgstr "công ty"
 
 #: core/models/_contacts.py:465
 msgid "companies"
-msgstr ""
+msgstr "công ty"
 
 #: core/models/_contacts.py:479
 msgid "undisclosed"
-msgstr ""
+msgstr "không được tiết lộ"
 
 #: core/models/_contacts.py:480
 msgid "male"
-msgstr ""
+msgstr "male"
 
 #: core/models/_contacts.py:481
 msgid "female"
-msgstr ""
+msgstr "nữ giới"
 
 #: core/models/_contacts.py:482 core/models/_order_lines.py:45
 msgid "other"
-msgstr ""
+msgstr "khác"
 
 #: core/models/_contacts.py:488
 msgid "Person Contacts"
-msgstr ""
+msgstr "Người liên hệ người"
 
 #: core/models/_contacts.py:502
 msgid "gender"
-msgstr ""
+msgstr "giới tính"
 
 #: core/models/_contacts.py:503
 msgid "The gender of the contact."
-msgstr ""
+msgstr "Giới tính của liên hệ."
 
 #: core/models/_contacts.py:506
 msgid "birth date"
-msgstr ""
+msgstr "Ngày sinh"
 
 #: core/models/_contacts.py:506
 msgid "The birth date of the contact."
-msgstr ""
+msgstr "Ngày sinh của liên lạc."
 
 #: core/models/_contacts.py:509
 msgid "first name"
-msgstr ""
+msgstr "Tên"
 
 #: core/models/_contacts.py:509
 msgid "The first name of the contact."
-msgstr ""
+msgstr "Tên đầu tiên của liên hệ."
 
 #: core/models/_contacts.py:512
 msgid "last name"
-msgstr ""
+msgstr "họ"
 
 #: core/models/_contacts.py:512
 msgid "The last name of the contact."
-msgstr ""
+msgstr "Tên cuối cùng của người liên lạc."
 
 #: core/models/_contacts.py:517
 msgid "person"
-msgstr ""
+msgstr "người"
 
 #: core/models/_contacts.py:518
 msgid "persons"
-msgstr ""
+msgstr "người"
 
 #: core/models/_contacts.py:568
 msgid "Anonymous Contacts"
-msgstr ""
+msgstr "Anonymous Contacts"
 
 #: core/models/_counters.py:21
 msgid "order reference"
-msgstr ""
+msgstr "Tham khảo thứ tự"
 
 #: core/models/_counters.py:25 core/models/_payments.py:22
 #: core/models/_service_base.py:215
 msgid "identifier"
-msgstr ""
+msgstr "định danh"
 
 #: core/models/_counters.py:29
 msgid "counter"
-msgstr ""
+msgstr "quầy tính tiền"
 
 #: core/models/_counters.py:30
 msgid "counters"
-msgstr ""
+msgstr "quầy"
 
 #: core/models/_currencies.py:27 core/models/_taxes.py:30
 msgid "code"
-msgstr ""
+msgstr "mã số"
 
 #: core/models/_currencies.py:32
 msgid "The ISO-4217 code of the currency"
-msgstr ""
+msgstr "Mã ISO-4217 của tiền tệ"
 
 #: core/models/_currencies.py:36 core/models/_units.py:181
 msgid "decimal places"
-msgstr ""
+msgstr "vị trí thập phân"
 
 #: core/models/_currencies.py:39
 msgid "The number of decimal places supported by this currency."
-msgstr ""
+msgstr "The number of decimal places supported by this currency."
 
 #: core/models/_currencies.py:47
 msgid "Enter a valid ISO-4217 currency code."
-msgstr ""
+msgstr "Nhập mã tiền tệ ISO-4217 hợp lệ."
 
 #: core/models/_currencies.py:55
 msgid "currencies"
-msgstr ""
+msgstr "tiền tệ"
 
 #: core/models/_labels.py:30 core/models/_orders.py:414
 msgid "label"
-msgstr ""
+msgstr "nhãn"
 
 #: core/models/_labels.py:31 core/models/_order_lines.py:105
 #: core/models/_service_base.py:252 core/models/_shops.py:131
 msgid "labels"
-msgstr ""
+msgstr "nhãn"
 
 #: core/models/_manufacturers.py:23
 msgid "added"
-msgstr ""
+msgstr "Đã thêm"
 
 #: core/models/_manufacturers.py:31
 msgid ""
@@ -1116,7 +1116,7 @@ msgstr ""
 
 #: core/models/_manufacturers.py:39 core/models/_product_media.py:59
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: core/models/_manufacturers.py:41
 msgid ""
@@ -1128,48 +1128,48 @@ msgstr ""
 #: core/models/_service_base.py:243 core/models/_shops.py:94
 #: core/models/_suppliers.py:130
 msgid "logo"
-msgstr ""
+msgstr "logo"
 
 #: core/models/_manufacturers.py:51 core/models/_products.py:357
 msgid "manufacturer"
-msgstr ""
+msgstr "nhà sản xuất"
 
 #: core/models/_manufacturers.py:52
 msgid "manufacturers"
-msgstr ""
+msgstr "nhà sản xuất"
 
 #: core/models/_media.py:20 core/models/_product_media.py:30
 #: core/models/_product_media.py:55
 msgid "file"
-msgstr ""
+msgstr "tài liệu"
 
 #: core/models/_media.py:25
 msgid "Select which shops you would like the files to be visible in."
-msgstr ""
+msgstr "Chọn những cửa hàng bạn muốn hiển thị các tệp."
 
 #: core/models/_media.py:34
 msgid "folder"
-msgstr ""
+msgstr "thư mục"
 
 #: core/models/_media.py:39
 msgid "Select which shops you would like the folder to be visible in."
-msgstr ""
+msgstr "Chọn những cửa hàng bạn muốn hiển thị thư mục."
 
 #: core/models/_media.py:45
 msgid "Should this folder be visible for everyone in the media browser"
-msgstr ""
+msgstr "Có thể hiển thị thư mục này cho mọi người trong trình duyệt truyền thông"
 
 #: core/models/_media.py:50
 msgid "owning_media_folders"
-msgstr ""
+msgstr "owning_media_folders"
 
 #: core/models/_media.py:51
 msgid "owners"
-msgstr ""
+msgstr "chủ sở hữu"
 
 #: core/models/_media.py:52
 msgid "Select which users will own this folder."
-msgstr ""
+msgstr "Chọn người dùng nào sẽ sở hữu thư mục này."
 
 #: core/models/_order_lines.py:41 core/models/_order_lines.py:78
 #: core/models/_product_media.py:39 core/models/_product_shops.py:51
@@ -1177,165 +1177,165 @@ msgstr ""
 #: core/models/_products.py:435 core/models/_products.py:860
 #: core/models/_shipments.py:188 core/models/_supplied_products.py:17
 msgid "product"
-msgstr ""
+msgstr "sản phẩm"
 
 #: core/models/_order_lines.py:42
 msgid "shipping"
-msgstr ""
+msgstr "vận chuyển"
 
 #: core/models/_order_lines.py:43 core/models/_payments.py:42
 msgid "payment"
-msgstr ""
+msgstr "sự chi trả"
 
 #: core/models/_order_lines.py:44
 msgid "discount"
-msgstr ""
+msgstr "discount"
 
 #: core/models/_order_lines.py:46
 msgid "refund"
-msgstr ""
+msgstr "đền bù"
 
 #: core/models/_order_lines.py:47
 msgid "rounding"
-msgstr ""
+msgstr "rounding"
 
 #: core/models/_order_lines.py:95
 msgid "parent line"
-msgstr ""
+msgstr "dòng cha mẹ"
 
 #: core/models/_order_lines.py:98
 msgid "line type"
-msgstr ""
+msgstr "loại dòng"
 
 #: core/models/_order_lines.py:99
 msgid "line SKU"
-msgstr ""
+msgstr "line SKU"
 
 #: core/models/_order_lines.py:100
 msgid "line text"
-msgstr ""
+msgstr "văn bản dòng"
 
 #: core/models/_order_lines.py:101
 msgid "accounting identifier"
-msgstr ""
+msgstr "Định danh kế toán"
 
 #: core/models/_order_lines.py:102
 msgid "require verification"
-msgstr ""
+msgstr "require verification"
 
 #: core/models/_order_lines.py:103
 msgid "verified"
-msgstr ""
+msgstr "đã xác minh"
 
 #: core/models/_order_lines.py:104 core/models/_orders.py:548
 msgid "extra data"
-msgstr ""
+msgstr "thêm dữ liệu"
 
 #: core/models/_order_lines.py:108 core/models/_product_packages.py:22
 #: core/models/_shipments.py:190
 msgid "quantity"
-msgstr ""
+msgstr "Số lượng"
 
 #: core/models/_order_lines.py:112
 msgid "unit price amount (undiscounted)"
-msgstr ""
+msgstr "Đơn giá số tiền (chưa được khám phá)"
 
 #: core/models/_order_lines.py:113
 msgid "total amount of discount"
-msgstr ""
+msgstr "Tổng số tiền chiết khấu"
 
 #: core/models/_order_lines.py:123 core/models/_order_lines.py:198
 msgid "order line"
-msgstr ""
+msgstr "dòng đặt hàng"
 
 #: core/models/_order_lines.py:124
 msgid "order lines"
-msgstr ""
+msgstr "dòng đặt hàng"
 
 #: core/models/_order_lines.py:186 core/models/_orders.py:583
 #: core/models/_payments.py:39 core/models/_shipments.py:65
 msgid "order"
-msgstr ""
+msgstr "đặt hàng"
 
 #: core/models/_order_lines.py:200 core/models/_taxes.py:101
 msgid "tax"
-msgstr ""
+msgstr "thuế"
 
 #: core/models/_order_lines.py:201
 msgid "tax name"
-msgstr ""
+msgstr "Tên thuế"
 
 #: core/models/_order_lines.py:206
 msgid "tax amount"
-msgstr ""
+msgstr "số tiền thuế"
 
 #: core/models/_order_lines.py:208
 msgid "base amount"
-msgstr ""
+msgstr "số tiền cơ sở"
 
 #: core/models/_order_lines.py:208
 msgid "Amount that this tax is calculated from."
-msgstr ""
+msgstr "Số tiền mà thuế này được tính từ."
 
 #: core/models/_orders.py:71
 msgid "not paid"
-msgstr ""
+msgstr "không được trả tiền"
 
 #: core/models/_orders.py:72
 msgid "partially paid"
-msgstr ""
+msgstr "được trả một phần"
 
 #: core/models/_orders.py:73
 msgid "fully paid"
-msgstr ""
+msgstr "được trả hoàn toàn"
 
 #: core/models/_orders.py:74
 msgid "canceled"
-msgstr ""
+msgstr "bị hủy bỏ"
 
 #: core/models/_orders.py:75
 msgid "deferred"
-msgstr ""
+msgstr "hoãn lại"
 
 #: core/models/_orders.py:84
 msgid "not shipped"
-msgstr ""
+msgstr "not shipped"
 
 #: core/models/_orders.py:85
 msgid "partially shipped"
-msgstr ""
+msgstr "vận chuyển một phần"
 
 #: core/models/_orders.py:86
 msgid "fully shipped"
-msgstr ""
+msgstr "được vận chuyển đầy đủ"
 
 #: core/models/_orders.py:98 core/models/_orders.py:114
 msgid "none"
-msgstr ""
+msgstr "không có"
 
 #: core/models/_orders.py:99
 msgid "Initial"
-msgstr ""
+msgstr "Ban đầu"
 
 #: core/models/_orders.py:100 core/models/_orders.py:116
 msgid "Complete"
-msgstr ""
+msgstr "Hoàn thành"
 
 #: core/models/_orders.py:101 core/models/_orders.py:117
 msgid "Canceled"
-msgstr ""
+msgstr "Bị hủy bỏ"
 
 #: core/models/_orders.py:102
 msgid "Processing"
-msgstr ""
+msgstr "Xử lý"
 
 #: core/models/_orders.py:115 core/models/_shipments.py:38
 msgid "Received"
-msgstr ""
+msgstr "Đã nhận"
 
 #: core/models/_orders.py:118
 msgid "In Progress"
-msgstr ""
+msgstr "Trong tiến trình"
 
 #: core/models/_orders.py:156
 msgid ""
@@ -1345,15 +1345,15 @@ msgstr ""
 
 #: core/models/_orders.py:162
 msgid "The processing order of statuses. Default is always processed first."
-msgstr ""
+msgstr "Thứ tự xử lý trạng thái.Mặc định luôn được xử lý trước."
 
 #: core/models/_orders.py:169
 msgid "The role of this status. One role can have multiple order statuses."
-msgstr ""
+msgstr "Vai trò của tình trạng này.Một vai trò có thể có nhiều trạng thái đặt hàng."
 
 #: core/models/_orders.py:174
 msgid "default"
-msgstr ""
+msgstr "mặc định"
 
 #: core/models/_orders.py:175
 msgid ""
@@ -1363,274 +1363,274 @@ msgstr ""
 
 #: core/models/_orders.py:181
 msgid "is active"
-msgstr ""
+msgstr "is active"
 
 #: core/models/_orders.py:182
 msgid "Defines if the status is usable."
-msgstr ""
+msgstr "Xác định nếu trạng thái có thể sử dụng được."
 
 #: core/models/_orders.py:188
 msgid "Name of the order status."
-msgstr ""
+msgstr "Tên của trạng thái đơn hàng."
 
 #: core/models/_orders.py:190 core/models/_shops.py:141
 msgid "public name"
-msgstr ""
+msgstr "Tên công khai"
 
 #: core/models/_orders.py:192
 msgid "The name shown to the customers in shop front."
-msgstr ""
+msgstr "Tên hiển thị cho khách hàng ở cửa hàng."
 
 #: core/models/_orders.py:197
 msgid "allowed next statuses"
-msgstr ""
+msgstr "cho phép các trạng thái tiếp theo"
 
 #: core/models/_orders.py:202
 msgid "is visible for the user"
-msgstr ""
+msgstr "có thể nhìn thấy cho người dùng"
 
 #: core/models/_orders.py:203
 msgid "Indicates whether this status is visible for the customers"
-msgstr ""
+msgstr "Cho biết liệu trạng thái này có hiển thị cho khách hàng"
 
 #: core/models/_orders.py:208
 msgid "order status"
-msgstr ""
+msgstr "trạng thái đặt hàng"
 
 #: core/models/_orders.py:209
 msgid "order statuses"
-msgstr ""
+msgstr "trạng thái đặt hàng"
 
 #: core/models/_orders.py:228
 msgid "order id"
-msgstr ""
+msgstr "ID đặt hàng"
 
 #: core/models/_orders.py:237
 msgid "previous order status"
-msgstr ""
+msgstr "Trạng thái đơn hàng trước"
 
 #: core/models/_orders.py:244
 msgid "next order status"
-msgstr ""
+msgstr "next order status"
 
 #: core/models/_orders.py:257 core/models/_orders.py:494
 msgid "creating user"
-msgstr ""
+msgstr "Tạo người dùng"
 
 #: core/models/_orders.py:412
 msgid "order identifier"
-msgstr ""
+msgstr "Định danh đặt hàng"
 
 #: core/models/_orders.py:424
 msgid "reference number"
-msgstr ""
+msgstr "Số tham chiếu"
 
 #: core/models/_orders.py:462
 msgid "email address"
-msgstr ""
+msgstr "Địa chỉ email"
 
 #: core/models/_orders.py:476
 msgid "customer groups"
-msgstr ""
+msgstr "Nhóm khách hàng"
 
 #: core/models/_orders.py:502
 msgid "modifier user"
-msgstr ""
+msgstr "modifier user"
 
 #: core/models/_orders.py:510
 msgid "payment status"
-msgstr ""
+msgstr "tình trạng thanh toán"
 
 #: core/models/_orders.py:516
 msgid "shipping status"
-msgstr ""
+msgstr "tình trạng vận chuyển"
 
 #: core/models/_orders.py:527 core/models/_service_payment.py:52
 msgid "payment method"
-msgstr ""
+msgstr "Phương thức thanh toán"
 
 #: core/models/_orders.py:530
 msgid "payment method name"
-msgstr ""
+msgstr "payment method name"
 
 #: core/models/_orders.py:532
 msgid "payment data"
-msgstr ""
+msgstr "Dữ liệu thanh toán"
 
 #: core/models/_orders.py:541 core/models/_service_shipping.py:40
 msgid "shipping method"
-msgstr ""
+msgstr "phương pháp vận chuyển"
 
 #: core/models/_orders.py:544
 msgid "shipping method name"
-msgstr ""
+msgstr "Tên phương thức vận chuyển"
 
 #: core/models/_orders.py:546
 msgid "shipping data"
-msgstr ""
+msgstr "Vận chuyển dữ liệu"
 
 #: core/models/_orders.py:554
 msgid "grand total"
-msgstr ""
+msgstr "tổng số lớn"
 
 #: core/models/_orders.py:555
 msgid "taxless total"
-msgstr ""
+msgstr "Tổng số vô thuế"
 
 #: core/models/_orders.py:559
 msgid "display currency"
-msgstr ""
+msgstr "hiển thị tiền tệ"
 
 #: core/models/_orders.py:561
 msgid "display currency rate"
-msgstr ""
+msgstr "hiển thị tỷ lệ tiền tệ"
 
 #: core/models/_orders.py:565
 msgid "IP address"
-msgstr ""
+msgstr "IP address"
 
 #: core/models/_orders.py:567
 msgid "order date"
-msgstr ""
+msgstr "ngày đặt hàng"
 
 #: core/models/_orders.py:568
 msgid "payment date"
-msgstr ""
+msgstr "ngày thanh toán"
 
 #: core/models/_orders.py:571
 msgid "customer comment"
-msgstr ""
+msgstr "Nhận xét của khách hàng"
 
 #: core/models/_orders.py:572
 msgid "admin comment/notes"
-msgstr ""
+msgstr "Nhận xét/ghi chú của quản trị viên"
 
 #: core/models/_orders.py:573
 msgid "requires verification"
-msgstr ""
+msgstr "yêu cầu xác minh"
 
 #: core/models/_orders.py:574
 msgid "all lines verified"
-msgstr ""
+msgstr "Tất cả các dòng được xác minh"
 
 #: core/models/_orders.py:576
 msgid "codes"
-msgstr ""
+msgstr "Mã"
 
 #: core/models/_orders.py:584
 msgid "orders"
-msgstr ""
+msgstr "đơn đặt hàng"
 
 #: core/models/_orders.py:730
 msgid "Order was marked as paid."
-msgstr ""
+msgstr "Đơn đặt hàng được đánh dấu là trả tiền."
 
 #: core/models/_orders.py:737
 msgid "Order was marked as partially paid."
-msgstr ""
+msgstr "Đơn đặt hàng được đánh dấu là được trả một phần."
 
 #: core/models/_orders.py:868
 #, python-format
 msgid "Success! Shipment #%d was created."
-msgstr ""
+msgstr "Thành công!Lô hàng #%d đã được tạo ra."
 
 #: core/models/_orders.py:1025
 msgid "All rows requiring verification have been verified."
-msgstr ""
+msgstr "Tất cả các hàng yêu cầu xác minh đã được xác minh."
 
 #: core/models/_orders.py:1120
 #, python-format
 msgid "New shipping status is set to: %(shipping_status)s."
-msgstr ""
+msgstr "Trạng thái vận chuyển mới được đặt thành: %(shipping_status)s."
 
 #: core/models/_orders.py:1134
 #, python-format
 msgid "New payment status is set to: %(payment_status)s."
-msgstr ""
+msgstr "Trạng thái thanh toán mới được đặt thành: %(payment_status)s."
 
 #: core/models/_orders.py:1304
 msgid "Error! Can not change to this status"
-msgstr ""
+msgstr "Lỗi!Không thể thay đổi trạng thái này"
 
 #: core/models/_payments.py:21
 msgid "gateway ID"
-msgstr ""
+msgstr "ID cổng"
 
 #: core/models/_payments.py:27
 msgid "amount"
-msgstr ""
+msgstr "số lượng"
 
 #: core/models/_payments.py:28
 msgid "foreign amount"
-msgstr ""
+msgstr "số tiền nước ngoài"
 
 #: core/models/_payments.py:29
 msgid "foreign amount currency"
-msgstr ""
+msgstr "tiền nước ngoài tiền tệ"
 
 #: core/models/_payments.py:43
 msgid "payments"
-msgstr ""
+msgstr "thanh toán"
 
 #: core/models/_persistent_cache.py:14
 msgid "module"
-msgstr ""
+msgstr "Mô -đun"
 
 #: core/models/_persistent_cache.py:16
 msgid "time"
-msgstr ""
+msgstr "thời gian"
 
 #: core/models/_persistent_cache.py:20
 msgid "cache entry"
-msgstr ""
+msgstr "Nhập bộ nhớ cache"
 
 #: core/models/_persistent_cache.py:21
 msgid "cache entries"
-msgstr ""
+msgstr "Mục nhập bộ nhớ cache"
 
 #: core/models/_product_catalog.py:26
 msgid "Monday"
-msgstr ""
+msgstr "Thứ hai"
 
 #: core/models/_product_catalog.py:27
 msgid "Tuesday"
-msgstr ""
+msgstr "Thứ ba"
 
 #: core/models/_product_catalog.py:28
 msgid "Wednesday"
-msgstr ""
+msgstr "Thứ Tư"
 
 #: core/models/_product_catalog.py:29
 msgid "Thursday"
-msgstr ""
+msgstr "Thứ năm"
 
 #: core/models/_product_catalog.py:30
 msgid "Friday"
-msgstr ""
+msgstr "Thứ sáu"
 
 #: core/models/_product_catalog.py:31
 msgid "Saturday"
-msgstr ""
+msgstr "Thứ bảy"
 
 #: core/models/_product_catalog.py:32
 msgid "Sunday"
-msgstr ""
+msgstr "Chủ nhật"
 
 #: core/models/_product_catalog.py:40
 msgid "Pricing module identifier"
-msgstr ""
+msgstr "Định danh mô -đun giá"
 
 #: core/models/_product_catalog.py:67
 msgid "price"
-msgstr ""
+msgstr "giá"
 
 #: core/models/_product_catalog.py:67
 msgid "The indexed product price"
-msgstr ""
+msgstr "Giá sản phẩm được lập chỉ mục"
 
 #: core/models/_product_catalog.py:69
 msgid "is available"
-msgstr ""
+msgstr "có sẵn"
 
 #: core/models/_product_catalog.py:73
 msgid ""
@@ -1640,63 +1640,63 @@ msgstr ""
 
 #: core/models/_product_catalog.py:80 core/models/_product_catalog.py:148
 msgid "Catalog rule"
-msgstr ""
+msgstr "Quy tắc danh mục"
 
 #: core/models/_product_catalog.py:81
 msgid "The rule in which this price is available."
-msgstr ""
+msgstr "Các quy tắc trong đó giá này có sẵn."
 
 #: core/models/_product_catalog.py:96
 msgid "Discount module identifier"
-msgstr ""
+msgstr "Định danh mô -đun giảm giá"
 
 #: core/models/_product_catalog.py:107
 msgid "Valid start date and time"
-msgstr ""
+msgstr "Ngày và giờ bắt đầu hợp lệ"
 
 #: core/models/_product_catalog.py:108
 msgid "Valid end date and time"
-msgstr ""
+msgstr "Ngày và giờ kết thúc hợp lệ"
 
 #: core/models/_product_catalog.py:109
 msgid "Valid start hour"
-msgstr ""
+msgstr "Giờ bắt đầu hợp lệ"
 
 #: core/models/_product_catalog.py:110
 msgid "Valid end hour"
-msgstr ""
+msgstr "Giờ kết thúc hợp lệ"
 
 #: core/models/_product_catalog.py:111
 msgid "Valid weekday"
-msgstr ""
+msgstr "Ngày trong tuần hợp lệ"
 
 #: core/models/_product_catalog.py:141
 msgid "discounted price"
-msgstr ""
+msgstr "Giá giảm giá"
 
 #: core/models/_product_catalog.py:142
 msgid "The indexed discounted product price."
-msgstr ""
+msgstr "Giá sản phẩm giảm giá được lập chỉ mục."
 
 #: core/models/_product_catalog.py:149
 msgid "The rule in which this discounted price is available."
-msgstr ""
+msgstr "Các quy tắc trong đó giá chiết khấu này có sẵn."
 
 #: core/models/_product_media.py:32
 msgid "documentation"
-msgstr ""
+msgstr "tài liệu"
 
 #: core/models/_product_media.py:33
 msgid "sample"
-msgstr ""
+msgstr "vật mẫu"
 
 #: core/models/_product_media.py:44
 msgid "Select which shops you would like the product media to be visible in."
-msgstr ""
+msgstr "Chọn những cửa hàng nào bạn muốn hiển thị phương tiện sản phẩm."
 
 #: core/models/_product_media.py:50
 msgid "kind"
-msgstr ""
+msgstr "loại"
 
 #: core/models/_product_media.py:52
 msgid ""
@@ -1712,7 +1712,7 @@ msgstr ""
 
 #: core/models/_product_media.py:64
 msgid "display order"
-msgstr ""
+msgstr "Hiển thị thứ tự"
 
 #: core/models/_product_media.py:66
 msgid ""
@@ -1722,7 +1722,7 @@ msgstr ""
 
 #: core/models/_product_media.py:76
 msgid "public (shown on product page)"
-msgstr ""
+msgstr "công khai (hiển thị trên trang sản phẩm)"
 
 #: core/models/_product_media.py:77
 msgid ""
@@ -1732,7 +1732,7 @@ msgstr ""
 
 #: core/models/_product_media.py:82
 msgid "purchased (shown for finished purchases)"
-msgstr ""
+msgstr "đã mua (hiển thị để mua hoàn thành)"
 
 #: core/models/_product_media.py:83
 msgid ""
@@ -1754,39 +1754,39 @@ msgstr ""
 
 #: core/models/_product_media.py:105
 msgid "product attachment"
-msgstr ""
+msgstr "Đính kèm sản phẩm"
 
 #: core/models/_product_media.py:106
 msgid "product attachments"
-msgstr ""
+msgstr "Tệp đính kèm sản phẩm"
 
 #: core/models/_product_media.py:126
 msgid "attachment"
-msgstr ""
+msgstr "đính kèm"
 
 #: core/models/_product_packages.py:17
 msgid "parent product"
-msgstr ""
+msgstr "sản phẩm cha mẹ"
 
 #: core/models/_product_packages.py:20
 msgid "child product"
-msgstr ""
+msgstr "sản phẩm trẻ em"
 
 #: core/models/_product_shops.py:42
 msgid "not visible"
-msgstr ""
+msgstr "không nhìn thấy được"
 
 #: core/models/_product_shops.py:44
 msgid "listed"
-msgstr ""
+msgstr "liệt kê"
 
 #: core/models/_product_shops.py:45
 msgid "always visible"
-msgstr ""
+msgstr "luôn luôn nhìn thấy"
 
 #: core/models/_product_shops.py:57
 msgid "suppliers"
-msgstr ""
+msgstr "nhà cung cấp"
 
 #: core/models/_product_shops.py:58
 msgid ""
@@ -1796,7 +1796,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:65
 msgid "visibility"
-msgstr ""
+msgstr "khả năng hiển thị"
 
 #: core/models/_product_shops.py:68
 msgid ""
@@ -1810,7 +1810,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:76
 msgid "purchasable"
-msgstr ""
+msgstr "có thể mua được"
 
 #: core/models/_product_shops.py:83
 msgid ""
@@ -1827,7 +1827,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:102
 msgid "backorder maximum"
-msgstr ""
+msgstr "Backoring tối đa"
 
 #: core/models/_product_shops.py:104
 msgid ""
@@ -1838,7 +1838,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:110
 msgid "purchase multiple"
-msgstr ""
+msgstr "Mua nhiều"
 
 #: core/models/_product_shops.py:112
 msgid ""
@@ -1850,7 +1850,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:119
 msgid "minimum purchase quantity"
-msgstr ""
+msgstr "Số lượng mua tối thiểu"
 
 #: core/models/_product_shops.py:121
 msgid ""
@@ -1860,7 +1860,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:127
 msgid "limit the shipping methods"
-msgstr ""
+msgstr "giới hạn các phương thức vận chuyển"
 
 #: core/models/_product_shops.py:129
 msgid ""
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:136
 msgid "limit the payment methods"
-msgstr ""
+msgstr "giới hạn các phương thức thanh toán"
 
 #: core/models/_product_shops.py:138
 msgid ""
@@ -1882,7 +1882,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:146 core/models/_service_shipping.py:41
 msgid "shipping methods"
-msgstr ""
+msgstr "Phương pháp vận chuyển"
 
 #: core/models/_product_shops.py:149
 msgid ""
@@ -1894,7 +1894,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:157 core/models/_service_payment.py:53
 msgid "payment methods"
-msgstr ""
+msgstr "Phương thức thanh toán"
 
 #: core/models/_product_shops.py:160
 msgid ""
@@ -1906,7 +1906,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:168
 msgid "primary category"
-msgstr ""
+msgstr "Danh mục chính"
 
 #: core/models/_product_shops.py:173
 msgid ""
@@ -1923,7 +1923,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:195 core/models/_products.py:367
 msgid "primary image"
-msgstr ""
+msgstr "hình ảnh chính"
 
 #: core/models/_product_shops.py:196
 msgid ""
@@ -1932,7 +1932,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:202
 msgid "default price"
-msgstr ""
+msgstr "Giá mặc định"
 
 #: core/models/_product_shops.py:206
 msgid ""
@@ -1942,7 +1942,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:213
 msgid "minimum price"
-msgstr ""
+msgstr "Giá tối thiểu"
 
 #: core/models/_product_shops.py:217
 msgid ""
@@ -1953,19 +1953,19 @@ msgstr ""
 
 #: core/models/_product_shops.py:223
 msgid "available until"
-msgstr ""
+msgstr "Có sẵn cho đến khi"
 
 #: core/models/_product_shops.py:226
 msgid "After this date this product will be invisible in store front."
-msgstr ""
+msgstr "Sau ngày này, sản phẩm này sẽ vô hình ở cửa hàng."
 
 #: core/models/_product_shops.py:234 core/models/_units.py:223
 msgid "display unit"
-msgstr ""
+msgstr "Hiển thị đơn vị"
 
 #: core/models/_product_shops.py:235
 msgid "Unit for displaying quantities of this product."
-msgstr ""
+msgstr "Đơn vị để hiển thị số lượng của sản phẩm này."
 
 #: core/models/_product_shops.py:244 core/models/_products.py:375
 msgid ""
@@ -1983,7 +1983,7 @@ msgstr ""
 #: core/models/_product_shops.py:260 core/models/_products.py:389
 #: core/models/_shops.py:159
 msgid "short description"
-msgstr ""
+msgstr "Mô tả ngắn"
 
 #: core/models/_product_shops.py:262 core/models/_products.py:391
 msgid ""
@@ -1995,7 +1995,7 @@ msgstr ""
 
 #: core/models/_product_shops.py:271
 msgid "status text"
-msgstr ""
+msgstr "Văn bản trạng thái"
 
 #: core/models/_product_shops.py:273
 msgid ""
@@ -2006,11 +2006,11 @@ msgstr ""
 
 #: core/models/_product_shops.py:287
 msgid "shop product"
-msgstr ""
+msgstr "Mua sản phẩm"
 
 #: core/models/_product_shops.py:288
 msgid "shop products"
-msgstr ""
+msgstr "Sản phẩm mua sắm"
 
 #: core/models/_product_shops.py:302
 msgid ""
@@ -2020,32 +2020,32 @@ msgstr ""
 
 #: core/models/_product_shops.py:351
 msgid "This product has been deleted."
-msgstr ""
+msgstr "Sản phẩm này đã bị xóa."
 
 #: core/models/_product_shops.py:357
 msgid "This product is not visible."
-msgstr ""
+msgstr "Sản phẩm này không thể nhìn thấy."
 
 #: core/models/_product_shops.py:361
 msgid "Error! This product is not available until the current date."
-msgstr ""
+msgstr "Lỗi!Sản phẩm này không có sẵn cho đến ngày hiện tại."
 
 #: core/models/_product_shops.py:368
 msgid "The Product is invisible to users not logged in."
-msgstr ""
+msgstr "Sản phẩm là vô hình đối với người dùng không đăng nhập."
 
 #: core/models/_product_shops.py:377
 msgid "This product is not visible to your group."
-msgstr ""
+msgstr "Sản phẩm này không thể nhìn thấy cho nhóm của bạn."
 
 #: core/models/_product_shops.py:424
 msgid "The product is not purchasable."
-msgstr ""
+msgstr "Sản phẩm không thể mua được."
 
 #: core/models/_product_shops.py:441
 #, python-format
 msgid "The purchase quantity needs to be at least %d for this product."
-msgstr ""
+msgstr "Số lượng mua hàng cần phải có ít nhất %d cho sản phẩm này."
 
 #: core/models/_product_shops.py:453
 #, python-brace-format
@@ -2063,124 +2063,124 @@ msgstr ""
 
 #: core/models/_product_shops.py:473
 msgid "The product has no supplier."
-msgstr ""
+msgstr "Sản phẩm không có nhà cung cấp."
 
 #: core/models/_product_shops.py:476
 #, python-format
 msgid "The product is not supplied by %s."
-msgstr ""
+msgstr "Sản phẩm không được cung cấp bởi %s."
 
 #: core/models/_product_shops.py:509 core/models/_product_shops.py:533
 msgid "Product has no sellable children."
-msgstr ""
+msgstr "Sản phẩm không có con có thể bán được."
 
 #: core/models/_product_variation.py:46 core/models/_product_variation.py:63
 msgid "variation variable"
-msgstr ""
+msgstr "biến thể biến"
 
 #: core/models/_product_variation.py:47
 msgid "variation variables"
-msgstr ""
+msgstr "Biến biến thể"
 
 #: core/models/_product_variation.py:72
 msgid "variation value"
-msgstr ""
+msgstr "Giá trị biến thể"
 
 #: core/models/_product_variation.py:73
 msgid "variation values"
-msgstr ""
+msgstr "giá trị biến thể"
 
 #: core/models/_product_variation.py:90
 msgid "combination hash"
-msgstr ""
+msgstr "Kết hợp băm"
 
 #: core/models/_product_variation.py:92
 msgid "result"
-msgstr ""
+msgstr "kết quả"
 
 #: core/models/_product_variation.py:109
 msgid "variation result"
-msgstr ""
+msgstr "Kết quả biến thể"
 
 #: core/models/_product_variation.py:110
 msgid "variation results"
-msgstr ""
+msgstr "Kết quả biến thể"
 
 #: core/models/_products.py:56
 msgid "normal"
-msgstr ""
+msgstr "Bình thường"
 
 #: core/models/_products.py:57
 msgid "package parent"
-msgstr ""
+msgstr "gói cha mẹ"
 
 #: core/models/_products.py:58
 msgid "variation parent (simple)"
-msgstr ""
+msgstr "Biến thể cha mẹ (đơn giản)"
 
 #: core/models/_products.py:59
 msgid "variation parent (variable)"
-msgstr ""
+msgstr "Biến thể cha mẹ (biến)"
 
 #: core/models/_products.py:60
 msgid "variation child"
-msgstr ""
+msgstr "Biến thể đứa trẻ"
 
 #: core/models/_products.py:61
 msgid "subscription"
-msgstr ""
+msgstr "Đăng ký"
 
 #: core/models/_products.py:84
 msgid "visible to logged in"
-msgstr ""
+msgstr "có thể nhìn thấy để đăng nhập"
 
 #: core/models/_products.py:85
 msgid "visible to groups"
-msgstr ""
+msgstr "có thể nhìn thấy các nhóm"
 
 #: core/models/_products.py:94
 msgid "stocked"
-msgstr ""
+msgstr "dự trữ"
 
 #: core/models/_products.py:95
 msgid "unstocked"
-msgstr ""
+msgstr "không bị đánh cắp"
 
 #: core/models/_products.py:105
 msgid "recommended"
-msgstr ""
+msgstr "khuyến khích"
 
 #: core/models/_products.py:106
 msgid "related"
-msgstr ""
+msgstr "có liên quan"
 
 #: core/models/_products.py:107
 msgid "computed"
-msgstr ""
+msgstr "tính toán"
 
 #: core/models/_products.py:108
 msgid "bought with"
-msgstr ""
+msgstr "Mua với"
 
 #: core/models/_products.py:116
 msgid "not shipped (non-deliverable)"
-msgstr ""
+msgstr "không được vận chuyển (không thể giao)"
 
 #: core/models/_products.py:117
 msgid "shipped (deliverable)"
-msgstr ""
+msgstr "Vận chuyển (có thể giao hàng)"
 
 #: core/models/_products.py:126
 msgid "no verification required"
-msgstr ""
+msgstr "Không cần xác minh"
 
 #: core/models/_products.py:127
 msgid "admin verification required"
-msgstr ""
+msgstr "Yêu cầu xác minh quản trị viên"
 
 #: core/models/_products.py:128
 msgid "third party verification required"
-msgstr ""
+msgstr "Yêu cầu xác minh của bên thứ ba"
 
 #: core/models/_products.py:139
 msgid ""
@@ -2196,31 +2196,31 @@ msgstr ""
 
 #: core/models/_products.py:155 core/models/_products.py:268
 msgid "product type"
-msgstr ""
+msgstr "loại sản phẩm"
 
 #: core/models/_products.py:156
 msgid "product types"
-msgstr ""
+msgstr "loại sản phẩm"
 
 #: core/models/_products.py:223
 msgid "mode"
-msgstr ""
+msgstr "cách thức"
 
 #: core/models/_products.py:230
 msgid "variation parent"
-msgstr ""
+msgstr "cha mẹ biến thể"
 
 #: core/models/_products.py:235
 msgid "shipping mode"
-msgstr ""
+msgstr "Chế độ vận chuyển"
 
 #: core/models/_products.py:236
 msgid "Set to `shipped` if the product requires shipment."
-msgstr ""
+msgstr "Đặt thành `Shipped` nếu sản phẩm yêu cầu giao hàng."
 
 #: core/models/_products.py:240 core/models/_units.py:82
 msgid "sales unit"
-msgstr ""
+msgstr "Đơn vị bán hàng"
 
 #: core/models/_products.py:245
 msgid ""
@@ -2232,7 +2232,7 @@ msgstr ""
 #: core/models/_products.py:252 core/models/_service_base.py:247
 #: core/models/_taxes.py:121
 msgid "tax class"
-msgstr ""
+msgstr "lớp thuế"
 
 #: core/models/_products.py:255
 msgid ""
@@ -2250,7 +2250,7 @@ msgstr ""
 
 #: core/models/_products.py:278 core/models/_supplied_products.py:18
 msgid "SKU"
-msgstr ""
+msgstr "SKU"
 
 #: core/models/_products.py:281
 msgid ""
@@ -2262,7 +2262,7 @@ msgstr ""
 
 #: core/models/_products.py:290
 msgid "GTIN"
-msgstr ""
+msgstr "GTIN"
 
 #: core/models/_products.py:292
 msgid ""
@@ -2273,7 +2273,7 @@ msgstr ""
 
 #: core/models/_products.py:300
 msgid "barcode"
-msgstr ""
+msgstr "mã vạch"
 
 #: core/models/_products.py:302
 msgid ""
@@ -2283,19 +2283,19 @@ msgstr ""
 
 #: core/models/_products.py:306
 msgid "bookkeeping account"
-msgstr ""
+msgstr "Tài khoản kế toán"
 
 #: core/models/_products.py:307
 msgid "profit center"
-msgstr ""
+msgstr "Trung tâm lợi nhuận"
 
 #: core/models/_products.py:308
 msgid "cost center"
-msgstr ""
+msgstr "Trung tâm chi phí"
 
 #: core/models/_products.py:313
 msgid "width ({})"
-msgstr ""
+msgstr "chiều rộng ({})"
 
 #: core/models/_products.py:315
 msgid ""
@@ -2306,7 +2306,7 @@ msgstr ""
 
 #: core/models/_products.py:321
 msgid "height ({})"
-msgstr ""
+msgstr "chiều cao ({})"
 
 #: core/models/_products.py:323
 msgid ""
@@ -2317,7 +2317,7 @@ msgstr ""
 
 #: core/models/_products.py:329
 msgid "depth ({})"
-msgstr ""
+msgstr "Độ sâu ({})"
 
 #: core/models/_products.py:331
 msgid ""
@@ -2328,7 +2328,7 @@ msgstr ""
 
 #: core/models/_products.py:337
 msgid "net weight ({})"
-msgstr ""
+msgstr "Trọng lượng ròng ({})"
 
 #: core/models/_products.py:339
 msgid ""
@@ -2338,7 +2338,7 @@ msgstr ""
 
 #: core/models/_products.py:345
 msgid "gross weight ({})"
-msgstr ""
+msgstr "Tổng trọng lượng ({})"
 
 #: core/models/_products.py:347
 msgid ""
@@ -2369,7 +2369,7 @@ msgstr ""
 
 #: core/models/_products.py:411
 msgid "keywords"
-msgstr ""
+msgstr "Từ khóa"
 
 #: core/models/_products.py:413
 msgid ""
@@ -2380,7 +2380,7 @@ msgstr ""
 
 #: core/models/_products.py:421
 msgid "variation name"
-msgstr ""
+msgstr "Tên biến thể"
 
 #: core/models/_products.py:423
 msgid ""
@@ -2398,7 +2398,7 @@ msgstr ""
 
 #: core/models/_products.py:758
 msgid "Parent is a variable variation parent, yet variables were not passed."
-msgstr ""
+msgstr "Cha mẹ là một biến thể biến đổi cha mẹ, nhưng các biến không được thông qua."
 
 #: core/models/_products.py:766
 msgid ""
@@ -2420,60 +2420,60 @@ msgstr ""
 
 #: core/models/_products.py:783
 msgid "Package can't contain itself."
-msgstr ""
+msgstr "Gói không thể chứa chính nó."
 
 #: core/models/_products.py:787
 msgid "Variation parents can't belong in the package."
-msgstr ""
+msgstr "Biến thể cha mẹ không thể thuộc về gói."
 
 #: core/models/_products.py:790
 msgid "Packages can't be nested."
-msgstr ""
+msgstr "Các gói không thể được lồng."
 
 #: core/models/_products.py:792
 #, python-format
 msgid "Quantity %s is invalid."
-msgstr ""
+msgstr "Số lượng %s không hợp lệ."
 
 #: core/models/_products.py:845
 msgid "primary product"
-msgstr ""
+msgstr "sản phẩm chính"
 
 #: core/models/_products.py:848
 msgid "secondary product"
-msgstr ""
+msgstr "sản phẩm thứ cấp"
 
 #: core/models/_products.py:850
 msgid "weight"
-msgstr ""
+msgstr "cân nặng"
 
 #: core/models/_products.py:854
 msgid "cross sell link"
-msgstr ""
+msgstr "liên kết chéo"
 
 #: core/models/_products.py:855
 msgid "cross sell links"
-msgstr ""
+msgstr "liên kết chéo"
 
 #: core/models/_products.py:863
 msgid "translated value"
-msgstr ""
+msgstr "giá trị dịch"
 
 #: core/models/_products.py:868
 msgid "product attribute"
-msgstr ""
+msgstr "thuộc tính sản phẩm"
 
 #: core/models/_products.py:869
 msgid "product attributes"
-msgstr ""
+msgstr "thuộc tính sản phẩm"
 
 #: core/models/_service_base.py:50
 msgid "Enable this if this service provider can be used when placing orders."
-msgstr ""
+msgstr "Kích hoạt điều này nếu nhà cung cấp dịch vụ này có thể được sử dụng khi đặt hàng."
 
 #: core/models/_service_base.py:56
 msgid "The service provider name."
-msgstr ""
+msgstr "Tên nhà cung cấp dịch vụ."
 
 #: core/models/_service_base.py:64
 msgid ""
@@ -2490,11 +2490,11 @@ msgstr ""
 
 #: core/models/_service_base.py:219
 msgid "Enable this if this service should be selectable on checkout."
-msgstr ""
+msgstr "Kích hoạt điều này nếu dịch vụ này có thể được chọn khi thanh toán."
 
 #: core/models/_service_base.py:222
 msgid "The shop for this service."
-msgstr ""
+msgstr "Cửa hàng cho dịch vụ này."
 
 #: core/models/_service_base.py:229
 msgid ""
@@ -2504,7 +2504,7 @@ msgstr ""
 
 #: core/models/_service_base.py:235
 msgid "choice identifier"
-msgstr ""
+msgstr "Định danh lựa chọn"
 
 #: core/models/_service_base.py:248
 msgid ""
@@ -2513,43 +2513,43 @@ msgstr ""
 
 #: core/models/_service_base.py:251
 msgid "behavior components"
-msgstr ""
+msgstr "thành phần hành vi"
 
 #: core/models/_service_base.py:293
 #, python-format
 msgid "%s is disabled."
-msgstr ""
+msgstr "%s bị vô hiệu hóa."
 
 #: core/models/_service_base.py:296
 #, python-format
 msgid "%s is for different shop."
-msgstr ""
+msgstr "%s là cho các cửa hàng khác nhau."
 
 #: core/models/_service_base.py:357
 #, python-format
 msgid "%(service_name)s: %(sub_item)s"
-msgstr ""
+msgstr "%(service_name)s: %(sub_item)s"
 
 #: core/models/_service_behavior.py:27
 msgid "Fixed cost"
-msgstr ""
+msgstr "Chi phí cố định"
 
 #: core/models/_service_behavior.py:28
 msgid "Add a fixed cost to the price of the service."
-msgstr ""
+msgstr "Thêm một chi phí cố định vào giá của dịch vụ."
 
 #: core/models/_service_behavior.py:30
 msgid "The fixed cost to apply to this service."
-msgstr ""
+msgstr "Chi phí cố định để áp dụng cho dịch vụ này."
 
 #: core/models/_service_behavior.py:38 core/models/_service_behavior.py:67
 #: core/models/_service_behavior.py:161
 msgid "The order line text to display when this behavior is applied."
-msgstr ""
+msgstr "Văn bản dòng đơn hàng để hiển thị khi hành vi này được áp dụng."
 
 #: core/models/_service_behavior.py:49
 msgid "Waiving cost"
-msgstr ""
+msgstr "Miễn chi phí"
 
 #: core/models/_service_behavior.py:51
 msgid ""
@@ -2570,7 +2570,7 @@ msgstr ""
 
 #: core/models/_service_behavior.py:93
 msgid "Weight limits"
-msgstr ""
+msgstr "Giới hạn trọng lượng"
 
 #: core/models/_service_behavior.py:94
 msgid ""
@@ -2579,51 +2579,51 @@ msgstr ""
 
 #: core/models/_service_behavior.py:101
 msgid "minimum weight"
-msgstr ""
+msgstr "trọng lượng tối thiểu"
 
 #: core/models/_service_behavior.py:102
 msgid "The minimum weight required for this service to be available."
-msgstr ""
+msgstr "Trọng lượng tối thiểu cần thiết cho dịch vụ này có sẵn."
 
 #: core/models/_service_behavior.py:109
 msgid "maximum weight"
-msgstr ""
+msgstr "Trọng lượng tối đa"
 
 #: core/models/_service_behavior.py:110
 msgid "The maximum weight allowed by this service."
-msgstr ""
+msgstr "Trọng lượng tối đa cho phép bởi dịch vụ này."
 
 #: core/models/_service_behavior.py:129
 msgid "Minimum weight not met."
-msgstr ""
+msgstr "Trọng lượng tối thiểu không được đáp ứng."
 
 #: core/models/_service_behavior.py:132
 msgid "Maximum weight exceeded."
-msgstr ""
+msgstr "Trọng lượng tối đa vượt quá."
 
 #: core/models/_service_behavior.py:141
 msgid "min weight ({})"
-msgstr ""
+msgstr "Trọng lượng tối thiểu ({})"
 
 #: core/models/_service_behavior.py:144
 msgid "The minimum weight for this price to apply."
-msgstr ""
+msgstr "Trọng lượng tối thiểu cho giá này để áp dụng."
 
 #: core/models/_service_behavior.py:148
 msgid "max weight ({})"
-msgstr ""
+msgstr "Trọng lượng tối đa ({})"
 
 #: core/models/_service_behavior.py:151
 msgid "The maximum weight before this price no longer applies."
-msgstr ""
+msgstr "Trọng lượng tối đa trước khi giá này không còn được áp dụng."
 
 #: core/models/_service_behavior.py:153
 msgid "The cost to apply to this service when the weight criteria is met."
-msgstr ""
+msgstr "Chi phí áp dụng cho dịch vụ này khi các tiêu chí cân nặng được đáp ứng."
 
 #: core/models/_service_behavior.py:170
 msgid "Weight-based pricing"
-msgstr ""
+msgstr "Giá dựa trên cân nặng"
 
 #: core/models/_service_behavior.py:172
 msgid ""
@@ -2635,35 +2635,35 @@ msgstr ""
 
 #: core/models/_service_behavior.py:222
 msgid "Weight does not match with any range."
-msgstr ""
+msgstr "Trọng lượng không phù hợp với bất kỳ phạm vi."
 
 #: core/models/_service_behavior.py:226
 msgid "Contact group availability"
-msgstr ""
+msgstr "Liên hệ với nhóm sẵn có"
 
 #: core/models/_service_behavior.py:227
 msgid "Make service available only for specific contact groups."
-msgstr ""
+msgstr "Làm cho dịch vụ chỉ có sẵn cho các nhóm liên hệ cụ thể."
 
 #: core/models/_service_behavior.py:230
 msgid "groups"
-msgstr ""
+msgstr "nhóm"
 
 #: core/models/_service_behavior.py:230
 msgid "The contact groups for which this service is available."
-msgstr ""
+msgstr "Các nhóm liên hệ mà dịch vụ này có sẵn."
 
 #: core/models/_service_behavior.py:235
 msgid "Customer does not belong to any group."
-msgstr ""
+msgstr "Khách hàng không thuộc về bất kỳ nhóm nào."
 
 #: core/models/_service_behavior.py:241
 msgid "Service is not available for any of the customer's groups."
-msgstr ""
+msgstr "Dịch vụ không có sẵn cho bất kỳ nhóm khách hàng nào."
 
 #: core/models/_service_behavior.py:245
 msgid "Access to Admin Panel only availability"
-msgstr ""
+msgstr "Chỉ có quyền truy cập vào bảng quản trị"
 
 #: core/models/_service_behavior.py:246
 msgid ""
@@ -2678,75 +2678,75 @@ msgstr ""
 
 #: core/models/_service_behavior.py:256
 msgid "Order total price limit"
-msgstr ""
+msgstr "Đặt hàng tổng giới hạn giá"
 
 #: core/models/_service_behavior.py:257
 msgid "Limit service availability based on order's total price."
-msgstr ""
+msgstr "Giới hạn tính khả dụng của dịch vụ dựa trên tổng giá của đơn hàng."
 
 #: core/models/_service_behavior.py:259
 msgid "min price value"
-msgstr ""
+msgstr "Giá trị tối thiểu giá trị"
 
 #: core/models/_service_behavior.py:260
 msgid "max price value"
-msgstr ""
+msgstr "Giá trị giá tối đa"
 
 #: core/models/_service_behavior.py:296
 msgid "Order's total price is not within the defined service limits."
-msgstr ""
+msgstr "Tổng giá của đơn hàng không nằm trong giới hạn dịch vụ được xác định."
 
 #: core/models/_service_behavior.py:301
 msgid "Country limit"
-msgstr ""
+msgstr "Giới hạn quốc gia"
 
 #: core/models/_service_behavior.py:302
 msgid "Limit service availability based on countries selected."
-msgstr ""
+msgstr "Giới hạn tính khả dụng của dịch vụ dựa trên các quốc gia được chọn."
 
 #: core/models/_service_behavior.py:304
 msgid "available in countries"
-msgstr ""
+msgstr "có sẵn ở các quốc gia"
 
 #: core/models/_service_behavior.py:305
 msgid "available in european union"
-msgstr ""
+msgstr "Có sẵn ở Liên minh Châu Âu"
 
 #: core/models/_service_behavior.py:306
 msgid "unavailable in countries"
-msgstr ""
+msgstr "Không có sẵn ở các quốc gia"
 
 #: core/models/_service_behavior.py:308
 msgid "unavailable in european union"
-msgstr ""
+msgstr "Không có sẵn ở Liên minh Châu Âu"
 
 #: core/models/_service_behavior.py:315
 msgid "Service is not available without a defined country."
-msgstr ""
+msgstr "Dịch vụ không có sẵn mà không có một quốc gia xác định."
 
 #: core/models/_service_behavior.py:331
 msgid "Service is not available for this country."
-msgstr ""
+msgstr "Dịch vụ không có sẵn cho đất nước này."
 
 #: core/models/_service_behavior.py:341 core/models/_service_payment.py:147
 msgid "round up to the nearest number with ties going up, away from zero"
-msgstr ""
+msgstr "làm tròn đến số gần nhất với các mối quan hệ đi lên, cách xa số không"
 
 #: core/models/_service_behavior.py:342 core/models/_service_payment.py:148
 msgid "round to the nearest number with ties going down, towards zero"
-msgstr ""
+msgstr "tròn đến số gần nhất với các mối quan hệ đi xuống, về phía không"
 
 #: core/models/_service_behavior.py:343 core/models/_service_payment.py:149
 msgid "round up, away from zero, towards the farther round number"
-msgstr ""
+msgstr "Làm tròn, cách xa số không, về phía số vòng xa hơn"
 
 #: core/models/_service_behavior.py:344 core/models/_service_payment.py:150
 msgid "round down, towards zero, towards the closest round number"
-msgstr ""
+msgstr "quay xuống, về phía 0, hướng về số vòng gần nhất"
 
 #: core/models/_service_payment.py:28
 msgid "payment processor"
-msgstr ""
+msgstr "Bộ xử lý thanh toán"
 
 #: core/models/_service_payment.py:35
 msgid ""
@@ -2761,39 +2761,39 @@ msgstr ""
 
 #: core/models/_service_payment.py:165
 msgid "rounding quantize"
-msgstr ""
+msgstr "làm tròn lượng tử hóa"
 
 #: core/models/_service_payment.py:166
 msgid "Choose rounding quantize (precision) for cash payment."
-msgstr ""
+msgstr "Chọn Làm tròn Quantize (độ chính xác) để thanh toán bằng tiền mặt."
 
 #: core/models/_service_payment.py:172
 msgid "rounding mode"
-msgstr ""
+msgstr "Chế độ làm tròn"
 
 #: core/models/_service_payment.py:173
 msgid "Choose rounding mode for cash payment."
-msgstr ""
+msgstr "Chọn chế độ làm tròn để thanh toán bằng tiền mặt."
 
 #: core/models/_service_payment.py:177
 msgid "custom payment processor"
-msgstr ""
+msgstr "Bộ xử lý thanh toán tùy chỉnh"
 
 #: core/models/_service_payment.py:178
 msgid "custom payment processors"
-msgstr ""
+msgstr "Bộ xử lý thanh toán tùy chỉnh"
 
 #: core/models/_service_payment.py:181
 msgid "Manually processed payment"
-msgstr ""
+msgstr "Thanh toán được xử lý thủ công"
 
 #: core/models/_service_payment.py:181
 msgid "Cash payment"
-msgstr ""
+msgstr "Thanh toán bằng tiền mặt"
 
 #: core/models/_service_shipping.py:23
 msgid "carrier"
-msgstr ""
+msgstr "người vận chuyển"
 
 #: core/models/_service_shipping.py:29
 msgid ""
@@ -2808,79 +2808,79 @@ msgstr ""
 
 #: core/models/_service_shipping.py:105
 msgid "custom carrier"
-msgstr ""
+msgstr "người vận chuyển tùy chỉnh"
 
 #: core/models/_service_shipping.py:106
 msgid "custom carriers"
-msgstr ""
+msgstr "người vận chuyển tùy chỉnh"
 
 #: core/models/_service_shipping.py:109
 msgid "Manually processed shipment"
-msgstr ""
+msgstr "Lô hàng được xử lý thủ công"
 
 #: core/models/_shipments.py:36
 msgid "Not sent"
-msgstr ""
+msgstr "Không được gửi"
 
 #: core/models/_shipments.py:37
 msgid "Sent"
-msgstr ""
+msgstr "Đã gửi"
 
 #: core/models/_shipments.py:39
 msgid "Error"
-msgstr ""
+msgstr "Lỗi"
 
 #: core/models/_shipments.py:40
 msgid "Deleted"
-msgstr ""
+msgstr "Đã xóa"
 
 #: core/models/_shipments.py:48
 msgid "outgoing"
-msgstr ""
+msgstr "hướng ngoại"
 
 #: core/models/_shipments.py:49
 msgid "incoming"
-msgstr ""
+msgstr "đến"
 
 #: core/models/_shipments.py:73
 msgid "tracking code"
-msgstr ""
+msgstr "Mã theo dõi"
 
 #: core/models/_shipments.py:74
 msgid "tracking url"
-msgstr ""
+msgstr "Theo dõi URL"
 
 #: core/models/_shipments.py:77
 msgid "volume ({})"
-msgstr ""
+msgstr "âm lượng ({})"
 
 #: core/models/_shipments.py:80
 msgid "weight ({})"
-msgstr ""
+msgstr "cân nặng ({})"
 
 #: core/models/_shipments.py:88 core/models/_shipments.py:185
 msgid "shipment"
-msgstr ""
+msgstr "Lô hàng"
 
 #: core/models/_shipments.py:89
 msgid "shipments"
-msgstr ""
+msgstr "lô hàng"
 
 #: core/models/_shipments.py:193
 msgid "unit volume ({})"
-msgstr ""
+msgstr "Khối lượng đơn vị ({})"
 
 #: core/models/_shipments.py:196
 msgid "unit weight ({})"
-msgstr ""
+msgstr "Trọng lượng đơn vị ({})"
 
 #: core/models/_shipments.py:200
 msgid "sent product"
-msgstr ""
+msgstr "Đã gửi sản phẩm"
 
 #: core/models/_shipments.py:201
 msgid "sent products"
-msgstr ""
+msgstr "Đã gửi sản phẩm"
 
 #: core/models/_shops.py:53
 msgid ""
@@ -2890,7 +2890,7 @@ msgstr ""
 
 #: core/models/_shops.py:63
 msgid "domain"
-msgstr ""
+msgstr "lãnh địa"
 
 #: core/models/_shops.py:65
 msgid ""
@@ -2920,11 +2920,11 @@ msgstr ""
 
 #: core/models/_shops.py:98
 msgid "Shop's logo. Will be shown at theme."
-msgstr ""
+msgstr "Logo của cửa hàng.Sẽ được hiển thị tại chủ đề."
 
 #: core/models/_shops.py:103
 msgid "favicon"
-msgstr ""
+msgstr "favicon"
 
 #: core/models/_shops.py:108
 msgid ""
@@ -2935,7 +2935,7 @@ msgstr ""
 
 #: core/models/_shops.py:116
 msgid "maintenance mode"
-msgstr ""
+msgstr "Chế độ bảo trì"
 
 #: core/models/_shops.py:119
 msgid ""
@@ -2947,15 +2947,15 @@ msgstr ""
 
 #: core/models/_shops.py:126 core/models/_suppliers.py:135
 msgid "contact address"
-msgstr ""
+msgstr "địa chỉ liên hệ"
 
 #: core/models/_shops.py:129
 msgid "staff members"
-msgstr ""
+msgstr "Nhân viên"
 
 #: core/models/_shops.py:137
 msgid "The shop name. This name is displayed throughout Admin Panel."
-msgstr ""
+msgstr "Tên cửa hàng.Tên này được hiển thị trong toàn bộ bảng quản trị."
 
 #: core/models/_shops.py:143
 msgid ""
@@ -2979,7 +2979,7 @@ msgstr ""
 
 #: core/models/_shops.py:170
 msgid "maintenance message"
-msgstr ""
+msgstr "Thông điệp bảo trì"
 
 #: core/models/_shops.py:171
 msgid ""
@@ -2988,23 +2988,23 @@ msgstr ""
 
 #: core/models/_supplied_products.py:19
 msgid "alert limit"
-msgstr ""
+msgstr "giới hạn cảnh báo"
 
 #: core/models/_supplied_products.py:20
 msgid "physical stock count"
-msgstr ""
+msgstr "Số lượng cổ phiếu vật lý"
 
 #: core/models/_supplied_products.py:21
 msgid "logical stock count"
-msgstr ""
+msgstr "Số lượng cổ phiếu logic"
 
 #: core/models/_suppliers.py:39
 msgid "internal"
-msgstr ""
+msgstr "nội bộ"
 
 #: core/models/_suppliers.py:40
 msgid "external"
-msgstr ""
+msgstr "bên ngoài"
 
 #: core/models/_suppliers.py:79
 msgid ""
@@ -3014,7 +3014,7 @@ msgstr ""
 
 #: core/models/_suppliers.py:84
 msgid "supplier type"
-msgstr ""
+msgstr "Loại nhà cung cấp"
 
 #: core/models/_suppliers.py:87
 msgid ""
@@ -3025,7 +3025,7 @@ msgstr ""
 
 #: core/models/_suppliers.py:92
 msgid "stock managed"
-msgstr ""
+msgstr "quản lý cổ phiếu"
 
 #: core/models/_suppliers.py:95
 msgid ""
@@ -3039,7 +3039,7 @@ msgstr ""
 
 #: core/models/_suppliers.py:105
 msgid "supplier modules"
-msgstr ""
+msgstr "Mô -đun nhà cung cấp"
 
 #: core/models/_suppliers.py:107
 msgid ""
@@ -3049,7 +3049,7 @@ msgstr ""
 
 #: core/models/_suppliers.py:111
 msgid "module data"
-msgstr ""
+msgstr "Dữ liệu mô -đun"
 
 #: core/models/_suppliers.py:118
 msgid ""
@@ -3073,15 +3073,15 @@ msgstr ""
 
 #: core/models/_suppliers.py:251
 msgid "Approved"
-msgstr ""
+msgstr "Tán thành"
 
 #: core/models/_suppliers.py:252
 msgid "Indicates whether this supplier is currently approved for work."
-msgstr ""
+msgstr "Cho biết liệu nhà cung cấp này hiện đang được phê duyệt cho công việc."
 
 #: core/models/_suppliers.py:262
 msgid "module identifier"
-msgstr ""
+msgstr "Định danh mô -đun"
 
 #: core/models/_suppliers.py:265
 msgid ""
@@ -3091,19 +3091,19 @@ msgstr ""
 
 #: core/models/_suppliers.py:271
 msgid "Module name"
-msgstr ""
+msgstr "Tên mô -đun"
 
 #: core/models/_suppliers.py:272
 msgid "Supplier modules name."
-msgstr ""
+msgstr "Tên mô -đun nhà cung cấp."
 
 #: core/models/_taxes.py:26
 msgid "Can't change the business critical fields of the Tax that is in use."
-msgstr ""
+msgstr "Không thể thay đổi các lĩnh vực quan trọng kinh doanh của thuế đang được sử dụng."
 
 #: core/models/_taxes.py:30
 msgid "The abbreviated tax code name."
-msgstr ""
+msgstr "Tên mã số thuế viết tắt."
 
 #: core/models/_taxes.py:37
 msgid ""
@@ -3113,7 +3113,7 @@ msgstr ""
 
 #: core/models/_taxes.py:46
 msgid "tax rate"
-msgstr ""
+msgstr "thuế suất"
 
 #: core/models/_taxes.py:48
 msgid ""
@@ -3124,7 +3124,7 @@ msgstr ""
 
 #: core/models/_taxes.py:58
 msgid "tax amount value"
-msgstr ""
+msgstr "Giá trị số tiền thuế"
 
 #: core/models/_taxes.py:59
 msgid ""
@@ -3133,27 +3133,27 @@ msgstr ""
 
 #: core/models/_taxes.py:61
 msgid "currency of the amount tax"
-msgstr ""
+msgstr "Tiền tệ của số tiền thuế"
 
 #: core/models/_taxes.py:64
 msgid "Enable if this tax is valid and should be active."
-msgstr ""
+msgstr "Kích hoạt nếu thuế này là hợp lệ và nên hoạt động."
 
 #: core/models/_taxes.py:70
 msgid "Either rate or amount tax is required."
-msgstr ""
+msgstr "Yêu cầu thuế hoặc thuế."
 
 #: core/models/_taxes.py:72
 msgid "Can't have both rate and amount taxes. They are mutually exclusive."
-msgstr ""
+msgstr "Không thể có cả thuế và thuế.Họ là loại trừ lẫn nhau."
 
 #: core/models/_taxes.py:74
 msgid "Currency is required if the amount tax value is specified."
-msgstr ""
+msgstr "Tiền tệ là bắt buộc nếu giá trị thuế số tiền được chỉ định."
 
 #: core/models/_taxes.py:102
 msgid "taxes"
-msgstr ""
+msgstr "thuế"
 
 #: core/models/_taxes.py:112
 msgid ""
@@ -3163,11 +3163,11 @@ msgstr ""
 
 #: core/models/_taxes.py:117
 msgid "Enable if this tax class is valid and should be active."
-msgstr ""
+msgstr "Kích hoạt nếu lớp thuế này hợp lệ và nên hoạt động."
 
 #: core/models/_taxes.py:122
 msgid "tax classes"
-msgstr ""
+msgstr "lớp thuế"
 
 #: core/models/_taxes.py:132
 msgid ""
@@ -3177,23 +3177,23 @@ msgstr ""
 
 #: core/models/_taxes.py:140
 msgid "customer tax group"
-msgstr ""
+msgstr "Nhóm thuế khách hàng"
 
 #: core/models/_taxes.py:141
 msgid "customer tax groups"
-msgstr ""
+msgstr "Nhóm thuế khách hàng"
 
 #: core/models/_taxes.py:146
 msgid "Retail Customers"
-msgstr ""
+msgstr "Khách hàng bán lẻ"
 
 #: core/models/_taxes.py:153
 msgid "Company Customers"
-msgstr ""
+msgstr "Khách hàng của công ty"
 
 #: core/models/_units.py:70
 msgid "allowed decimal places"
-msgstr ""
+msgstr "cho phép các vị trí thập phân"
 
 #: core/models/_units.py:72
 msgid ""
@@ -3204,7 +3204,7 @@ msgstr ""
 
 #: core/models/_units.py:83
 msgid "sales units"
-msgstr ""
+msgstr "Đơn vị bán hàng"
 
 #: core/models/_units.py:135
 msgid ""
@@ -3215,7 +3215,7 @@ msgstr ""
 
 #: core/models/_units.py:142
 msgid "unit symbol"
-msgstr ""
+msgstr "Biểu tượng đơn vị"
 
 #: core/models/_units.py:143
 msgid ""
@@ -3225,19 +3225,19 @@ msgstr ""
 
 #: core/models/_units.py:158
 msgid "Value must be positive and non-zero."
-msgstr ""
+msgstr "Giá trị phải tích cực và khác không."
 
 #: core/models/_units.py:166
 msgid "internal unit"
-msgstr ""
+msgstr "Đơn vị nội bộ"
 
 #: core/models/_units.py:167
 msgid "The sales unit that this display unit is linked to."
-msgstr ""
+msgstr "Đơn vị bán hàng mà đơn vị hiển thị này được liên kết với."
 
 #: core/models/_units.py:172
 msgid "ratio"
-msgstr ""
+msgstr "tỷ lệ"
 
 #: core/models/_units.py:174
 msgid ""
@@ -3253,7 +3253,7 @@ msgstr ""
 
 #: core/models/_units.py:191
 msgid "comparison value"
-msgstr ""
+msgstr "Giá trị so sánh"
 
 #: core/models/_units.py:193
 msgid ""
@@ -3264,7 +3264,7 @@ msgstr ""
 
 #: core/models/_units.py:200
 msgid "allow bare number"
-msgstr ""
+msgstr "Cho phép số trần"
 
 #: core/models/_units.py:202
 msgid ""
@@ -3275,7 +3275,7 @@ msgstr ""
 
 #: core/models/_units.py:210
 msgid "use by default"
-msgstr ""
+msgstr "sử dụng theo mặc định"
 
 #: core/models/_units.py:211
 msgid ""
@@ -3284,127 +3284,127 @@ msgstr ""
 
 #: core/models/_units.py:215
 msgid "Name of the display unit, e.g. grams."
-msgstr ""
+msgstr "Tên của đơn vị hiển thị, ví dụ:gam."
 
 #: core/models/_units.py:218
 msgid "symbol"
-msgstr ""
+msgstr "biểu tượng"
 
 #: core/models/_units.py:218
 msgid "An abbreviated name of the display unit, e.g. 'g'."
-msgstr ""
+msgstr "Một tên viết tắt của đơn vị hiển thị, ví dụ:'G'."
 
 #: core/models/_units.py:224
 msgid "display units"
-msgstr ""
+msgstr "Hiển thị đơn vị"
 
 #: core/models/_units.py:270
 msgid "Pieces"
-msgstr ""
+msgstr "Mảnh"
 
 #: core/models/_units.py:271
 msgctxt "Symbol for pieces unit"
 msgid "pc."
-msgstr ""
+msgstr "PC."
 
 #: core/models/_units.py:452
 #, python-brace-format
 msgctxt "Display the value with the unit symbol (with or without space) "
 msgid "{value}{symbol}"
-msgstr ""
+msgstr "{value}{symbol}"
 
 #: core/order_creator/_source.py:51
 msgid "inherit"
-msgstr ""
+msgstr "kế thừa"
 
 #: core/order_creator/_source.py:52
 msgid "skip"
-msgstr ""
+msgstr "nhảy"
 
 #: core/order_creator/_source.py:53
 msgid "delete"
-msgstr ""
+msgstr "xóa bỏ"
 
 #: core/order_creator/_validators.py:35
 msgid "The total price should be greater than {} to be ordered."
-msgstr ""
+msgstr "Tổng giá phải lớn hơn {} để được đặt hàng."
 
 #: core/order_creator/_validators.py:62
 #, python-format
 msgid "%s is not available in this shop."
-msgstr ""
+msgstr "%s không có sẵn trong cửa hàng này."
 
 #: core/pricing/default_pricing.py:16
 msgid "Default Pricing"
-msgstr ""
+msgstr "Giá cả mặc định"
 
 #: core/specs/product_kind.py:49
 #, python-brace-format
 msgid "The product kind {value} is not unique!"
-msgstr ""
+msgstr "Loại sản phẩm {value} không phải là duy nhất!"
 
 #: core/specs/product_kind.py:66
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: core/suppliers/enums.py:18
 msgid "inventory"
-msgstr ""
+msgstr "hàng tồn kho"
 
 #: core/suppliers/enums.py:19
 msgid "restock"
-msgstr ""
+msgstr "bổ sung"
 
 #: core/suppliers/enums.py:20
 msgid "restock logical"
-msgstr ""
+msgstr "Restock logic"
 
 #: core/tasks.py:161
 msgid "Failed to execute the task"
-msgstr ""
+msgstr "Không thực hiện được nhiệm vụ"
 
 #: core/tasks.py:162
 msgid "An unexpeted error occurred."
-msgstr ""
+msgstr "Một lỗi không mong muốn đã xảy ra."
 
 #: core/taxing/_module.py:245 core/taxing/_module.py:351
 #: core/taxing/_module.py:365
 #, python-format
 msgid "Refund for %s"
-msgstr ""
+msgstr "Hoàn trả cho %s"
 
 #: core/taxing/_module.py:290
 msgid "Misc refund"
-msgstr ""
+msgstr "Hoàn lại tiền"
 
 #: core/taxing/_tax_summary.py:50
 msgid "Untaxed"
-msgstr ""
+msgstr "Không bị cáo"
 
 #: core/utils/form_mixins.py:13
 msgid "This field cannot be changed since it is protected."
-msgstr ""
+msgstr "Trường này không thể được thay đổi vì nó được bảo vệ."
 
 #: core/utils/forms.py:38
 msgid "Region"
-msgstr ""
+msgstr "Vùng đất"
 
 #: core/utils/forms.py:95
 msgid "Username"
-msgstr ""
+msgstr "Tên người dùng"
 
 #: core/utils/forms.py:96
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: core/utils/forms.py:108
 msgid "Please provide either username or email, not both."
-msgstr ""
+msgstr "Vui lòng cung cấp tên người dùng hoặc email, không phải cả hai."
 
 #: core/utils/forms.py:113
 msgid "Please provide either username or email."
-msgstr ""
+msgstr "Vui lòng cung cấp tên người dùng hoặc email."
 
 #: core/utils/name_mixin.py:15
 msgid "First Last"
-msgstr ""
+msgstr "Đầu tiên cuối cùng"

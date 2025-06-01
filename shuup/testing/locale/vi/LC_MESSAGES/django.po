@@ -19,27 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: testing/modules/content/data.py:18
 msgid "About Us"
-msgstr ""
+msgstr "Về chúng tôi"
 
 #: testing/modules/content/data.py:19
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Chính sách bảo mật"
 
 #: testing/modules/content/data.py:21
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Điều khoản và điều kiện"
 
 #: testing/modules/content/data.py:24
 msgid "Refund Policy"
-msgstr ""
+msgstr "Chính sách hoàn lại tiền"
 
 #: testing/modules/content/data.py:30
 msgid "{{ order.shop }} - Order {{ order.identifier }} Received"
-msgstr ""
+msgstr "{{ order.shop }} - đặt hàng {{ order.identifier }} đã nhận được"
 
 #: testing/modules/content/forms.py:41
 msgid "Send customer order confirmation email"
-msgstr ""
+msgstr "Gửi email xác nhận đơn đặt hàng của khách hàng"
 
 #: testing/modules/content/forms.py:45
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 
 #: testing/modules/content/forms.py:137
 msgid "Create About Us page"
-msgstr ""
+msgstr "Tạo về trang chúng tôi"
 
 #: testing/modules/content/forms.py:146
 msgid ""
@@ -67,7 +67,7 @@ msgstr ""
 
 #: testing/modules/content/forms.py:159
 msgid "Create Privacy Policy page"
-msgstr ""
+msgstr "Tạo trang Chính sách bảo mật"
 
 #: testing/modules/content/forms.py:167
 msgid ""
@@ -84,7 +84,7 @@ msgstr ""
 
 #: testing/modules/content/forms.py:180
 msgid "Create Terms and Conditions page"
-msgstr ""
+msgstr "Tạo trang điều khoản và điều kiện"
 
 #: testing/modules/content/forms.py:188
 msgid ""
@@ -101,7 +101,7 @@ msgstr ""
 
 #: testing/modules/content/forms.py:201
 msgid "Create Refund Policy page"
-msgstr ""
+msgstr "Tạo trang chính sách hoàn tiền"
 
 #: testing/modules/content/forms.py:209
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 
 #: testing/modules/content/forms.py:228
 msgid "Configure the footer"
-msgstr ""
+msgstr "Cấu hình chân trang"
 
 #: testing/modules/content/forms.py:233
 msgid ""
@@ -128,7 +128,7 @@ msgstr ""
 
 #: testing/modules/content/views.py:24
 msgid "Content & Behavior"
-msgstr ""
+msgstr "Nội dung & Hành vi"
 
 #: testing/modules/content/views.py:57
 msgid ""
@@ -138,50 +138,50 @@ msgstr ""
 
 #: testing/modules/content/views.py:59
 msgid "Configure notifications for your shop"
-msgstr ""
+msgstr "Định cấu hình thông báo cho cửa hàng của bạn"
 
 #: testing/modules/content/views.py:61
 msgid "Add the initial content"
-msgstr ""
+msgstr "Thêm nội dung ban đầu"
 
 #: testing/modules/content/views.py:72
 msgid "Configure the initial content pages"
-msgstr ""
+msgstr "Định cấu hình các trang nội dung ban đầu"
 
 #: testing/modules/content/views.py:83
 msgid "Configure some notifications"
-msgstr ""
+msgstr "Cấu hình một số thông báo"
 
 #: testing/modules/demo/__init__.py:25
 msgid "Demo"
-msgstr ""
+msgstr "Thử nghiệm"
 
 #: testing/modules/mocker/mass_actions.py:16
 msgid "Dummy Mass Action #1"
-msgstr ""
+msgstr "Hành động hàng loạt giả #1"
 
 #: testing/modules/mocker/mass_actions.py:21
 msgid "Dummy Mass Action #2"
-msgstr ""
+msgstr "Hành động hàng loạt giả #2"
 
 #: testing/modules/mocker/sections.py:17
 msgid "mock section title"
-msgstr ""
+msgstr "Tiêu đề phần giả"
 
 #: testing/modules/mocker/toolbar.py:19 testing/modules/mocker/toolbar.py:32
 #: testing/modules/mocker/toolbar.py:68
 msgid "Hello"
-msgstr ""
+msgstr "Xin chào"
 
 #: testing/modules/mocker/toolbar.py:48
 #, python-format
 msgid "Hello %(name)s"
-msgstr ""
+msgstr "Xin chào %(name)s"
 
 #: testing/modules/mocker/toolbar.py:60
 #, python-format
 msgid "This is %(sku)s"
-msgstr ""
+msgstr "Đây là %(sku)s"
 
 #: testing/modules/sample_data/__init__.py:54
 msgid ""
@@ -197,20 +197,20 @@ msgstr ""
 #: testing/modules/sample_data/views.py:78
 #: testing/modules/sample_data/views.py:85
 msgid "Sample Data"
-msgstr ""
+msgstr "Dữ liệu mẫu"
 
 #: testing/modules/sample_data/data.py:14
 #: testing/modules/sample_data/data.py:16
 msgid "Default"
-msgstr ""
+msgstr "Mặc định"
 
 #: testing/modules/sample_data/data.py:16
 msgid "Cosmetics and perfumes"
-msgstr ""
+msgstr "Mỹ phẩm và nước hoa"
 
 #: testing/modules/sample_data/data.py:20
 msgid "USpicy Makeup Brushes"
-msgstr ""
+msgstr "Bàn chải trang điểm USPicy"
 
 #: testing/modules/sample_data/data.py:21
 msgid ""
@@ -219,7 +219,7 @@ msgstr ""
 
 #: testing/modules/sample_data/data.py:25
 msgid "Precision Eyelash Curler"
-msgstr ""
+msgstr "Curler lông mi chính xác"
 
 #: testing/modules/sample_data/data.py:27
 msgid ""
@@ -229,7 +229,7 @@ msgstr ""
 
 #: testing/modules/sample_data/data.py:32
 msgid "PureMoist Lipstick"
-msgstr ""
+msgstr "Son môi Puremoist"
 
 #: testing/modules/sample_data/data.py:34
 msgid ""
@@ -239,15 +239,15 @@ msgstr ""
 
 #: testing/modules/sample_data/data.py:39
 msgid "Clinique Happy"
-msgstr ""
+msgstr "Clinique hạnh phúc"
 
 #: testing/modules/sample_data/data.py:40
 msgid "A hint of citrus. A wealth of flowers. A mix of emotions."
-msgstr ""
+msgstr "Một gợi ý của cam quýt.Nhiều hoa.Một sự pha trộn của cảm xúc."
 
 #: testing/modules/sample_data/data.py:44
 msgid "Tommy Girld by Tommy Hilfiger Perfume"
-msgstr ""
+msgstr "Tommy Girl của Tommy Hilfiger Nước hoa"
 
 #: testing/modules/sample_data/data.py:45
 msgid ""
@@ -256,7 +256,7 @@ msgstr ""
 
 #: testing/modules/sample_data/data.py:49
 msgid "Bvlgari Omnia Crystalline Eau de Toilette"
-msgstr ""
+msgstr "Bvlgari omnia tinh thể eau de toilette"
 
 #: testing/modules/sample_data/data.py:51
 msgid ""
@@ -266,7 +266,7 @@ msgstr ""
 
 #: testing/modules/sample_data/data.py:56
 msgid "Still Jennifer Lopez Perfume"
-msgstr ""
+msgstr "Vẫn là nước hoa Jennifer Lopez"
 
 #: testing/modules/sample_data/data.py:58
 msgid ""
@@ -276,79 +276,79 @@ msgstr ""
 
 #: testing/modules/sample_data/data.py:63
 msgid "La Vie Est Belle"
-msgstr ""
+msgstr "La vie est belle"
 
 #: testing/modules/sample_data/data.py:64
 msgid "A captivating new scent joins the La vie est belle path to happiness."
-msgstr ""
+msgstr "Một mùi hương mới quyến rũ tham gia vào con đường LA Vie est Belle để hạnh phúc."
 
 #: testing/modules/sample_data/data.py:68
 msgid "Smooth Viking Beard Brush"
-msgstr ""
+msgstr "Bàn chải râu Viking mịn"
 
 #: testing/modules/sample_data/data.py:69
 msgid "Just a beard brush."
-msgstr ""
+msgstr "Chỉ là một bàn chải râu."
 
 #: testing/modules/sample_data/data.py:73
 msgid "Beard & Stash Oil"
-msgstr ""
+msgstr "Râu & Dầu Stash"
 
 #: testing/modules/sample_data/data.py:74
 msgid "This oil is natural, and is made with the perfect combination of oils."
-msgstr ""
+msgstr "Dầu này là tự nhiên, và được làm với sự kết hợp hoàn hảo của dầu."
 
 #: testing/modules/sample_data/data.py:79
 msgid "Sample Carousel"
-msgstr ""
+msgstr "Băng chuyền mẫu"
 
 #: testing/modules/sample_data/forms.py:20
 msgid "Business Segment"
-msgstr ""
+msgstr "Phân khúc kinh doanh"
 
 #: testing/modules/sample_data/forms.py:24
 msgid "Select your business segment to install categories."
-msgstr ""
+msgstr "Chọn phân khúc doanh nghiệp của bạn để cài đặt danh mục."
 
 #: testing/modules/sample_data/forms.py:28
 msgid "Install Categories"
-msgstr ""
+msgstr "Cài đặt danh mục"
 
 #: testing/modules/sample_data/forms.py:31
 msgid "Enable this to install sample categories."
-msgstr ""
+msgstr "Cho phép này để cài đặt các danh mục mẫu."
 
 #: testing/modules/sample_data/forms.py:35
 msgid "Install Products"
-msgstr ""
+msgstr "Cài đặt sản phẩm"
 
 #: testing/modules/sample_data/forms.py:38
 msgid "Enable this to install sample products."
-msgstr ""
+msgstr "Cho phép này để cài đặt các sản phẩm mẫu."
 
 #: testing/modules/sample_data/forms.py:67
 msgid "Install Carousel"
-msgstr ""
+msgstr "Cài đặt băng chuyền"
 
 #: testing/modules/sample_data/forms.py:71
 msgid "Enable this to install a sample carousel."
-msgstr ""
+msgstr "Cho phép điều này để cài đặt một băng chuyền mẫu."
 
 #: testing/modules/sample_data/forms.py:82
 msgid "Uninstall Categories"
-msgstr ""
+msgstr "Gỡ cài đặt các loại"
 
 #: testing/modules/sample_data/forms.py:86
 msgid "Uninstall Products"
-msgstr ""
+msgstr "Gỡ cài đặt sản phẩm"
 
 #: testing/modules/sample_data/forms.py:89
 msgid "Uninstall Carousel"
-msgstr ""
+msgstr "Gỡ cài đặt băng chuyền"
 
 #: testing/modules/sample_data/views.py:66
 msgid "Sample data were consolidated."
-msgstr ""
+msgstr "Dữ liệu mẫu được hợp nhất."
 
 #: testing/modules/sample_data/views.py:86
 msgid ""
@@ -357,20 +357,20 @@ msgstr ""
 
 #: testing/shop_provider.py:21
 msgid "You must have the Access to Admin Panel permission."
-msgstr ""
+msgstr "Bạn phải có quyền truy cập vào quyền của bảng quản trị."
 
 #: testing/supplier_pricing/pricing.py:19
 msgid "Supplier Pricing"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: testing/themes/__init__.py:16
 msgid "Shuup Testing Theme"
-msgstr ""
+msgstr "Chủ đề thử nghiệm shuup"
 
 #: testing/themes/__init__.py:25
 msgid "Shuup Testing Theme With Custom Base Template"
-msgstr ""
+msgstr "Chủ đề kiểm tra shuup với mẫu cơ sở tùy chỉnh"
 
 #: testing/themes/plugins.py:17
 msgid "Shuup Test Theme Product Highlights"
-msgstr ""
+msgstr "Sản phẩm chủ đề thử nghiệm SHUUP"

@@ -19,48 +19,48 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: notify/actions/email.py:26
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: notify/actions/email.py:26
 msgid "Plain text"
-msgstr ""
+msgstr "Văn bản đơn giản"
 
 #: notify/actions/email.py:31 notify/script_template/generic.py:26
 msgid "Subject"
-msgstr ""
+msgstr "Chủ thể"
 
 #: notify/actions/email.py:32 notify/admin_module/__init__.py:118
 #: notify/models/email_template.py:23
 msgid "Email Template"
-msgstr ""
+msgstr "Mẫu email"
 
 #: notify/actions/email.py:33
 msgid "Email Body"
-msgstr ""
+msgstr "Cơ quan email"
 
 #: notify/actions/email.py:36
 msgid "Content type"
-msgstr ""
+msgstr "Loại nội dung"
 
 #: notify/actions/email.py:41
 msgid "Recipient"
-msgstr ""
+msgstr "Người nhận"
 
 #: notify/actions/email.py:42
 msgid "Reply-To"
-msgstr ""
+msgstr "Trả lời"
 
 #: notify/actions/email.py:44
 msgid "Carbon Copy (CC)"
-msgstr ""
+msgstr "Bản sao carbon (CC)"
 
 #: notify/actions/email.py:48
 msgid "Blind Carbon Copy (BCC)"
-msgstr ""
+msgstr "Bản sao carbon mù (BCC)"
 
 #: notify/actions/email.py:50
 msgid "From email"
-msgstr ""
+msgstr "Từ email"
 
 #: notify/actions/email.py:55
 msgid ""
@@ -71,15 +71,15 @@ msgstr ""
 
 #: notify/actions/email.py:60 notify/typology.py:104
 msgid "Language"
-msgstr ""
+msgstr "Ngôn ngữ"
 
 #: notify/actions/email.py:62
 msgid "Fallback language"
-msgstr ""
+msgstr "Ngôn ngữ dự phòng"
 
 #: notify/actions/email.py:68
 msgid "Send Identifier"
-msgstr ""
+msgstr "Gửi định danh"
 
 #: notify/actions/email.py:73
 msgid ""
@@ -89,40 +89,40 @@ msgstr ""
 
 #: notify/admin_module/__init__.py:27 notify/admin_module/__init__.py:72
 msgid "Notifications"
-msgstr ""
+msgstr "Thông báo"
 
 #: notify/admin_module/__init__.py:77
 msgid "Show notification scripts"
-msgstr ""
+msgstr "Hiển thị các tập lệnh thông báo"
 
 #: notify/admin_module/__init__.py:137 notify/models/email_template.py:24
 msgid "Email Templates"
-msgstr ""
+msgstr "Mẫu email"
 
 #: notify/admin_module/forms.py:23 notify/admin_module/views/list.py:27
 #: notify/admin_module/views/list.py:63
 msgid "Event"
-msgstr ""
+msgstr "Sự kiện"
 
 #: notify/admin_module/forms.py:23
 msgid "Choose which event to bind this script to."
-msgstr ""
+msgstr "Chọn sự kiện nào để liên kết tập lệnh này với."
 
 #: notify/admin_module/forms.py:24
 msgid "Script Name"
-msgstr ""
+msgstr "Tên tập lệnh"
 
 #: notify/admin_module/forms.py:24
 msgid "Type in a descriptive name for your new script."
-msgstr ""
+msgstr "Nhập tên mô tả cho tập lệnh mới của bạn."
 
 #: notify/admin_module/forms.py:26
 msgid "Enable Script"
-msgstr ""
+msgstr "Kích hoạt tập lệnh"
 
 #: notify/admin_module/forms.py:27
 msgid "Choose whether this script should be activated when its event fires."
-msgstr ""
+msgstr "Chọn xem tập lệnh này có nên được kích hoạt khi sự kiện của nó bắn."
 
 #: notify/admin_module/forms.py:43
 msgid ""
@@ -132,85 +132,85 @@ msgstr ""
 
 #: notify/admin_module/forms.py:77 notify/models/email_template.py:15
 msgid "Template"
-msgstr ""
+msgstr "Bản mẫu"
 
 #: notify/admin_module/forms.py:121
 msgid "Bind to Variable"
-msgstr ""
+msgstr "Liên kết với biến"
 
 #: notify/admin_module/forms.py:196
 msgid "This field is missing content."
-msgstr ""
+msgstr "Trường này bị thiếu nội dung."
 
 #: notify/admin_module/views/delete.py:26
 #, python-format
 msgid "%s has been marked deleted."
-msgstr ""
+msgstr "%s đã được đánh dấu bị xóa."
 
 #: notify/admin_module/views/edit.py:34
 msgid "Edit Script Contents"
-msgstr ""
+msgstr "Chỉnh sửa nội dung tập lệnh"
 
 #: notify/admin_module/views/edit.py:44
 msgid "Edit Script (advanced)"
-msgstr ""
+msgstr "Chỉnh sửa tập lệnh (nâng cao)"
 
 #: notify/admin_module/views/edit.py:48
 msgid "Edit Template"
-msgstr ""
+msgstr "Chỉnh sửa mẫu"
 
 #: notify/admin_module/views/edit.py:69
 msgid "Delete"
-msgstr ""
+msgstr "Xóa bỏ"
 
 #: notify/admin_module/views/edit.py:72
 #, python-format
 msgid "Are you sure you wish to delete \"%s\" notification?"
-msgstr ""
+msgstr "Bạn có chắc là bạn muốn xóa thông báo \"%s\"?"
 
 #: notify/admin_module/views/editor.py:123
 msgid "Save"
-msgstr ""
+msgstr "Cứu"
 
 #: notify/admin_module/views/email_template.py:50
 #, python-format
 msgid "%s has been deleted."
-msgstr ""
+msgstr "%s đã bị xóa."
 
 #: notify/admin_module/views/email_template.py:60
 #: notify/admin_module/views/list.py:26 notify/models/email_template.py:13
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: notify/admin_module/views/list.py:28 notify/admin_module/views/list.py:64
 msgid "Enabled"
-msgstr ""
+msgstr "Đã bật"
 
 #: notify/admin_module/views/list.py:45
 msgid "New Script"
-msgstr ""
+msgstr "Kịch bản mới"
 
 #: notify/admin_module/views/list.py:51
 msgid "New From Template"
-msgstr ""
+msgstr "Mới từ mẫu"
 
 #: notify/admin_module/views/template.py:64
 #: notify/admin_module/views/template.py:112
 msgid "Script created from template."
-msgstr ""
+msgstr "Tập lệnh được tạo từ mẫu."
 
 #: notify/admin_module/views/template.py:68
 #: notify/admin_module/views/template.py:89
 msgid "Template Script not found."
-msgstr ""
+msgstr "Không tìm thấy tập lệnh mẫu."
 
 #: notify/admin_module/views/template.py:142
 msgid "Templated script not found."
-msgstr ""
+msgstr "Kịch bản khuôn mẫu không tìm thấy."
 
 #: notify/admin_module/views/template.py:161
 msgid "Script updated."
-msgstr ""
+msgstr "Tập lệnh được cập nhật."
 
 #: notify/conditions/simple.py:21
 msgid ""
@@ -219,79 +219,79 @@ msgstr ""
 
 #: notify/conditions/simple.py:22
 msgid "Non-Empty"
-msgstr ""
+msgstr "Không trống"
 
 #: notify/conditions/simple.py:31
 msgid "Check whether the bound value `value` is empty or zero."
-msgstr ""
+msgstr "Kiểm tra xem giá trị ràng buộc `value` có trống hay không."
 
 #: notify/conditions/simple.py:32
 msgid "Empty"
-msgstr ""
+msgstr "Trống"
 
 #: notify/enums.py:21 notify/enums.py:54
 msgid "none"
-msgstr ""
+msgstr "không có"
 
 #: notify/enums.py:22
 msgid "unilingual"
-msgstr ""
+msgstr "không nói chuyện"
 
 #: notify/enums.py:23
 msgid "multilingual"
-msgstr ""
+msgstr "đa ngôn ngữ"
 
 #: notify/enums.py:32
 msgid "variable only"
-msgstr ""
+msgstr "Chỉ có biến"
 
 #: notify/enums.py:33
 msgid "constant only"
-msgstr ""
+msgstr "Chỉ không đổi"
 
 #: notify/enums.py:34
 msgid "variable or constant"
-msgstr ""
+msgstr "biến hoặc không đổi"
 
 #: notify/enums.py:42
 msgid "continue to the next step"
-msgstr ""
+msgstr "Tiếp tục bước tiếp theo"
 
 #: notify/enums.py:43
 msgid "stop processing"
-msgstr ""
+msgstr "Dừng xử lý"
 
 #: notify/enums.py:52
 msgid "all"
-msgstr ""
+msgstr "tất cả"
 
 #: notify/enums.py:53
 msgid "any"
-msgstr ""
+msgstr "bất kì"
 
 #: notify/enums.py:62
 msgid "any shop administrator"
-msgstr ""
+msgstr "Bất kỳ quản trị viên cửa hàng"
 
 #: notify/enums.py:63
 msgid "a specific user"
-msgstr ""
+msgstr "một người dùng cụ thể"
 
 #: notify/enums.py:73
 msgid "low"
-msgstr ""
+msgstr "thấp"
 
 #: notify/enums.py:74
 msgid "normal"
-msgstr ""
+msgstr "Bình thường"
 
 #: notify/enums.py:75
 msgid "high"
-msgstr ""
+msgstr "cao"
 
 #: notify/enums.py:76
 msgid "critical"
-msgstr ""
+msgstr "phê bình"
 
 #: notify/models/email_template.py:17
 msgid ""
@@ -301,115 +301,115 @@ msgstr ""
 
 #: notify/models/notification.py:47 notify/models/script.py:23
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: notify/models/notification.py:48
 msgid "recipient type"
-msgstr ""
+msgstr "Loại người nhận"
 
 #: notify/models/notification.py:55
 msgid "recipient"
-msgstr ""
+msgstr "người nhận"
 
 #: notify/models/notification.py:57 notify/models/script.py:26
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: notify/models/notification.py:58
 msgid "message"
-msgstr ""
+msgstr "tin nhắn"
 
 #: notify/models/notification.py:60
 msgid "priority"
-msgstr ""
+msgstr "sự ưu tiên"
 
 #: notify/models/notification.py:63
 msgid "marked read"
-msgstr ""
+msgstr "được đánh dấu đọc"
 
 #: notify/models/notification.py:71
 msgid "marked read by"
-msgstr ""
+msgstr "được đánh dấu đọc bởi"
 
 #: notify/models/notification.py:73
 msgid "marked read on"
-msgstr ""
+msgstr "được đánh dấu đọc trên"
 
 #: notify/models/script.py:24
 msgid "event identifier"
-msgstr ""
+msgstr "Định danh sự kiện"
 
 #: notify/models/script.py:27
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: notify/models/script.py:28
 msgid "enabled"
-msgstr ""
+msgstr "Đã bật"
 
 #: notify/models/script.py:35
 msgid "template identifier"
-msgstr ""
+msgstr "Định danh mẫu"
 
 #: notify/models/script.py:36
 msgid "the template identifier used to create this script"
-msgstr ""
+msgstr "Mã định danh mẫu được sử dụng để tạo tập lệnh này"
 
 #: notify/notify_events.py:17
 msgid "Password Reset"
-msgstr ""
+msgstr "Đặt lại mật khẩu"
 
 #: notify/notify_events.py:18
 msgid "This event is triggered when password reset is requested."
-msgstr ""
+msgstr "Sự kiện này được kích hoạt khi yêu cầu đặt lại mật khẩu."
 
 #: notify/notify_events.py:20
 msgid "Site name"
-msgstr ""
+msgstr "Tên trang web"
 
 #: notify/notify_events.py:21
 msgid "User secret"
-msgstr ""
+msgstr "Bí mật người dùng"
 
 #: notify/notify_events.py:22
 msgid "User to recover"
-msgstr ""
+msgstr "Người dùng để phục hồi"
 
 #: notify/notify_events.py:23
 msgid "Token"
-msgstr ""
+msgstr "Mã thông báo"
 
 #: notify/notify_events.py:24
 msgid "Recovery URL"
-msgstr ""
+msgstr "URL phục hồi"
 
 #: notify/notify_events.py:28
 msgid "To Email"
-msgstr ""
+msgstr "Gửi email"
 
 #: notify/script_template/generic.py:26
 msgid "The subject of the email"
-msgstr ""
+msgstr "Chủ đề của email"
 
 #: notify/script_template/generic.py:27
 msgid "Email content"
-msgstr ""
+msgstr "Nội dung email"
 
 #: notify/script_template/generic.py:27
 msgid "The content of the email."
-msgstr ""
+msgstr "Nội dung của email."
 
 #: notify/script_template/generic.py:36
 msgid "Customer"
-msgstr ""
+msgstr "Khách hàng"
 
 #: notify/script_template/generic.py:37
 msgid "Other destination"
-msgstr ""
+msgstr "Điểm đến khác"
 
 #: notify/script_template/generic.py:40
 msgid "Send to?"
-msgstr ""
+msgstr "Gửi đến?"
 
 #: notify/script_template/generic.py:44
 msgid ""
@@ -418,11 +418,11 @@ msgstr ""
 
 #: notify/script_template/generic.py:47
 msgid "Destination"
-msgstr ""
+msgstr "Điểm đến"
 
 #: notify/script_template/generic.py:47
 msgid "Fill with the destination email address."
-msgstr ""
+msgstr "Điền vào địa chỉ email đích."
 
 #: notify/script_template/generic.py:57
 msgid ""
@@ -446,7 +446,7 @@ msgstr ""
 
 #: notify/script_templates.py:40
 msgid "Send Password Reset Link"
-msgstr ""
+msgstr "Gửi liên kết đặt lại mật khẩu"
 
 #: notify/script_templates.py:42
 msgid ""
@@ -467,28 +467,28 @@ msgstr ""
 
 #: notify/typology.py:71
 msgid "Boolean"
-msgstr ""
+msgstr "Boolean"
 
 #: notify/typology.py:79
 msgid "Integer Number"
-msgstr ""
+msgstr "Số nguyên"
 
 #: notify/typology.py:87
 msgid "Decimal Number"
-msgstr ""
+msgstr "Số thập phân"
 
 #: notify/typology.py:95
 msgid "Text"
-msgstr ""
+msgstr "Chữ"
 
 #: notify/typology.py:109
 msgid "Email Address"
-msgstr ""
+msgstr "Địa chỉ email"
 
 #: notify/typology.py:117
 msgid "URL Address"
-msgstr ""
+msgstr "Địa chỉ URL"
 
 #: notify/typology.py:125
 msgid "Phone Number"
-msgstr ""
+msgstr "Số điện thoại"

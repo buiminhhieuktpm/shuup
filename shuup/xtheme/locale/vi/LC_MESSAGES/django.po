@@ -19,69 +19,69 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: xtheme/_theme.py:130
 msgid "Theme identifiers must match."
-msgstr ""
+msgstr "Định danh chủ đề phải phù hợp."
 
 #: xtheme/_theme.py:142
 msgid "Either theme_settings or shop should be informed."
-msgstr ""
+msgstr "Một trong hai chủ đề hoặc cửa hàng nên được thông báo."
 
 #: xtheme/_theme.py:252
 msgid "Global plugins"
-msgstr ""
+msgstr "Plugin toàn cầu"
 
 #: xtheme/_theme.py:253
 msgid "Theme plugins"
-msgstr ""
+msgstr "Plugin chủ đề"
 
 #: xtheme/admin_module/__init__.py:33
 msgid "Shuup Extensible Theme Engine"
-msgstr ""
+msgstr "Động cơ chủ đề mở rộng shuup"
 
 #: xtheme/admin_module/__init__.py:34 xtheme/admin_module/__init__.py:59
 #: xtheme/admin_module/views/_snippet.py:102
 msgid "Themes"
-msgstr ""
+msgstr "Chủ đề"
 
 #: xtheme/admin_module/__init__.py:71
 msgid "Customize the look and feel of your shop"
-msgstr ""
+msgstr "Tùy chỉnh giao diện của cửa hàng của bạn"
 
 #: xtheme/admin_module/__init__.py:74
 msgid "Customize theme"
-msgstr ""
+msgstr "Tùy chỉnh chủ đề"
 
 #: xtheme/admin_module/__init__.py:97
 msgid "No theme is active. Click here to activate one."
-msgstr ""
+msgstr "Không có chủ đề là hoạt động.Nhấn vào đây để kích hoạt một."
 
 #: xtheme/admin_module/__init__.py:98
 msgid "Theming"
-msgstr ""
+msgstr "Theo chủ đề"
 
 #: xtheme/admin_module/__init__.py:104
 msgid "Shuup Extensible Theme Engine Fonts"
-msgstr ""
+msgstr "Phông chữ công cụ chủ đề mở rộng Shuup"
 
 #: xtheme/admin_module/__init__.py:105 xtheme/admin_module/__init__.py:130
 msgid "Fonts"
-msgstr ""
+msgstr "Phông chữ"
 
 #: xtheme/admin_module/__init__.py:145
 msgid "Allow the user to select fonts in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn phông chữ trong quản trị viên."
 
 #: xtheme/admin_module/__init__.py:149
 msgid "Shuup Extensible Theme Engine Snippets"
-msgstr ""
+msgstr "SHUUP MỞ RỘNG Động cơ chủ đề"
 
 #: xtheme/admin_module/__init__.py:150 xtheme/models.py:325
 #: xtheme/plugins/snippets.py:21
 msgid "Snippets"
-msgstr ""
+msgstr "Đoạn trích"
 
 #: xtheme/admin_module/__init__.py:168
 msgid "Theme Custom CSS/JS"
-msgstr ""
+msgstr "Chủ đề CSS/JS tùy chỉnh"
 
 #: xtheme/admin_module/views/_snippet.py:41 xtheme/models.py:319
 msgid ""
@@ -91,114 +91,114 @@ msgstr ""
 
 #: xtheme/admin_module/views/_snippet.py:49
 msgid "Select the location of the page to inject the snippet."
-msgstr ""
+msgstr "Chọn vị trí của trang để tiêm đoạn trích."
 
 #: xtheme/admin_module/views/_snippet.py:94
 #: xtheme/admin_module/views/_theme.py:203
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: xtheme/admin_module/views/_snippet.py:94
 #: xtheme/admin_module/views/_theme.py:206
 msgid "Filter by name..."
-msgstr ""
+msgstr "Lọc theo tên ..."
 
 #: xtheme/admin_module/views/_snippet.py:97
 msgid "Location"
-msgstr ""
+msgstr "Vị trí"
 
 #: xtheme/admin_module/views/_snippet.py:99
 msgid "Filter by location..."
-msgstr ""
+msgstr "Lọc theo vị trí ..."
 
 #: xtheme/admin_module/views/_snippet.py:101 xtheme/plugins/products.py:46
 #: xtheme/plugins/products_async.py:47
 msgid "Type"
-msgstr ""
+msgstr "Kiểu"
 
 #: xtheme/admin_module/views/_theme.py:35
 msgid "activate"
-msgstr ""
+msgstr "kích hoạt"
 
 #: xtheme/admin_module/views/_theme.py:42
 msgid "Theme"
-msgstr ""
+msgstr "Chủ đề"
 
 #: xtheme/admin_module/views/_theme.py:43
 msgid "Choose a theme for your shop"
-msgstr ""
+msgstr "Chọn một chủ đề cho cửa hàng của bạn"
 
 #: xtheme/admin_module/views/_theme.py:106
 msgid "Theme activated."
-msgstr ""
+msgstr "Chủ đề được kích hoạt."
 
 #: xtheme/admin_module/views/_theme.py:164
 msgid "Custom CSS/JS"
-msgstr ""
+msgstr "CSS/JS tùy chỉnh"
 
 #: xtheme/admin_module/views/_theme.py:208
 msgid "Woff"
-msgstr ""
+msgstr "Woff"
 
 #: xtheme/admin_module/views/_theme.py:209
 msgid "Woff2"
-msgstr ""
+msgstr "Woff2"
 
 #: xtheme/admin_module/views/_theme.py:210
 msgid "TTF"
-msgstr ""
+msgstr "TTF"
 
 #: xtheme/admin_module/views/_theme.py:211
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: xtheme/admin_module/views/_theme.py:212
 msgid "EOT"
-msgstr ""
+msgstr "EOT"
 
 #: xtheme/forms.py:48
 msgid "Stylesheets"
-msgstr ""
+msgstr "Kiểu dáng"
 
 #: xtheme/forms.py:52
 msgid "The fonts, colors, and styles to use with your theme."
-msgstr ""
+msgstr "Các phông chữ, màu sắc và kiểu dáng để sử dụng với chủ đề của bạn."
 
 #: xtheme/forms.py:111
 msgid "Choose the primary color:"
-msgstr ""
+msgstr "Chọn màu chính:"
 
 #: xtheme/forms.py:112
 msgid "Choose the secondary color:"
-msgstr ""
+msgstr "Chọn màu thứ cấp:"
 
 #: xtheme/forms.py:113
 msgid "Choose the primary text color:"
-msgstr ""
+msgstr "Chọn màu văn bản chính:"
 
 #: xtheme/forms.py:114
 msgid "Choose the success (green) style primary color:"
-msgstr ""
+msgstr "Chọn Màu sắc chính kiểu thành công (màu xanh lá cây):"
 
 #: xtheme/forms.py:115
 msgid "Choose the danger (red) style primary color:"
-msgstr ""
+msgstr "Chọn màu sắc chính kiểu nguy hiểm (màu đỏ):"
 
 #: xtheme/forms.py:136
 msgid "Admin Header Font"
-msgstr ""
+msgstr "Phông chữ tiêu đề quản trị viên"
 
 #: xtheme/forms.py:143
 msgid "Admin Body Font"
-msgstr ""
+msgstr "Phông chữ cơ thể quản trị"
 
 #: xtheme/layout/_base.py:118
 msgid "Failed to render the plugin"
-msgstr ""
+msgstr "Không thể hiển thị plugin"
 
 #: xtheme/layout/_base.py:263
 msgid "Content in this box is shown to all user types without limitations."
-msgstr ""
+msgstr "Nội dung trong hộp này được hiển thị cho tất cả các loại người dùng mà không có giới hạn."
 
 #: xtheme/layout/_category.py:21
 #, python-format
@@ -208,11 +208,11 @@ msgstr ""
 
 #: xtheme/layout/_contact_group.py:19
 msgid "Content in this box is shown to guests (anonymous users) only."
-msgstr ""
+msgstr "Nội dung trong hộp này chỉ được hiển thị cho khách (người dùng ẩn danh)."
 
 #: xtheme/layout/_contact_group.py:33
 msgid "Content in this box is shown to company contacts only."
-msgstr ""
+msgstr "Nội dung trong hộp này chỉ được hiển thị cho các liên hệ của công ty."
 
 #: xtheme/layout/_contact_group.py:47
 msgid ""
@@ -222,97 +222,97 @@ msgstr ""
 
 #: xtheme/layout/_contact_group.py:61
 msgid "Content in this box is shown to person contacts only."
-msgstr ""
+msgstr "Nội dung trong hộp này chỉ được hiển thị cho người liên hệ cá nhân."
 
 #: xtheme/layout/_product.py:20
 #, python-format
 msgid "Content in this placeholder is shown for %(product_name)s only."
-msgstr ""
+msgstr "Nội dung trong trình giữ chỗ này chỉ được hiển thị cho %(product_name) s."
 
 #: xtheme/middleware.py:33
 msgid "Shop '{}' has no active theme"
-msgstr ""
+msgstr "Cửa hàng '{}' không có chủ đề hoạt động"
 
 #: xtheme/models.py:30
 msgid "Inline JavaScript"
-msgstr ""
+msgstr "JavaScript nội tuyến"
 
 #: xtheme/models.py:31
 msgid "Inline CSS"
-msgstr ""
+msgstr "CSS nội tuyến"
 
 #: xtheme/models.py:32
 msgid "Inline HTML"
-msgstr ""
+msgstr "HTML nội tuyến"
 
 #: xtheme/models.py:33
 msgid "Inline Jinja HTML"
-msgstr ""
+msgstr "Nội tuyến Jinja HTML"
 
 #: xtheme/models.py:101
 msgid "current draft"
-msgstr ""
+msgstr "Dự thảo hiện tại"
 
 #: xtheme/models.py:102
 msgid "old version"
-msgstr ""
+msgstr "Phiên bản cũ"
 
 #: xtheme/models.py:103
 msgid "public"
-msgstr ""
+msgstr "công cộng"
 
 #: xtheme/models.py:107 xtheme/models.py:156
 msgid "theme identifier"
-msgstr ""
+msgstr "Định danh chủ đề"
 
 #: xtheme/models.py:109
 msgid "view name"
-msgstr ""
+msgstr "Xem tên"
 
 #: xtheme/models.py:110
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: xtheme/models.py:111
 msgid "modified on"
-msgstr ""
+msgstr "sửa đổi trên"
 
 #: xtheme/models.py:112
 msgid "status"
-msgstr ""
+msgstr "trạng thái"
 
 #: xtheme/models.py:113
 msgid "internal data"
-msgstr ""
+msgstr "Dữ liệu nội bộ"
 
 #: xtheme/models.py:158 xtheme/models.py:283
 msgid "active"
-msgstr ""
+msgstr "tích cực"
 
 #: xtheme/models.py:159
 msgid "data"
-msgstr ""
+msgstr "dữ liệu"
 
 #: xtheme/models.py:180
 #, python-format
 msgid "Theme configuration for %s"
-msgstr ""
+msgstr "Cấu hình chủ đề cho %s"
 
 #: xtheme/models.py:185
 msgid "Shop"
-msgstr ""
+msgstr "Cửa hàng"
 
 #: xtheme/models.py:186
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: xtheme/models.py:186
 msgid "Font family name"
-msgstr ""
+msgstr "Tên gia đình phông chữ"
 
 #: xtheme/models.py:190
 msgid "Font Family CSS Property"
-msgstr ""
+msgstr "Tài sản CSS gia đình phông chữ"
 
 #: xtheme/models.py:191
 msgid ""
@@ -321,100 +321,100 @@ msgstr ""
 
 #: xtheme/models.py:195
 msgid "WOFF Font"
-msgstr ""
+msgstr "Phông chữ Woff"
 
 #: xtheme/models.py:202
 msgid "WOFF2 Font"
-msgstr ""
+msgstr "Phông chữ Woff2"
 
 #: xtheme/models.py:209
 msgid "TTF font"
-msgstr ""
+msgstr "Phông chữ TTF"
 
 #: xtheme/models.py:216
 msgid "SVG font"
-msgstr ""
+msgstr "Phông chữ SVG"
 
 #: xtheme/models.py:223
 msgid "EOT font"
-msgstr ""
+msgstr "Phông chữ EOT"
 
 #: xtheme/models.py:231
 msgid "Font Family"
-msgstr ""
+msgstr "Gia đình phông chữ"
 
 #: xtheme/models.py:232
 msgid "Font Families"
-msgstr ""
+msgstr "Gia đình phông chữ"
 
 #: xtheme/models.py:258
 msgid "primary color"
-msgstr ""
+msgstr "Màu chính"
 
 #: xtheme/models.py:263
 msgid "secondary color"
-msgstr ""
+msgstr "Màu thứ cấp"
 
 #: xtheme/models.py:268
 msgid "text color"
-msgstr ""
+msgstr "màu văn bản"
 
 #: xtheme/models.py:271
 msgid "success color"
-msgstr ""
+msgstr "màu sắc thành công"
 
 #: xtheme/models.py:274
 msgid "danger color"
-msgstr ""
+msgstr "Màu sắc nguy hiểm"
 
 #: xtheme/models.py:282
 msgid "base font size"
-msgstr ""
+msgstr "kích thước phông chữ cơ sở"
 
 #: xtheme/models.py:286
 #, python-format
 msgid "Admin Theme configuration for %s"
-msgstr ""
+msgstr "Cấu hình chủ đề quản trị cho %s"
 
 #: xtheme/models.py:308
 msgid "snippet name"
-msgstr ""
+msgstr "Tên đoạn trích"
 
 #: xtheme/models.py:308
 msgid "Untitled"
-msgstr ""
+msgstr "Không có tiêu đề"
 
 #: xtheme/models.py:310
 msgid "location"
-msgstr ""
+msgstr "vị trí"
 
 #: xtheme/models.py:311
 msgid "snippet type"
-msgstr ""
+msgstr "Loại đoạn trích"
 
 #: xtheme/models.py:312
 msgid "snippet"
-msgstr ""
+msgstr "đoạn trích"
 
 #: xtheme/models.py:315
 msgid "themes"
-msgstr ""
+msgstr "chủ đề"
 
 #: xtheme/models.py:324
 msgid "Snippet"
-msgstr ""
+msgstr "Đoạn trích"
 
 #: xtheme/plugins/_base.py:33 xtheme/views/forms.py:16
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: xtheme/plugins/category_links.py:35
 msgid "Categories"
-msgstr ""
+msgstr "Thể loại"
 
 #: xtheme/plugins/category_links.py:47
 msgid "Category Links"
-msgstr ""
+msgstr "Liên kết danh mục"
 
 #: xtheme/plugins/category_links.py:52 xtheme/plugins/image.py:54
 #: xtheme/plugins/products.py:43 xtheme/plugins/products.py:98
@@ -423,71 +423,71 @@ msgstr ""
 #: xtheme/plugins/products_async.py:240 xtheme/plugins/products_async.py:324
 #: xtheme/plugins/social_media_links.py:87
 msgid "Title"
-msgstr ""
+msgstr "Tiêu đề"
 
 #: xtheme/plugins/category_links.py:56
 msgid "Show all categories"
-msgstr ""
+msgstr "Hiển thị tất cả các loại"
 
 #: xtheme/plugins/category_links.py:59
 msgid "All categories are shown, even if not selected"
-msgstr ""
+msgstr "Tất cả các danh mục được hiển thị, ngay cả khi không được chọn"
 
 #: xtheme/plugins/image.py:50 xtheme/plugins/image.py:55
 msgid "Image"
-msgstr ""
+msgstr "Hình ảnh"
 
 #: xtheme/plugins/image.py:56
 msgid "Image Link URL"
-msgstr ""
+msgstr "URL liên kết hình ảnh"
 
 #: xtheme/plugins/image.py:60
 msgid "Full width"
-msgstr ""
+msgstr "Chiều rộng đầy đủ"
 
 #: xtheme/plugins/image.py:60
 msgid "Set image to the full width of cell."
-msgstr ""
+msgstr "Đặt hình ảnh thành toàn bộ chiều rộng của ô."
 
 #: xtheme/plugins/image.py:66
 msgid "Width (px)"
-msgstr ""
+msgstr "Chiều rộng (PX)"
 
 #: xtheme/plugins/image.py:68 xtheme/plugins/image.py:76
 msgid "Leave blank for default width."
-msgstr ""
+msgstr "Để trống cho chiều rộng mặc định."
 
 #: xtheme/plugins/image.py:74
 msgid "Height (px)"
-msgstr ""
+msgstr "Chiều cao (PX)"
 
 #: xtheme/plugins/products.py:32 xtheme/plugins/products_async.py:33
 msgid "Newest"
-msgstr ""
+msgstr "Mới nhất"
 
 #: xtheme/plugins/products.py:33 xtheme/plugins/products_async.py:34
 msgid "Best Selling"
-msgstr ""
+msgstr "Bán tốt nhất"
 
 #: xtheme/plugins/products.py:34 xtheme/plugins/products_async.py:35
 msgid "Random"
-msgstr ""
+msgstr "Ngẫu nhiên"
 
 #: xtheme/plugins/products.py:39
 msgid "Product Highlights"
-msgstr ""
+msgstr "Sản phẩm nổi bật"
 
 #: xtheme/plugins/products.py:48 xtheme/plugins/products.py:100
 #: xtheme/plugins/products.py:187 xtheme/plugins/products_async.py:49
 #: xtheme/plugins/products_async.py:123 xtheme/plugins/products_async.py:241
 msgid "Count"
-msgstr ""
+msgstr "Đếm"
 
 #: xtheme/plugins/products.py:52 xtheme/plugins/products.py:113
 #: xtheme/plugins/products.py:191 xtheme/plugins/products_async.py:55
 #: xtheme/plugins/products_async.py:137 xtheme/plugins/products_async.py:246
 msgid "Only show in-stock and orderable items"
-msgstr ""
+msgstr "Chỉ hiển thị các mặt hàng trong kho và có thể đặt hàng"
 
 #: xtheme/plugins/products.py:54 xtheme/plugins/products.py:117
 #: xtheme/plugins/products.py:195 xtheme/plugins/products_async.py:59
@@ -499,139 +499,139 @@ msgstr ""
 
 #: xtheme/plugins/products.py:93
 msgid "Product Cross Sells"
-msgstr ""
+msgstr "Sản phẩm bán chéo"
 
 #: xtheme/plugins/products.py:104 xtheme/plugins/products_async.py:127
 msgid "Show variation parents"
-msgstr ""
+msgstr "Hiển thị cha mẹ biến thể"
 
 #: xtheme/plugins/products.py:105 xtheme/plugins/products_async.py:128
 msgid "Render variation parents instead of the children."
-msgstr ""
+msgstr "Kết xuất biến thể cha mẹ thay vì con cái."
 
 #: xtheme/plugins/products.py:173 xtheme/plugins/products_async.py:228
 msgid "Category"
-msgstr ""
+msgstr "Loại"
 
 #: xtheme/plugins/products.py:181
 msgid "Category Products Highlight"
-msgstr ""
+msgstr "Thể loại sản phẩm nổi bật"
 
 #: xtheme/plugins/products.py:239 xtheme/plugins/products_async.py:306
 msgid "Products"
-msgstr ""
+msgstr "Các sản phẩm"
 
 #: xtheme/plugins/products.py:240 xtheme/plugins/products_async.py:307
 msgid "Select all products you want to show"
-msgstr ""
+msgstr "Chọn tất cả các sản phẩm bạn muốn hiển thị"
 
 #: xtheme/plugins/products.py:253
 msgid "Product Selection"
-msgstr ""
+msgstr "Lựa chọn sản phẩm"
 
 #: xtheme/plugins/products_async.py:40
 msgid "Product Highlights (asynchronous)"
-msgstr ""
+msgstr "Điểm nổi bật của sản phẩm (không đồng bộ)"
 
 #: xtheme/plugins/products_async.py:50
 msgid "Cutoff days"
-msgstr ""
+msgstr "Ngày cắt"
 
 #: xtheme/plugins/products_async.py:51 xtheme/plugins/products_async.py:133
 #: xtheme/plugins/products_async.py:242 xtheme/plugins/products_async.py:325
 msgid "Cache timeout (seconds)"
-msgstr ""
+msgstr "Thời gian chờ bộ nhớ cache (giây)"
 
 #: xtheme/plugins/products_async.py:117
 msgid "Product Cross Sells (asynchronous)"
-msgstr ""
+msgstr "Sản phẩm bán chéo (không đồng bộ)"
 
 #: xtheme/plugins/products_async.py:236
 msgid "Category Products Highlight (asynchronous)"
-msgstr ""
+msgstr "Danh mục sản phẩm nổi bật (không đồng bộ)"
 
 #: xtheme/plugins/products_async.py:320
 msgid "Product Selection (asynchronous)"
-msgstr ""
+msgstr "Lựa chọn sản phẩm (không đồng bộ)"
 
 #: xtheme/plugins/snippets.py:23
 msgid "In-Place Snippet"
-msgstr ""
+msgstr "Đoạn trích tại chỗ"
 
 #: xtheme/plugins/snippets.py:26
 msgid "Resource snippet for start of head"
-msgstr ""
+msgstr "Đoán nguồn tài nguyên cho đầu"
 
 #: xtheme/plugins/snippets.py:30
 msgid "Resource snippet for end of head"
-msgstr ""
+msgstr "Đoạn trích tài nguyên cho đầu"
 
 #: xtheme/plugins/snippets.py:34
 msgid "Resource snippet for beginning of body"
-msgstr ""
+msgstr "Đoạn trích tài nguyên để bắt đầu cơ thể"
 
 #: xtheme/plugins/snippets.py:36
 msgid "Resource for end of body"
-msgstr ""
+msgstr "Nguồn lực cho phần cuối của cơ thể"
 
 #: xtheme/plugins/social_media_links.py:38
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: xtheme/plugins/social_media_links.py:41
 #, python-format
 msgid "%(name)s Ordering"
-msgstr ""
+msgstr "%(name)s Đặt hàng"
 
 #: xtheme/plugins/social_media_links.py:45
 msgid "Ordering"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: xtheme/plugins/social_media_links.py:82
 msgid "Social Media Links"
-msgstr ""
+msgstr "Liên kết truyền thông xã hội"
 
 #: xtheme/plugins/social_media_links.py:86
 msgid "Topic"
-msgstr ""
+msgstr "Đề tài"
 
 #: xtheme/plugins/social_media_links.py:91
 msgid "Icon Size"
-msgstr ""
+msgstr "Kích thước biểu tượng"
 
 #: xtheme/plugins/social_media_links.py:94
 #: xtheme/plugins/social_media_links.py:110
 msgid "Default"
-msgstr ""
+msgstr "Mặc định"
 
 #: xtheme/plugins/social_media_links.py:95
 msgid "Large"
-msgstr ""
+msgstr "Lớn"
 
 #: xtheme/plugins/social_media_links.py:107
 msgid "Alignment"
-msgstr ""
+msgstr "Liên kết"
 
 #: xtheme/plugins/social_media_links.py:111 xtheme/views/forms.py:30
 msgid "Left"
-msgstr ""
+msgstr "Bên trái"
 
 #: xtheme/plugins/social_media_links.py:112
 msgid "Center"
-msgstr ""
+msgstr "Trung tâm"
 
 #: xtheme/plugins/social_media_links.py:113 xtheme/views/forms.py:30
 msgid "Right"
-msgstr ""
+msgstr "Phải"
 
 #: xtheme/plugins/text.py:23
 msgid "text"
-msgstr ""
+msgstr "chữ"
 
 #: xtheme/rendering.py:159
 #, python-format
 msgid "Click to edit placeholder: %s"
-msgstr ""
+msgstr "Bấm để chỉnh sửa trình giữ chỗ: %s"
 
 #: xtheme/rendering.py:167
 msgid ""
@@ -641,106 +641,106 @@ msgstr ""
 
 #: xtheme/resources.py:31
 msgid "End of head"
-msgstr ""
+msgstr "Kết thúc đầu"
 
 #: xtheme/resources.py:32
 msgid "Start of head"
-msgstr ""
+msgstr "Bắt đầu của đầu"
 
 #: xtheme/resources.py:33
 msgid "End of body"
-msgstr ""
+msgstr "Kết thúc cơ thể"
 
 #: xtheme/resources.py:34
 msgid "Start of body"
-msgstr ""
+msgstr "Bắt đầu của cơ thể"
 
 #: xtheme/resources.py:35
 msgid "Content start"
-msgstr ""
+msgstr "Nội dung bắt đầu"
 
 #: xtheme/resources.py:36
 msgid "Content end"
-msgstr ""
+msgstr "Nội dung kết thúc"
 
 #: xtheme/resources.py:94
 msgid "(Error while rendering.)"
-msgstr ""
+msgstr "(Lỗi trong khi kết xuất.)"
 
 #: xtheme/views/editor.py:55
 msgid "No access to editing."
-msgstr ""
+msgstr "Không có quyền truy cập để chỉnh sửa."
 
 #: xtheme/views/editor.py:74
 #, python-format
 msgid "Unknown command: `%s`."
-msgstr ""
+msgstr "Lệnh không xác định: `%s`."
 
 #: xtheme/views/editor.py:99
 msgid "Unable to determine the current theme."
-msgstr ""
+msgstr "Không thể xác định chủ đề hiện tại."
 
 #: xtheme/views/editor.py:153
 #, python-format
 msgid "Can't add more than %d cells in one row."
-msgstr ""
+msgstr "Không thể thêm nhiều hơn %d các ô trong một hàng."
 
 #: xtheme/views/editor.py:192
 msgid "Published"
-msgstr ""
+msgstr "Xuất bản"
 
 #: xtheme/views/editor.py:196
 msgid "Reverted"
-msgstr ""
+msgstr "Hoàn nguyên"
 
 #: xtheme/views/forms.py:21
 msgid "Custom"
-msgstr ""
+msgstr "Phong tục"
 
 #: xtheme/views/forms.py:22
 msgid "Full Width"
-msgstr ""
+msgstr "Chiều rộng đầy đủ"
 
 #: xtheme/views/forms.py:23
 msgid "Three Fourths (3/4)"
-msgstr ""
+msgstr "Ba phần tư (3/4)"
 
 #: xtheme/views/forms.py:24
 msgid "Two Thirds (2/3)"
-msgstr ""
+msgstr "Hai phần ba (2/3)"
 
 #: xtheme/views/forms.py:25
 msgid "Half (1/2)"
-msgstr ""
+msgstr "Một nửa (1/2)"
 
 #: xtheme/views/forms.py:26
 msgid "One Third (1/3)"
-msgstr ""
+msgstr "Một phần ba (1/3)"
 
 #: xtheme/views/forms.py:27
 msgid "One Fourth (1/4)"
-msgstr ""
+msgstr "Một phần tư (1/4)"
 
 #: xtheme/views/forms.py:30
 msgid "Auto"
-msgstr ""
+msgstr "Tự động"
 
 #: xtheme/views/forms.py:50
 msgid "Cell width"
-msgstr ""
+msgstr "Chiều rộng ô"
 
 #: xtheme/views/forms.py:55
 msgid "Cell align"
-msgstr ""
+msgstr "Căn chỉnh tế bào"
 
 #: xtheme/views/forms.py:60
 msgid "Extra classes"
-msgstr ""
+msgstr "Các lớp học bổ sung"
 
 #: xtheme/views/forms.py:61
 msgid "Add extra CSS classes names to the cell"
-msgstr ""
+msgstr "Thêm tên lớp CSS bổ sung vào ô"
 
 #: xtheme/views/forms.py:67
 msgid "No Plugin"
-msgstr ""
+msgstr "Không có plugin"

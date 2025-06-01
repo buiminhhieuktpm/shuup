@@ -19,69 +19,69 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: addons/admin_module/__init__.py:16 addons/admin_module/__init__.py:34
 msgid "Addons"
-msgstr ""
+msgstr "Addons"
 
 #: addons/admin_module/views/list.py:34
 #, python-format
 msgid "Enable %s"
-msgstr ""
+msgstr "Bật %s"
 
 #: addons/admin_module/views/list.py:52
 #, python-format
 msgid "%d new addons enabled."
-msgstr ""
+msgstr "%d Addon mới được bật."
 
 #: addons/admin_module/views/list.py:54
 #, python-format
 msgid "%d previously enabled addons disabled."
-msgstr ""
+msgstr "%d trước đó đã kích hoạt addon bị vô hiệu hóa."
 
 #: addons/admin_module/views/list.py:65
 msgid "No changes were made."
-msgstr ""
+msgstr "Không có thay đổi đã được thực hiện."
 
 #: addons/admin_module/views/list.py:75
 msgid "Save addon changes"
-msgstr ""
+msgstr "Lưu các thay đổi Addon"
 
 #: addons/admin_module/views/list.py:80
 msgid "Upload new addon"
-msgstr ""
+msgstr "Tải lên addon mới"
 
 #: addons/admin_module/views/list.py:91
 msgid "Reload application"
-msgstr ""
+msgstr "Tải lại ứng dụng"
 
 #: addons/admin_module/views/reload.py:38
 msgid ""
 "There are no viable reload methods available. Please contact your system "
 "administrator."
-msgstr ""
+msgstr "Không có phương thức tải lại nào khả dụng. Hãy liên hệ người quản trị hệ thống"
 
 #: addons/admin_module/views/reload.py:42
 msgid "Reload Method"
-msgstr ""
+msgstr "Phương thức tải lại"
 
 #: addons/admin_module/views/reload.py:72
 msgid "Reloading."
-msgstr ""
+msgstr "Tải lại."
 
 #: addons/admin_module/views/upload.py:29
 msgid "Addon file (ZIP)"
-msgstr ""
+msgstr "Tệp addon (zip)"
 
 #: addons/admin_module/views/upload.py:29
 msgid "Only upload the addon files you trust."
-msgstr ""
+msgstr "Chỉ tải lên các tệp addon mà bạn tin tưởng."
 
 #: addons/admin_module/views/upload.py:40
 msgid "Only wheel files (`.whl`) are supported."
-msgstr ""
+msgstr "Chỉ các tệp wheel (`.whl`) được hỗ trợ."
 
 #: addons/admin_module/views/upload.py:58
 msgid "Upload"
-msgstr ""
+msgstr "Tải lên"
 
 #: addons/admin_module/views/upload.py:97
 msgid "Install Addon"
-msgstr ""
+msgstr "Cài đặt addon"

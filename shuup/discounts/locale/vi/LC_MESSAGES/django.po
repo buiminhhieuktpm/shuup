@@ -19,113 +19,113 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: discounts/admin/mass_actions.py:23
 msgid "Archive Product Discounts"
-msgstr ""
+msgstr "Lưu trữ giảm giá sản phẩm"
 
 #: discounts/admin/mass_actions.py:33
 msgid "Unarchive Discounts"
-msgstr ""
+msgstr "Giảm giá không"
 
 #: discounts/admin/mass_actions.py:43
 msgid "Delete Discounts"
-msgstr ""
+msgstr "Xóa giảm giá"
 
 #: discounts/admin/modules/_discounts.py:20 discounts/plugins.py:40
 msgid "Discounts"
-msgstr ""
+msgstr "Giảm giá"
 
 #: discounts/admin/modules/_discounts.py:32
 #: discounts/admin/views/_happy_hours.py:99 discounts/modules.py:19
 msgid "Product Discounts"
-msgstr ""
+msgstr "Giảm giá sản phẩm"
 
 #: discounts/admin/modules/_discounts.py:50
 msgid "Allow the user to select discounts in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn giảm giá trong quản trị viên."
 
 #: discounts/admin/modules/_discounts.py:55
 #: discounts/admin/modules/_discounts.py:73
 #: discounts/admin/views/_archive.py:31 discounts/admin/views/_edit.py:84
 msgid "Archived Product Discounts"
-msgstr ""
+msgstr "Giảm giá sản phẩm được lưu trữ"
 
 #: discounts/admin/modules/_happy_hours.py:19
 msgid "Discounts Happy Hours"
-msgstr ""
+msgstr "Giảm giá Giờ hạnh phúc"
 
 #: discounts/admin/modules/_happy_hours.py:40
 msgid "Product Discounts Happy Hours"
-msgstr ""
+msgstr "Giảm giá sản phẩm Giờ hạnh phúc"
 
 #: discounts/admin/views/_active_list.py:26
 msgid "Discount Name"
-msgstr ""
+msgstr "Tên giảm giá"
 
 #: discounts/admin/views/_active_list.py:29
 #: discounts/admin/views/_happy_hours.py:38
 msgid "Filter by name..."
-msgstr ""
+msgstr "Lọc theo tên ..."
 
 #: discounts/admin/views/_active_list.py:33
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: discounts/admin/views/_active_list.py:35
 msgid "Filter by product..."
-msgstr ""
+msgstr "Lọc theo sản phẩm ..."
 
 #: discounts/admin/views/_active_list.py:39
 msgid "Category"
-msgstr ""
+msgstr "Loại"
 
 #: discounts/admin/views/_active_list.py:42
 msgid "Filter by category..."
-msgstr ""
+msgstr "Lọc theo thể loại ..."
 
 #: discounts/admin/views/_active_list.py:47
 msgid "Contact Group"
-msgstr ""
+msgstr "Nhóm liên hệ"
 
 #: discounts/admin/views/_active_list.py:50
 msgid "Filter by contact group..."
-msgstr ""
+msgstr "Lọc theo nhóm liên hệ ..."
 
 #: discounts/admin/views/_active_list.py:55
 msgid "Contact"
-msgstr ""
+msgstr "Liên hệ"
 
 #: discounts/admin/views/_active_list.py:57
 msgid "Filter by contact..."
-msgstr ""
+msgstr "Lọc theo liên hệ ..."
 
 #: discounts/admin/views/_active_list.py:59
 msgid "Effect"
-msgstr ""
+msgstr "Tác dụng"
 
 #: discounts/admin/views/_active_list.py:60
 msgid "End Date and Time"
-msgstr ""
+msgstr "Ngày và giờ kết thúc"
 
 #: discounts/admin/views/_delete.py:29
 #: discounts/admin/views/_happy_hours.py:182
 #, python-format
 msgid "%s has been deleted."
-msgstr ""
+msgstr "%s đã bị xóa."
 
 #: discounts/admin/views/_edit.py:35
 msgid "Discount percentage"
-msgstr ""
+msgstr "Tỷ lệ giảm giá"
 
 #: discounts/admin/views/_edit.py:36
 msgid "The discount percentage for this discount."
-msgstr ""
+msgstr "Tỷ lệ giảm giá cho giảm giá này."
 
 #: discounts/admin/views/_happy_hours.py:35
 msgid "Happy Hour Name"
-msgstr ""
+msgstr "Tên giờ hạnh phúc"
 
 #: discounts/admin/views/_happy_hours.py:100
 msgid "Select discounts for this happy hour."
-msgstr ""
+msgstr "Chọn giảm giá cho giờ hạnh phúc này."
 
 #: discounts/admin/views/_happy_hours.py:122
 msgid ""
@@ -141,11 +141,11 @@ msgstr ""
 
 #: discounts/admin/views/_happy_hours.py:124
 msgid "Weekdays the happy hour is active."
-msgstr ""
+msgstr "Các ngày trong tuần, giờ hạnh phúc đang hoạt động."
 
 #: discounts/models/_discounts.py:82 discounts/models/_happy_hours.py:21
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: discounts/models/_discounts.py:83
 msgid ""
@@ -155,35 +155,35 @@ msgstr ""
 
 #: discounts/models/_discounts.py:86 discounts/models/_happy_hours.py:18
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: discounts/models/_discounts.py:95
 msgid "created by"
-msgstr ""
+msgstr "được tạo bởi"
 
 #: discounts/models/_discounts.py:103
 msgid "modified by"
-msgstr ""
+msgstr "sửa đổi bởi"
 
 #: discounts/models/_discounts.py:105
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: discounts/models/_discounts.py:106
 msgid "modified on"
-msgstr ""
+msgstr "sửa đổi trên"
 
 #: discounts/models/_discounts.py:114
 msgid "supplier"
-msgstr ""
+msgstr "nhà cung cấp"
 
 #: discounts/models/_discounts.py:115
 msgid "Select supplier for this discount."
-msgstr ""
+msgstr "Chọn nhà cung cấp cho giảm giá này."
 
 #: discounts/models/_discounts.py:119
 msgid "active"
-msgstr ""
+msgstr "tích cực"
 
 #: discounts/models/_discounts.py:120
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: discounts/models/_discounts.py:125
 msgid "start date and time"
-msgstr ""
+msgstr "Ngày và giờ bắt đầu"
 
 #: discounts/models/_discounts.py:127
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 
 #: discounts/models/_discounts.py:133
 msgid "end date and time"
-msgstr ""
+msgstr "Ngày và giờ kết thúc"
 
 #: discounts/models/_discounts.py:135
 msgid ""
@@ -213,87 +213,87 @@ msgstr ""
 
 #: discounts/models/_discounts.py:142 discounts/models/_happy_hours.py:30
 msgid "happy hours"
-msgstr ""
+msgstr "Giờ hạnh phúc"
 
 #: discounts/models/_discounts.py:143
 msgid "Select happy hours for this discount."
-msgstr ""
+msgstr "Chọn Giờ hạnh phúc cho giảm giá này."
 
 #: discounts/models/_discounts.py:151
 msgid "product"
-msgstr ""
+msgstr "sản phẩm"
 
 #: discounts/models/_discounts.py:152
 msgid "Select product for this discount."
-msgstr ""
+msgstr "Chọn sản phẩm cho giảm giá này."
 
 #: discounts/models/_discounts.py:156
 msgid "exclude selected category"
-msgstr ""
+msgstr "Loại trừ danh mục được chọn"
 
 #: discounts/models/_discounts.py:157
 msgid "Exclude products in selected category from this discount."
-msgstr ""
+msgstr "Loại trừ các sản phẩm trong danh mục được chọn từ giảm giá này."
 
 #: discounts/models/_discounts.py:165
 msgid "category"
-msgstr ""
+msgstr "loại"
 
 #: discounts/models/_discounts.py:166
 msgid "Select category for this discount."
-msgstr ""
+msgstr "Chọn danh mục cho giảm giá này."
 
 #: discounts/models/_discounts.py:174
 msgid "contact"
-msgstr ""
+msgstr "liên hệ"
 
 #: discounts/models/_discounts.py:175
 msgid "Select contact for this discount."
-msgstr ""
+msgstr "Chọn Liên hệ để giảm giá này."
 
 #: discounts/models/_discounts.py:183
 msgid "contact group"
-msgstr ""
+msgstr "Nhóm liên hệ"
 
 #: discounts/models/_discounts.py:184
 msgid "Select contact group for this discount."
-msgstr ""
+msgstr "Chọn nhóm liên hệ để giảm giá này."
 
 #: discounts/models/_discounts.py:189
 msgid "discounted price"
-msgstr ""
+msgstr "Giá giảm giá"
 
 #: discounts/models/_discounts.py:190
 msgid "Discounted product price for this discount."
-msgstr ""
+msgstr "Giá sản phẩm giảm giá cho giảm giá này."
 
 #: discounts/models/_discounts.py:195
 msgid "discount amount"
-msgstr ""
+msgstr "số tiền giảm giá"
 
 #: discounts/models/_discounts.py:196
 msgid "Discount amount value for this discount."
-msgstr ""
+msgstr "Giá trị chiết khấu cho giảm giá này."
 
 #: discounts/models/_discounts.py:203
 msgid "discount percentage"
-msgstr ""
+msgstr "Tỷ lệ giảm giá"
 
 #: discounts/models/_discounts.py:204
 msgid "Discount percentage for this discount."
-msgstr ""
+msgstr "Tỷ lệ giảm giá cho giảm giá này."
 
 #: discounts/models/_discounts.py:213
 msgid "product discount"
-msgstr ""
+msgstr "Giảm giá sản phẩm"
 
 #: discounts/models/_discounts.py:214
 msgid "product discounts"
-msgstr ""
+msgstr "Giảm giá sản phẩm"
 
 #: discounts/models/_discounts.py:221
 msgid "Start date and end date are required when the discount is active."
-msgstr ""
+msgstr "Ngày bắt đầu và ngày kết thúc được yêu cầu khi giảm giá."
 
 #: discounts/models/_discounts.py:227
 msgid ""
@@ -309,31 +309,31 @@ msgstr ""
 
 #: discounts/models/_happy_hours.py:29 discounts/models/_happy_hours.py:36
 msgid "happy hour"
-msgstr ""
+msgstr "Giờ hạnh phúc"
 
 #: discounts/models/_happy_hours.py:39
 msgid "parent"
-msgstr ""
+msgstr "cha mẹ"
 
 #: discounts/models/_happy_hours.py:41
 msgid "from hour"
-msgstr ""
+msgstr "từ giờ"
 
 #: discounts/models/_happy_hours.py:42
 msgid "to hour"
-msgstr ""
+msgstr "đến giờ"
 
 #: discounts/models/_happy_hours.py:43
 msgid "weekday"
-msgstr ""
+msgstr "Ngày trong tuần"
 
 #: discounts/models/_happy_hours.py:49
 msgid "time range"
-msgstr ""
+msgstr "Phạm vi thời gian"
 
 #: discounts/models/_happy_hours.py:50
 msgid "time ranges"
-msgstr ""
+msgstr "Phạm vi thời gian"
 
 #: discounts/models/_happy_hours.py:56
 msgid ""
@@ -348,19 +348,19 @@ msgstr ""
 
 #: discounts/plugins.py:61
 msgid "Discounted Products"
-msgstr ""
+msgstr "Sản phẩm giảm giá"
 
 #: discounts/plugins.py:65
 msgid "Title"
-msgstr ""
+msgstr "Tiêu đề"
 
 #: discounts/plugins.py:66
 msgid "Count"
-msgstr ""
+msgstr "Đếm"
 
 #: discounts/plugins.py:70
 msgid "Only show in-stock and orderable items"
-msgstr ""
+msgstr "Chỉ hiển thị các mặt hàng trong kho và có thể đặt hàng"
 
 #: discounts/plugins.py:72
 msgid ""

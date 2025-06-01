@@ -20,7 +20,7 @@ msgstr ""
 
 #: admin/breadcrumbs/_breadcrumbs.py:91
 msgid "Home"
-msgstr ""
+msgstr "Trang chủ"
 
 #: admin/forms/_auth.py:23
 #, python-format
@@ -32,7 +32,7 @@ msgstr ""
 
 #: admin/forms/_auth.py:27
 msgid "This account is inactive."
-msgstr ""
+msgstr "Tài khoản này không hoạt động."
 
 #: admin/forms/_auth.py:32
 msgid "Username or email address"
@@ -44,135 +44,135 @@ msgstr "Tạo mới"
 
 #: admin/forms/fields.py:65 admin/forms/fields.py:217
 msgid "Select an option"
-msgstr ""
+msgstr "Chọn một tùy chọn"
 
 #: admin/forms/fields.py:162
 msgid "Monday"
-msgstr ""
+msgstr "Thứ hai"
 
 #: admin/forms/fields.py:163
 msgid "Tuesday"
-msgstr ""
+msgstr "Thứ ba"
 
 #: admin/forms/fields.py:164
 msgid "Wednesday"
-msgstr ""
+msgstr "Thứ Tư"
 
 #: admin/forms/fields.py:165
 msgid "Thursday"
-msgstr ""
+msgstr "Thứ năm"
 
 #: admin/forms/fields.py:166
 msgid "Friday"
-msgstr ""
+msgstr "Thứ sáu"
 
 #: admin/forms/fields.py:167
 msgid "Saturday"
-msgstr ""
+msgstr "Thứ bảy"
 
 #: admin/forms/fields.py:168
 msgid "Sunday"
-msgstr ""
+msgstr "Chủ nhật"
 
 #: admin/forms/widgets.py:28
 msgid "Select"
-msgstr ""
+msgstr "Lựa chọn"
 
 #: admin/forms/widgets.py:200
 msgid "Select Media"
-msgstr ""
+msgstr "Chọn phương tiện truyền thông"
 
 #: admin/forms/widgets.py:208
 msgid "Select Image"
-msgstr ""
+msgstr "Chọn hình ảnh"
 
 #: admin/forms/widgets.py:213 admin/forms/widgets.py:221
 msgid "Select Product"
-msgstr ""
+msgstr "Chọn sản phẩm"
 
 #: admin/forms/widgets.py:229
 msgid "Select Contact"
-msgstr ""
+msgstr "Chọn Liên hệ"
 
 #: admin/menu.py:36 admin/modules/contacts/sections.py:61
 #: admin/modules/orders/__init__.py:23 admin/modules/orders/__init__.py:41
 #: admin/modules/orders/__init__.py:127 admin/modules/orders/__init__.py:157
 #: admin/modules/products/sections.py:18 admin/views/home.py:34
 msgid "Orders"
-msgstr ""
+msgstr "Đơn đặt hàng"
 
 #: admin/menu.py:41 admin/modules/products/__init__.py:36
 #: admin/modules/products/__init__.py:85 admin/modules/products/__init__.py:114
 #: admin/views/home.py:30
 msgid "Products"
-msgstr ""
+msgstr "Các sản phẩm"
 
 #: admin/menu.py:46 admin/modules/contacts/__init__.py:22
 #: admin/modules/contacts/__init__.py:69 admin/modules/contacts/__init__.py:93
 #: admin/modules/users/__init__.py:96 admin/views/home.py:31
 msgid "Contacts"
-msgstr ""
+msgstr "Liên hệ"
 
 #: admin/menu.py:51 admin/views/home.py:33
 msgid "Campaigns"
-msgstr ""
+msgstr "Chiến dịch"
 
 #: admin/menu.py:56 admin/modules/orders/views/shipment.py:228
 #: admin/modules/orders/views/shipment.py:298
 msgid "Content"
-msgstr ""
+msgstr "Nội dung"
 
 #: admin/menu.py:61
 msgid "Reports"
-msgstr ""
+msgstr "Báo cáo"
 
 #: admin/menu.py:66 admin/modules/contacts/forms.py:87
 #: admin/modules/contacts/views/list.py:53
 #: admin/modules/manufacturers/views/edit.py:38
 #: admin/modules/shops/__init__.py:25 admin/modules/suppliers/forms.py:43
 msgid "Shops"
-msgstr ""
+msgstr "Cửa hàng"
 
 #: admin/menu.py:71
 msgid "Addons"
-msgstr ""
+msgstr "Addons"
 
 #: admin/menu.py:76 admin/toolbar.py:147
 msgid "Settings"
-msgstr ""
+msgstr "Cài đặt"
 
 #: admin/menu.py:81
 msgid "Logs"
-msgstr ""
+msgstr "Nhật ký"
 
 #: admin/menu.py:86
 msgid "Messages"
-msgstr ""
+msgstr "Tin nhắn"
 
 #: admin/modules/attributes/__init__.py:21
 #: admin/modules/attributes/__init__.py:43
 msgid "Attributes"
-msgstr ""
+msgstr "Thuộc tính"
 
 #: admin/modules/attributes/__init__.py:58
 msgid "Allow the user to select attributes in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn các thuộc tính trong quản trị viên."
 
 #: admin/modules/attributes/views/edit.py:47
 #: admin/modules/categories/views/delete.py:31 admin/modules/labels/views.py:60
 #: admin/modules/manufacturers/views/edit.py:102
 #, python-format
 msgid "%s has been deleted."
-msgstr ""
+msgstr "%s đã bị xóa."
 
 #: admin/modules/attributes/views/list.py:23 admin/modules/labels/views.py:28
 #: admin/modules/orders/views/status.py:63 admin/modules/shops/views/list.py:31
 msgid "Identifier"
-msgstr ""
+msgstr "Định danh"
 
 #: admin/modules/attributes/views/list.py:24
 msgid "Filter by identifier..."
-msgstr ""
+msgstr "Lọc theo định danh ..."
 
 #: admin/modules/attributes/views/list.py:28
 #: admin/modules/categories/views/list.py:25
@@ -192,7 +192,7 @@ msgstr ""
 #: admin/modules/taxes/views/list.py:30 admin/modules/taxes/views/list.py:52
 #: admin/modules/taxes/views/list.py:68
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: admin/modules/attributes/views/list.py:31
 #: admin/modules/contact_groups/views/list.py:27
@@ -208,7 +208,7 @@ msgstr ""
 #: admin/modules/taxes/views/list.py:34 admin/modules/taxes/views/list.py:56
 #: admin/modules/taxes/views/list.py:72
 msgid "Filter by name..."
-msgstr ""
+msgstr "Lọc theo tên ..."
 
 #: admin/modules/attributes/views/list.py:33
 #: admin/modules/contacts/views/list.py:45
@@ -217,80 +217,80 @@ msgstr ""
 #: admin/modules/service_providers/views/_list.py:26
 #: admin/modules/suppliers/views/list.py:31
 msgid "Type"
-msgstr ""
+msgstr "Kiểu"
 
 #: admin/modules/attributes/views/list.py:34
 msgid "Visibility Mode"
-msgstr ""
+msgstr "Chế độ hiển thị"
 
 #: admin/modules/attributes/views/list.py:35
 msgid "Searchable"
-msgstr ""
+msgstr "Có thể tìm kiếm"
 
 #: admin/modules/attributes/views/list.py:36
 msgid "Used in # Product Types"
-msgstr ""
+msgstr "Được sử dụng trong # Loại sản phẩm"
 
 #: admin/modules/categories/__init__.py:23
 #: admin/modules/categories/__init__.py:24
 #: admin/modules/categories/__init__.py:48
 #: admin/modules/products/views/list.py:90
 msgid "Categories"
-msgstr ""
+msgstr "Thể loại"
 
 #: admin/modules/categories/__init__.py:81
 msgid "Add a product category to organize your products."
-msgstr ""
+msgstr "Thêm một danh mục sản phẩm để tổ chức sản phẩm của bạn."
 
 #: admin/modules/categories/__init__.py:82
 msgid "New category"
-msgstr ""
+msgstr "Thể loại mới"
 
 #: admin/modules/categories/__init__.py:96
 msgid "Allow the user to select categories in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn danh mục trong quản trị viên."
 
 #: admin/modules/categories/forms.py:62
 msgid "Can't use this category as a parent for this shop."
-msgstr ""
+msgstr "Không thể sử dụng danh mục này làm cha cho cửa hàng này."
 
 #: admin/modules/categories/forms.py:72 admin/modules/products/views/list.py:81
 #: admin/modules/products/views/mass_edit.py:27
 msgid "Primary Category"
-msgstr ""
+msgstr "Danh mục chính"
 
 #: admin/modules/categories/forms.py:73
 msgid "Set this category as a primary category for selected products."
-msgstr ""
+msgstr "Đặt danh mục này thành một danh mục chính cho các sản phẩm được chọn."
 
 #: admin/modules/categories/forms.py:78
 msgid "Additional Category"
-msgstr ""
+msgstr "Danh mục bổ sung"
 
 #: admin/modules/categories/forms.py:79
 msgid "Add selected products to this category."
-msgstr ""
+msgstr "Thêm sản phẩm được chọn vào danh mục này."
 
 #: admin/modules/categories/forms.py:84
 msgid "Remove Products"
-msgstr ""
+msgstr "Loại bỏ sản phẩm"
 
 #: admin/modules/categories/forms.py:84
 msgid "Remove selected products from this category."
-msgstr ""
+msgstr "Loại bỏ các sản phẩm được chọn khỏi danh mục này."
 
 #: admin/modules/categories/views/copy.py:26
 msgid "Invalid category"
-msgstr ""
+msgstr "Danh mục không hợp lệ"
 
 #: admin/modules/categories/views/copy.py:40
 #, python-format
 msgid "Visibility settings copied to %d product(s)"
-msgstr ""
+msgstr "Cài đặt khả năng hiển thị được sao chép vào (các) %d sản phẩm"
 
 #: admin/modules/categories/views/list.py:22
 msgid "Image"
-msgstr ""
+msgstr "Hình ảnh"
 
 #: admin/modules/categories/views/list.py:34
 #: admin/modules/categories/views/list.py:60
@@ -299,105 +299,105 @@ msgstr ""
 #: admin/modules/orders/views/shipment.py:300
 #: admin/modules/shops/views/list.py:32
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: admin/modules/categories/views/list.py:37
 #: admin/modules/products/views/mass_edit.py:25
 msgid "Visibility"
-msgstr ""
+msgstr "Khả năng hiển thị"
 
 #: admin/modules/contact_group_price_display/__init__.py:19
 msgid "Contact Group Pricing Display"
-msgstr ""
+msgstr "Hiển thị giá nhóm liên hệ"
 
 #: admin/modules/contact_group_price_display/views/forms.py:26
 msgid "unspecified"
-msgstr ""
+msgstr "không xác định"
 
 #: admin/modules/contact_group_price_display/views/forms.py:27
 msgid "show prices with taxes included"
-msgstr ""
+msgstr "Hiển thị giá bao gồm thuế"
 
 #: admin/modules/contact_group_price_display/views/forms.py:28
 msgid "show pre-tax prices"
-msgstr ""
+msgstr "Hiển thị giá trước thuế"
 
 #: admin/modules/contact_group_price_display/views/forms.py:29
 msgid "hide prices"
-msgstr ""
+msgstr "Ẩn giá"
 
 #: admin/modules/contact_group_price_display/views/forms.py:56
 #: admin/modules/contact_groups/views/forms.py:41
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: admin/modules/contact_group_price_display/views/forms.py:62
 msgid "Price display mode"
-msgstr ""
+msgstr "Chế độ hiển thị giá"
 
 #: admin/modules/contact_group_price_display/views/forms.py:64
 msgid "Set how prices are displayed to contacts in this group."
-msgstr ""
+msgstr "Đặt cách giá được hiển thị cho các liên hệ trong nhóm này."
 
 #: admin/modules/contact_group_price_display/views/list.py:24
 msgid "Group"
-msgstr ""
+msgstr "Nhóm"
 
 #: admin/modules/contact_group_price_display/views/list.py:25
 msgid "Display Mode"
-msgstr ""
+msgstr "Chế độ hiển thị"
 
 #: admin/modules/contact_group_price_display/views/list.py:41
 msgid "Unspecified"
-msgstr ""
+msgstr "Không xác định"
 
 #: admin/modules/contact_groups/__init__.py:19
 #: admin/modules/contacts/forms.py:58
 msgid "Contact Groups"
-msgstr ""
+msgstr "Các nhóm liên hệ"
 
 #: admin/modules/contact_groups/views/forms.py:69
 msgid "member"
-msgstr ""
+msgstr "thành viên"
 
 #: admin/modules/contact_groups/views/forms.py:82
 msgid "Remove"
-msgstr ""
+msgstr "Xóa"
 
 #: admin/modules/contact_groups/views/forms.py:102
 #, python-format
-msgid "%(count)s member added"
-msgid_plural "%(count)s members added."
+msgid "%(count)s thành viên đã thêm"
+msgid_plural "%(count)s các thành viên đã thêm."
 msgstr[0] ""
 msgstr[1] ""
 
 #: admin/modules/contact_groups/views/forms.py:107
 #, python-format
-msgid "%(count)s member removed"
-msgid_plural "%(count)s members removed."
+msgid "%(count)s thành viên đã xóa"
+msgid_plural "%(count)s các thành viên đã xóa."
 msgstr[0] ""
 msgstr[1] ""
 
 #: admin/modules/contact_groups/views/list.py:29
 msgid "Number of Members"
-msgstr ""
+msgstr "Số lượng thành viên"
 
 #: admin/modules/contacts/__init__.py:108
 msgid "Allow the user to select contacts in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn danh bạ trong quản trị viên."
 
 #: admin/modules/contacts/__init__.py:109
 msgid "Allow the user to select person contacts in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn danh bạ người trong quản trị viên."
 
 #: admin/modules/contacts/__init__.py:111
 msgid "Allow the user to select company contacts in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn danh bạ công ty trong quản trị viên."
 
 #: admin/modules/contacts/form_parts.py:45
 #, python-format
 msgid "User `%(bind_user)s` already has a contact."
-msgstr ""
+msgstr "Người dùng `%(bind_user)s` đã có một liên hệ."
 
 #: admin/modules/contacts/forms.py:60
 msgid ""
@@ -405,216 +405,221 @@ msgid ""
 "Contacts - Contact Groups and are used to configure sales, campaigns, and "
 "product pricing tailored for a set of users."
 msgstr ""
+"Nhóm liên hệ mà liên hệ này thuộc về. Nhóm liên hệ được định nghĩa trong mục "
+"Liên hệ - Nhóm liên hệ và được sử dụng để cấu hình bán hàng, chiến dịch, và " 
+"định giá sản phẩm phù hợp cho một tập hợp người dùng."
 
 #: admin/modules/contacts/forms.py:88
 msgid "The shops this contact belongs to"
-msgstr ""
+msgstr "Các cửa hàng liên hệ này thuộc về"
 
 #: admin/modules/contacts/forms.py:103 admin/modules/contacts/forms.py:164
 msgid "Language"
-msgstr ""
+msgstr "Ngôn ngữ"
 
 #: admin/modules/contacts/forms.py:106
 msgid "The primary language to be used in all communications with the contact."
-msgstr ""
+msgstr "Ngôn ngữ chính được sử dụng trong tất cả các giao tiếp với liên hệ."
 
 #: admin/modules/contacts/forms.py:145
 msgid "The company name."
-msgstr ""
+msgstr "Tên công ty."
 
 #: admin/modules/contacts/forms.py:149
 msgid "The contacts that are members of this company."
-msgstr ""
+msgstr "Các liên hệ là thành viên của công ty này."
 
 #: admin/modules/contacts/forms.py:157
 msgid "Gender"
-msgstr ""
+msgstr "Giới tính"
 
 #: admin/modules/contacts/forms.py:158
 msgid "Merchant Notes"
-msgstr ""
+msgstr "Ghi chú thương mại"
 
 #: admin/modules/contacts/forms.py:159
 msgid "Website URL"
-msgstr ""
+msgstr "URL trang web"
 
 #: admin/modules/contacts/forms.py:160
 msgid "Account Manager"
-msgstr ""
+msgstr "Quản lý tài khoản"
 
 #: admin/modules/contacts/forms.py:161
 msgid "Company: Tax Number"
-msgstr ""
+msgstr "Công ty: Số thuế"
 
 #: admin/modules/contacts/forms.py:162
 msgid "Company: Members"
-msgstr ""
+msgstr "Công ty: Thành viên"
 
 #: admin/modules/contacts/forms.py:164
 msgid "Select Language"
-msgstr ""
+msgstr "Chọn ngôn ngữ"
 
 #: admin/modules/contacts/forms.py:169
 msgid "Contact Group"
-msgstr ""
+msgstr "Nhóm liên hệ"
 
 #: admin/modules/contacts/mass_actions.py:17
 msgid "Edit Contacts"
-msgstr ""
+msgstr "Chỉnh sửa danh bạ"
 
 #: admin/modules/contacts/mass_actions.py:23
 msgid "Set Contact Groups"
-msgstr ""
+msgstr "Đặt nhóm liên lạc"
 
 #: admin/modules/contacts/sections.py:19
 msgid "Basic Information"
-msgstr ""
+msgstr "Thông tin cơ bản"
 
 #: admin/modules/contacts/sections.py:45
 msgid "Addresses"
-msgstr ""
+msgstr "Địa chỉ"
 
 #: admin/modules/contacts/sections.py:77
 msgid "Members"
-msgstr ""
+msgstr "Thành viên"
 
 #: admin/modules/contacts/views/detail.py:42
 msgid "The Shuup frontend is not enabled."
-msgstr ""
+msgstr "Frontend Shuup không được bật."
 
 #: admin/modules/contacts/views/detail.py:44
 msgid "Contact has no associated user."
-msgstr ""
+msgstr "Liên hệ không có người dùng liên quan."
 
 #: admin/modules/contacts/views/detail.py:46
 msgid "User has no associated email."
-msgstr ""
+msgstr "Người dùng không có email liên quan."
 
 #: admin/modules/contacts/views/detail.py:52
 msgid "Reset password"
-msgstr ""
+msgstr "Đặt lại mật khẩu"
 
 #: admin/modules/contacts/views/detail.py:53
 msgid "Send a password renewal email."
-msgstr ""
+msgstr "Gửi email gia hạn mật khẩu."
 
 #: admin/modules/contacts/views/detail.py:54
 #, python-format
 msgid "Are you sure you wish to send a password recovery email to %s?"
-msgstr ""
+msgstr "Bạn có chắc là bạn muốn gửi email khôi phục mật khẩu tới %s?"
 
 #: admin/modules/contacts/views/detail.py:65
 msgid "New User"
-msgstr ""
+msgstr "Người dùng mới"
 
 #: admin/modules/contacts/views/detail.py:66
 msgid "Create a user for the contact."
-msgstr ""
+msgstr "Tạo người dùng cho liên hệ."
 
 #: admin/modules/contacts/views/detail.py:75
 msgid "New Order"
-msgstr ""
+msgstr "Đơn hàng mới"
 
 #: admin/modules/contacts/views/detail.py:76
 msgid "Create an order for the contact."
-msgstr ""
+msgstr "Tạo một đơn đặt hàng cho liên hệ."
 
 #: admin/modules/contacts/views/detail.py:88
 msgid "Deactivate Contact"
-msgstr ""
+msgstr "Hủy kích hoạt liên lạc"
 
 #: admin/modules/contacts/views/detail.py:88
 msgid "Activate Contact"
-msgstr ""
+msgstr "Kích hoạt liên hệ"
 
 #: admin/modules/contacts/views/detail.py:101
 msgid "Options"
-msgstr ""
+msgstr "Tùy chọn"
 
 #: admin/modules/contacts/views/detail.py:114
 #: admin/modules/orders/toolbar.py:51
 #: admin/modules/products/views/toolbars.py:97
 #: admin/modules/users/views/detail.py:222
 msgid "Actions"
-msgstr ""
+msgstr "Hành động"
 
 #: admin/modules/contacts/views/detail.py:140
 #: admin/modules/users/views/detail.py:259
 msgid "Login as User"
-msgstr ""
+msgstr "Đăng nhập với tư cách là người dùng"
 
 #: admin/modules/contacts/views/detail.py:148
 #: admin/modules/users/views/detail.py:267
 msgid "Login as Staff User"
-msgstr ""
+msgstr "Đăng nhập với tư cách là người dùng nhân viên"
 
 #: admin/modules/contacts/views/detail.py:158
 msgid "Edit"
-msgstr ""
+msgstr "Biên tập"
 
 #: admin/modules/contacts/views/detail.py:216
 msgid "You can not deactivate a superuser. Remove superuser permission first."
-msgstr ""
+msgstr "Bạn không thể hủy kích hoạt một siêu nhân.Hủy bỏ quyền của Superuser trước."
 
 #: admin/modules/contacts/views/detail.py:218
 msgid ""
 "You can not deactivate yourself. Use another account to deactivate the "
 "current one."
 msgstr ""
+"Bạn không thể tự hủy kích hoạt bản thân, Dùng tài khoản khác để "
+"hủy kích hoạt tài khoản hiện tại "
 
 #: admin/modules/contacts/views/detail.py:224
 #, python-format
 msgid "%(contact)s is now %(state)s."
-msgstr ""
+msgstr "%(contact)s hiện là %(state) s."
 
 #: admin/modules/contacts/views/detail.py:225
 #: admin/modules/users/views/detail.py:375
 msgid "active"
-msgstr ""
+msgstr "hoạt động"
 
 #: admin/modules/contacts/views/detail.py:225
 #: admin/modules/users/views/detail.py:375
 msgid "inactive"
-msgstr ""
+msgstr "không hoạt động"
 
 #: admin/modules/contacts/views/edit.py:95
 msgid "New Company"
-msgstr ""
+msgstr "Công ty mới"
 
 #: admin/modules/contacts/views/edit.py:95
 #: admin/modules/users/views/detail.py:213
 msgid "New Contact"
-msgstr ""
+msgstr "Liên hệ mới"
 
 #: admin/modules/contacts/views/list.py:25
 #: admin/modules/contacts/views/list.py:115
 msgid "Person"
-msgstr ""
+msgstr "Người"
 
 #: admin/modules/contacts/views/list.py:25
 #: admin/modules/contacts/views/list.py:117
 msgid "Company"
-msgstr ""
+msgstr "Công ty"
 
 #: admin/modules/contacts/views/list.py:25 admin/modules/shops/forms.py:49
 msgid "Staff"
-msgstr ""
+msgstr "Nhân viên"
 
 #: admin/modules/contacts/views/list.py:46 admin/modules/users/views/list.py:22
 #: admin/modules/users/views/list.py:67
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: admin/modules/contacts/views/list.py:47
 msgid "Phone"
-msgstr ""
+msgstr "Điện thoại"
 
 #: admin/modules/contacts/views/list.py:49
 #: admin/modules/contacts/views/list.py:138
 #: admin/modules/orders/views/status.py:93 admin/modules/users/views/list.py:27
 #: admin/modules/users/views/list.py:70
 msgid "Active"
-msgstr ""
+msgstr "Active"
 
 #: admin/modules/contacts/views/list.py:49
 #: admin/modules/orders/views/status.py:78
@@ -622,7 +627,7 @@ msgstr ""
 #: admin/modules/orders/views/status.py:93 admin/modules/users/views/list.py:28
 #: admin/utils/picotable.py:256
 msgid "no"
-msgstr ""
+msgstr "KHÔNG"
 
 #: admin/modules/contacts/views/list.py:49
 #: admin/modules/orders/views/status.py:78
@@ -630,825 +635,834 @@ msgstr ""
 #: admin/modules/orders/views/status.py:93 admin/modules/users/views/list.py:28
 #: admin/utils/picotable.py:256
 msgid "yes"
-msgstr ""
+msgstr "Đúng"
 
 #: admin/modules/contacts/views/list.py:51
 msgid "# Orders"
-msgstr ""
+msgstr "# Đơn đặt hàng"
 
 #: admin/modules/contacts/views/list.py:52 admin/modules/users/views/list.py:30
 #: admin/modules/users/views/list.py:71
 msgid "Groups"
-msgstr ""
+msgstr "Nhóm"
 
 #: admin/modules/contacts/views/list.py:54
 msgid "Registered in"
-msgstr ""
+msgstr "Đăng ký vào"
 
 #: admin/modules/contacts/views/list.py:119
 #: admin/modules/contacts/views/list.py:145
 msgid "Contact"
-msgstr ""
+msgstr "Liên hệ"
 
 #: admin/modules/contacts/views/list.py:123
 #: admin/modules/users/views/list.py:41
 msgid "No group"
-msgstr ""
+msgstr "Không có nhóm"
 
 #: admin/modules/contacts/views/list.py:128
 msgid "No shops"
-msgstr ""
+msgstr "Không có cửa hàng"
 
 #: admin/modules/contacts/views/list.py:138
 msgid "Inactive"
-msgstr ""
+msgstr "Không hoạt động"
 
 #: admin/modules/contacts/views/list.py:139
 #, python-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: admin/modules/contacts/views/list.py:140
 #, python-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Điện thoại: %s"
 
 #: admin/modules/contacts/views/list.py:141
 #, python-format
 msgid "%d orders"
-msgstr ""
+msgstr "%d đơn đặt hàng"
 
 #: admin/modules/contacts/views/mass_edit.py:21
 msgid "Mass Edit: Contacts"
-msgstr ""
+msgstr "Chỉnh sửa hàng loạt: Danh bạ"
 
 #: admin/modules/contacts/views/mass_edit.py:36
 msgid "Contacts were changed."
-msgstr ""
+msgstr "Liên hệ đã được thay đổi."
 
 #: admin/modules/contacts/views/mass_edit.py:42
 msgid "Mass Edit: Contact Groups"
-msgstr ""
+msgstr "Chỉnh sửa hàng loạt: Nhóm liên hệ"
 
 #: admin/modules/contacts/views/mass_edit.py:53
 msgid "Contacts Groups were changed."
-msgstr ""
+msgstr "Các nhóm liên hệ đã được thay đổi."
 
 #: admin/modules/contacts/views/reset.py:27
 msgid "The contact does not have an associated user."
-msgstr ""
+msgstr "Liên hệ không có người dùng liên quan."
 
 #: admin/modules/currencies/__init__.py:19
 msgid "Currencies"
-msgstr ""
+msgstr "Tiền tệ"
 
 #: admin/modules/currencies/views/list.py:25
 #: admin/modules/taxes/views/list.py:37
 msgid "Code"
-msgstr ""
+msgstr "Mã số"
 
 #: admin/modules/currencies/views/list.py:29
 msgid "Filter by code"
-msgstr ""
+msgstr "Lọc theo mã"
 
 #: admin/modules/currencies/views/list.py:34
 msgid "Decimal places"
-msgstr ""
+msgstr "Vị trí thập phân"
 
 #: admin/modules/customers_dashboard/__init__.py:16
 msgid "Customers Dashboard"
-msgstr ""
+msgstr "Bảng điều khiển khách hàng"
 
 #: admin/modules/customers_dashboard/dashboard.py:20
 msgid "Active customers"
-msgstr ""
+msgstr "Khách hàng hoạt động"
 
 #: admin/modules/customers_dashboard/dashboard.py:23
 msgid "Based on orders within 30 days"
-msgstr ""
+msgstr "Dựa trên các đơn đặt hàng trong vòng 30 ngày"
 
 #: admin/modules/labels/__init__.py:19
 msgid "Labels"
-msgstr ""
+msgstr "Nhãn"
 
 #: admin/modules/labels/views.py:30
 msgid "Created on"
-msgstr ""
+msgstr "Được tạo ra trên"
 
 #: admin/modules/labels/views.py:31
 msgid "Modified on"
-msgstr ""
+msgstr "Sửa đổi trên"
 
 #: admin/modules/manufacturers/__init__.py:21
 #: admin/modules/manufacturers/__init__.py:40
 msgid "Manufacturers"
-msgstr ""
+msgstr "Nhà sản xuất"
 
 #: admin/modules/manufacturers/__init__.py:56
 msgid "Allow the user to select manufacturers in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn nhà sản xuất trong quản trị viên."
 
 #: admin/modules/manufacturers/views/edit.py:39
 msgid ""
-"Select shops for this manufacturer. Keep it blank to share with all shops."
+"Chọn cửa hàng cho nhà sản xuất này. Để trống nếu muốn chia sẻ với tất cả các cửa hàng."
 msgstr ""
 
 #: admin/modules/manufacturers/views/edit.py:54
 msgid "You have no permission to change a shared Manufacturer."
-msgstr ""
+msgstr "Bạn không có quyền thay đổi một nhà sản xuất chung."
 
 #: admin/modules/manufacturers/views/list.py:22
 #: admin/modules/shops/views/list.py:22
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: admin/modules/media/__init__.py:21
 msgid "Media"
-msgstr ""
+msgstr "Phương tiện truyền thông"
 
 #: admin/modules/media/__init__.py:57
 msgid "Media browser"
-msgstr ""
+msgstr "Trình duyệt truyền thông"
 
 #: admin/modules/media/forms.py:18
 msgid "Visible for all everyone in the media browser"
-msgstr ""
+msgstr "Có thể nhìn thấy cho tất cả mọi người trong trình duyệt truyền thông"
 
 #: admin/modules/media/utils.py:27 admin/modules/media/views.py:102
 msgid "Root"
-msgstr ""
+msgstr "Root"
 
 #: admin/modules/media/utils.py:34
 #, python-brace-format
 msgid "{num} subfolders moved to {folder}."
-msgstr ""
+msgstr "{num} Các thư mục con được chuyển đến {folder}."
 
 #: admin/modules/media/utils.py:38
 #, python-brace-format
 msgid "{num} files moved to {folder}."
-msgstr ""
+msgstr "{num} Các tệp được chuyển đến {folder}."
 
 #: admin/modules/media/utils.py:43
 #, python-format
 msgid "Folder `%s` was deleted."
-msgstr ""
+msgstr "Thư mục `%s` đã bị xóa."
 
 #: admin/modules/media/views.py:113
 msgid "Browse Media"
-msgstr ""
+msgstr "Duyệt phương tiện truyền thông"
 
 #: admin/modules/media/views.py:234
 msgid "You do not have permissions to create a subfolder here."
-msgstr ""
+msgstr "Bạn không có quyền để tạo một thư mục con ở đây."
 
 #: admin/modules/media/views.py:311
 msgid "Folder was renamed."
-msgstr ""
+msgstr "Thư mục đã được đổi tên."
 
 #: admin/modules/media/views.py:313
 #, python-format
 msgid "Folder can't be renamed to %s."
-msgstr ""
+msgstr "Thư mục không thể được đổi tên thành %s."
 
 #: admin/modules/media/views.py:317
 msgid ""
 "Can't rename this folder, either you don't have permssion to do it or it's a "
 "shared folder between more then one shop or it has a owner"
 msgstr ""
+"Không thể đổi tên thư mục này, có thể bạn không có quyền thực hiện thao tác này, hoặc "
+"đây là thư mục được chia sẻ giữa nhiều cửa hàng, hoặc thư mục này đã có chủ sở hữu. "
 
 #: admin/modules/media/views.py:336
 msgid "This folder is protected and cannot be deleted."
-msgstr ""
+msgstr "Thư mục này được bảo vệ và không thể bị xóa."
 
 #: admin/modules/media/views.py:342
 msgid ""
 "Can't delete this folder, either you don't have permssion to do it or it's a "
 "shared folder between more then one shop"
 msgstr ""
+"Không thể đổi tên thư mục này, có thể bạn không có quyền thực hiện thao tác này, hoặc "
+"đây là thư mục được chia sẻ giữa nhiều cửa hàng, hoặc thư mục này đã có chủ sở hữu. "
 
 #: admin/modules/media/views.py:357
 msgid "File was renamed."
-msgstr ""
+msgstr "Tệp được đổi tên."
 
 #: admin/modules/media/views.py:359
 msgid "Can not rename this file."
-msgstr ""
+msgstr "Không thể đổi tên tệp này."
 
 #: admin/modules/media/views.py:374
 msgid "File was deleted."
-msgstr ""
+msgstr "Tệp đã bị xóa."
 
 #: admin/modules/media/views.py:376
 msgid "Can not delete this file."
-msgstr ""
+msgstr "Không thể xóa tệp này."
 
 #: admin/modules/media/views.py:383
 msgid "Can't move a shared file."
-msgstr ""
+msgstr "Không thể di chuyển một tệp được chia sẻ."
 
 #: admin/modules/media/views.py:397
 #, python-format
 msgid "%(file)s moved from %(old)s to %(new)s."
-msgstr ""
+msgstr "%(file)s chuyển từ %(old) s sang %(new)s."
 
 #: admin/modules/media/views.py:423
 #, python-format
 msgid "%(file)s uploaded to %(folder)s."
-msgstr ""
+msgstr "%(file)s được tải lên %(folder)s."
 
 #: admin/modules/media/views.py:446
 msgid "You do not have permission to upload content to this folder"
-msgstr ""
+msgstr "Bạn không có quyền tải nội dung lên thư mục này"
 
 #: admin/modules/media/views.py:460
 msgid "You don't have access to preform this action."
-msgstr ""
+msgstr "Bạn không có quyền truy cập để thực hiện hành động này."
 
 #: admin/modules/menu/__init__.py:18
 msgid "Customize Your Admin Menu"
-msgstr ""
+msgstr "Tùy chỉnh menu quản trị của bạn"
 
 #: admin/modules/menu/__init__.py:31
 msgid "Arrange Your Admin Menu"
-msgstr ""
+msgstr "Sắp xếp menu quản trị của bạn"
 
 #: admin/modules/menu/__init__.py:41
 msgid "Customize SuperUser Admin Menu"
-msgstr ""
+msgstr "Tùy chỉnh menu Quản trị viên Superuser"
 
 #: admin/modules/menu/__init__.py:60
 msgid "Arrange SuperUser Admin Menu"
-msgstr ""
+msgstr "Sắp xếp menu quản trị viên Superuser"
 
 #: admin/modules/menu/__init__.py:70
 msgid "Customize Staff Admin Menu"
-msgstr ""
+msgstr "Tùy chỉnh menu quản trị nhân viên"
 
 #: admin/modules/menu/__init__.py:89
 msgid "Arrange Staff Admin Menu"
-msgstr ""
+msgstr "Sắp xếp menu quản trị nhân viên"
 
 #: admin/modules/menu/__init__.py:99
 msgid "Customize Supplier Admin Menu"
-msgstr ""
+msgstr "Tùy chỉnh menu quản trị nhà cung cấp"
 
 #: admin/modules/menu/__init__.py:118
 msgid "Arrange Supplier Admin Menu"
-msgstr ""
+msgstr "Sắp xếp menu quản trị nhà cung cấp"
 
 #: admin/modules/menu/views/arrange.py:56
 msgid "Menu saved"
-msgstr ""
+msgstr "Menu được lưu"
 
 #: admin/modules/menu/views/arrange.py:73
 msgid "Menu reset"
-msgstr ""
+msgstr "Đặt lại menu"
 
 #: admin/modules/orders/__init__.py:132
 msgid "Show orders"
-msgstr ""
+msgstr "Hiển thị đơn đặt hàng"
 
 #: admin/modules/orders/__init__.py:135 admin/modules/orders/sections.py:65
 msgid "Shipments"
-msgstr ""
+msgstr "Lô hàng"
 
 #: admin/modules/orders/__init__.py:140
 msgid "Show shipments"
-msgstr ""
+msgstr "Hiển thị lô hàng"
 
 #: admin/modules/orders/__init__.py:168
 msgid "Outstanding Orders"
-msgstr ""
+msgstr "Đơn đặt hàng nổi bật"
 
 #: admin/modules/orders/__init__.py:168
 #, python-format
 msgid "%d outstanding orders"
-msgstr ""
+msgstr "%d đơn đặt hàng nổi bật"
 
 #: admin/modules/orders/__init__.py:178 admin/modules/orders/__init__.py:181
 msgid "New order"
-msgstr ""
+msgstr "Đơn hàng mới"
 
 #: admin/modules/orders/__init__.py:191 admin/modules/orders/__init__.py:204
 msgid "Order Status"
-msgstr ""
+msgstr "Trạng thái đặt hàng"
 
 #: admin/modules/orders/__init__.py:209
 msgid "List Statuses"
-msgstr ""
+msgstr "Danh sách trạng thái"
 
 #: admin/modules/orders/json_order_creator.py:84
 #, python-format
 msgid "The quantity '%(quantity)s' (for line %(text)s) is invalid (%(error)s)."
-msgstr ""
+msgstr "Số lượng '%(quantity) s' (đối với dòng%(text) s) không hợp lệ (%(error) s)."
 
 #: admin/modules/orders/json_order_creator.py:97
 #, python-format
 msgid "The price '%(price)s' (for line %(text)s) is invalid (%(error)s)."
-msgstr ""
+msgstr "Giá '%(price)s' (đối với dòng%(text)s) không hợp lệ (%(error)s)."
 
 #: admin/modules/orders/json_order_creator.py:109
 #, python-format
 msgid "The discount '%(discount)s' (for line %(text)s is invalid (%(error)s)."
-msgstr ""
+msgstr "Giảm giá '%(discount)s' (đối với dòng %(text)s không hợp lệ (%(error)s)."
 
 #: admin/modules/orders/json_order_creator.py:123
 msgid "Product line does not have a supplier."
-msgstr ""
+msgstr "Dòng sản phẩm không có nhà cung cấp."
 
 #: admin/modules/orders/json_order_creator.py:127
 msgid "Product line does not have a product set."
-msgstr ""
+msgstr "Dòng sản phẩm không có bộ sản phẩm."
 
 #: admin/modules/orders/json_order_creator.py:131
 #: admin/modules/orders/views/edit.py:269
 #, python-format
 msgid "Product `%s` does not exist."
-msgstr ""
+msgstr "Sản phẩm `%s` không tồn tại."
 
 #: admin/modules/orders/json_order_creator.py:139
 #, python-format
 msgid "Product %(product)s is not available in the %(shop)s shop."
-msgstr ""
+msgstr "Sản phẩm %(product)s không có sẵn trong cửa hàng %(shop)s."
 
 #: admin/modules/orders/json_order_creator.py:192
 msgid "Please add lines to the order."
-msgstr ""
+msgstr "Vui lòng thêm các dòng vào thứ tự."
 
 #: admin/modules/orders/json_order_creator.py:231
 msgid "Tax number is not set for company."
-msgstr ""
+msgstr "Số thuế không được đặt cho công ty."
 
 #: admin/modules/orders/json_order_creator.py:241
 msgid "Please choose a valid shop."
-msgstr ""
+msgstr "Vui lòng chọn một cửa hàng hợp lệ."
 
 #: admin/modules/orders/json_order_creator.py:279
 msgid "Please select shipping method."
-msgstr ""
+msgstr "Vui lòng chọn phương thức vận chuyển."
 
 #: admin/modules/orders/json_order_creator.py:283
 msgid "Please select payment method."
-msgstr ""
+msgstr "Vui lòng chọn phương thức thanh toán."
 
 #: admin/modules/orders/mass_actions.py:22
 #: admin/modules/orders/views/refund.py:262
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy bỏ"
 
 #: admin/modules/orders/mass_actions.py:38
 msgid "Print Confirmation PDF(s)"
-msgstr ""
+msgstr "In xác nhận (các) PDF"
 
 #: admin/modules/orders/mass_actions.py:43
 #: admin/modules/orders/mass_actions.py:85
 msgid "Error! Selecting all is not supported."
-msgstr ""
+msgstr "Lỗi!Chọn tất cả không được hỗ trợ."
 
 #: admin/modules/orders/mass_actions.py:80
 msgid "Print Delivery PDF(s)"
-msgstr ""
+msgstr "In giao hàng (các) PDF"
 
 #: admin/modules/orders/sections.py:23
 msgid "Details"
-msgstr ""
+msgstr "Chi tiết"
 
 #: admin/modules/orders/sections.py:48
 msgid "Payments"
-msgstr ""
+msgstr "Thanh toán"
 
 #: admin/modules/orders/sections.py:116
 msgid "Log Entries"
-msgstr ""
+msgstr "Các mục nhập nhật ký"
 
 #: admin/modules/orders/sections.py:134
 msgid "Admin comment/notes"
-msgstr ""
+msgstr "Nhận xét/ghi chú của quản trị viên"
 
 #: admin/modules/orders/sections.py:151
 msgid "Status history"
-msgstr ""
+msgstr "Lịch sử trạng thái"
 
 #: admin/modules/orders/toolbar.py:72
 msgid "Set Status"
-msgstr ""
+msgstr "Đặt trạng thái"
 
 #: admin/modules/orders/toolbar.py:83
 msgid "Set Complete"
-msgstr ""
+msgstr "Đặt hoàn thành"
 
 #: admin/modules/orders/toolbar.py:86
 msgid "This order can not be set as complete at this point"
-msgstr ""
+msgstr "Đơn hàng này không thể được thiết lập hoàn chỉnh vào thời điểm này"
 
 #: admin/modules/orders/toolbar.py:100
 msgid "Cancel Order"
-msgstr ""
+msgstr "Hủy đặt hàng"
 
 #: admin/modules/orders/toolbar.py:103
 msgid "Paid, shipped, or canceled orders cannot be canceled"
-msgstr ""
+msgstr "Không thể hủy đơn đặt hàng, vận chuyển hoặc hủy bỏ đơn đặt hàng"
 
 #: admin/modules/orders/toolbar.py:114
 msgid "Edit order"
-msgstr ""
+msgstr "Chỉnh sửa thứ tự"
 
 #: admin/modules/orders/toolbar.py:116
 msgid "This order cannot modified at this point"
-msgstr ""
+msgstr "Thứ tự này không thể sửa đổi vào thời điểm này"
 
 #: admin/modules/orders/toolbar.py:136 admin/modules/orders/views/payment.py:43
 msgid "Create Payment"
-msgstr ""
+msgstr "Tạo thanh toán"
 
 #: admin/modules/orders/toolbar.py:150
 msgid "Set Paid"
-msgstr ""
+msgstr "Đặt trả tiền"
 
 #: admin/modules/orders/toolbar.py:162 admin/modules/orders/views/refund.py:82
 msgid "Create Refund"
-msgstr ""
+msgstr "Tạo hoàn lại tiền"
 
 #: admin/modules/orders/toolbar.py:174
 msgid "Edit Addresses"
-msgstr ""
+msgstr "Chỉnh sửa địa chỉ"
 
 #: admin/modules/orders/views/addresses.py:52
 msgid "Billing Address"
-msgstr ""
+msgstr "Địa chỉ thanh toán"
 
 #: admin/modules/orders/views/addresses.py:53
 msgid "Shipping Address"
-msgstr ""
+msgstr "Địa chỉ vận chuyển"
 
 #: admin/modules/orders/views/addresses.py:64
 #, python-format
 msgid "%(field)s updated from: %(old_address)s"
-msgstr ""
+msgstr "%(field)s được cập nhật từ: %(old_address)s"
 
 #: admin/modules/orders/views/addresses.py:71
 #, python-format
 msgid "%(field)s were saved."
-msgstr ""
+msgstr "%(field)s đã được lưu."
 
 #: admin/modules/orders/views/addresses.py:82
 #, python-format
 msgid "Save -- %s"
-msgstr ""
+msgstr "Lưu - %s"
 
 #: admin/modules/orders/views/addresses.py:88
 #: admin/modules/products/views/edit_cross_sell.py:81
 #: admin/modules/products/views/edit_media.py:109
 #: admin/modules/settings/views/list.py:68 admin/toolbar.py:557
 msgid "Save"
-msgstr ""
+msgstr "Lưu"
 
 #: admin/modules/orders/views/detail.py:68
 msgid "Unable to set order as completed at this point."
-msgstr ""
+msgstr "Không thể đặt hàng như đã hoàn thành tại thời điểm này."
 
 #: admin/modules/orders/views/detail.py:70
 msgid "You can't cancel orders that are paid, shipped, or already canceled."
-msgstr ""
+msgstr "Bạn không thể hủy các đơn đặt hàng được thanh toán, vận chuyển hoặc đã bị hủy."
 
 #: admin/modules/orders/views/detail.py:72
 #, python-brace-format
 msgid "Order status changed: from `{old_status}` to `{new_status}`."
-msgstr ""
+msgstr "Trạng thái thứ tự đã thay đổi: từ `{old_status}` thành `{new_status}`."
 
 #: admin/modules/orders/views/edit.py:179
 msgid "Create Order"
-msgstr ""
+msgstr "Tạo thứ tự"
 
 #: admin/modules/orders/views/edit.py:236
 #, python-format
 msgid "Contact `%s` does not exist."
-msgstr ""
+msgstr "Liên hệ `%s` không tồn tại."
 
 #: admin/modules/orders/views/edit.py:275
 #, python-format
 msgid "Product `%(product)s` is not available in the `%(shop)s` shop."
-msgstr ""
+msgstr "Sản phẩm `%(product)s` không có sẵn trong cửa hàng`%(shop)s`."
 
 #: admin/modules/orders/views/edit.py:421
 #, python-format
 msgid "Order `%(identifier)s` was updated."
-msgstr ""
+msgstr "Đặt hàng `%(identifier)s` đã được cập nhật."
 
 #: admin/modules/orders/views/edit.py:429
 #, python-format
 msgid "Order `%(identifier)s` created."
-msgstr ""
+msgstr "Thứ tự `%(identifier)s` được tạo."
 
 #: admin/modules/orders/views/edit.py:441
 msgid "Could not proceed with the order: "
-msgstr ""
+msgstr "Không thể tiến hành đơn đặt hàng:"
 
 #: admin/modules/orders/views/edit.py:444
 msgid "Could not finalize the order: "
-msgstr ""
+msgstr "Không thể hoàn tất thứ tự:"
 
 #: admin/modules/orders/views/list.py:32
 #: admin/modules/orders/views/shipment.py:227
 #: admin/modules/orders/views/shipment.py:296
 msgid "Order"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: admin/modules/orders/views/list.py:33
 msgid "Order Date"
-msgstr ""
+msgstr "Order Date"
 
 #: admin/modules/orders/views/list.py:36
 msgid "Customer"
-msgstr ""
+msgstr "Customer"
 
 #: admin/modules/orders/views/list.py:53
 msgid "Payment Status"
-msgstr ""
+msgstr "Tình trạng thanh toán"
 
 #: admin/modules/orders/views/list.py:54
 msgid "Shipping Status"
-msgstr ""
+msgstr "Tình trạng vận chuyển"
 
 #: admin/modules/orders/views/list.py:57 admin/modules/orders/views/list.py:117
 msgid "Total, incl. tax"
-msgstr ""
+msgstr "Total, incl. tax"
 
 #: admin/modules/orders/views/list.py:65 admin/modules/orders/views/list.py:118
 msgid "Total, excl. tax"
-msgstr ""
+msgstr "Tổng cộng, excl.thuế"
 
 #: admin/modules/orders/views/payment.py:37
 #, python-format
 msgid "Create Payment -- %s"
-msgstr ""
+msgstr "Tạo thanh toán -- %s"
 
 #: admin/modules/orders/views/payment.py:64
 msgid "Payment amount"
-msgstr ""
+msgstr "Payment amount"
 
 #: admin/modules/orders/views/payment.py:76
 msgid "Payment amount cannot be 0."
-msgstr ""
+msgstr "Số tiền thanh toán không thể là 0."
 
 #: admin/modules/orders/views/payment.py:80
 #, python-format
 msgid "Payment %s created."
-msgstr ""
+msgstr "Thanh toán %s được tạo ra."
 
 #: admin/modules/orders/views/payment.py:82
 msgid "Order has already been paid."
-msgstr ""
+msgstr "Đơn đặt hàng đã được thanh toán."
 
 #: admin/modules/orders/views/payment.py:103
 msgid "Only orders which are not paid or deferred can be set as paid."
-msgstr ""
+msgstr "Chỉ các đơn đặt hàng không được thanh toán hoặc hoãn lại mới có thể được đặt dưới dạng thanh toán."
 
 #: admin/modules/orders/views/payment.py:106
 msgid "Only zero price orders can be set as paid without creating a payment."
-msgstr ""
+msgstr "Chỉ có đơn đặt hàng giá bằng không có thể được đặt dưới dạng thanh toán mà không tạo ra một khoản thanh toán."
 
 #: admin/modules/orders/views/payment.py:109
 msgid "Zero amount payment"
-msgstr ""
+msgstr "Số tiền thanh toán bằng không"
 
 #: admin/modules/orders/views/payment.py:110
 msgid "Order marked as paid."
-msgstr ""
+msgstr "Đặt hàng được đánh dấu là trả tiền."
 
 #: admin/modules/orders/views/payment.py:128
 msgid "Payment doesn't exist."
-msgstr ""
+msgstr "Thanh toán không tồn tại."
 
 #: admin/modules/orders/views/payment.py:133
 msgid "Payment deleted."
-msgstr ""
+msgstr "Bị xóa thanh toán."
 
 #: admin/modules/orders/views/refund.py:26
 msgid "Line"
-msgstr ""
+msgstr "Đường kẻ"
 
 #: admin/modules/orders/views/refund.py:29
 msgid ""
 "The line to refund. To refund an amount not associated with any line, select "
 "'Refund arbitrary amount'."
 msgstr ""
+"Dòng cần hoàn tiền. Để hoàn tiền một khoản không liên quan đến bất kỳ dòng nào, "
+"hãy chọn \"Hoàn tiền số tiền tùy ý\". "
+
 
 #: admin/modules/orders/views/refund.py:33
 msgid "Quantity"
-msgstr ""
+msgstr "Số lượng"
 
 #: admin/modules/orders/views/refund.py:33
 msgid "The number of units to refund."
-msgstr ""
+msgstr "The number of units to refund."
 
 #: admin/modules/orders/views/refund.py:37
 msgid "Line Text/Comment"
-msgstr ""
+msgstr "Dòng văn bản/bình luận"
 
 #: admin/modules/orders/views/refund.py:39
 msgid ""
 "The text describing the nature of the refund and/or the reason for the "
 "refund."
-msgstr ""
+msgstr "Văn bản mô tả bản chất của việc hoàn tiền và/hoặc lý do hoàn tiền."
 
 #: admin/modules/orders/views/refund.py:42
 msgid "Amount"
-msgstr ""
+msgstr "Số lượng"
 
 #: admin/modules/orders/views/refund.py:42
 msgid "The amount including tax to refund."
-msgstr ""
+msgstr "Số tiền bao gồm thuế để hoàn lại tiền."
 
 #: admin/modules/orders/views/refund.py:47
 #: admin/modules/orders/views/refund.py:241
 msgid "Restock products"
-msgstr ""
+msgstr "Sản phẩm Restock"
 
 #: admin/modules/orders/views/refund.py:48
 msgid ""
 "If checked, the quantity is adding back into the sellable product inventory."
-msgstr ""
+msgstr "Nếu được chọn, số lượng sẽ được cộng trở lại vào kho hàng có thể bán."
 
 #: admin/modules/orders/views/refund.py:76
 #, python-format
 msgid "Create Refund -- %s"
-msgstr ""
+msgstr "Tạo hoàn tiền -- %s"
 
 #: admin/modules/orders/views/refund.py:97
 msgid "Refund Entire Order"
-msgstr ""
+msgstr "Hoàn tiền toàn bộ đơn hàng"
 
 #: admin/modules/orders/views/refund.py:99
 msgid "This order already has existing refunds"
-msgstr ""
+msgstr "Đơn hàng này đã hoàn lại tiền hiện có"
 
 #: admin/modules/orders/views/refund.py:164
 msgid "Refund arbitrary amount"
-msgstr ""
+msgstr "Hoàn lại số tiền tùy ý"
 
 #: admin/modules/orders/views/refund.py:231
 msgid "Refund amount exceeds order amount."
-msgstr ""
+msgstr "Số tiền hoàn lại vượt quá số tiền đặt hàng."
 
 #: admin/modules/orders/views/refund.py:234
 msgid "Refund amounts should match sign on parent line."
-msgstr ""
+msgstr "Số tiền hoàn lại nên khớp với dấu hiệu trên dòng cha mẹ."
 
 #: admin/modules/orders/views/refund.py:236
 msgid "Refund created."
-msgstr ""
+msgstr "Hoàn lại tiền được tạo ra."
 
 #: admin/modules/orders/views/refund.py:256
 #, python-format
 msgid "Create Full Refund -- %s"
-msgstr ""
+msgstr "Tạo hoàn tiền đầy đủ - %s"
 
 #: admin/modules/orders/views/refund.py:282
 msgid "Could not create a full refund."
-msgstr ""
+msgstr "Không thể tạo một hoàn tiền đầy đủ"
 
 #: admin/modules/orders/views/refund.py:285
 msgid "Full refund created."
-msgstr ""
+msgstr "Hoàn lại đầy đủ được tạo ra."
 
 #: admin/modules/orders/views/shipment.py:34
 msgid "Description"
-msgstr ""
+msgstr "Sự miêu tả"
 
 #: admin/modules/orders/views/shipment.py:35
 #: admin/modules/orders/views/shipment.py:230
 msgid "Tracking Code"
-msgstr ""
+msgstr "Mã theo dõi"
 
 #: admin/modules/orders/views/shipment.py:36
 msgid "Tracking URL"
-msgstr ""
+msgstr "URL theo dõi"
 
 #: admin/modules/orders/views/shipment.py:51
 #, python-format
 msgid "Create Shipment -- %s"
-msgstr ""
+msgstr "Tạo lô hàng - %s"
 
 #: admin/modules/orders/views/shipment.py:57
 msgid "Create Shipment"
-msgstr ""
+msgstr "Tạo lô hàng"
 
 #: admin/modules/orders/views/shipment.py:85
 #, python-format
 msgid "%(product_name)s (%(supplier)s)"
-msgstr ""
+msgstr "%(product_name)s (%(supplier) s)"
 
 #: admin/modules/orders/views/shipment.py:171
 msgid "Shipping address is not set."
-msgstr ""
+msgstr "Địa chỉ vận chuyển không được đặt."
 
 #: admin/modules/orders/views/shipment.py:174
 #, python-format
 msgid "Shipment %s was created."
-msgstr ""
+msgstr "Lô hàng %s đã được tạo ra."
 
 #: admin/modules/orders/views/shipment.py:195
 #, python-format
 msgid "Shipment %s has been deleted."
-msgstr ""
+msgstr "Lô hàng %s đã bị xóa."
 
 #: admin/modules/orders/views/shipment.py:218
 msgid "Shipment has been marked as sent."
-msgstr ""
+msgstr "Lô hàng được đánh dấu là đã gửi"
 
 #: admin/modules/orders/views/shipment.py:226
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin/modules/orders/views/shipment.py:229
 #: admin/modules/orders/views/shipment.py:297
 msgid "Supplier"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: admin/modules/orders/views/shipment.py:295
 #, python-brace-format
 msgid "Shipment {shipment_id}"
-msgstr ""
+msgstr "Lô hàng {shipment_id}"
 
 #: admin/modules/orders/views/shipment.py:299
 msgid "Tracking code"
-msgstr ""
+msgstr "Mã theo dõi"
 
 #: admin/modules/orders/views/status.py:44
 msgid "Identifier already exists."
-msgstr ""
+msgstr "Định danh đã tồn tại."
 
 #: admin/modules/orders/views/status.py:72
 msgid "Public Name"
-msgstr ""
+msgstr "Tên công khai"
 
 #: admin/modules/orders/views/status.py:76
 msgid "Role"
-msgstr ""
+msgstr "Vai trò"
 
 #: admin/modules/orders/views/status.py:78
 msgid "Default"
-msgstr ""
+msgstr "Mặc định"
 
 #: admin/modules/orders/views/status.py:82
 msgid "Allowed Next Status"
-msgstr ""
+msgstr "Cho phép trạng thái tiếp theo"
 
 #: admin/modules/orders/views/status.py:88
 msgid "Visible For Customer"
-msgstr ""
+msgstr "Có thể nhìn thấy cho khách hàng"
 
 #: admin/modules/orders/views/status.py:99
 msgid "No allowed next status."
-msgstr ""
+msgstr "Không được phép trạng thái tiếp theo."
 
 #: admin/modules/permission_groups/__init__.py:19
 #: admin/modules/permission_groups/views/list.py:34
 #: admin/modules/users/views/detail.py:84
 #: admin/modules/users/views/permissions.py:64
 msgid "Granular Permission Groups"
-msgstr ""
+msgstr "Nhóm cho phép dạng hạt"
 
 #: admin/modules/permission_groups/__init__.py:49
 msgid "Allow the user to select permission group in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn nhóm quyền trong quản trị viên."
 
 #: admin/modules/permission_groups/views/edit.py:28
 msgid "The Permission Group name."
-msgstr ""
+msgstr "Tên nhóm quyền."
 
 #: admin/modules/permission_groups/views/list.py:41
 msgid "Create new Permission Group"
-msgstr ""
+msgstr "Tạo nhóm quyền mới"
 
 #: admin/modules/product_types/__init__.py:21
 msgid "Product Types"
-msgstr ""
+msgstr "Loại sản phẩm"
 
 #: admin/modules/product_types/__init__.py:40
 msgid "Product types"
-msgstr ""
+msgstr "Loại sản phẩm"
 
 #: admin/modules/product_types/__init__.py:55
 msgid "Allow the user to select product types in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn loại sản phẩm trong quản trị viên."
 
 #: admin/modules/product_types/views/delete.py:36
 #: admin/modules/products/views/delete.py:55
 #, python-format
 msgid "%s has been marked deleted."
-msgstr ""
+msgstr "%s đã được đánh dấu bị xóa."
 
 #: admin/modules/product_types/views/edit.py:26
 msgid ""
 "Select attributes that go with your product type. These are defined in "
 "Products Settings - Attributes."
 msgstr ""
+"Chọn các thuộc tính phù hợp với loại sản phẩm của bạn. Các thuộc tính " 
+"này được định nghĩa trong Cài đặt Sản phẩm - Thuộc tính."
 
 #: admin/modules/product_types/views/edit.py:69 admin/toolbar.py:605
 msgid "Delete"
-msgstr ""
+msgstr "Xóa bỏ"
 
 #: admin/modules/product_types/views/edit.py:73
 #, python-format
@@ -1456,536 +1470,552 @@ msgid ""
 "Are you sure you wish to delete %s? Warrning: all related products will "
 "disappear from storefront until new value for product type is set!"
 msgstr ""
+"Bạn có chắc chắn muốn xóa %s không? Cảnh báo: tất cả sản phẩm liên quan "
+"sẽ biến mất khỏi cửa hàng cho đến khi một giá trị mới cho loại sản phẩm được thiết lập!"
 
 #: admin/modules/product_types/views/list.py:28
 msgid "Number of Attributes"
-msgstr ""
+msgstr "Số lượng thuộc tính"
 
 #: admin/modules/products/__init__.py:122
 #, python-format
 msgid "Create Product Called \"%s\""
-msgstr ""
+msgstr "Tạo sản phẩm được gọi là \"%s\""
 
 #: admin/modules/products/__init__.py:129
 #, python-format
 msgid "Create Product with SKU \"%s\""
-msgstr ""
+msgstr "Tạo sản phẩm với SKU \"%s\""
 
 #: admin/modules/products/__init__.py:140
 msgid "New product"
-msgstr ""
+msgstr "Sản phẩm mới"
 
 #: admin/modules/products/__init__.py:142
 msgid "Import"
-msgstr ""
+msgstr "Import"
 
 #: admin/modules/products/__init__.py:146
 msgid "Add a product to see it in your store"
-msgstr ""
+msgstr "Thêm một sản phẩm để xem nó trong cửa hàng của bạn"
 
 #: admin/modules/products/__init__.py:169
 msgid "Allow the user to select products in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn sản phẩm trong quản trị viên."
 
 #: admin/modules/products/__init__.py:170
 msgid "Allow the user to select shop_products in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn shop_products trong quản trị viên."
 
 #: admin/modules/products/forms/base_forms.py:59
 msgid "Primary Product Image"
-msgstr ""
+msgstr "Hình ảnh sản phẩm chính"
 
 #: admin/modules/products/forms/base_forms.py:61
 msgid ""
 "The main product image. You can add additional images in the `Product "
 "Images` tab."
 msgstr ""
+"Hình ảnh chính của sản phẩm. Bạn có thể thêm các hình ảnh bổ sung trong tab "
+"Hình ảnh sản phẩm."
 
 #: admin/modules/products/forms/base_forms.py:119
 msgid "Select a manufacturer"
-msgstr ""
+msgstr "Chọn một nhà sản xuất"
 
 #: admin/modules/products/forms/base_forms.py:128
 msgid "Product type"
-msgstr ""
+msgstr "Loại sản phẩm"
 
 #: admin/modules/products/forms/base_forms.py:144
 msgid "Given value is already in use, please use unique SKU and try again."
-msgstr ""
+msgstr "Giá trị đã cho đã được sử dụng, vui lòng sử dụng SKU duy nhất và thử lại."
 
 #: admin/modules/products/forms/base_forms.py:202
 msgid ""
 "Number of units that can be purchased after the product is out of stock. Set "
 "to blank for product to be purchasable without limits."
 msgstr ""
+"Số lượng đơn vị có thể mua sau khi sản phẩm hết hàng. Để trống nếu muốn sản phẩm "
+"có thể mua mà không giới hạn."
 
 #: admin/modules/products/forms/base_forms.py:258
 #: admin/modules/products/forms/base_forms.py:280
 msgid "Select a category"
-msgstr ""
+msgstr "Chọn một danh mục"
 
 #: admin/modules/products/forms/base_forms.py:292
 msgid "Minimum Purchase Quantity must be greater than 0."
-msgstr ""
+msgstr "Số lượng mua tối thiểu phải lớn hơn 0."
 
 #: admin/modules/products/forms/base_forms.py:298
 msgid "Backorder maximum must be greater than or equal to 0."
-msgstr ""
+msgstr "Mức tối đa backorder phải lớn hơn hoặc bằng 0."
 
 #: admin/modules/products/forms/base_forms.py:443
 #, python-format
 msgid "Thumbnail generation of %(media)s failed: %(error)s."
-msgstr ""
+msgstr "Tạo hình thu nhỏ của %(media) s không thành công: %(error) s."
 
 #: admin/modules/products/forms/base_forms.py:508
 msgid "Use only URL or file, not both."
-msgstr ""
+msgstr "Chỉ sử dụng URL hoặc tệp, không phải cả hai."
 
 #: admin/modules/products/forms/base_forms.py:518
 msgid "Is primary"
-msgstr ""
+msgstr "Là chính"
 
 #: admin/modules/products/forms/base_forms.py:531
 msgid "Only images are allowed in this field."
-msgstr ""
+msgstr "Chỉ hình ảnh được phép trong lĩnh vực này."
 
 #: admin/modules/products/forms/package_forms.py:135
 #, python-format
 msgid "Unable to make package %(product)s: %(error)s."
-msgstr ""
+msgstr "Không thể tạo gói %(product)s: %(error)s."
 
 #: admin/modules/products/forms/package_forms.py:145
 #, python-format
 msgid "New products: %d."
-msgstr ""
+msgstr "New products: %d."
 
 #: admin/modules/products/forms/package_forms.py:147
 #, python-format
 msgid "Removed products: %d."
-msgstr ""
+msgstr "Sản phẩm bị loại bỏ: %d."
 
 #: admin/modules/products/forms/package_forms.py:165
 #, python-format
 msgid "Couldn't add product %s to its own package."
-msgstr ""
+msgstr "Không thể thêm sản phẩm %s vào gói riêng của nó."
 
 #: admin/modules/products/mass_actions.py:22
 msgid "Set visible"
-msgstr ""
+msgstr "Đặt hiển thị"
 
 #: admin/modules/products/mass_actions.py:39
 msgid "Set invisible"
-msgstr ""
+msgstr "Đặt không hiển thị"
 
 #: admin/modules/products/mass_actions.py:62
 msgid "Edit products"
-msgstr ""
+msgstr "sửa sản phẩm"
 
 #: admin/modules/products/views/copy.py:55
 #, python-brace-format
 msgid "{product_name} was successfully copied"
-msgstr ""
+msgstr "{product_name} đã thành công copy"
 
 #: admin/modules/products/views/edit.py:122
 msgid "Minimum Purchase Quantity has been rounded to match Sales Unit."
-msgstr ""
+msgstr "Số lượng mua tối thiểu đã được làm tròn để phù hợp với Đơn vị bán hàng."
 
 #: admin/modules/products/views/edit.py:126
 #, python-format
 msgid "Changes to shop instance for %s saved."
-msgstr ""
+msgstr "Thay đổi để cửa hàng ví dụ cho %s được lưu."
 
 #: admin/modules/products/views/edit.py:248
 msgid "Product is not available."
-msgstr ""
+msgstr "Sản phẩm không có sẵn."
 
 #: admin/modules/products/views/edit_cross_sell.py:37
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: admin/modules/products/views/edit_cross_sell.py:75
 #, python-format
 msgid "Edit Cross-Sell: %s"
-msgstr ""
+msgstr "Chỉnh sửa chữ thập chéo: %s"
 
 #: admin/modules/products/views/edit_cross_sell.py:102
 #: admin/modules/settings/views/system.py:48
 msgid "Changes saved."
-msgstr ""
+msgstr "Thay đổi được lưu."
 
 #: admin/modules/products/views/edit_media.py:103
 #, python-format
 msgid "Edit Media: %s"
-msgstr ""
+msgstr "Chỉnh sửa phương tiện truyền thông: %s"
 
 #: admin/modules/products/views/edit_media.py:126
 msgid "Changes were saved."
-msgstr ""
+msgstr "Thay đổi đã được lưu."
 
 #: admin/modules/products/views/edit_media.py:180
 msgid "Files added to the product."
-msgstr ""
+msgstr "Các tập tin được thêm vào sản phẩm."
 
 #: admin/modules/products/views/edit_package.py:47
 msgid "Clear package"
-msgstr ""
+msgstr "Gói rõ ràng"
 
 #: admin/modules/products/views/edit_package.py:48
 msgid "Are you sure? This will remove all products from the package."
-msgstr ""
+msgstr "Bạn chắc chưa? Điều này sẽ xóa toàn bộ sản phẩm khỏi gói"
 
 #: admin/modules/products/views/edit_package.py:81
 #, python-format
 msgid "Edit Package: %s"
-msgstr ""
+msgstr "Gói chỉnh sửa: %s"
 
 #: admin/modules/products/views/edit_package.py:89
 msgid "Package cleared."
-msgstr ""
+msgstr "Gói đã xóa."
 
 #: admin/modules/products/views/list.py:43
 msgid "Primary Image"
-msgstr ""
+msgstr "Hình ảnh chính"
 
 #: admin/modules/products/views/list.py:60
 #: admin/modules/products/views/list.py:186
 msgid "SKU"
-msgstr ""
+msgstr "SKU"
 
 #: admin/modules/products/views/list.py:67
 #: admin/modules/products/views/list.py:185
 msgid "Barcode"
-msgstr ""
+msgstr "Mã vạch"
 
 #: admin/modules/products/views/list.py:69
 msgid "Filter by barcode..."
-msgstr ""
+msgstr "Lọc theo mã vạch ..."
 
 #: admin/modules/products/views/list.py:74
 msgid "Mode"
-msgstr ""
+msgstr "Cách thức"
 
 #: admin/modules/products/views/list.py:84
 #: admin/modules/products/views/list.py:93
 msgid "Filter by category name..."
-msgstr ""
+msgstr "Bộ lọc theo tên danh mục ..."
 
 #: admin/modules/products/views/list.py:117
 msgid "Filter by supplier name..."
-msgstr ""
+msgstr "Lọc theo tên nhà cung cấp ..."
 
 #: admin/modules/products/views/list.py:123
 #: admin/modules/suppliers/__init__.py:21
 #: admin/modules/suppliers/__init__.py:41
 msgid "Suppliers"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: admin/modules/products/views/mass_edit.py:33
 msgid "Additional Categories"
-msgstr ""
+msgstr "Danh mục bổ sung"
 
 #: admin/modules/products/views/mass_edit.py:38
 msgid "Purchasable"
-msgstr ""
+msgstr "Có thể mua được"
 
 #: admin/modules/products/views/mass_edit.py:42
 msgid "Mass Edit: Products"
-msgstr ""
+msgstr "Chỉnh sửa đại chúng: Sản phẩm"
 
 #: admin/modules/products/views/mass_edit.py:70
 msgid "Products changed."
-msgstr ""
+msgstr "Sản phẩm đã thay đổi."
 
 #: admin/modules/products/views/toolbars.py:62
 msgid "Manage Cross-Selling"
-msgstr ""
+msgstr "Quản lý Cross-Selling"
 
 #: admin/modules/products/views/toolbars.py:69
 msgid "Cross-Selling"
-msgstr ""
+msgstr "Cross-Selling"
 
 #: admin/modules/products/views/toolbars.py:87
 msgid "Other"
-msgstr ""
+msgstr "Khác"
 
 #: admin/modules/products/views/toolbars.py:114
 #, python-format
 msgid "Child: %s"
-msgstr ""
+msgstr "Con: %s"
 
 #: admin/modules/products/views/toolbars.py:121
 #, python-format
 msgid "Parent: %s"
-msgstr ""
+msgstr "Cha: %s"
 
 #: admin/modules/products/views/toolbars.py:127
 #, python-format
 msgid "Sibling: %s"
-msgstr ""
+msgstr "Liên quan: %s"
 
 #: admin/modules/products/views/toolbars.py:133
 #: admin/modules/products/views/toolbars.py:160
 msgid "Packages"
-msgstr ""
+msgstr "Gói"
 
 #: admin/modules/products/views/toolbars.py:138
 msgid "Manage Package"
-msgstr ""
+msgstr "Quản lý gói"
 
 #: admin/modules/products/views/toolbars.py:163
 msgid "Convert to Package Parent"
-msgstr ""
+msgstr "Chuyển đổi sang gói cha"
 
 #: admin/modules/sales_dashboard/__init__.py:15
 msgid "Sales Dashboard"
-msgstr ""
+msgstr "Bảng điều khiển bán hàng"
 
 #: admin/modules/sales_dashboard/dashboard.py:102
 msgid "Sales per Month (past 12 months)"
-msgstr ""
+msgstr "Doanh số mỗi tháng (12 tháng qua)"
 
 #: admin/modules/sales_dashboard/dashboard.py:126
 msgid "Average Sales"
-msgstr ""
+msgstr "Doanh số trung bình"
 
 #: admin/modules/sales_dashboard/dashboard.py:129
 msgid "Sales"
-msgstr ""
+msgstr "Việc bán hàng"
 
 #: admin/modules/sales_dashboard/dashboard.py:133
 msgid "Cumulative Total Sales"
-msgstr ""
+msgstr "Tổng doanh số tích lũy"
 
 #: admin/modules/sales_dashboard/dashboard.py:140
 #, python-format
 msgid "Based on %d orders"
-msgstr ""
+msgstr "Dựa trên %d đơn đặt hàng"
 
 #: admin/modules/sales_dashboard/dashboard.py:154
 msgid "Today's Sales"
-msgstr ""
+msgstr "Doanh số hôm nay"
 
 #: admin/modules/sales_dashboard/dashboard.py:174
 msgid "Lifetime Sales"
-msgstr ""
+msgstr "Bán hàng trọn đời"
 
 #: admin/modules/sales_dashboard/dashboard.py:198
 msgid "Average Purchase"
-msgstr ""
+msgstr "Mua trung bình"
 
 #: admin/modules/sales_dashboard/dashboard.py:219
 msgid "Open Orders Value"
-msgstr ""
+msgstr "Mở đơn hàng giá trị"
 
 #: admin/modules/sales_units/__init__.py:19
 msgid "Sales Units"
-msgstr ""
+msgstr "Đơn vị bán hàng"
 
 #: admin/modules/sales_units/__init__.py:45
 msgid "Display Units"
-msgstr ""
+msgstr "Hiển thị đơn vị"
 
 #: admin/modules/sales_units/views/list.py:26
 msgid "Symbol"
-msgstr ""
+msgstr "Biểu tượng"
 
 #: admin/modules/sales_units/views/list.py:27
 msgid "Allowed decimals"
-msgstr ""
+msgstr "Cho phép số thập phân"
 
 #: admin/modules/service_providers/__init__.py:20
 msgid "Service Providers"
-msgstr ""
+msgstr "Nhà cung cấp dịch vụ"
 
 #: admin/modules/service_providers/__init__.py:21
 #: admin/modules/services/__init__.py:22
 msgid "Payment and Shipping"
-msgstr ""
+msgstr "Thanh toán và vận chuyển"
 
 #: admin/modules/service_providers/views/_edit.py:33
 #, python-format
 msgid "Edit %(model)s"
-msgstr ""
+msgstr "Chỉnh sửa %(model)s"
 
 #: admin/modules/service_providers/views/_edit.py:72
 msgid ""
 "The service provider type. This can be any of the shipping carriers or "
 "payment processors configured for your shop."
 msgstr ""
+"Loại nhà cung cấp dịch vụ. Đây có thể là bất kỳ đơn vị vận chuyển hoặc "
+"đơn vị xử lý thanh toán nào được cấu hình cho cửa hàng của bạn."
 
 #: admin/modules/service_providers/views/_edit.py:92
 #, python-brace-format
 msgid "Create {service_name}"
-msgstr ""
+msgstr "Tạo {service_name}"
 
 #: admin/modules/service_providers/views/_wizard.py:17
 msgid "Provider"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: admin/modules/service_providers/views/_wizard.py:26
 #, python-format
 msgid "Please activate at least one %s."
-msgstr ""
+msgstr "Vui lòng kích hoạt ít nhất một %s."
 
 #: admin/modules/service_providers/views/_wizard.py:70
 #: admin/modules/services/views/_list.py:60
 msgid "Carrier"
-msgstr ""
+msgstr "Người vận chuyển"
 
 #: admin/modules/service_providers/views/_wizard.py:71
 msgid ""
 "To start shipping products right away, please add shipping methods for your "
 "shop"
 msgstr ""
+"Để bắt đầu vận chuyển sản phẩm ngay lập tức, vui lòng thêm phương thức vận "
+"chuyển cho cửa hàng của bạn."
 
 #: admin/modules/service_providers/views/_wizard.py:75
 msgid "shipping method"
-msgstr ""
+msgstr "phương pháp vận chuyển"
 
 #: admin/modules/service_providers/views/_wizard.py:86
 msgid "Payment Provider"
-msgstr ""
+msgstr "Nhà cung cấp thanh toán"
 
 #: admin/modules/service_providers/views/_wizard.py:87
 msgid ""
 "To start accepting payments right away, please add payment methods for your "
 "shop"
 msgstr ""
+"Để bắt đầu chấp nhận thanh toán ngay lập tức, vui lòng thêm phương thức "
+"thanh toán cho cửa hàng của bạn."
 
 #: admin/modules/service_providers/views/_wizard.py:91
 msgid "payment method"
-msgstr ""
+msgstr "Phương thức thanh toán"
 
 #: admin/modules/service_providers/wizard_forms.py:25
 msgid "Service name"
-msgstr ""
+msgstr "Tên dịch vụ"
 
 #: admin/modules/service_providers/wizard_forms.py:25
 msgid "The name shown in the shop checkout process."
-msgstr ""
+msgstr "Tên được hiển thị trong quá trình thanh toán cửa hàng."
 
 #: admin/modules/service_providers/wizard_forms.py:75
 #: admin/modules/service_providers/wizard_forms.py:98
 msgid "Instructions"
-msgstr ""
+msgstr "Hướng dẫn"
 
 #: admin/modules/service_providers/wizard_forms.py:78
 #: admin/modules/service_providers/wizard_forms.py:101
 msgid "Additional instructions shown in the shop checkout process."
-msgstr ""
+msgstr "Hướng dẫn bổ sung hiển thị trong quá trình thanh toán cửa hàng."
 
 #: admin/modules/services/__init__.py:67
 msgid "Allow the user to select carriers in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn nhà mạng trong quản trị viên."
 
 #: admin/modules/services/__init__.py:68
 msgid "Allow the user to select payment methods in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn phương thức thanh toán trong quản trị viên."
 
 #: admin/modules/services/__init__.py:70
 msgid "Allow the user to select shipping methods in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn các phương thức vận chuyển trong quản trị viên."
 
 #: admin/modules/services/__init__.py:77
 msgid "Shipping Methods"
-msgstr ""
+msgstr "Phương pháp vận chuyển"
 
 #: admin/modules/services/__init__.py:91
 msgid "Payment Methods"
-msgstr ""
+msgstr "Phương thức thanh toán"
 
 #: admin/modules/services/forms.py:66
 msgid "Service"
-msgstr ""
+msgstr "Dịch vụ"
 
 #: admin/modules/services/forms.py:67
 msgid "Select a service to use for this service provider."
-msgstr ""
+msgstr "Chọn một dịch vụ để sử dụng cho nhà cung cấp dịch vụ này."
 
 #: admin/modules/services/forms.py:126
 msgid ""
 "The carrier to use for this shipping method. Select a carrier before filling "
 "other fields."
 msgstr ""
+"Đơn vị vận chuyển sẽ sử dụng cho phương thức giao hàng này. Vui lòng chọn "
+"đơn vị vận chuyển trước khi điền các trường khác."
 
 #: admin/modules/services/forms.py:145
 msgid ""
 "The payment processor to use for this payment method. Select a payment "
 "processor before filling out the other fields."
 msgstr ""
+"Bộ xử lý thanh toán sẽ sử dụng cho phương thức thanh toán này. Vui lòng "
+"chọn bộ xử lý thanh toán trước khi điền các trường khác."
 
 #: admin/modules/services/forms.py:162 admin/modules/services/forms.py:170
 msgid "Price"
-msgstr ""
+msgstr "Giá"
 
 #: admin/modules/services/forms.py:170
 msgid "Waive limit"
-msgstr ""
+msgstr "Từ bỏ giới hạn"
 
 #: admin/modules/services/forms.py:199
 msgid "Available in countries"
-msgstr ""
+msgstr "Có sẵn ở các quốc gia"
 
 #: admin/modules/services/forms.py:202
 msgid "Unavailable in countries"
-msgstr ""
+msgstr "Không có sẵn ở các quốc gia"
 
 #: admin/modules/services/forms.py:209
 msgid "Select accepted countries for this service."
-msgstr ""
+msgstr "Chọn các quốc gia được chấp nhận cho dịch vụ này."
 
 #: admin/modules/services/forms.py:210
 msgid "Select this to accept all countries in EU."
-msgstr ""
+msgstr "Chọn điều này để chấp nhận tất cả các quốc gia ở EU."
 
 #: admin/modules/services/forms.py:211
 msgid "Select restricted countries for this service."
-msgstr ""
+msgstr "Chọn các quốc gia bị hạn chế cho dịch vụ này."
 
 #: admin/modules/services/forms.py:212
 msgid "Select this to restrict this service for countries in EU"
-msgstr ""
+msgstr "Chọn điều này để hạn chế dịch vụ này cho các quốc gia ở EU"
 
 #: admin/modules/services/views/_list.py:31
 msgid "Service choice"
-msgstr ""
+msgstr "Lựa chọn dịch vụ"
 
 #: admin/modules/services/views/_list.py:35
 #: admin/modules/taxes/views/list.py:40
 msgid "Enabled"
-msgstr ""
+msgstr "Đã bật"
 
 #: admin/modules/services/views/_list.py:36
 msgid "Shop"
-msgstr ""
+msgstr "Cửa hàng"
 
 #: admin/modules/services/views/_list.py:68
 msgid "Payment Processor"
-msgstr ""
+msgstr "Bộ xử lý thanh toán"
 
 #: admin/modules/services/weight_based_pricing/_form_part.py:35
 msgid "Weight-based pricing range"
-msgstr ""
+msgstr "Phạm vi giá dựa trên trọng lượng"
 
 #: admin/modules/settings/__init__.py:18
 msgid "System Settings"
-msgstr ""
+msgstr "Cài đặt hệ thống"
 
 #: admin/modules/settings/enums.py:20
 msgid "unique"
-msgstr ""
+msgstr "độc nhất"
 
 #: admin/modules/settings/enums.py:21
 msgid "running"
-msgstr ""
+msgstr "đang chạy"
 
 #: admin/modules/settings/enums.py:22
 msgid "shop running"
-msgstr ""
+msgstr "Cửa hàng chạy"
 
 #: admin/modules/settings/form_parts/shop.py:26
 msgid "Reference number length"
-msgstr ""
+msgstr "Độ dài số tham chiếu"
 
 #: admin/modules/settings/form_parts/shop.py:31
 msgid ""
@@ -1996,23 +2026,23 @@ msgstr ""
 
 #: admin/modules/settings/form_parts/shop.py:38
 msgid "Reference number prefix"
-msgstr ""
+msgstr "Tiền tố số tham chiếu"
 
 #: admin/modules/settings/form_parts/shop.py:71
 msgid "Order minimum total"
-msgstr ""
+msgstr "Đặt hàng tổng tối thiểu"
 
 #: admin/modules/settings/form_parts/shop.py:77
 msgid "The minimum sum that an order needs to reach to be created."
-msgstr ""
+msgstr "Số tiền tối thiểu mà một đơn đặt hàng cần phải đạt được để được tạo ra."
 
 #: admin/modules/settings/forms/system.py:63
 msgid "Order Settings"
-msgstr ""
+msgstr "Order Settings"
 
 #: admin/modules/settings/forms/system.py:65
 msgid "Order Reference number method"
-msgstr ""
+msgstr "Phương thức số tham chiếu thứ tự"
 
 #: admin/modules/settings/forms/system.py:67
 msgid ""
@@ -2023,113 +2053,121 @@ msgid ""
 "<br><br><b>Shop Running</b><br>Every shop has its own running numbers for "
 "reference."
 msgstr ""
+"Tùy chọn này xác định cách xây dựng số tham chiếu cho đơn hàng. Các lựa chọn "
+"gồm:<br><br><b>Duy nhất</b><br>Số tham chiếu đơn hàng là duy nhất trên toàn hệ thống, "
+"không phân biệt số lượng cửa hàng.<br><br><b>Tuần tự</b><br>Số đơn hàng chạy tuần tự "
+"trên toàn hệ thống, không phân biệt số lượng cửa hàng.<br><br><b>Tuần tự theo cửa hàng</b><br> "
+"Mỗi cửa hàng có số tham chiếu tuần tự riêng."
 
 #: admin/modules/settings/views/list.py:58
 msgid "Settings saved."
-msgstr ""
+msgstr "Cài đặt được lưu."
 
 #: admin/modules/settings/views/list.py:73
 msgid "Reset Defaults"
-msgstr ""
+msgstr "Đặt lại mặc định"
 
 #: admin/modules/settings/views/system.py:50
 msgid "No changes detected."
-msgstr ""
+msgstr "Không có thay đổi được phát hiện."
 
 #: admin/modules/settings/views/system.py:60
 msgid "Save system settings"
-msgstr ""
+msgstr "Lưu cài đặt hệ thống"
 
 #: admin/modules/shops/__init__.py:55
 msgid "Add a logo to make your store stand out"
-msgstr ""
+msgstr "Thêm logo để làm cho cửa hàng của bạn nổi bật"
 
 #: admin/modules/shops/__init__.py:57
 msgid "Add logo"
-msgstr ""
+msgstr "Thêm logo"
 
 #: admin/modules/shops/__init__.py:67
 msgid "Publish your store"
-msgstr ""
+msgstr "Xuất bản cửa hàng của bạn"
 
 #: admin/modules/shops/__init__.py:68
 msgid "Let customers browse your store and make purchases"
-msgstr ""
+msgstr "Hãy để khách hàng duyệt qua cửa hàng của bạn và mua hàng"
 
 #: admin/modules/shops/__init__.py:73
 msgid "Publish shop"
-msgstr ""
+msgstr "Xuất bản cửa hàng"
 
 #: admin/modules/shops/__init__.py:98
 msgid "Set \"{}\" as the active shop"
-msgstr ""
+msgstr "Đặt \"{}\" làm cửa hàng hoạt động"
 
 #: admin/modules/shops/__init__.py:100
 msgid "Available Shops [currently active: {}]"
-msgstr ""
+msgstr "Các cửa hàng có sẵn [hiện đang hoạt động: {}]"
 
 #: admin/modules/shops/__init__.py:108
 msgid "Allow the user to select shops in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn các cửa hàng trong quản trị viên."
 
 #: admin/modules/shops/forms.py:30
 msgid ""
 "This field cannot be changed since there are existing orders for this shop."
 msgstr ""
+"Trường này không thể thay đổi vì đã có các đơn hàng tồn tại cho cửa hàng này."
 
 #: admin/modules/shops/forms.py:44 admin/modules/shops/forms.py:105
 msgid "Currency"
-msgstr ""
+msgstr "Tiền tệ"
 
 #: admin/modules/shops/forms.py:45 admin/modules/shops/forms.py:106
 msgid ""
 "The primary shop currency. This is the currency used when selling your "
 "products."
 msgstr ""
+"Tiền tệ chính của cửa hàng. Đây là loại tiền được sử dụng khi bán "
+"sản phẩm của bạn."
 
 #: admin/modules/shops/forms.py:50
 msgid "Select staff members for this shop."
-msgstr ""
+msgstr "Chọn nhân viên cho cửa hàng này."
 
 #: admin/modules/shops/forms.py:66
 msgid "Domain is unique. Please enter a unique value."
-msgstr ""
+msgstr "Tên miền là duy nhất.Vui lòng nhập một giá trị duy nhất."
 
 #: admin/modules/shops/forms.py:98
 msgid "Shop name"
-msgstr ""
+msgstr "Tên cửa hàng"
 
 #: admin/modules/shops/forms.py:120
 msgid "First name"
-msgstr ""
+msgstr "Tên"
 
 #: admin/modules/shops/forms.py:120
 msgid "Your first name."
-msgstr ""
+msgstr "Tên của bạn."
 
 #: admin/modules/shops/forms.py:121
 msgid "Last name"
-msgstr ""
+msgstr "Họ"
 
 #: admin/modules/shops/forms.py:121
 msgid "Your last name."
-msgstr ""
+msgstr "Họ của bạn."
 
 #: admin/modules/shops/forms.py:139
 msgid "Zip/Postal code"
-msgstr ""
+msgstr "Mã zip/bưu chính"
 
 #: admin/modules/shops/forms.py:140
 msgid "State/Province"
-msgstr ""
+msgstr "Tiểu bang/Tỉnh"
 
 #: admin/modules/shops/forms.py:141
 msgid "Address"
-msgstr ""
+msgstr "Địa chỉ"
 
 #: admin/modules/shops/forms.py:142
 msgid "Address (2)"
-msgstr ""
+msgstr "Địa chỉ (2)"
 
 #: admin/modules/shops/forms.py:145
 msgid ""
@@ -2139,89 +2177,89 @@ msgstr ""
 
 #: admin/modules/shops/forms.py:146
 msgid "The shop zip/postal code."
-msgstr ""
+msgstr "Cửa hàng Zip/Mã bưu chính."
 
 #: admin/modules/shops/forms.py:147
 msgid "The city in which your shop is located."
-msgstr ""
+msgstr "Thành phố nơi cửa hàng của bạn được đặt."
 
 #: admin/modules/shops/forms.py:148
 msgid "The country in which your shop is located."
-msgstr ""
+msgstr "Quốc gia nơi cửa hàng của bạn được đặt."
 
 #: admin/modules/shops/views/edit.py:69
 msgid "There are still some pending actions to complete."
-msgstr ""
+msgstr "Vẫn còn một số hành động đang chờ xử lý để hoàn thành."
 
 #: admin/modules/shops/views/edit.py:78
 msgid "Your store is now live."
-msgstr ""
+msgstr "Cửa hàng của bạn hiện đang trực tiếp."
 
 #: admin/modules/shops/views/edit.py:117
 msgid "Shop {} is now active."
-msgstr ""
+msgstr "Cửa hàng {} hiện đang hoạt động."
 
 #: admin/modules/shops/views/list.py:30
 msgid "Domain"
-msgstr ""
+msgstr "Lãnh địa"
 
 #: admin/modules/shops/views/wizard.py:19
 msgid "Shop Details"
-msgstr ""
+msgstr "Chi tiết cửa hàng"
 
 #: admin/modules/shops/views/wizard.py:20
 msgid "Add an address so you can get paid"
-msgstr ""
+msgstr "Thêm một địa chỉ để bạn có thể được trả tiền"
 
 #: admin/modules/shops/views/wizard.py:52
 msgid "Default Tax Class"
-msgstr ""
+msgstr "Lớp thuế mặc định"
 
 #: admin/modules/suppliers/__init__.py:56
 msgid "Allow the user to select suppliers in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn nhà cung cấp trong quản trị viên."
 
 #: admin/modules/suppliers/forms.py:44
 msgid "Select shops for this supplier. Keep it blank to share with all shops."
-msgstr ""
+msgstr "Chọn cửa hàng cho nhà cung cấp này.Giữ cho nó trống để chia sẻ với tất cả các cửa hàng."
 
 #: admin/modules/suppliers/forms.py:58
 msgid "Is approved for {}"
-msgstr ""
+msgstr "Được phê duyệt cho {}"
 
 #: admin/modules/suppliers/forms.py:61
 msgid "Indicates whether this supplier is approved for the shop."
-msgstr ""
+msgstr "Cho biết liệu nhà cung cấp này có được phê duyệt cho cửa hàng hay không."
 
 #: admin/modules/suppliers/forms.py:76
 msgid "It is not possible to manage inventory when no module is selected."
-msgstr ""
+msgstr "Không thể quản lý hàng tồn kho khi không có mô -đun được chọn."
 
 #: admin/modules/suppliers/forms.py:87
 msgid "{} is not in the Shops field."
-msgstr ""
+msgstr "{} không có trong lĩnh vực cửa hàng."
 
 #: admin/modules/suppliers/views/delete.py:36
 #, python-format
 msgid "Success! %s has been marked deleted."
-msgstr ""
+msgstr "Thành công!%s đã được đánh dấu bị xóa."
 
 #: admin/modules/suppliers/views/list.py:32
 msgid "Modules"
-msgstr ""
+msgstr "Mô-đun"
 
 #: admin/modules/suppliers/views/list.py:43
 #, python-format
 msgid "No %s module"
-msgstr ""
+msgstr "Không có %s mô-đun"
 
 #: admin/modules/support/__init__.py:19
 msgid "Shuup Support"
-msgstr ""
+msgstr "Shuup Support"
 
 #: admin/modules/system/__init__.py:19
 msgid "System"
-msgstr ""
+msgstr "Hệ thống"
 
 #: admin/modules/system/__init__.py:33 admin/modules/system/__init__.py:48
 #: admin/modules/system/views/telemetry.py:29
@@ -2229,7 +2267,7 @@ msgstr ""
 #: admin/modules/system/views/telemetry.py:73
 #: admin/modules/system/views/telemetry.py:91
 msgid "Telemetry"
-msgstr ""
+msgstr "Từ xa"
 
 #: admin/modules/system/__init__.py:47
 msgid ""
@@ -2239,92 +2277,92 @@ msgstr ""
 
 #: admin/modules/system/views/telemetry.py:52
 msgid "Opt-in for telemetry"
-msgstr ""
+msgstr "Chọn tham gia để đo từ xa"
 
 #: admin/modules/taxes/__init__.py:21 admin/modules/taxes/__init__.py:44
 #: admin/modules/taxes/views/edit.py:62
 msgid "Taxes"
-msgstr ""
+msgstr "Thuế"
 
 #: admin/modules/taxes/__init__.py:47 admin/modules/taxes/views/edit.py:71
 msgid "Customer Tax Groups"
-msgstr ""
+msgstr "Nhóm thuế khách hàng"
 
 #: admin/modules/taxes/__init__.py:54 admin/modules/taxes/views/edit.py:80
 msgid "Tax Classes"
-msgstr ""
+msgstr "Lớp thuế"
 
 #: admin/modules/taxes/__init__.py:79
 msgid "Allow the user to select customer tax groups in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn các nhóm thuế khách hàng trong quản trị viên."
 
 #: admin/modules/taxes/__init__.py:81
 msgid "Allow the user to select taxes in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn thuế trong quản trị viên."
 
 #: admin/modules/taxes/__init__.py:82
 msgid "Allow the user to select tax classes in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn các lớp thuế trong quản trị viên."
 
 #: admin/modules/taxes/views/list.py:38
 msgid "Rate"
-msgstr ""
+msgstr "Tỷ lệ"
 
 #: admin/modules/users/__init__.py:24 admin/modules/users/__init__.py:81
 msgid "Users"
-msgstr ""
+msgstr "Người dùng"
 
 #: admin/modules/users/__init__.py:66
 msgid "Allow the user to change the passwords of other users."
-msgstr ""
+msgstr "Cho phép người dùng thay đổi mật khẩu của người dùng khác."
 
 #: admin/modules/users/__init__.py:67
 msgid "Allow the user send the reset password email."
-msgstr ""
+msgstr "Cho phép người dùng gửi email đặt lại mật khẩu."
 
 #: admin/modules/users/__init__.py:68
 msgid "Allow the user to change the permission groups of other users."
-msgstr ""
+msgstr "Cho phép người dùng thay đổi các nhóm quyền của người dùng khác."
 
 #: admin/modules/users/__init__.py:69
 msgid "Allow the user to see a user detail."
-msgstr ""
+msgstr "Allow the user to see a user detail."
 
 #: admin/modules/users/__init__.py:70
 msgid "Allow the user to create a new user."
-msgstr ""
+msgstr "Cho phép người dùng tạo một người dùng mới."
 
 #: admin/modules/users/__init__.py:71
 msgid "Allow the user to list the users."
-msgstr ""
+msgstr "Cho phép người dùng liệt kê người dùng."
 
 #: admin/modules/users/__init__.py:72
 msgid "Allow the user to impersonate a different user."
-msgstr ""
+msgstr "Cho phép người dùng mạo danh người dùng khác."
 
 #: admin/modules/users/__init__.py:73
 msgid "Allow the user to impersonate a staff user."
-msgstr ""
+msgstr "Allow the user to impersonate a staff user."
 
 #: admin/modules/users/__init__.py:74
 msgid "Allow the user to change the user list columns."
-msgstr ""
+msgstr "Cho phép người dùng thay đổi các cột Danh sách người dùng."
 
 #: admin/modules/users/__init__.py:75
 msgid "Allow the user to select users in admin."
-msgstr ""
+msgstr "Cho phép người dùng chọn người dùng trong quản trị viên."
 
 #: admin/modules/users/__init__.py:101
 msgid "Add some users to help manage your shop"
-msgstr ""
+msgstr "Thêm một số người dùng để giúp quản lý cửa hàng của bạn"
 
 #: admin/modules/users/__init__.py:102
 msgid "New user"
-msgstr ""
+msgstr "Người dùng mới"
 
 #: admin/modules/users/mass_actions.py:24
 msgid "Send Reset Password Email"
-msgstr ""
+msgstr "Gửi email đặt lại mật khẩu"
 
 #: admin/modules/users/views/detail.py:41
 #, python-format
@@ -2339,18 +2377,27 @@ msgid ""
 "        Your username: '%(username)s'\n"
 "        Your password: Please contact your admin.\n"
 msgstr ""
+"\n"
+"    Chào mừng %(first_name)s!\n"
+"\n"
+"    Bạn đã được thêm làm quản trị viên tại %(shop_url)s. Dưới đây là một số thông "
+"tin chi tiết:\n"
+"        Đường dẫn cửa hàng: %(shop_url)s\n"
+"        Đường dẫn đăng nhập: %(admin_url)s\n"
+"        Tên đăng nhập: '%(username)s'\n"
+"        Mật khẩu: Vui lòng liên hệ quản trị viên của bạn..\n"
 
 #: admin/modules/users/views/detail.py:72
 msgid "Password"
-msgstr ""
+msgstr "Mật khẩu"
 
 #: admin/modules/users/views/detail.py:72
 msgid "The user password."
-msgstr ""
+msgstr "Mật khẩu người dùng."
 
 #: admin/modules/users/views/detail.py:74
 msgid "Main Permissions"
-msgstr ""
+msgstr "Quyền chính"
 
 #: admin/modules/users/views/detail.py:78
 msgid ""
@@ -2358,6 +2405,9 @@ msgid ""
 "rights. Go to user account -> `Actions` -> `Edit Main Permissions` to change "
 "these."
 msgstr ""
+"Hai quyền cơ bản: Truy cập Bảng Quản trị và quyền trạng thái Siêu người dùng. "
+"Vào Tài khoản người dùng -> Hành động -> Chỉnh sửa Quyền chính để thay đổi "
+"các quyền này."
 
 #: admin/modules/users/views/detail.py:88
 msgid ""
@@ -2367,209 +2417,219 @@ msgid ""
 "specific user. Will not influence Superusers as they already have all the "
 "rights and can't be stripped of them without removing Superuser status first."
 msgstr ""
+"Sử dụng Nhóm Quyền để cấp quyền chi tiết hơn. Tìm kiếm Nhóm Quyền để "
+"thay đổi và thêm chúng vào nhiều người dùng. "
+"Vào Tài khoản người dùng -> Hành động -> Chỉnh sửa Quyền chính để thêm "
+"nhóm quyền cho một người dùng cụ thể. Điều này sẽ không ảnh hưởng đến "
+"Siêu người dùng vì họ đã có toàn bộ quyền và không thể bị tước quyền "
+"mà không gỡ trạng thái Siêu người dùng trước."
 
 #: admin/modules/users/views/detail.py:100
 msgid "The user email address. Used for password resets."
-msgstr ""
+msgstr "Địa chỉ email người dùng.Được sử dụng để đặt lại mật khẩu."
 
 #: admin/modules/users/views/detail.py:102
 msgid "The first name of the user."
-msgstr ""
+msgstr "Tên đầu tiên của người dùng."
 
 #: admin/modules/users/views/detail.py:104
 msgid "The last name of the user."
-msgstr ""
+msgstr "Họ của người dùng."
 
 #: admin/modules/users/views/detail.py:112 admin/modules/users/views/list.py:31
 #: admin/modules/users/views/list.py:72
 msgid "Access to Admin Panel"
-msgstr ""
+msgstr "Truy cập vào bảng quản trị"
 
 #: admin/modules/users/views/detail.py:113
 msgid "Superuser (Full rights)"
-msgstr ""
+msgstr "Superuser (toàn quyền)"
 
 #: admin/modules/users/views/detail.py:117
 msgid "No Main Permissions selected."
-msgstr ""
+msgstr "Không có quyền chính được chọn."
 
 #: admin/modules/users/views/detail.py:124
 msgid "No Granular Permission Groups selected."
-msgstr ""
+msgstr "No Granular Permission Groups selected."
 
 #: admin/modules/users/views/detail.py:126
 msgid "No Granular Permission Groups available."
-msgstr ""
+msgstr "Không có nhóm quyền dạng hạt có sẵn."
 
 #: admin/modules/users/views/detail.py:132
 msgid "Send email confirmation"
-msgstr ""
+msgstr "Gửi email xác nhận"
 
 #: admin/modules/users/views/detail.py:136
 msgid ""
-"Send an email to the user to let them know they've been added as a shop "
-"user. Applicable only for users with Access to Admin Panel status."
+"Gửi email cho người dùng để thông báo họ đã được "
+"thêm làm người dùng cửa hàng. Chỉ áp dụng cho "
+"những người dùng có quyền truy cập vào Bảng Quản trị."
 msgstr ""
 
 #: admin/modules/users/views/detail.py:149
 msgid "Please enter an email to send a confirmation to."
-msgstr ""
+msgstr "Vui lòng nhập email để gửi xác nhận tới."
 
 #: admin/modules/users/views/detail.py:177
 msgid "Change Password"
-msgstr ""
+msgstr "Thay đổi mật khẩu"
 
 #: admin/modules/users/views/detail.py:183
 msgid "User has no email address"
-msgstr ""
+msgstr "Người dùng không có địa chỉ email"
 
 #: admin/modules/users/views/detail.py:184
 msgid "Send Password Reset Email"
-msgstr ""
+msgstr "Gửi email đặt lại mật khẩu"
 
 #: admin/modules/users/views/detail.py:190
 msgid "Edit Main Permissions"
-msgstr ""
+msgstr "Edit Main Permissions"
 
 #: admin/modules/users/views/detail.py:203
 msgid "Contact Details"
-msgstr ""
+msgstr "Chi tiết liên lạc"
 
 #: admin/modules/users/views/detail.py:214
 msgid "Create a new contact and associate it with this user"
-msgstr ""
+msgstr "Tạo một liên hệ mới và liên kết nó với người dùng này"
 
 #: admin/modules/users/views/detail.py:233
 msgid "Activate User"
-msgstr ""
+msgstr "Kích hoạt người dùng"
 
 #: admin/modules/users/views/detail.py:244
 msgid "Deactivate User"
-msgstr ""
+msgstr "Vô hiệu hóa người dùng"
 
 #: admin/modules/users/views/detail.py:337
 #, python-format
 msgid "Info! User bound to contact %(contact)s."
-msgstr ""
+msgstr "Thông tin!Người dùng ràng buộc liên hệ %(contact) s."
 
 #: admin/modules/users/views/detail.py:343
 #, python-format
 msgid "You've been added as an admin user to `%s`."
-msgstr ""
+msgstr "You've been added as an admin user to `%s`."
 
 #: admin/modules/users/views/detail.py:346 admin/modules/users/views/list.py:66
 msgid "User"
-msgstr ""
+msgstr "Người dùng"
 
 #: admin/modules/users/views/detail.py:359
 msgid "You can not deactivate a Superuser. Remove Superuser status first."
-msgstr ""
+msgstr "Bạn không thể hủy kích hoạt một siêu nhân.Loại bỏ trạng thái siêu người dùng đầu tiên."
 
 #: admin/modules/users/views/detail.py:361
 msgid "You can not deactivate yourself. Use another account."
-msgstr ""
+msgstr "Bạn không thể hủy kích hoạt chính mình.Sử dụng tài khoản khác."
 
 #: admin/modules/users/views/detail.py:375
 #, python-format
 msgid "%(user)s is now %(state)s."
-msgstr ""
+msgstr "%(user) s hiện là %(state) s."
 
 #: admin/modules/users/views/detail.py:392
 msgid "No shop configured."
-msgstr ""
+msgstr "Không có cửa hàng được cấu hình."
 
 #: admin/modules/users/views/detail.py:394
 msgid "You are already logged in."
-msgstr ""
+msgstr "Bạn đã đăng nhập."
 
 #: admin/modules/users/views/detail.py:396
 msgid "This user is not active."
-msgstr ""
+msgstr "Người dùng này không hoạt động."
 
 #: admin/modules/users/views/detail.py:441
 #, python-brace-format
 msgid "You're now logged in as `{username}`."
-msgstr ""
+msgstr "Bây giờ bạn đã đăng nhập dưới dạng `{username}`."
 
 #: admin/modules/users/views/list.py:21
 msgid "Username"
-msgstr ""
+msgstr "Tên người dùng"
 
 #: admin/modules/users/views/list.py:23 admin/modules/users/views/list.py:68
 msgid "First Name"
-msgstr ""
+msgstr "Tên"
 
 #: admin/modules/users/views/list.py:24 admin/modules/users/views/list.py:69
 msgid "Last Name"
-msgstr ""
+msgstr "Họ"
 
 #: admin/modules/users/views/password.py:26
 msgid "The two password fields didn't match."
-msgstr ""
+msgstr "Hai trường mật khẩu không khớp."
 
 #: admin/modules/users/views/password.py:27
 #: admin/modules/users/views/permissions.py:93
 msgid "Your old password was entered incorrectly. Please enter it again."
-msgstr ""
+msgstr "Mật khẩu cũ của bạn đã được nhập không chính xác.Vui lòng nhập lại nó."
 
 #: admin/modules/users/views/password.py:30
 #: admin/modules/users/views/permissions.py:28
 msgid "Your Password"
-msgstr ""
+msgstr "Your Password"
 
 #: admin/modules/users/views/password.py:32
 msgid "For security purposes, we need your current password."
-msgstr ""
+msgstr "Đối với mục đích bảo mật, chúng tôi cần mật khẩu hiện tại của bạn."
 
 #: admin/modules/users/views/password.py:34
 msgid "New Password"
-msgstr ""
+msgstr "Mật khẩu mới"
 
 #: admin/modules/users/views/password.py:35
 msgid "New Password (again)"
-msgstr ""
+msgstr "Mật khẩu mới (một lần nữa)"
 
 #: admin/modules/users/views/password.py:42
 msgid "You can not change the password of a superuser."
-msgstr ""
+msgstr "Bạn không thể thay đổi mật khẩu của một siêu người dùng."
 
 #: admin/modules/users/views/password.py:82
 msgid "Change User Password"
-msgstr ""
+msgstr "Thay đổi mật khẩu người dùng"
 
 #: admin/modules/users/views/password.py:106
 #, python-format
 msgid "Password changed for %s."
-msgstr ""
+msgstr "Mật khẩu đã thay đổi cho %s."
 
 #: admin/modules/users/views/password.py:116
 msgid "Reset User Password"
-msgstr ""
+msgstr "Đặt lại mật khẩu người dùng"
 
 #: admin/modules/users/views/password.py:123
 msgid ""
 "Error! The `shuup.front.apps.auth` app needs to be enabled for password "
 "reset."
-msgstr ""
+msgstr "Lỗi! Ứng dụng shuup.front.apps.auth cần được kích hoạt để đặt lại mật khẩu."
+
 
 #: admin/modules/users/views/password.py:129
 #, python-format
 msgid "Password recovery email sent to %(email)s."
-msgstr ""
+msgstr "Mật khẩu Phục hồi Email được gửi đến %(email) s."
 
 #: admin/modules/users/views/password.py:132
 msgid "Error! Sending the password recovery email failed."
-msgstr ""
+msgstr "Lỗi! Gửi email khôi phục mật khẩu không thành công."
 
 #: admin/modules/users/views/permissions.py:31
 msgid ""
 "In order to allow making significant changes to accounts, we need to confirm "
 "that you know the password for the account you are using."
 msgstr ""
+"Để cho phép thực hiện các thay đổi quan trọng đối với tài khoản, chúng tôi "
+"cần xác nhận rằng bạn biết mật khẩu của tài khoản bạn đang sử dụng."
 
 #: admin/modules/users/views/permissions.py:47
 msgid "Superuser (Full rights) status"
-msgstr ""
+msgstr "Superuser (Full rights) status"
 
 #: admin/modules/users/views/permissions.py:49
 msgid ""
@@ -2578,10 +2638,14 @@ msgid ""
 "have any effect because Granular Permission Groups are only  able to give "
 "more rights, but Superuser already has them all."
 msgstr ""
+"Chỉ định liệu người dùng này có toàn bộ quyền hạn mà không cần gán "
+"rõ ràng từng quyền hay không. Việc gán Nhóm Quyền Chi Tiết cho Siêu người dùng "
+"sẽ không có tác dụng vì Nhóm Quyền Chi Tiết chỉ có thể cấp thêm quyền, "
+"trong khi Siêu người dùng đã có toàn bộ quyền đó rồi."
 
 #: admin/modules/users/views/permissions.py:54
 msgid "Access to Admin Panel status"
-msgstr ""
+msgstr "Access to Admin Panel status"
 
 #: admin/modules/users/views/permissions.py:56
 msgid ""
@@ -2589,6 +2653,9 @@ msgid ""
 "should have this status enabled, otherwise they won't be able to access the "
 "Admin Panel."
 msgstr ""
+"Chỉ định liệu người dùng này có thể đăng nhập vào trang quản trị này hay không. "
+"Ngay cả Siêu người dùng cũng nên được bật trạng thái này, nếu không họ sẽ không "
+"thể truy cập Bảng Quản trị."
 
 #: admin/modules/users/views/permissions.py:66
 msgid ""
@@ -2599,6 +2666,13 @@ msgid ""
 "specific user. Will not influence Superusers as they already have all the "
 "rights and can't be stripped of them without removing Superuser status first."
 msgstr ""
+"Sử dụng Nhóm Quyền để cấp quyền chi tiết hơn. Người dùng có thể thuộc "
+"nhiều nhóm và các quyền của họ sẽ được cộng dồn. Tìm kiếm Nhóm Quyền để "
+"thay đổi và thêm nhóm cho nhiều người dùng. "
+"Vào tài khoản người dùng -> Hành động -> Chỉnh sửa Quyền chính để thêm "
+"nhóm quyền cho một người dùng cụ thể. Điều này sẽ không ảnh hưởng "
+"đến Siêu người dùng vì họ đã có tất cả quyền và không thể bị tước quyền mà "
+"không gỡ trạng thái Siêu người dùng trước."
 
 #: admin/modules/users/views/permissions.py:116
 msgid ""
@@ -2606,111 +2680,113 @@ msgid ""
 "another account if you want to remove permissions for this particular "
 "account."
 msgstr ""
+"Bạn không thể tự bỏ trạng thái này vì lý do bảo mật. "
+"Hãy sử dụng tài khoản khác nếu bạn muốn gỡ quyền cho tài khoản này."
 
 #: admin/modules/users/views/permissions.py:132
 msgid "Change User Permissions"
-msgstr ""
+msgstr "Thay đổi quyền người dùng"
 
 #: admin/modules/users/views/permissions.py:159
 #, python-format
 msgid "Change Main Permissions: %s"
-msgstr ""
+msgstr "Thay đổi quyền chính: %s"
 
 #: admin/modules/users/views/permissions.py:164
 #, python-format
 msgid "Permissions changed for %s."
-msgstr ""
+msgstr "Quyền thay đổi cho %s."
 
 #: admin/shop_provider.py:60
 msgid "You must have the Access to Admin Panel permission."
-msgstr ""
+msgstr "Bạn phải có quyền truy cập vào quyền của bảng quản trị."
 
 #: admin/shop_provider.py:68
 msgid "You must have the Access to Admin Panel permissions to this shop."
-msgstr ""
+msgstr "Bạn phải có quyền truy cập vào quyền của bảng quản trị cho cửa hàng này."
 
 #: admin/templates/shuup/admin/forms/widgets/code_editor_with_preview.html:8
 msgid "HTML Preview"
-msgstr ""
+msgstr "HTML Xem trước"
 
 #: admin/toolbar.py:180
 msgid "Create new"
-msgstr ""
+msgstr "Tạo mới"
 
 #: admin/toolbar.py:201
 #, python-format
 msgid "New %(model)s"
-msgstr ""
+msgstr "Mới %(model)s"
 
 #: admin/toolbar.py:499
 msgid "Discard Changes"
-msgstr ""
+msgstr "Loại bỏ các thay đổi"
 
 #: admin/toolbar.py:508 admin/toolbar.py:514
 msgid "Save as a copy"
-msgstr ""
+msgstr "Lưu dưới dạng bản sao"
 
 #: admin/toolbar.py:566
 msgid "Save and Exit"
-msgstr ""
+msgstr "Lưu và thoát"
 
 #: admin/toolbar.py:571
 msgid "Save and Create New"
-msgstr ""
+msgstr "Lưu và tạo mới"
 
 #: admin/toolbar.py:608
 #, python-format
 msgid "Are you sure you wish to delete %s?"
-msgstr ""
+msgstr "Bạn có chắc chắn muốn xóa %s?"
 
 #: admin/utils/mass_action.py:19
 msgid "Export as CSV file"
-msgstr ""
+msgstr "Xuất ra CSV file"
 
 #: admin/utils/picotable.py:443
 #, python-format
 msgid "Showing %(per_page)s of %(n_items)s %(verbose_name_plural)s"
-msgstr ""
+msgstr "Hiển thị %(per_page) s của %(n_items) s %(verbose_name_plural) s"
 
 #: admin/utils/picotable.py:472
 msgid "objects"
-msgstr ""
+msgstr "Đối tượng"
 
 #: admin/utils/picotable.py:514
 msgid "Mass Action encountered an unknown error."
-msgstr ""
+msgstr "Hành động hàng loạt đã gặp lỗi không xác định."
 
 #: admin/utils/picotable.py:609
 msgid "Mass Action"
-msgstr ""
+msgstr "Hành động hàng loạt"
 
 #: admin/utils/urls.py:68
 #, python-format
 msgid "Can't view this page. %(reason)s"
-msgstr ""
+msgstr "Không thể xem trang này.%(reason) s"
 
 #: admin/utils/urls.py:69
 msgid "Log in with different credentials..."
-msgstr ""
+msgstr "Đăng nhập bằng các thông tin đăng nhập khác nhau ..."
 
 #: admin/utils/urls.py:84
 msgid "Sign in to continue."
-msgstr ""
+msgstr "Đăng nhập để tiếp tục."
 
 #: admin/utils/urls.py:86
 msgid ""
 "Your account must have `Access to Admin Panel` permissions to access this "
 "page."
-msgstr ""
+msgstr "Tài khoản của bạn phải có quyền Truy cập Bảng Quản trị để vào trang này."
 
 #: admin/utils/urls.py:88
 msgid "There is no active shop available. Contact support for more details."
-msgstr ""
+msgstr "Không có cửa hàng hoạt động có sẵn.Liên hệ hỗ trợ để biết thêm chi tiết."
 
 #: admin/utils/urls.py:92
 #, python-format
 msgid "You do not have the required permissions: %s"
-msgstr ""
+msgstr "Bạn không có quyền bắt buộc: %s"
 
 #: admin/utils/urls.py:247
 #, python-brace-format
@@ -2718,95 +2794,99 @@ msgid ""
 "Can't view this page. You do not have the required permission(s): "
 "`{permissions}`."
 msgstr ""
+"Không thể xem trang này. Bạn không có quyền cần thiết: "
+"{permissions}."
 
 #: admin/utils/views.py:65
 msgid "Unnamed"
-msgstr ""
+msgstr "Chưa đặt tên"
 
 #: admin/utils/views.py:165
 msgid "Item"
-msgstr ""
+msgstr "Mục"
 
 #: admin/utils/views.py:168
 #, python-format
 msgid "New %s was created."
-msgstr ""
+msgstr "%s mới được tạo ra."
 
 #: admin/utils/views.py:170
 #, python-format
 msgid "%s was edited."
-msgstr ""
+msgstr "%s đã được chỉnh sửa."
 
 #: admin/utils/views.py:189
 #, python-format
 msgid "New %s"
-msgstr ""
+msgstr "Mới %s"
 
 #: admin/utils/views.py:199
 #, python-format
 msgid "Unnamed %s"
-msgstr ""
+msgstr "Không tên %s"
 
 #: admin/utils/views.py:206
 #, python-format
 msgid "Only one %(model)s permitted."
-msgstr ""
+msgstr "Chỉ được phép một %(model)s."
 
 #: admin/utils/views.py:264
 msgid "Mass Edit"
-msgstr ""
+msgstr "Chỉnh sửa hàng loạt"
 
 #: admin/views/edit.py:25
 msgid "Invalid object."
-msgstr ""
+msgstr "Đối tượng không hợp lệ."
 
 #: admin/views/edit.py:32
 msgid "Invalid model."
-msgstr ""
+msgstr "Model không hợp lệ."
 
 #: admin/views/edit.py:66
 msgid "Object not found."
-msgstr ""
+msgstr "Không tìm thấy đối tượng."
 
 #: admin/views/home.py:32
 msgid "Storefront"
-msgstr ""
+msgstr "Storefront"
 
 #: admin/views/home.py:35
 msgid "General"
-msgstr ""
+msgstr "Tổng quan"
 
 #: admin/views/home.py:75
 msgid "Complete wizard"
-msgstr ""
+msgstr "Toàn bộ thuật sĩ"
 
 #: admin/views/home.py:86
 msgid "Complete the setup wizard"
-msgstr ""
+msgstr "Hoàn thành trình hướng dẫn thiết lập"
 
 #: admin/views/home.py:102
 msgid "All set. Nothing to be configured"
-msgstr ""
+msgstr "Tất cả được cài đặt. Không có gì cấu hình"
 
 #: admin/views/password.py:42
 msgid ""
 "A reset password email was sent. Please, follow the instructions to set a "
 "new password."
 msgstr ""
+"Email đặt lại mật khẩu đã được gửi. Vui lòng làm theo hướng dẫn "
+"để thiết lập mật khẩu mới."
 
 #: admin/views/password.py:78
 msgid "This recovery link is invalid."
-msgstr ""
+msgstr "Link dự phòng này không hợp lệ"
 
 #: admin/views/password.py:87
 msgid "Password was changed."
-msgstr ""
+msgstr "Mật khẩu đã thay đổi."
 
 #: admin/views/select.py:113
 #, python-format
 msgid "Couldn't get selections for %s."
-msgstr ""
+msgstr "Không thể có được lựa chọn cho %s."
 
 #: admin/views/select.py:216
 msgid "Selector not found."
-msgstr ""
+msgstr "Bộ chọn không tìm thấy."

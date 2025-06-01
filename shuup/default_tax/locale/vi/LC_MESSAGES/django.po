@@ -19,104 +19,104 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: default_tax/__init__.py:16
 msgid "Shuup Default Tax"
-msgstr ""
+msgstr "Thuế mặc định của Shuup"
 
 #: default_tax/admin_module/__init__.py:19
 #: default_tax/admin_module/__init__.py:32
 msgid "Tax Rules"
-msgstr ""
+msgstr "Quy tắc thuế"
 
 #: default_tax/admin_module/__init__.py:37
 msgid "Show tax rules"
-msgstr ""
+msgstr "Hiển thị các quy tắc thuế"
 
 #: default_tax/admin_module/views.py:35
 msgid "Use ISO 3166-1 country codes (US, FI etc.)"
-msgstr ""
+msgstr "Sử dụng mã quốc gia ISO 3166-1 (Hoa Kỳ, FI, v.v.)"
 
 #: default_tax/admin_module/views.py:38
 msgid "Use two letter state codes for the US"
-msgstr ""
+msgstr "Sử dụng hai mã trạng thái cho Hoa Kỳ"
 
 #: default_tax/admin_module/views.py:62
 msgid "Tax Rule"
-msgstr ""
+msgstr "Quy tắc thuế"
 
 #: default_tax/admin_module/views.py:63
 msgid "Tax"
-msgstr ""
+msgstr "Thuế"
 
 #: default_tax/admin_module/views.py:64
 msgid "Tax Classes"
-msgstr ""
+msgstr "Lớp thuế"
 
 #: default_tax/admin_module/views.py:65
 msgid "Customer Tax Groups"
-msgstr ""
+msgstr "Nhóm thuế khách hàng"
 
 #: default_tax/admin_module/views.py:66
 msgid "Countries"
-msgstr ""
+msgstr "Quốc gia"
 
 #: default_tax/admin_module/views.py:67
 msgid "Regions"
-msgstr ""
+msgstr "Khu vực"
 
 #: default_tax/admin_module/views.py:68
 msgid "Postal Codes"
-msgstr ""
+msgstr "Mã bưu điện"
 
 #: default_tax/admin_module/views.py:69
 msgid "Priority"
-msgstr ""
+msgstr "Sự ưu tiên"
 
 #: default_tax/admin_module/views.py:70
 msgid "Override Group"
-msgstr ""
+msgstr "GROUND GROUND"
 
 #: default_tax/admin_module/views.py:71
 msgid "Enabled"
-msgstr ""
+msgstr "Đã bật"
 
 #: default_tax/models.py:30
 msgid "enabled"
-msgstr ""
+msgstr "Đã bật"
 
 #: default_tax/models.py:30
 msgid "Enable this if this tax rule is active."
-msgstr ""
+msgstr "Kích hoạt điều này nếu quy tắc thuế này đang hoạt động."
 
 #: default_tax/models.py:33
 msgid "tax classes"
-msgstr ""
+msgstr "lớp thuế"
 
 #: default_tax/models.py:33
 msgid "Tax classes of the items to be taxed"
-msgstr ""
+msgstr "Các lớp thuế của các mặt hàng bị đánh thuế"
 
 #: default_tax/models.py:38
 msgid "customer tax groups"
-msgstr ""
+msgstr "Nhóm thuế khách hàng"
 
 #: default_tax/models.py:39
 msgid "The customer tax groups for which this tax rule is limited."
-msgstr ""
+msgstr "Các nhóm thuế khách hàng mà quy tắc thuế này bị hạn chế."
 
 #: default_tax/models.py:41
 msgid "country codes pattern"
-msgstr ""
+msgstr "mẫu mã quốc gia"
 
 #: default_tax/models.py:42
 msgid "region codes pattern"
-msgstr ""
+msgstr "Mẫu mã khu vực"
 
 #: default_tax/models.py:43
 msgid "postal codes pattern"
-msgstr ""
+msgstr "Mẫu mã bưu điện"
 
 #: default_tax/models.py:50
 msgid "priority"
-msgstr ""
+msgstr "sự ưu tiên"
 
 #: default_tax/models.py:52
 msgid ""
@@ -126,7 +126,7 @@ msgstr ""
 
 #: default_tax/models.py:59
 msgid "override group number"
-msgstr ""
+msgstr "ghi đè số nhóm"
 
 #: default_tax/models.py:61
 msgid ""
@@ -138,16 +138,16 @@ msgstr ""
 
 #: default_tax/models.py:68
 msgid "tax"
-msgstr ""
+msgstr "thuế"
 
 #: default_tax/models.py:68
 msgid "The tax to apply when this rule is applied."
-msgstr ""
+msgstr "Thuế cần áp dụng khi quy tắc này được áp dụng."
 
 #: default_tax/models.py:102
 msgid "Tax rule {} ({})"
-msgstr ""
+msgstr "Quy tắc thuế {} ({})"
 
 #: default_tax/module.py:20
 msgid "Default Taxation"
-msgstr ""
+msgstr "Thuế mặc định"

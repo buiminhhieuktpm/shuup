@@ -19,58 +19,58 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: customer_group_pricing/__init__.py:16
 msgid "Shuup Customer Group Pricing"
-msgstr ""
+msgstr "Giá của nhóm khách hàng Shuup"
 
 #: customer_group_pricing/admin_form_part.py:52
 #, python-format
 msgid "Price (%(shop)s/%(group)s)"
-msgstr ""
+msgstr "Giá (%(shop)s/%(group)s)"
 
 #: customer_group_pricing/admin_form_part.py:130
 #, python-format
 msgid "Discount (%(shop)s/%(group)s)"
-msgstr ""
+msgstr "Giảm giá (%(shop)s/%(group)s)"
 
 #: customer_group_pricing/models.py:19
 msgid "product"
-msgstr ""
+msgstr "sản phẩm"
 
 #: customer_group_pricing/models.py:20
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: customer_group_pricing/models.py:22
 msgid "contact group"
-msgstr ""
+msgstr "Nhóm liên hệ"
 
 #: customer_group_pricing/models.py:32
 msgid "price"
-msgstr ""
+msgstr "giá"
 
 #: customer_group_pricing/models.py:36
 msgid "product price"
-msgstr ""
+msgstr "giá sản phẩm"
 
 #: customer_group_pricing/models.py:37
 msgid "product prices"
-msgstr ""
+msgstr "giá sản phẩm"
 
 #: customer_group_pricing/models.py:57
 msgid "discount amount"
-msgstr ""
+msgstr "số tiền giảm giá"
 
 #: customer_group_pricing/models.py:61
 msgid "product discount"
-msgstr ""
+msgstr "Giảm giá sản phẩm"
 
 #: customer_group_pricing/models.py:62
 msgid "product discounts"
-msgstr ""
+msgstr "Giảm giá sản phẩm"
 
 #: customer_group_pricing/module.py:27
 msgid "Customer Group Pricing"
-msgstr ""
+msgstr "Giá của nhóm khách hàng"
 
 #: customer_group_pricing/module.py:102
 msgid "Customer Group Discount"
-msgstr ""
+msgstr "Giảm giá nhóm khách hàng"

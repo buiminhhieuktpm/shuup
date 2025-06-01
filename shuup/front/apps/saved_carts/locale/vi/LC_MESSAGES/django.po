@@ -20,29 +20,29 @@ msgstr ""
 
 #: front/apps/saved_carts/__init__.py:16
 msgid "Shuup Frontend - Saved Baskets"
-msgstr ""
+msgstr "Shuup Frontend - Giỏ đã lưu"
 
 #: front/apps/saved_carts/dashboard_items.py:16
 msgid "Saved Carts"
-msgstr ""
+msgstr "Xe cứu"
 
 #: front/apps/saved_carts/views.py:72
 msgid "Please enter a basket title."
-msgstr ""
+msgstr "Vui lòng nhập một tiêu đề giỏ."
 
 #: front/apps/saved_carts/views.py:74
 msgid "Can't save an empty basket."
-msgstr ""
+msgstr "Không thể tiết kiệm một cái giỏ trống."
 
 #: front/apps/saved_carts/views.py:117
 msgid "Product is not available in this shop."
-msgstr ""
+msgstr "Sản phẩm không có sẵn trong cửa hàng này."
 
 #: front/apps/saved_carts/views.py:123
 msgid "Invalid supplier."
-msgstr ""
+msgstr "Nhà cung cấp không hợp lệ."
 
 #: front/apps/saved_carts/views.py:137
 #, python-format
 msgid "%d product(s) added to cart."
-msgstr ""
+msgstr "%d Sản phẩm được thêm vào giỏ hàng."

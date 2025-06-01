@@ -21,89 +21,89 @@ msgstr ""
 #: front/apps/carousel/admin_module/__init__.py:18
 #: front/apps/carousel/models.py:117
 msgid "Carousels"
-msgstr ""
+msgstr "Băng chuyền"
 
 #: front/apps/carousel/admin_module/views/_delete.py:31
 #, python-format
 msgid "%s has been deleted."
-msgstr ""
+msgstr "%s đã bị xóa."
 
 #: front/apps/carousel/admin_module/views/_list.py:23
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: front/apps/carousel/admin_module/views/_list.py:26
 msgid "Filter by name..."
-msgstr ""
+msgstr "Lọc theo tên ..."
 
 #: front/apps/carousel/forms.py:21 front/apps/carousel/models.py:116
 msgid "Carousel"
-msgstr ""
+msgstr "Băng chuyền"
 
 #: front/apps/carousel/forms.py:26
 msgid "Active"
-msgstr ""
+msgstr "Tích cực"
 
 #: front/apps/carousel/models.py:32 front/apps/carousel/models.py:246
 #: front/apps/carousel/models.py:249
 msgid "Slide"
-msgstr ""
+msgstr "Cầu trượt"
 
 #: front/apps/carousel/models.py:33
 msgid "Fade"
-msgstr ""
+msgstr "Phai"
 
 #: front/apps/carousel/models.py:41
 msgid "Current page"
-msgstr ""
+msgstr "Trang hiện tại"
 
 #: front/apps/carousel/models.py:42
 msgid "New page"
-msgstr ""
+msgstr "Trang mới"
 
 #: front/apps/carousel/models.py:69
 msgid "shops"
-msgstr ""
+msgstr "Cửa hàng"
 
 #: front/apps/carousel/models.py:70
 msgid "Select which shops you would like the carousel to be visible in."
-msgstr ""
+msgstr "Chọn những cửa hàng nào bạn muốn hiển thị băng chuyền."
 
 #: front/apps/carousel/models.py:73 front/apps/carousel/models.py:131
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: front/apps/carousel/models.py:73
 msgid "The carousel name use for carousel configuration."
-msgstr ""
+msgstr "Tên băng chuyền sử dụng cho cấu hình băng chuyền."
 
 #: front/apps/carousel/models.py:78
 msgid "animation"
-msgstr ""
+msgstr "hoạt hình"
 
 #: front/apps/carousel/models.py:79
 msgid "Animation type for cycling slides."
-msgstr ""
+msgstr "Loại hoạt hình cho các slide đạp xe."
 
 #: front/apps/carousel/models.py:81
 msgid "interval"
-msgstr ""
+msgstr "khoảng thời gian"
 
 #: front/apps/carousel/models.py:81
 msgid "Slide interval in seconds."
-msgstr ""
+msgstr "Khoảng thời gian trượt trong giây."
 
 #: front/apps/carousel/models.py:84
 msgid "pause on hover"
-msgstr ""
+msgstr "Tạm dừng trên di chuột"
 
 #: front/apps/carousel/models.py:85
 msgid "When checked, the carousel cycling pauses on mouse over."
-msgstr ""
+msgstr "Khi được kiểm tra, các băng chuyền đạp xe tạm dừng trên chuột."
 
 #: front/apps/carousel/models.py:89
 msgid "show navigation arrows"
-msgstr ""
+msgstr "Hiển thị mũi tên điều hướng"
 
 #: front/apps/carousel/models.py:91
 msgid ""
@@ -113,43 +113,43 @@ msgstr ""
 
 #: front/apps/carousel/models.py:96
 msgid "show navigation dots"
-msgstr ""
+msgstr "Hiển thị các chấm điều hướng"
 
 #: front/apps/carousel/models.py:97
 msgid "When checked, navigational indicator dots are shown."
-msgstr ""
+msgstr "Khi được kiểm tra, các dấu chấm chỉ báo điều hướng được hiển thị."
 
 #: front/apps/carousel/models.py:100
 msgid "image width"
-msgstr ""
+msgstr "chiều rộng hình ảnh"
 
 #: front/apps/carousel/models.py:100
 msgid "Slide images will be cropped to this width."
-msgstr ""
+msgstr "Hình ảnh trượt sẽ được cắt theo chiều rộng này."
 
 #: front/apps/carousel/models.py:103
 msgid "image height"
-msgstr ""
+msgstr "chiều cao hình ảnh"
 
 #: front/apps/carousel/models.py:103
 msgid "Slide images will be cropped to this height."
-msgstr ""
+msgstr "Hình ảnh trượt sẽ được cắt đến chiều cao này."
 
 #: front/apps/carousel/models.py:106
 msgid "Arrows color"
-msgstr ""
+msgstr "Mũi tên màu"
 
 #: front/apps/carousel/models.py:109
 msgid "Set the custom color for the arrows."
-msgstr ""
+msgstr "Đặt màu tùy chỉnh cho các mũi tên."
 
 #: front/apps/carousel/models.py:132
 msgid "Name is only used to configure slides."
-msgstr ""
+msgstr "Tên chỉ được sử dụng để định cấu hình các slide."
 
 #: front/apps/carousel/models.py:139
 msgid "product link"
-msgstr ""
+msgstr "Liên kết sản phẩm"
 
 #: front/apps/carousel/models.py:140
 msgid ""
@@ -159,7 +159,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:148
 msgid "category link"
-msgstr ""
+msgstr "Liên kết danh mục"
 
 #: front/apps/carousel/models.py:149
 msgid ""
@@ -169,7 +169,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:155
 msgid "cms page link"
-msgstr ""
+msgstr "Liên kết trang CMS"
 
 #: front/apps/carousel/models.py:158
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:165
 msgid "ordering"
-msgstr ""
+msgstr "đặt hàng"
 
 #: front/apps/carousel/models.py:167
 msgid ""
@@ -188,7 +188,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:173
 msgid "link target"
-msgstr ""
+msgstr "liên kết mục tiêu"
 
 #: front/apps/carousel/models.py:174
 msgid ""
@@ -197,7 +197,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:179
 msgid "available since"
-msgstr ""
+msgstr "Có sẵn kể từ đó"
 
 #: front/apps/carousel/models.py:181
 msgid ""
@@ -208,7 +208,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:188
 msgid "available until"
-msgstr ""
+msgstr "Có sẵn cho đến khi"
 
 #: front/apps/carousel/models.py:190
 msgid ""
@@ -219,23 +219,23 @@ msgstr ""
 
 #: front/apps/carousel/models.py:195
 msgid "Inactive dot border color"
-msgstr ""
+msgstr "Màu đường viền chấm không hoạt động"
 
 #: front/apps/carousel/models.py:198
 msgid "Customize the dot border color when slide is not active."
-msgstr ""
+msgstr "Tùy chỉnh màu đường viền chấm khi slide không hoạt động."
 
 #: front/apps/carousel/models.py:201
 msgid "Active dot color"
-msgstr ""
+msgstr "Màu chấm hoạt động"
 
 #: front/apps/carousel/models.py:204
 msgid "Customize the dot color when slide is active."
-msgstr ""
+msgstr "Tùy chỉnh màu chấm khi slide hoạt động."
 
 #: front/apps/carousel/models.py:212
 msgid "caption"
-msgstr ""
+msgstr "đầu đề"
 
 #: front/apps/carousel/models.py:214
 msgid ""
@@ -246,7 +246,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:221
 msgid "caption text"
-msgstr ""
+msgstr "Chú thích văn bản"
 
 #: front/apps/carousel/models.py:223
 msgid ""
@@ -257,7 +257,7 @@ msgstr ""
 
 #: front/apps/carousel/models.py:232
 msgid "external link"
-msgstr ""
+msgstr "liên kết bên ngoài"
 
 #: front/apps/carousel/models.py:233
 msgid ""
@@ -267,32 +267,32 @@ msgstr ""
 
 #: front/apps/carousel/models.py:239
 msgid "image"
-msgstr ""
+msgstr "hình ảnh"
 
 #: front/apps/carousel/models.py:241
 msgid "The slide image to show."
-msgstr ""
+msgstr "Hình ảnh slide để hiển thị."
 
 #: front/apps/carousel/models.py:250
 msgid "Slides"
-msgstr ""
+msgstr "Slide"
 
 #: front/apps/carousel/plugins.py:20
 msgid "Carousel Plugin"
-msgstr ""
+msgstr "Plugin băng chuyền"
 
 #: front/apps/carousel/plugins.py:28 front/apps/carousel/plugins.py:75
 msgid "Render image text"
-msgstr ""
+msgstr "Kết xuất văn bản hình ảnh"
 
 #: front/apps/carousel/plugins.py:31 front/apps/carousel/plugins.py:78
 msgid "Display the text on top of the image."
-msgstr ""
+msgstr "Hiển thị văn bản trên đầu hình ảnh."
 
 #: front/apps/carousel/plugins.py:68
 msgid "Banner Box"
-msgstr ""
+msgstr "Hộp biểu ngữ"
 
 #: front/apps/carousel/plugins.py:71
 msgid "Title"
-msgstr ""
+msgstr "Tiêu đề"

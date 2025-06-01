@@ -20,4 +20,4 @@ msgstr ""
 
 #: front/apps/simple_search/forms.py:101
 msgid "Search"
-msgstr ""
+msgstr "Tìm kiếm"

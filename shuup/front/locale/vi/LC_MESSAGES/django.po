@@ -20,12 +20,12 @@ msgstr ""
 
 #: front/admin_module/__init__.py:44
 msgid "Abandoned Cart Value"
-msgstr ""
+msgstr "Giá trị giỏ hàng bị bỏ rơi"
 
 #: front/admin_module/__init__.py:48
 #, python-brace-format
 msgid "Based on {b} carts over the last {d} days"
-msgstr ""
+msgstr "Dựa trên {b} giỏ hàng trong những ngày {d} cuối cùng"
 
 #: front/admin_module/__init__.py:74 front/admin_module/carts/views/_list.py:83
 msgid "Carts"
@@ -37,7 +37,7 @@ msgstr "Xem giỏ hàng"
 
 #: front/admin_module/carts/form_parts.py:31
 msgid "Cart Inactivity Delay (hours)"
-msgstr ""
+msgstr "Giảm độ trễ không hoạt động (giờ)"
 
 #: front/admin_module/carts/form_parts.py:32
 msgid ""
@@ -47,85 +47,85 @@ msgstr ""
 
 #: front/admin_module/carts/views/_list.py:30
 msgid "Key"
-msgstr ""
+msgstr "Chìa khóa"
 
 #: front/admin_module/carts/views/_list.py:31
 #: front/admin_module/carts/views/_list.py:90
 msgid "Last updated on"
-msgstr ""
+msgstr "Cập nhật lần cuối"
 
 #: front/admin_module/carts/views/_list.py:34
 msgid "Completed"
-msgstr ""
+msgstr "Hoàn thành"
 
 #: front/admin_module/carts/views/_list.py:36
 msgid "yes"
-msgstr ""
+msgstr "Đúng"
 
 #: front/admin_module/carts/views/_list.py:36
 msgid "no"
-msgstr ""
+msgstr "KHÔNG"
 
 #: front/admin_module/carts/views/_list.py:38 front/notify_events.py:30
 msgid "Shop"
-msgstr ""
+msgstr "Cửa hàng"
 
 #: front/admin_module/carts/views/_list.py:39
 msgid "Supplier"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: front/admin_module/carts/views/_list.py:42
 msgid "Customer"
-msgstr ""
+msgstr "Khách hàng"
 
 #: front/admin_module/carts/views/_list.py:45
 msgid "Product count"
-msgstr ""
+msgstr "Số lượng sản phẩm"
 
 #: front/admin_module/carts/views/_list.py:48
 #: front/admin_module/carts/views/_list.py:92
 msgid "Total"
-msgstr ""
+msgstr "Tổng cộng"
 
 #: front/admin_module/carts/views/_list.py:89
 msgid "Created on"
-msgstr ""
+msgstr "Được tạo ra trên"
 
 #: front/admin_module/carts/views/_list.py:91
 msgid "Ordered"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: front/admin_module/checkout/form_parts.py:20
 msgid "Require shipping method"
-msgstr ""
+msgstr "Yêu cầu phương thức vận chuyển"
 
 #: front/admin_module/checkout/form_parts.py:21
 msgid "Whether to require the shipping method in checkout phases."
-msgstr ""
+msgstr "Có yêu cầu phương thức vận chuyển trong các giai đoạn thanh toán."
 
 #: front/admin_module/checkout/form_parts.py:25
 msgid "Require payment method"
-msgstr ""
+msgstr "Yêu cầu phương thức thanh toán"
 
 #: front/admin_module/checkout/form_parts.py:26
 msgid "Whether to require the payment method in checkout phases."
-msgstr ""
+msgstr "Có yêu cầu phương thức thanh toán trong các giai đoạn thanh toán."
 
 #: front/admin_module/companies/form_parts.py:17
 msgid "Registration Settings"
-msgstr ""
+msgstr "Cài đặt đăng ký"
 
 #: front/admin_module/companies/form_parts.py:19
 msgid "Allow company registration"
-msgstr ""
+msgstr "Cho phép đăng ký công ty"
 
 #: front/admin_module/companies/form_parts.py:20
 msgid "If you select this, companies can register into your store."
-msgstr ""
+msgstr "Nếu bạn chọn điều này, các công ty có thể đăng ký vào cửa hàng của bạn."
 
 #: front/admin_module/companies/form_parts.py:24
 msgid "Company registration requires approval"
-msgstr ""
+msgstr "Đăng ký công ty yêu cầu phê duyệt"
 
 #: front/admin_module/companies/form_parts.py:26
 msgid ""
@@ -136,15 +136,15 @@ msgstr ""
 
 #: front/admin_module/companies/form_parts.py:32
 msgid "Company tax number validation"
-msgstr ""
+msgstr "Xác thực số thuế của công ty"
 
 #: front/admin_module/companies/form_parts.py:33
 msgid "Company tax number format is validated for European countries."
-msgstr ""
+msgstr "Định dạng số thuế của công ty được xác nhận cho các nước châu Âu."
 
 #: front/admin_module/sorts_and_filters/form_parts.py:50
 msgid "Override shop's default configuration"
-msgstr ""
+msgstr "Ghi đè cấu hình mặc định của cửa hàng"
 
 #: front/admin_module/sorts_and_filters/form_parts.py:52
 msgid ""
@@ -154,7 +154,7 @@ msgstr ""
 
 #: front/admin_module/translation/form_parts.py:21
 msgid "Available languages in storefront"
-msgstr ""
+msgstr "Ngôn ngữ có sẵn trong cửa hàng"
 
 #: front/admin_module/translation/form_parts.py:23
 msgid ""
@@ -164,65 +164,65 @@ msgstr ""
 
 #: front/basket/objects.py:27
 msgid "Try to remove some products from the basket and order them separately."
-msgstr ""
+msgstr "Cố gắng loại bỏ một số sản phẩm từ giỏ và đặt hàng riêng."
 
 #: front/basket/objects.py:34
 #, python-format
 msgid "Products in basket can't be shipped together. %s"
-msgstr ""
+msgstr "Sản phẩm trong giỏ không thể được vận chuyển cùng nhau. %s"
 
 #: front/basket/objects.py:38
 #, python-format
 msgid "Products in basket have no common payment method. %s"
-msgstr ""
+msgstr "Sản phẩm trong giỏ không có phương thức thanh toán chung. %s"
 
 #: front/checkout/addresses.py:42
 msgid "Tax number is required with the company name."
-msgstr ""
+msgstr "Số thuế được yêu cầu với tên công ty."
 
 #: front/checkout/addresses.py:45
 msgid "Company name is required with the tax number."
-msgstr ""
+msgstr "Tên công ty được yêu cầu với số thuế."
 
 #: front/checkout/addresses.py:53
 msgid "Use a saved address"
-msgstr ""
+msgstr "Sử dụng một địa chỉ đã lưu"
 
 #: front/checkout/addresses.py:66
 msgid "Addresses"
-msgstr ""
+msgstr "Địa chỉ"
 
 #: front/checkout/addresses.py:139
 msgid "Saved addresses."
-msgstr ""
+msgstr "Địa chỉ lưu."
 
 #: front/checkout/checkout_method.py:28
 msgid "Checkout as Guest"
-msgstr ""
+msgstr "Thanh toán với tư cách là khách"
 
 #: front/checkout/checkout_method.py:29 front/checkout/checkout_method.py:100
 msgid "Register"
-msgstr ""
+msgstr "Đăng ký"
 
 #: front/checkout/checkout_method.py:36
 msgid "Register with us for future convenience"
-msgstr ""
+msgstr "Đăng ký với chúng tôi để thuận tiện trong tương lai"
 
 #: front/checkout/checkout_method.py:43
 msgid "Checkout Method Choice"
-msgstr ""
+msgstr "Phương pháp kiểm tra lựa chọn"
 
 #: front/checkout/confirm.py:27
 msgid "I accept the terms and conditions"
-msgstr ""
+msgstr "Tôi chấp nhận các điều khoản và điều kiện"
 
 #: front/checkout/confirm.py:28
 msgid "I want to receive marketing material"
-msgstr ""
+msgstr "Tôi muốn nhận tài liệu tiếp thị"
 
 #: front/checkout/confirm.py:29
 msgid "Comment"
-msgstr ""
+msgstr "Bình luận"
 
 #: front/checkout/confirm.py:57
 msgid ""
@@ -232,57 +232,57 @@ msgstr ""
 
 #: front/checkout/confirm.py:63
 msgid "Confirmation"
-msgstr ""
+msgstr "Xác nhận"
 
 #: front/checkout/confirm.py:106
 msgid "Starting to create order."
-msgstr ""
+msgstr "Bắt đầu tạo trật tự."
 
 #: front/checkout/empty.py:16
 msgid "Empty Basket"
-msgstr ""
+msgstr "Giỏ trống"
 
 #: front/checkout/methods.py:77
 msgid "shipping method"
-msgstr ""
+msgstr "phương pháp vận chuyển"
 
 #: front/checkout/methods.py:83
 msgid "payment method"
-msgstr ""
+msgstr "Phương thức thanh toán"
 
 #: front/checkout/methods.py:106
 msgid "Shipping & Payment"
-msgstr ""
+msgstr "Vận chuyển & Thanh toán"
 
 #: front/checkout/methods.py:153
 msgid "Saved services."
-msgstr ""
+msgstr "Dịch vụ đã lưu."
 
 #: front/forms/product_list_modifiers.py:110
 msgid "Sort products by name"
-msgstr ""
+msgstr "Sắp xếp sản phẩm theo tên"
 
 #: front/forms/product_list_modifiers.py:112
 msgid "Ordering for sort by name"
-msgstr ""
+msgstr "Đặt hàng theo tên"
 
 #: front/forms/product_list_modifiers.py:118
 #: front/forms/product_list_modifiers.py:159
 #: front/forms/product_list_modifiers.py:207
 msgid "Sort"
-msgstr ""
+msgstr "Loại"
 
 #: front/forms/product_list_modifiers.py:127
 msgid "Name - A-Z"
-msgstr ""
+msgstr "Tên - A -Z"
 
 #: front/forms/product_list_modifiers.py:128
 msgid "Name - Z-A"
-msgstr ""
+msgstr "Tên - Z -A"
 
 #: front/forms/product_list_modifiers.py:142
 msgid "Enable this to allow products to be sortable by product name."
-msgstr ""
+msgstr "Cho phép điều này để cho phép các sản phẩm được sắp xếp theo tên sản phẩm."
 
 #: front/forms/product_list_modifiers.py:144
 #: front/forms/product_list_modifiers.py:192
@@ -293,19 +293,19 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:151
 msgid "Sort products by price"
-msgstr ""
+msgstr "Sắp xếp sản phẩm theo giá"
 
 #: front/forms/product_list_modifiers.py:153
 msgid "Ordering for sort by price"
-msgstr ""
+msgstr "Đặt hàng theo giá theo giá"
 
 #: front/forms/product_list_modifiers.py:168
 msgid "Price - Low to High"
-msgstr ""
+msgstr "Giá - thấp đến cao"
 
 #: front/forms/product_list_modifiers.py:169
 msgid "Price - High to Low"
-msgstr ""
+msgstr "Giá - Cao đến thấp"
 
 #: front/forms/product_list_modifiers.py:189
 msgid ""
@@ -315,15 +315,15 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:199
 msgid "Sort products by date created"
-msgstr ""
+msgstr "Sắp xếp sản phẩm theo ngày được tạo ra"
 
 #: front/forms/product_list_modifiers.py:201
 msgid "Ordering for sort by date created"
-msgstr ""
+msgstr "Đặt hàng để sắp xếp theo ngày được tạo"
 
 #: front/forms/product_list_modifiers.py:216
 msgid "Date created"
-msgstr ""
+msgstr "Ngày được tạo ra"
 
 #: front/forms/product_list_modifiers.py:235
 msgid ""
@@ -339,15 +339,15 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:245
 msgid "Sort products by date created - oldest first"
-msgstr ""
+msgstr "Sắp xếp các sản phẩm theo ngày được tạo ra - đầu tiên lâu đời nhất"
 
 #: front/forms/product_list_modifiers.py:247
 msgid "Ordering for sort by date created - oldest first"
-msgstr ""
+msgstr "Đặt hàng để sắp xếp theo ngày được tạo - đầu tiên lâu đời nhất"
 
 #: front/forms/product_list_modifiers.py:254
 msgid "Date created - oldest first"
-msgstr ""
+msgstr "Ngày được tạo - đầu tiên lâu đời nhất"
 
 #: front/forms/product_list_modifiers.py:262
 msgid ""
@@ -356,15 +356,15 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:272
 msgid "Filter products by manufacturer"
-msgstr ""
+msgstr "Lọc sản phẩm của nhà sản xuất"
 
 #: front/forms/product_list_modifiers.py:274
 msgid "Ordering for filter by manufacturer"
-msgstr ""
+msgstr "Đặt hàng cho bộ lọc của nhà sản xuất"
 
 #: front/forms/product_list_modifiers.py:299
 msgid "Manufacturers"
-msgstr ""
+msgstr "Nhà sản xuất"
 
 #: front/forms/product_list_modifiers.py:313
 msgid ""
@@ -380,15 +380,15 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:324
 msgid "Filter products by category"
-msgstr ""
+msgstr "Lọc sản phẩm theo thể loại"
 
 #: front/forms/product_list_modifiers.py:326
 msgid "Ordering for filter by category"
-msgstr ""
+msgstr "Đặt hàng cho bộ lọc theo danh mục"
 
 #: front/forms/product_list_modifiers.py:354
 msgid "Categories"
-msgstr ""
+msgstr "Thể loại"
 
 #: front/forms/product_list_modifiers.py:381
 msgid ""
@@ -404,15 +404,15 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:392
 msgid "Limit page size"
-msgstr ""
+msgstr "Giới hạn kích thước trang"
 
 #: front/forms/product_list_modifiers.py:394
 msgid "Ordering for limit page size"
-msgstr ""
+msgstr "Đặt hàng cho kích thước trang giới hạn"
 
 #: front/forms/product_list_modifiers.py:401
 msgid "Products per page"
-msgstr ""
+msgstr "Sản phẩm trên mỗi trang"
 
 #: front/forms/product_list_modifiers.py:414
 msgid ""
@@ -428,11 +428,11 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:425
 msgid "Filter products by variation"
-msgstr ""
+msgstr "Lọc sản phẩm theo biến thể"
 
 #: front/forms/product_list_modifiers.py:427
 msgid "Ordering for filter by variation"
-msgstr ""
+msgstr "Đặt hàng cho bộ lọc theo biến thể"
 
 #: front/forms/product_list_modifiers.py:480
 msgid ""
@@ -448,15 +448,15 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:492
 msgid "Filter products by price"
-msgstr ""
+msgstr "Lọc sản phẩm theo giá"
 
 #: front/forms/product_list_modifiers.py:494
 msgid "Ordering for filter by price"
-msgstr ""
+msgstr "Đặt hàng cho bộ lọc theo giá"
 
 #: front/forms/product_list_modifiers.py:517
 msgid "Price"
-msgstr ""
+msgstr "Giá"
 
 #: front/forms/product_list_modifiers.py:542
 msgid ""
@@ -473,7 +473,7 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:551
 msgid "Price range minimum"
-msgstr ""
+msgstr "Phạm vi giá tối thiểu"
 
 #: front/forms/product_list_modifiers.py:554
 msgid ""
@@ -483,7 +483,7 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:557
 msgid "Price range maximum"
-msgstr ""
+msgstr "Phạm vi giá tối đa"
 
 #: front/forms/product_list_modifiers.py:560
 msgid ""
@@ -493,7 +493,7 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:563
 msgid "Price range step"
-msgstr ""
+msgstr "Bước giá"
 
 #: front/forms/product_list_modifiers.py:566
 msgid ""
@@ -502,51 +502,51 @@ msgstr ""
 
 #: front/forms/product_list_modifiers.py:577
 msgid "Filter products by its attributes"
-msgstr ""
+msgstr "Lọc sản phẩm theo thuộc tính của nó"
 
 #: front/forms/product_list_modifiers.py:664
 msgid "Allow products to be filtered according to their attributes."
-msgstr ""
+msgstr "Cho phép các sản phẩm được lọc theo thuộc tính của chúng."
 
 #: front/forms/product_list_modifiers.py:668
 msgid "Attributes that can be filtered"
-msgstr ""
+msgstr "Các thuộc tính có thể được lọc"
 
 #: front/forms/product_list_modifiers.py:670
 msgid "Select attributes that can used for filtering the products."
-msgstr ""
+msgstr "Chọn các thuộc tính có thể được sử dụng để lọc các sản phẩm."
 
 #: front/forms/product_list_modifiers.py:690
 #, python-format
 msgid "Under %(min_limit)s"
-msgstr ""
+msgstr "Theo %(min_limit) s"
 
 #: front/forms/product_list_modifiers.py:700
 #, python-format
 msgid "%(min)s to %(max)s"
-msgstr ""
+msgstr "%(min)s đến %(max) s"
 
 #: front/forms/product_list_modifiers.py:705
 #, python-format
 msgid "%(max_limit)s & Above"
-msgstr ""
+msgstr "%(max_limit)s & ở trên"
 
 #: front/forms/product_list_supplier_modifier.py:25
 msgid "Filter products by supplier"
-msgstr ""
+msgstr "Lọc sản phẩm của nhà cung cấp"
 
 #: front/forms/product_list_supplier_modifier.py:27
 msgid "Ordering for filter by supplier"
-msgstr ""
+msgstr "Đặt hàng cho bộ lọc bởi nhà cung cấp"
 
 #: front/forms/product_list_supplier_modifier.py:54
 #: front/forms/product_list_supplier_modifier.py:67
 msgid "Suppliers"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: front/forms/product_list_supplier_modifier.py:84
 msgid "Enable this to allow products to be filterable by supplier."
-msgstr ""
+msgstr "Cho phép điều này để cho phép các sản phẩm có thể lọc được bởi nhà cung cấp."
 
 #: front/forms/product_list_supplier_modifier.py:86
 msgid ""
@@ -556,223 +556,223 @@ msgstr ""
 
 #: front/forms/product_list_supplier_modifier.py:89
 msgid "Allow multiselect suppliers"
-msgstr ""
+msgstr "Cho phép các nhà cung cấp đa chọn"
 
 #: front/forms/product_list_supplier_modifier.py:91
 msgid "Filter by multiple suppliers at a time."
-msgstr ""
+msgstr "Lọc bởi nhiều nhà cung cấp cùng một lúc."
 
 #: front/middleware.py:93
 msgid "Logged out since this account is inactive."
-msgstr ""
+msgstr "Đăng xuất vì tài khoản này không hoạt động."
 
 #: front/models/stored_basket.py:24
 msgid "key"
-msgstr ""
+msgstr "chìa khóa"
 
 #: front/models/stored_basket.py:26
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: front/models/stored_basket.py:28
 msgid "supplier"
-msgstr ""
+msgstr "nhà cung cấp"
 
 #: front/models/stored_basket.py:37
 msgid "customer"
-msgstr ""
+msgstr "khách hàng"
 
 #: front/models/stored_basket.py:45
 msgid "orderer"
-msgstr ""
+msgstr "người đặt hàng"
 
 #: front/models/stored_basket.py:53
 msgid "creator"
-msgstr ""
+msgstr "người tạo ra"
 
 #: front/models/stored_basket.py:56
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: front/models/stored_basket.py:57
 msgid "updated on"
-msgstr ""
+msgstr "Cập nhật trên"
 
 #: front/models/stored_basket.py:58
 msgid "persistent"
-msgstr ""
+msgstr "dai dẳng"
 
 #: front/models/stored_basket.py:59
 msgid "deleted"
-msgstr ""
+msgstr "đã xóa"
 
 #: front/models/stored_basket.py:60
 msgid "finished"
-msgstr ""
+msgstr "hoàn thành"
 
 #: front/models/stored_basket.py:61
 msgid "title"
-msgstr ""
+msgstr "tiêu đề"
 
 #: front/models/stored_basket.py:62
 msgid "data"
-msgstr ""
+msgstr "dữ liệu"
 
 #: front/models/stored_basket.py:68
 msgid "taxless total price"
-msgstr ""
+msgstr "Tổng giá vô thuế"
 
 #: front/models/stored_basket.py:69
 msgid "taxful total price"
-msgstr ""
+msgstr "Tổng giá thuế"
 
 #: front/models/stored_basket.py:70
 msgid "currency"
-msgstr ""
+msgstr "tiền tệ"
 
 #: front/models/stored_basket.py:71
 msgid "prices include tax"
-msgstr ""
+msgstr "Giá bao gồm thuế"
 
 #: front/models/stored_basket.py:73
 msgid "product_count"
-msgstr ""
+msgstr "sản phẩm_count"
 
 #: front/models/stored_basket.py:74
 msgid "products"
-msgstr ""
+msgstr "các sản phẩm"
 
 #: front/models/stored_basket.py:76
 msgid "class spec"
-msgstr ""
+msgstr "lớp học"
 
 #: front/models/stored_basket.py:80
 msgid "stored basket"
-msgstr ""
+msgstr "Giỏ lưu trữ"
 
 #: front/models/stored_basket.py:81
 msgid "stored baskets"
-msgstr ""
+msgstr "Giỏ lưu trữ"
 
 #: front/notify_events.py:27
 msgid "ID"
-msgstr ""
+msgstr "NHẬN DẠNG"
 
 #: front/notify_events.py:28
 msgid "Reference Number"
-msgstr ""
+msgstr "Số tham chiếu"
 
 #: front/notify_events.py:29
 msgid "Currency"
-msgstr ""
+msgstr "Tiền tệ"
 
 #: front/notify_events.py:31
 msgid "Customer Name"
-msgstr ""
+msgstr "Tên khách hàng"
 
 #: front/notify_events.py:32
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: front/notify_events.py:33
 msgid "Shipping Method"
-msgstr ""
+msgstr "Phương pháp vận chuyển"
 
 #: front/notify_events.py:39
 msgid "Order Received"
-msgstr ""
+msgstr "Đơn đặt hàng nhận được"
 
 #: front/notify_events.py:41 front/notify_events.py:53
 #: front/notify_events.py:67 front/notify_events.py:88
 #: front/notify_events.py:101 front/notify_events.py:114
 msgid "Order"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: front/notify_events.py:42 front/notify_events.py:54
 #: front/notify_events.py:68 front/notify_events.py:89
 #: front/notify_events.py:102 front/notify_events.py:115
 msgid "Customer Email"
-msgstr ""
+msgstr "Email khách hàng"
 
 #: front/notify_events.py:43 front/notify_events.py:55
 #: front/notify_events.py:69 front/notify_events.py:90
 #: front/notify_events.py:103 front/notify_events.py:116
 msgid "Customer Phone"
-msgstr ""
+msgstr "Điện thoại khách hàng"
 
 #: front/notify_events.py:44 front/notify_events.py:56
 msgid "Shop Email"
-msgstr ""
+msgstr "Cửa hàng email"
 
 #: front/notify_events.py:45 front/notify_events.py:57
 msgid "Shop Phone"
-msgstr ""
+msgstr "Cửa hàng điện thoại"
 
 #: front/notify_events.py:46 front/notify_events.py:60
 #: front/notify_events.py:70 front/notify_events.py:91
 #: front/notify_events.py:104 front/notify_events.py:117
 msgid "Language"
-msgstr ""
+msgstr "Ngôn ngữ"
 
 #: front/notify_events.py:51
 msgid "Order Status Changed"
-msgstr ""
+msgstr "Trạng thái đặt hàng đã thay đổi"
 
 #: front/notify_events.py:58
 msgid "Old Status"
-msgstr ""
+msgstr "Tình trạng cũ"
 
 #: front/notify_events.py:59
 msgid "New Status"
-msgstr ""
+msgstr "Trạng thái mới"
 
 #: front/notify_events.py:65
 msgid "Shipment Created"
-msgstr ""
+msgstr "Lô hàng được tạo ra"
 
 #: front/notify_events.py:72 front/notify_events.py:93
 msgid "Shipment"
-msgstr ""
+msgstr "Lô hàng"
 
 #: front/notify_events.py:73 front/notify_events.py:94
 msgid "Order Shipping Status"
-msgstr ""
+msgstr "Đặt hàng trạng thái vận chuyển"
 
 #: front/notify_events.py:74
 msgid "Shipment Status"
-msgstr ""
+msgstr "Tình trạng lô hàng"
 
 #: front/notify_events.py:75
 msgid "Shipment Tracking Code"
-msgstr ""
+msgstr "Mã theo dõi lô hàng"
 
 #: front/notify_events.py:76
 msgid "Shipment Tracking URL"
-msgstr ""
+msgstr "Lô hàng theo dõi URL"
 
 #: front/notify_events.py:81
 msgid "Shipment Sent"
-msgstr ""
+msgstr "Lô hàng được gửi"
 
 #: front/notify_events.py:86
 msgid "Shipment Deleted"
-msgstr ""
+msgstr "Lô hàng đã xóa"
 
 #: front/notify_events.py:99
 msgid "Payment Created"
-msgstr ""
+msgstr "Thanh toán được tạo"
 
 #: front/notify_events.py:106 front/notify_events.py:119
 msgid "Order Payment Status"
-msgstr ""
+msgstr "Trạng thái thanh toán đặt hàng"
 
 #: front/notify_events.py:107
 msgid "Payment"
-msgstr ""
+msgstr "Sự chi trả"
 
 #: front/notify_events.py:112
 msgid "Refund Created"
-msgstr ""
+msgstr "Hoàn lại tiền được tạo ra"
 
 #: front/notify_script_templates/generics.py:26
 msgid ""
@@ -804,11 +804,11 @@ msgstr ""
 
 #: front/notify_script_templates/generics.py:58
 msgid "Send Shipment Created Email"
-msgstr ""
+msgstr "Gửi email đã tạo ra email"
 
 #: front/notify_script_templates/generics.py:59
 msgid "Send an email to customer when a shipment is created."
-msgstr ""
+msgstr "Gửi email cho khách hàng khi một lô hàng được tạo."
 
 #: front/notify_script_templates/generics.py:60
 msgid ""
@@ -818,15 +818,15 @@ msgstr ""
 
 #: front/notify_script_templates/generics.py:62
 msgid "{{ order.shop }} - Shipment created for order {{ order.identifier }}"
-msgstr ""
+msgstr "{{order.shop}} - lô hàng được tạo cho đơn hàng {{order.identifier}}"
 
 #: front/notify_script_templates/generics.py:70
 msgid "Send Shipment Deleted Email"
-msgstr ""
+msgstr "Gửi email đã xóa lô hàng"
 
 #: front/notify_script_templates/generics.py:71
 msgid "Send email when a shipment is deleted."
-msgstr ""
+msgstr "Gửi email khi một lô hàng bị xóa."
 
 #: front/notify_script_templates/generics.py:73
 msgid ""
@@ -836,15 +836,15 @@ msgstr ""
 
 #: front/notify_script_templates/generics.py:75
 msgid "{{ order.shop }} - Shipment deleted for order {{ order.identifier }}"
-msgstr ""
+msgstr "{{order.shop}} - Lô hàng bị xóa để đặt hàng {{order.identifier}}"
 
 #: front/notify_script_templates/generics.py:81
 msgid "Send Payment Created Email"
-msgstr ""
+msgstr "Gửi email đã tạo thanh toán"
 
 #: front/notify_script_templates/generics.py:82
 msgid "Send email to customer when a payment is created."
-msgstr ""
+msgstr "Gửi email cho khách hàng khi thanh toán được tạo."
 
 #: front/notify_script_templates/generics.py:84
 msgid ""
@@ -854,15 +854,15 @@ msgstr ""
 
 #: front/notify_script_templates/generics.py:86
 msgid "{{ order.shop }} - Payment created for order {{ order.identifier }}"
-msgstr ""
+msgstr "{{order.shop}} - thanh toán được tạo cho đơn hàng {{order.identifier}}"
 
 #: front/notify_script_templates/generics.py:92
 msgid "Send Refund Created Email"
-msgstr ""
+msgstr "Gửi email đã tạo hoàn lại tiền"
 
 #: front/notify_script_templates/generics.py:93
 msgid "Send email when a refund is created."
-msgstr ""
+msgstr "Gửi email khi hoàn lại tiền được tạo."
 
 #: front/notify_script_templates/generics.py:95
 msgid ""
@@ -872,15 +872,15 @@ msgstr ""
 
 #: front/notify_script_templates/generics.py:97
 msgid "{{ order.shop }} - Refund created for order {{ order.identifier }}"
-msgstr ""
+msgstr "{{order.shop}} - hoàn trả được tạo cho đơn hàng {{order.identifier}}"
 
 #: front/notify_script_templates/generics.py:103
 msgid "Send Order Confirmation Email"
-msgstr ""
+msgstr "Gửi email xác nhận đơn đặt hàng"
 
 #: front/notify_script_templates/generics.py:104
 msgid "Send a confirmation email when the order is created."
-msgstr ""
+msgstr "Gửi email xác nhận khi đơn đặt hàng được tạo."
 
 #: front/notify_script_templates/generics.py:106
 msgid ""
@@ -891,15 +891,15 @@ msgstr ""
 
 #: front/themes/__init__.py:24
 msgid "Hide prices"
-msgstr ""
+msgstr "Ẩn giá"
 
 #: front/themes/__init__.py:25
 msgid "Set shop in catalog mode"
-msgstr ""
+msgstr "Đặt cửa hàng ở chế độ danh mục"
 
 #: front/themes/__init__.py:31
 msgid "Show supplier info"
-msgstr ""
+msgstr "Hiển thị thông tin nhà cung cấp"
 
 #: front/themes/__init__.py:32
 msgid ""
@@ -908,7 +908,7 @@ msgstr ""
 
 #: front/themes/__init__.py:40
 msgid "Show Product Details"
-msgstr ""
+msgstr "Hiển thị chi tiết sản phẩm"
 
 #: front/themes/__init__.py:41
 msgid ""
@@ -918,7 +918,7 @@ msgstr ""
 
 #: front/themes/__init__.py:49
 msgid "Show Variations as Buttons"
-msgstr ""
+msgstr "Hiển thị các biến thể như các nút"
 
 #: front/themes/__init__.py:50
 msgid ""
@@ -928,78 +928,78 @@ msgstr ""
 
 #: front/themes/__init__.py:57
 msgid "Product detail extra tab title"
-msgstr ""
+msgstr "Chi tiết sản phẩm tiêu đề tab bổ sung"
 
 #: front/themes/__init__.py:58
 msgid "Enter the title for the product detail extra tab."
-msgstr ""
+msgstr "Nhập tiêu đề cho tab Chi tiết sản phẩm thêm."
 
 #: front/themes/__init__.py:66
 msgid "Product detail extra tab content"
-msgstr ""
+msgstr "Chi tiết sản phẩm nội dung tab bổ sung"
 
 #: front/themes/__init__.py:67
 msgid "Enter the content for the product detail extra tab."
-msgstr ""
+msgstr "Nhập nội dung cho tab Chi tiết sản phẩm thêm."
 
 #: front/themes/__init__.py:74
 msgid "Description"
-msgstr ""
+msgstr "Sự miêu tả"
 
 #: front/themes/__init__.py:75
 msgid "Details"
-msgstr ""
+msgstr "Chi tiết"
 
 #: front/themes/__init__.py:76
 msgid "Attributes"
-msgstr ""
+msgstr "Thuộc tính"
 
 #: front/themes/__init__.py:77
 msgid "Files"
-msgstr ""
+msgstr "Tệp"
 
 #: front/themes/__init__.py:80
 msgid "Product reviews"
-msgstr ""
+msgstr "Đánh giá sản phẩm"
 
 #: front/themes/__init__.py:94
 msgid "Product detail tabs"
-msgstr ""
+msgstr "Tab chi tiết sản phẩm"
 
 #: front/themes/__init__.py:95
 msgid "Select all tabs that should be rendered in product details."
-msgstr ""
+msgstr "Chọn tất cả các tab nên được hiển thị trong chi tiết sản phẩm."
 
 #: front/utils/companies.py:36
 msgid "Tax number is not valid."
-msgstr ""
+msgstr "Số thuế không hợp lệ."
 
 #: front/utils/dashboard.py:29
 msgid "Dashboard"
-msgstr ""
+msgstr "Bảng điều khiển"
 
 #: front/utils/dashboard.py:53
 msgid "Edit"
-msgstr ""
+msgstr "Biên tập"
 
 #: front/utils/translation.py:51
 #, python-brace-format
 msgid "`{language_code}` is an invalid language code."
-msgstr ""
+msgstr "`{language_code}` là một mã ngôn ngữ không hợp lệ."
 
 #: front/views/payment.py:55
 msgid "The order is canceled so you can't pay for it."
-msgstr ""
+msgstr "Đơn hàng bị hủy để bạn không thể trả tiền cho nó."
 
 #: front/views/product.py:55
 msgid "Error! This product is not available in this shop."
-msgstr ""
+msgstr "Lỗi!Sản phẩm này không có sẵn trong cửa hàng này."
 
 #: front/views/timezone.py:25
 msgid "Invalid timezone"
-msgstr ""
+msgstr "Thời gian không hợp lệ"
 
 #: front/views/upload.py:24
 #, python-format
 msgid "Maximum file size reached (%(size)s MB)."
-msgstr ""
+msgstr "Kích thước tệp tối đa đạt (%(size)s MB)."

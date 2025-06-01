@@ -20,8 +20,8 @@ msgstr ""
 
 #: front/apps/recently_viewed_products/__init__.py:16
 msgid "Shuup Frontend - Recently Viewed Products"
-msgstr ""
+msgstr "Shuup Frontend - Sản phẩm được xem gần đây"
 
 #: front/apps/recently_viewed_products/plugins.py:18
 msgid "Recently Viewed Products List"
-msgstr ""
+msgstr "Danh sách sản phẩm được xem gần đây"

@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: gdpr/admin_module/__init__.py:18 gdpr/admin_module/__init__.py:38
 msgid "GDPR"
-msgstr ""
+msgstr "GDPR"
 
 #: gdpr/admin_module/toolbar.py:19
 msgid "Anonymize"
-msgstr ""
+msgstr "Ẩn danh"
 
 #: gdpr/admin_module/toolbar.py:22
 msgid ""
@@ -34,47 +34,47 @@ msgstr ""
 
 #: gdpr/admin_module/toolbar.py:39
 msgid "Download data"
-msgstr ""
+msgstr "Tải xuống dữ liệu"
 
 #: gdpr/admin_module/views.py:43
 msgid "Save"
-msgstr ""
+msgstr "Cứu"
 
 #: gdpr/admin_module/views.py:59
 msgid "General Data Protection Regulation"
-msgstr ""
+msgstr "Quy định bảo vệ dữ liệu chung"
 
 #: gdpr/admin_module/views.py:117
 msgid "Contact was anonymized."
-msgstr ""
+msgstr "Liên hệ đã được ẩn danh."
 
 #: gdpr/dashboard_items.py:15
 msgid "My Data"
-msgstr ""
+msgstr "Dữ liệu của tôi"
 
 #: gdpr/dashboard_items.py:18
 msgid "Customer data"
-msgstr ""
+msgstr "Dữ liệu khách hàng"
 
 #: gdpr/models.py:35
 msgid "enabled"
-msgstr ""
+msgstr "Đã bật"
 
 #: gdpr/models.py:35
 msgid "Define if the GDPR is active."
-msgstr ""
+msgstr "Xác định nếu GDPR hoạt động."
 
 #: gdpr/models.py:39
 msgid "skip consent on login"
-msgstr ""
+msgstr "Bỏ qua sự đồng ý về đăng nhập"
 
 #: gdpr/models.py:40
 msgid "Do not require consent on login when GDPR is activated."
-msgstr ""
+msgstr "Không yêu cầu đồng ý đăng nhập khi GDPR được kích hoạt."
 
 #: gdpr/models.py:46
 msgid "privacy policy page"
-msgstr ""
+msgstr "Trang chính sách bảo mật"
 
 #: gdpr/models.py:48
 msgid ""
@@ -84,7 +84,7 @@ msgstr ""
 
 #: gdpr/models.py:53
 msgid "consent pages"
-msgstr ""
+msgstr "trang đồng ý"
 
 #: gdpr/models.py:56
 msgid ""
@@ -94,23 +94,23 @@ msgstr ""
 
 #: gdpr/models.py:63
 msgid "cookie banner content"
-msgstr ""
+msgstr "Nội dung Banner Cookie"
 
 #: gdpr/models.py:64
 msgid "The text to be presented to users in a pop-up warning."
-msgstr ""
+msgstr "Văn bản được trình bày cho người dùng trong một cảnh báo bật lên."
 
 #: gdpr/models.py:68
 msgid "cookie privacy excerpt"
-msgstr ""
+msgstr "Trích đoạn quyền riêng tư cookie"
 
 #: gdpr/models.py:69
 msgid "The summary text to be presented about cookie privacy."
-msgstr ""
+msgstr "Văn bản tóm tắt được trình bày về quyền riêng tư cookie."
 
 #: gdpr/models.py:73
 msgid "login consent text"
-msgstr ""
+msgstr "Đăng nhập văn bản đồng ý"
 
 #: gdpr/models.py:75
 msgid ""
@@ -120,27 +120,27 @@ msgstr ""
 
 #: gdpr/models.py:82 gdpr/models.py:83
 msgid "GDPR settings"
-msgstr ""
+msgstr "Cài đặt GDPR"
 
 #: gdpr/models.py:86
 msgid "GDPR for {}"
-msgstr ""
+msgstr "GDPR cho {}"
 
 #: gdpr/models.py:108
 msgid "always active"
-msgstr ""
+msgstr "luôn luôn hoạt động"
 
 #: gdpr/models.py:110
 msgid "active by default"
-msgstr ""
+msgstr "hoạt động theo mặc định"
 
 #: gdpr/models.py:112
 msgid "whether this cookie category is active by default"
-msgstr ""
+msgstr "Liệu danh mục cookie này có hoạt động theo mặc định"
 
 #: gdpr/models.py:115
 msgid "cookies used"
-msgstr ""
+msgstr "Cookies được sử dụng"
 
 #: gdpr/models.py:117
 msgid ""
@@ -150,7 +150,7 @@ msgstr ""
 
 #: gdpr/models.py:125
 msgid "Snippets to block if not consented"
-msgstr ""
+msgstr "Đoạn trích để chặn nếu không đồng ý"
 
 #: gdpr/models.py:127
 msgid ""
@@ -160,51 +160,51 @@ msgstr ""
 
 #: gdpr/models.py:130
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: gdpr/models.py:132
 msgid "how we use"
-msgstr ""
+msgstr "Cách chúng tôi sử dụng"
 
 #: gdpr/models.py:133
 msgid "Describe the purpose of this category of cookies and how it is used."
-msgstr ""
+msgstr "Mô tả mục đích của loại cookie này và cách sử dụng nó."
 
 #: gdpr/models.py:139
 msgid "GDPR cookie category"
-msgstr ""
+msgstr "Danh mục cookie GDPR"
 
 #: gdpr/models.py:140
 msgid "GDPR cookie categories"
-msgstr ""
+msgstr "Danh mục cookie GDPR"
 
 #: gdpr/models.py:143
 msgid "GDPR cookie category for {}"
-msgstr ""
+msgstr "Danh mục cookie GDPR cho {}"
 
 #: gdpr/models.py:148
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: gdpr/models.py:157
 msgid "consent documents"
-msgstr ""
+msgstr "tài liệu đồng ý"
 
 #: gdpr/models.py:161
 msgid "GDPR user consent"
-msgstr ""
+msgstr "Sự đồng ý của người dùng GDPR"
 
 #: gdpr/models.py:162
 msgid "GDPR user consents"
-msgstr ""
+msgstr "Người dùng GDPR đồng ý"
 
 #: gdpr/models.py:212
 msgid "GDPR user consent in {} for user {} in shop {}"
-msgstr ""
+msgstr "Sự đồng ý của người dùng GDPR trong {} cho người dùng {} trong shop {}"
 
 #: gdpr/models.py:221
 msgid "GDPR user consent document for {} (Version: {})"
-msgstr ""
+msgstr "Tài liệu đồng ý người dùng GDPR cho {} (phiên bản: {})"
 
 #: gdpr/providers.py:73
 msgid ""
@@ -214,15 +214,15 @@ msgstr ""
 
 #: gdpr/providers.py:85
 msgid "You must accept this in order to register."
-msgstr ""
+msgstr "Bạn phải chấp nhận điều này để đăng ký."
 
 #: gdpr/providers.py:89
 msgid "You must accept this to order."
-msgstr ""
+msgstr "Bạn phải chấp nhận điều này để đặt hàng."
 
 #: gdpr/providers.py:93
 msgid "You must accept this in order to authenticate."
-msgstr ""
+msgstr "Bạn phải chấp nhận điều này để xác thực."
 
 #: gdpr/settings.py:17
 msgid ""
@@ -249,11 +249,11 @@ msgstr ""
 
 #: gdpr/utils.py:102 gdpr/utils.py:124
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Chính sách bảo mật"
 
 #: gdpr/utils.py:143 gdpr/utils.py:155
 msgid "Required"
-msgstr ""
+msgstr "Yêu cầu"
 
 #: gdpr/utils.py:145 gdpr/utils.py:157
 msgid ""
@@ -263,17 +263,17 @@ msgstr ""
 
 #: gdpr/views.py:133
 msgid "GDPR: Anonymize"
-msgstr ""
+msgstr "GDPR: Ẩn danh"
 
 #: gdpr/views.py:140
 msgid "GDPR: Anonymize contact"
-msgstr ""
+msgstr "GDPR: Liên hệ ẩn danh"
 
 #: gdpr/views.py:141
 #, python-brace-format
 msgid "Customer ID {customer_id} requested to be anonymized."
-msgstr ""
+msgstr "ID khách hàng {customer_id} được yêu cầu ẩn danh."
 
 #: gdpr/views.py:148
 msgid "Anonymization requested."
-msgstr ""
+msgstr "Yêu cầu ẩn danh."

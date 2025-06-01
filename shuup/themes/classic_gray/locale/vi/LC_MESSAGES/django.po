@@ -19,16 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: themes/classic_gray/theme.py:28
 msgid "Default"
-msgstr ""
+msgstr "Mặc định"
 
 #: themes/classic_gray/theme.py:34
 msgid "Midnight Blue"
-msgstr ""
+msgstr "Midnight Blue"
 
 #: themes/classic_gray/theme.py:40
 msgid "Candy Pink"
-msgstr ""
+msgstr "Candy Pink"
 
 #: themes/classic_gray/theme.py:46
 msgid "Show Frontpage Welcome Text"
-msgstr ""
+msgstr "Hiển thị văn bản chào mừng FrontPage"

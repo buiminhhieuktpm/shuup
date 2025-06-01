@@ -20,19 +20,19 @@ msgstr ""
 #: order_printouts/admin_module/__init__.py:17
 #: order_printouts/admin_module/section.py:30
 msgid "Printouts"
-msgstr ""
+msgstr "Bản in"
 
 #: order_printouts/admin_module/forms.py:13
 msgid "To"
-msgstr ""
+msgstr "ĐẾN"
 
 #: order_printouts/admin_module/forms.py:14
 msgid "Email Subject"
-msgstr ""
+msgstr "Chủ đề email"
 
 #: order_printouts/admin_module/forms.py:15
 msgid "Email Body"
-msgstr ""
+msgstr "Cơ quan email"
 
 #: order_printouts/admin_module/section.py:21
 #, python-format
@@ -46,7 +46,7 @@ msgstr ""
 #: order_printouts/admin_module/section.py:49
 #, python-format
 msgid "%(shop)s: Order %(pk)s"
-msgstr ""
+msgstr "%(shop)s: Đặt hàng %(pk)s"
 
 #: order_printouts/admin_module/views.py:26
 msgid ""
@@ -57,21 +57,21 @@ msgstr ""
 #: order_printouts/admin_module/views.py:58
 #: order_printouts/admin_module/views.py:76
 msgid "Non-POST request methods are forbidden."
-msgstr ""
+msgstr "Các phương pháp yêu cầu không đăng bị cấm."
 
 #: order_printouts/admin_module/views.py:96
 msgid "Delivery slip"
-msgstr ""
+msgstr "Giao hàng trượt"
 
 #: order_printouts/admin_module/views.py:96
 #: order_printouts/admin_module/views.py:115
 msgid "Order"
-msgstr ""
+msgstr "Đặt hàng"
 
 #: order_printouts/admin_module/views.py:115
 msgid "Order confirmation"
-msgstr ""
+msgstr "Xác nhận đặt hàng"
 
 #: order_printouts/apps.py:16
 msgid "Order printouts"
-msgstr ""
+msgstr "Đặt hàng bản in"

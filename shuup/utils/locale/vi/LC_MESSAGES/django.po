@@ -20,67 +20,67 @@ msgstr ""
 
 #: utils/__init__.py:43
 msgid "Shuup Utilities"
-msgstr ""
+msgstr "Tiện ích shuup"
 
 #: utils/analog.py:29
 msgid "other"
-msgstr ""
+msgstr "khác"
 
 #: utils/analog.py:30
 msgid "audit"
-msgstr ""
+msgstr "kiểm toán"
 
 #: utils/analog.py:31
 msgid "edit"
-msgstr ""
+msgstr "biên tập"
 
 #: utils/analog.py:32
 msgid "deletion"
-msgstr ""
+msgstr "xóa"
 
 #: utils/analog.py:33
 msgid "note"
-msgstr ""
+msgstr "ghi chú"
 
 #: utils/analog.py:34
 msgid "email"
-msgstr ""
+msgstr "e-mail"
 
 #: utils/analog.py:35
 msgid "warning"
-msgstr ""
+msgstr "cảnh báo"
 
 #: utils/analog.py:36
 msgid "error"
-msgstr ""
+msgstr "lỗi"
 
 #: utils/analog.py:41
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: utils/analog.py:42
 msgid "user"
-msgstr ""
+msgstr "người dùng"
 
 #: utils/analog.py:43
 msgid "message"
-msgstr ""
+msgstr "tin nhắn"
 
 #: utils/analog.py:44
 msgid "identifier"
-msgstr ""
+msgstr "định danh"
 
 #: utils/analog.py:45
 msgid "log entry kind"
-msgstr ""
+msgstr "Kiểu nhập nhật ký"
 
 #: utils/analog.py:46
 msgid "extra data"
-msgstr ""
+msgstr "thêm dữ liệu"
 
 #: utils/analog.py:64
 msgid "target"
-msgstr ""
+msgstr "mục tiêu"
 
 #: utils/dates.py:354
 #, python-format
@@ -92,7 +92,7 @@ msgstr[1] ""
 #: utils/dates.py:355
 #, python-format
 msgid "%(min)s--%(max)s days"
-msgstr ""
+msgstr "%(min)s-%(max)s ngày"
 
 #: utils/fields.py:45
 #, python-brace-format
@@ -111,15 +111,15 @@ msgstr[1] ""
 #: utils/filer.py:29
 #, python-format
 msgid "Maximum file size reached (%(size)s MB)."
-msgstr ""
+msgstr "Kích thước tệp tối đa đạt (%(size)s MB)."
 
 #: utils/filer.py:238
 msgid "Root"
-msgstr ""
+msgstr "Root"
 
 #: utils/multilanguage_model_form.py:125
 msgid "This field is required."
-msgstr ""
+msgstr "Lĩnh vực này là bắt buộc."
 
 #: utils/patterns.py:15
 msgid ""

@@ -20,169 +20,169 @@ msgstr ""
 #: tasks/admin_module/__init__.py:23 tasks/admin_module/__init__.py:43
 #: tasks/admin_module/__init__.py:89
 msgid "Tasks"
-msgstr ""
+msgstr "Nhiệm vụ"
 
 #: tasks/admin_module/__init__.py:48
 msgid "Show Tasks"
-msgstr ""
+msgstr "Hiển thị nhiệm vụ"
 
 #: tasks/admin_module/__init__.py:94 tasks/admin_module/__init__.py:107
 msgid "Task Types"
-msgstr ""
+msgstr "Loại nhiệm vụ"
 
 #: tasks/admin_module/__init__.py:112
 msgid "Show Task Types"
-msgstr ""
+msgstr "Hiển thị các loại nhiệm vụ"
 
 #: tasks/admin_module/views/edit.py:80
 #, python-brace-format
 msgid "Changed assigment from {from_contact_name} to {to_contact_name}."
-msgstr ""
+msgstr "Thay đổi gán từ {from_contact_name} thành {to_contact_name}."
 
 #: tasks/admin_module/views/edit.py:152
 msgid "Set In Progress"
-msgstr ""
+msgstr "Thiết lập trong tiến trình"
 
 #: tasks/admin_module/views/edit.py:163
 msgid "Set Completed"
-msgstr ""
+msgstr "Thiết lập hoàn thành"
 
 #: tasks/admin_module/views/edit.py:216
 msgid "Invalid status."
-msgstr ""
+msgstr "Trạng thái không hợp lệ."
 
 #: tasks/admin_module/views/edit.py:225
 msgid "Status changed."
-msgstr ""
+msgstr "Trạng thái đã thay đổi."
 
 #: tasks/admin_module/views/list.py:24 tasks/admin_module/views/list.py:64
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: tasks/admin_module/views/list.py:27 tasks/admin_module/views/list.py:67
 msgid "Filter by name..."
-msgstr ""
+msgstr "Lọc theo tên ..."
 
 #: tasks/admin_module/views/list.py:31
 msgid "Creator"
-msgstr ""
+msgstr "Người tạo ra"
 
 #: tasks/admin_module/views/list.py:33
 msgid "Filter by creator..."
-msgstr ""
+msgstr "Lọc bởi người tạo ..."
 
 #: tasks/admin_module/views/list.py:35 tasks/notify_events.py:21
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: tasks/admin_module/views/list.py:36 tasks/notify_events.py:22
 msgid "Priority"
-msgstr ""
+msgstr "Sự ưu tiên"
 
 #: tasks/admin_module/views/list.py:38
 msgid "Comments"
-msgstr ""
+msgstr "Nhận xét"
 
 #: tasks/models.py:31
 msgid "New"
-msgstr ""
+msgstr "Mới"
 
 #: tasks/models.py:32
 msgid "In progress"
-msgstr ""
+msgstr "Trong tiến trình"
 
 #: tasks/models.py:33
 msgid "Completed"
-msgstr ""
+msgstr "Hoàn thành"
 
 #: tasks/models.py:34
 msgid "Deleted"
-msgstr ""
+msgstr "Đã xóa"
 
 #: tasks/models.py:43
 msgid "Public"
-msgstr ""
+msgstr "Công cộng"
 
 #: tasks/models.py:44
 msgid "Staff Only"
-msgstr ""
+msgstr "Chỉ nhân viên"
 
 #: tasks/models.py:45
 msgid "Admins Only"
-msgstr ""
+msgstr "Chỉ có quản trị viên"
 
 #: tasks/models.py:52 tasks/models.py:87
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: tasks/models.py:54 tasks/models.py:88
 msgid "name"
-msgstr ""
+msgstr "tên"
 
 #: tasks/models.py:58 tasks/models.py:89
 msgid "task type"
-msgstr ""
+msgstr "Loại nhiệm vụ"
 
 #: tasks/models.py:59
 msgid "task types"
-msgstr ""
+msgstr "loại nhiệm vụ"
 
 #: tasks/models.py:90
 msgid "status"
-msgstr ""
+msgstr "trạng thái"
 
 #: tasks/models.py:91
 msgid "priority"
-msgstr ""
+msgstr "sự ưu tiên"
 
 #: tasks/models.py:98
 msgid "creator"
-msgstr ""
+msgstr "người tạo ra"
 
 #: tasks/models.py:106
 msgid "assigned to"
-msgstr ""
+msgstr "được giao cho"
 
 #: tasks/models.py:114
 msgid "completed by"
-msgstr ""
+msgstr "hoàn thành bởi"
 
 #: tasks/models.py:116
 msgid "completed on"
-msgstr ""
+msgstr "hoàn thành trên"
 
 #: tasks/models.py:117 tasks/models.py:189
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: tasks/models.py:118 tasks/models.py:190
 msgid "modified on"
-msgstr ""
+msgstr "sửa đổi trên"
 
 #: tasks/models.py:176
 msgid "task"
-msgstr ""
+msgstr "nhiệm vụ"
 
 #: tasks/models.py:183
 msgid "author"
-msgstr ""
+msgstr "tác giả"
 
 #: tasks/models.py:186
 msgid "visibility"
-msgstr ""
+msgstr "khả năng hiển thị"
 
 #: tasks/models.py:188
 msgid "body"
-msgstr ""
+msgstr "thân hình"
 
 #: tasks/notify_events.py:17
 msgid "Task Created"
-msgstr ""
+msgstr "Nhiệm vụ được tạo ra"
 
 #: tasks/notify_events.py:19
 msgid "Task"
-msgstr ""
+msgstr "Nhiệm vụ"
 
 #: tasks/notify_events.py:20
 msgid "Type"
-msgstr ""
+msgstr "Kiểu"

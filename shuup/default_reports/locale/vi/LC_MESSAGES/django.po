@@ -20,305 +20,305 @@ msgstr ""
 #: default_reports/forms.py:22 default_reports/reports/customer_sales.py:24
 #: default_reports/reports/orders.py:25
 msgid "Customer"
-msgstr ""
+msgstr "Khách hàng"
 
 #: default_reports/forms.py:25
 msgid "Filter report results by customer."
-msgstr ""
+msgstr "Lọc báo cáo kết quả của khách hàng."
 
 #: default_reports/forms.py:32
 msgid "Orderer"
-msgstr ""
+msgstr "Người đặt hàng"
 
 #: default_reports/forms.py:35
 msgid "Filter report results by the person that made the order."
-msgstr ""
+msgstr "Kết quả báo cáo bộ lọc của người đã đặt hàng."
 
 #: default_reports/forms.py:53
 msgid "Order Line Type"
-msgstr ""
+msgstr "Loại dòng đặt hàng"
 
 #: default_reports/forms.py:63
 msgid "Suppliers"
-msgstr ""
+msgstr "Nhà cung cấp"
 
 #: default_reports/forms.py:66
 msgid "Filter order lines by suppliers."
-msgstr ""
+msgstr "Lọc dòng đơn hàng của các nhà cung cấp."
 
 #: default_reports/forms.py:69
 msgid "Order status"
-msgstr ""
+msgstr "Trạng thái đặt hàng"
 
 #: default_reports/forms.py:72
 msgid "Filter order lines by status of their order."
-msgstr ""
+msgstr "Lọc các dòng thứ tự theo trạng thái của đơn đặt hàng của họ."
 
 #: default_reports/forms.py:92 default_reports/reports/orders.py:62
 #: default_reports/reports/product_total_sales.py:28
 msgid "Quantity"
-msgstr ""
+msgstr "Số lượng"
 
 #: default_reports/forms.py:93 default_reports/forms.py:116
 #: default_reports/reports/customer_sales.py:27
 #: default_reports/reports/product_total_sales.py:29
 #: default_reports/reports/sales.py:30
 msgid "Taxless Total"
-msgstr ""
+msgstr "Tổng số vô thuế"
 
 #: default_reports/forms.py:94 default_reports/forms.py:117
 #: default_reports/reports/customer_sales.py:28
 #: default_reports/reports/product_total_sales.py:30
 #: default_reports/reports/sales.py:31
 msgid "Taxful Total"
-msgstr ""
+msgstr "Tổng số thuế"
 
 #: default_reports/forms.py:97 default_reports/forms.py:120
 msgid "Sort order"
-msgstr ""
+msgstr "Sắp xếp thứ tự"
 
 #: default_reports/forms.py:102
 msgid "Year"
-msgstr ""
+msgstr "Năm"
 
 #: default_reports/forms.py:103
 msgid "Year/Month"
-msgstr ""
+msgstr "Năm/tháng"
 
 #: default_reports/forms.py:104
 msgid "Year/Month/Day"
-msgstr ""
+msgstr "Năm/tháng/ngày"
 
 #: default_reports/forms.py:108
 msgid "Group by"
-msgstr ""
+msgstr "Nhóm theo"
 
 #: default_reports/forms.py:114
 msgid "Order Count"
-msgstr ""
+msgstr "ĐẶT HÀNG ĐẶT HÀNG"
 
 #: default_reports/forms.py:115 default_reports/reports/customer_sales.py:26
 msgid "Average Sales"
-msgstr ""
+msgstr "Doanh số trung bình"
 
 #: default_reports/forms.py:126 default_reports/reports/taxes.py:27
 msgid "Tax"
-msgstr ""
+msgstr "Thuế"
 
 #: default_reports/forms.py:126
 msgid "Filter report results by tax."
-msgstr ""
+msgstr "Lọc báo cáo kết quả bằng thuế."
 
 #: default_reports/forms.py:130
 msgid "Tax Class"
-msgstr ""
+msgstr "Loại thuế"
 
 #: default_reports/forms.py:133
 msgid "Filter report results by tax class."
-msgstr ""
+msgstr "Lọc báo cáo kết quả theo loại thuế."
 
 #: default_reports/forms.py:152
 msgid "Shipping Method"
-msgstr ""
+msgstr "Phương pháp vận chuyển"
 
 #: default_reports/forms.py:155
 msgid "Filter report results by shipping method."
-msgstr ""
+msgstr "Kết quả báo cáo bộ lọc bằng phương pháp vận chuyển."
 
 #: default_reports/forms.py:159 default_reports/reports/shipping.py:25
 msgid "Carrier"
-msgstr ""
+msgstr "Người vận chuyển"
 
 #: default_reports/forms.py:162
 msgid "Filter report results by carrier."
-msgstr ""
+msgstr "Lọc báo cáo kết quả của nhà cung cấp."
 
 #: default_reports/reports/customer_sales.py:19
 msgid "Customer Sales"
-msgstr ""
+msgstr "Bán hàng của khách hàng"
 
 #: default_reports/reports/customer_sales.py:25
 #: default_reports/reports/sales.py:28 default_reports/reports/shipping.py:27
 #: default_reports/reports/taxes.py:29
 msgid "Orders"
-msgstr ""
+msgstr "Đơn đặt hàng"
 
 #: default_reports/reports/new_customers.py:19
 msgid "New Customers"
-msgstr ""
+msgstr "Khách hàng mới"
 
 #: default_reports/reports/new_customers.py:24
 #: default_reports/reports/sales.py:27
 msgid "Date"
-msgstr ""
+msgstr "Ngày"
 
 #: default_reports/reports/new_customers.py:25
 msgid "Persons"
-msgstr ""
+msgstr "Người"
 
 #: default_reports/reports/new_customers.py:26
 msgid "Companies"
-msgstr ""
+msgstr "Công ty"
 
 #: default_reports/reports/new_customers.py:27
 msgid "Users"
-msgstr ""
+msgstr "Người dùng"
 
 #: default_reports/reports/orders.py:18
 msgid "Orders Report"
-msgstr ""
+msgstr "Báo cáo đơn đặt hàng"
 
 #: default_reports/reports/orders.py:23
 msgid "Order ref."
-msgstr ""
+msgstr "Đặt hàng tham khảo."
 
 #: default_reports/reports/orders.py:24
 msgid "Order date"
-msgstr ""
+msgstr "Ngày đặt hàng"
 
 #: default_reports/reports/orders.py:26
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: default_reports/reports/orders.py:27
 msgid "Order line quantity"
-msgstr ""
+msgstr "Số lượng dòng thứ tự"
 
 #: default_reports/reports/orders.py:28
 msgid "Payment status"
-msgstr ""
+msgstr "Tình trạng thanh toán"
 
 #: default_reports/reports/orders.py:29
 msgid "Shipment status"
-msgstr ""
+msgstr "Tình trạng lô hàng"
 
 #: default_reports/reports/orders.py:30 default_reports/reports/taxes.py:32
 msgid "Total"
-msgstr ""
+msgstr "Tổng cộng"
 
 #: default_reports/reports/orders.py:55
 msgid "Order Line Report"
-msgstr ""
+msgstr "Báo cáo dòng đơn đặt hàng"
 
 #: default_reports/reports/orders.py:60
 msgid "Order Line SKU"
-msgstr ""
+msgstr "Line Line Sku"
 
 #: default_reports/reports/orders.py:61
 msgid "Order Line Text"
-msgstr ""
+msgstr "Văn bản dòng đặt hàng"
 
 #: default_reports/reports/orders.py:63
 msgid "Taxless Unit Price"
-msgstr ""
+msgstr "Đơn giá không thuế"
 
 #: default_reports/reports/orders.py:64
 msgid "Taxful Unit Price"
-msgstr ""
+msgstr "Đơn giá thuế"
 
 #: default_reports/reports/orders.py:65
 msgid "Taxful Price"
-msgstr ""
+msgstr "Giá thuế"
 
 #: default_reports/reports/orders.py:66
 msgid "Created on"
-msgstr ""
+msgstr "Được tạo ra trên"
 
 #: default_reports/reports/orders.py:67
 msgid "Type"
-msgstr ""
+msgstr "Kiểu"
 
 #: default_reports/reports/product_total_sales.py:21
 msgid "Product Total Sales"
-msgstr ""
+msgstr "Tổng doanh số sản phẩm"
 
 #: default_reports/reports/product_total_sales.py:26
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: default_reports/reports/product_total_sales.py:27
 msgid "SKU"
-msgstr ""
+msgstr "SKU"
 
 #: default_reports/reports/refunds.py:19
 msgid "Refunded Sales"
-msgstr ""
+msgstr "Bán hàng hoàn trả"
 
 #: default_reports/reports/refunds.py:24
 msgid "Refunded Orders"
-msgstr ""
+msgstr "Đơn đặt hàng được hoàn lại"
 
 #: default_reports/reports/refunds.py:25
 msgid "Total Refunded"
-msgstr ""
+msgstr "Tổng số được hoàn lại"
 
 #: default_reports/reports/sales.py:22
 msgid "Sales Report"
-msgstr ""
+msgstr "Báo cáo bán hàng"
 
 #: default_reports/reports/sales.py:29
 msgid "Products"
-msgstr ""
+msgstr "Các sản phẩm"
 
 #: default_reports/reports/sales_per_hour.py:20
 msgid "Sales Per Hour"
-msgstr ""
+msgstr "Doanh số mỗi giờ"
 
 #: default_reports/reports/sales_per_hour.py:25
 msgid "Hour"
-msgstr ""
+msgstr "Giờ"
 
 #: default_reports/reports/sales_per_hour.py:26
 #: default_reports/reports/total_sales.py:25
 msgid "Order Amount"
-msgstr ""
+msgstr "Số tiền đặt hàng"
 
 #: default_reports/reports/sales_per_hour.py:27
 #: default_reports/reports/total_sales.py:18
 #: default_reports/reports/total_sales.py:28
 msgid "Total Sales"
-msgstr ""
+msgstr "Tổng doanh số"
 
 #: default_reports/reports/shipping.py:20
 msgid "Shipping"
-msgstr ""
+msgstr "Vận chuyển"
 
 #: default_reports/reports/shipping.py:26
 msgid "Shipping method"
-msgstr ""
+msgstr "Phương pháp vận chuyển"
 
 #: default_reports/reports/shipping.py:28
 msgid "Total Charged"
-msgstr ""
+msgstr "Tổng số điện tích"
 
 #: default_reports/reports/taxes.py:22
 msgid "Taxes"
-msgstr ""
+msgstr "Thuế"
 
 #: default_reports/reports/taxes.py:28
 msgid "Rate (%)"
-msgstr ""
+msgstr "Tỷ lệ (%)"
 
 #: default_reports/reports/taxes.py:30
 msgid "Pre-tax Total"
-msgstr ""
+msgstr "Tổng số tiền thuế"
 
 #: default_reports/reports/taxes.py:31
 msgid "Total Tax Amount"
-msgstr ""
+msgstr "Tổng số tiền thuế"
 
 #: default_reports/reports/total_sales.py:23
 msgid "Shop Name"
-msgstr ""
+msgstr "Tên cửa hàng"
 
 #: default_reports/reports/total_sales.py:24
 msgid "Currency"
-msgstr ""
+msgstr "Tiền tệ"
 
 #: default_reports/reports/total_sales.py:26
 msgid "Customers"
-msgstr ""
+msgstr "Khách hàng"
 
 #: default_reports/reports/total_sales.py:27
 msgid "Customer Average Sale"
-msgstr ""
+msgstr "Bán trung bình của khách hàng"

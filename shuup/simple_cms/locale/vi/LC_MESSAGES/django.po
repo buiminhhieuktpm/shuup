@@ -19,109 +19,109 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: simple_cms/__init__.py:16 simple_cms/admin_module/__init__.py:20
 msgid "Content Pages"
-msgstr ""
+msgstr "Trang nội dung"
 
 #: simple_cms/admin_module/__init__.py:43
 msgid "Pages"
-msgstr ""
+msgstr "Trang"
 
 #: simple_cms/admin_module/__init__.py:48
 msgid "Show pages"
-msgstr ""
+msgstr "Hiển thị trang"
 
 #: simple_cms/admin_module/__init__.py:55
 msgid "Add a web page"
-msgstr ""
+msgstr "Thêm một trang web"
 
 #: simple_cms/admin_module/__init__.py:56
 msgid "New page"
-msgstr ""
+msgstr "Trang mới"
 
 #: simple_cms/admin_module/views.py:32 simple_cms/admin_module/views.py:218
 #: simple_cms/admin_module/views.py:227
 msgid "Available since"
-msgstr ""
+msgstr "Có sẵn kể từ đó"
 
 #: simple_cms/admin_module/views.py:33 simple_cms/admin_module/views.py:219
 #: simple_cms/admin_module/views.py:228
 msgid "Available until"
-msgstr ""
+msgstr "Có sẵn cho đến khi"
 
 #: simple_cms/admin_module/views.py:61
 msgid "Template"
-msgstr ""
+msgstr "Bản mẫu"
 
 #: simple_cms/admin_module/views.py:92 simple_cms/models.py:235
 msgid "URL already exists."
-msgstr ""
+msgstr "URL đã tồn tại."
 
 #: simple_cms/admin_module/views.py:95
 msgid "URL must be unique."
-msgstr ""
+msgstr "URL phải là duy nhất."
 
 #: simple_cms/admin_module/views.py:101
 #, python-format
 msgid "%(label)s is required when any %(language)s field is filled."
-msgstr ""
+msgstr "%(label)s là bắt buộc khi bất kỳ trường %(language)s nào được lấp đầy."
 
 #: simple_cms/admin_module/views.py:107
 msgid "Please fill at least one language fully."
-msgstr ""
+msgstr "Vui lòng điền ít nhất một ngôn ngữ đầy đủ."
 
 #: simple_cms/admin_module/views.py:114
 msgid "A page may not be made a child of itself."
-msgstr ""
+msgstr "Một trang có thể không được làm một đứa con của chính nó."
 
 #: simple_cms/admin_module/views.py:212 simple_cms/models.py:285
 #: simple_cms/plugins.py:83
 msgid "Title"
-msgstr ""
+msgstr "Tiêu đề"
 
 #: simple_cms/admin_module/views.py:220
 msgid "Created by"
-msgstr ""
+msgstr "Được tạo bởi"
 
 #: simple_cms/admin_module/views.py:221
 msgid "Date created"
-msgstr ""
+msgstr "Ngày được tạo ra"
 
 #: simple_cms/admin_module/views.py:226
 msgid "Page"
-msgstr ""
+msgstr "Trang"
 
 #: simple_cms/admin_module/views.py:254
 #, python-format
 msgid "%s has been marked deleted."
-msgstr ""
+msgstr "%s đã được đánh dấu bị xóa."
 
 #: simple_cms/layout.py:15
 msgid "Content in this placeholder is shown for this page only."
-msgstr ""
+msgstr "Nội dung trong trình giữ chỗ này chỉ được hiển thị cho trang này."
 
 #: simple_cms/layout.py:21
 #, python-format
 msgid "Content in this placeholder is shown for %(title)s only."
-msgstr ""
+msgstr "Nội dung trong trình giữ chỗ này chỉ được hiển thị cho %(title)s."
 
 #: simple_cms/models.py:33
 msgid "Website"
-msgstr ""
+msgstr "Trang web"
 
 #: simple_cms/models.py:34
 msgid "Article"
-msgstr ""
+msgstr "Bài báo"
 
 #: simple_cms/models.py:88
 msgid "shop"
-msgstr ""
+msgstr "cửa hàng"
 
 #: simple_cms/models.py:90
 msgid "supplier"
-msgstr ""
+msgstr "nhà cung cấp"
 
 #: simple_cms/models.py:97
 msgid "available since"
-msgstr ""
+msgstr "Có sẵn kể từ đó"
 
 #: simple_cms/models.py:99
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 
 #: simple_cms/models.py:107
 msgid "available until"
-msgstr ""
+msgstr "Có sẵn cho đến khi"
 
 #: simple_cms/models.py:109
 msgid ""
@@ -143,35 +143,35 @@ msgstr ""
 
 #: simple_cms/models.py:115
 msgid "Available for permission groups"
-msgstr ""
+msgstr "Có sẵn cho các nhóm cho phép"
 
 #: simple_cms/models.py:116
 msgid "Select the permission groups that can have access to this page."
-msgstr ""
+msgstr "Chọn các nhóm quyền có thể có quyền truy cập vào trang này."
 
 #: simple_cms/models.py:126
 msgid "created by"
-msgstr ""
+msgstr "được tạo bởi"
 
 #: simple_cms/models.py:134
 msgid "modified by"
-msgstr ""
+msgstr "sửa đổi bởi"
 
 #: simple_cms/models.py:137
 msgid "created on"
-msgstr ""
+msgstr "được tạo ra trên"
 
 #: simple_cms/models.py:138
 msgid "modified on"
-msgstr ""
+msgstr "sửa đổi trên"
 
 #: simple_cms/models.py:141
 msgid "This identifier can be used in templates to create URLs"
-msgstr ""
+msgstr "Mã định danh này có thể được sử dụng trong các mẫu để tạo URL"
 
 #: simple_cms/models.py:145
 msgid "visible in menu"
-msgstr ""
+msgstr "Có thể nhìn thấy trong menu"
 
 #: simple_cms/models.py:147
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #: simple_cms/models.py:155
 msgid "parent"
-msgstr ""
+msgstr "cha mẹ"
 
 #: simple_cms/models.py:156
 msgid ""
@@ -191,15 +191,15 @@ msgstr ""
 
 #: simple_cms/models.py:159
 msgid "display children on page"
-msgstr ""
+msgstr "Hiển thị trẻ em trên trang"
 
 #: simple_cms/models.py:161
 msgid "Enable this if this page should display all of its children pages."
-msgstr ""
+msgstr "Kích hoạt điều này nếu trang này sẽ hiển thị tất cả các trang trẻ em của nó."
 
 #: simple_cms/models.py:164
 msgid "show child page timestamps"
-msgstr ""
+msgstr "hiển thị dấu thời gian trang trẻ em"
 
 #: simple_cms/models.py:167
 msgid ""
@@ -209,19 +209,19 @@ msgstr ""
 
 #: simple_cms/models.py:171
 msgid "deleted"
-msgstr ""
+msgstr "đã xóa"
 
 #: simple_cms/models.py:176
 msgid "title"
-msgstr ""
+msgstr "tiêu đề"
 
 #: simple_cms/models.py:177
 msgid "The page title. This is shown anywhere links to your page are shown."
-msgstr ""
+msgstr "Tiêu đề trang.Điều này được hiển thị bất cứ nơi nào liên kết đến trang của bạn được hiển thị."
 
 #: simple_cms/models.py:181
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: simple_cms/models.py:186
 msgid ""
@@ -232,7 +232,7 @@ msgstr ""
 
 #: simple_cms/models.py:191
 msgid "content"
-msgstr ""
+msgstr "nội dung"
 
 #: simple_cms/models.py:193
 msgid ""
@@ -244,39 +244,39 @@ msgstr ""
 
 #: simple_cms/models.py:200
 msgid "Template path"
-msgstr ""
+msgstr "Đường dẫn mẫu"
 
 #: simple_cms/models.py:203
 msgid "render title"
-msgstr ""
+msgstr "kết xuất tiêu đề"
 
 #: simple_cms/models.py:205
 msgid "Enable this if this page should have a visible title."
-msgstr ""
+msgstr "Kích hoạt điều này nếu trang này nên có một tiêu đề có thể nhìn thấy."
 
 #: simple_cms/models.py:212 simple_cms/models.py:270
 msgid "page"
-msgstr ""
+msgstr "trang"
 
 #: simple_cms/models.py:213
 msgid "pages"
-msgstr ""
+msgstr "trang"
 
 #: simple_cms/models.py:261
 msgid "Untitled"
-msgstr ""
+msgstr "Không có tiêu đề"
 
 #: simple_cms/models.py:273
 msgid "Image"
-msgstr ""
+msgstr "Hình ảnh"
 
 #: simple_cms/models.py:277
 msgid "The image of your object."
-msgstr ""
+msgstr "Hình ảnh của đối tượng của bạn."
 
 #: simple_cms/models.py:280
 msgid "type"
-msgstr ""
+msgstr "kiểu"
 
 #: simple_cms/models.py:286
 msgid ""
@@ -285,15 +285,15 @@ msgstr ""
 
 #: simple_cms/models.py:291
 msgid "Description"
-msgstr ""
+msgstr "Sự miêu tả"
 
 #: simple_cms/models.py:292
 msgid "A one to two sentence description of your object."
-msgstr ""
+msgstr "Một mô tả một đến hai câu về đối tượng của bạn."
 
 #: simple_cms/models.py:297
 msgid "Section"
-msgstr ""
+msgstr "Phần"
 
 #: simple_cms/models.py:298
 msgid ""
@@ -303,7 +303,7 @@ msgstr ""
 
 #: simple_cms/models.py:303
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 #: simple_cms/models.py:304
 msgid ""
@@ -312,7 +312,7 @@ msgstr ""
 
 #: simple_cms/models.py:309
 msgid "Article author"
-msgstr ""
+msgstr "Tác giả bài báo"
 
 #: simple_cms/models.py:310
 msgid ""
@@ -321,24 +321,24 @@ msgstr ""
 
 #: simple_cms/plugins.py:78
 msgid "CMS Page Links"
-msgstr ""
+msgstr "Liên kết trang CMS"
 
 #: simple_cms/plugins.py:87
 msgid "Show all pages"
-msgstr ""
+msgstr "Hiển thị tất cả các trang"
 
 #: simple_cms/plugins.py:90
 msgid "All pages are shown, even if not selected"
-msgstr ""
+msgstr "Tất cả các trang được hiển thị, ngay cả khi không được chọn"
 
 #: simple_cms/plugins.py:96
 msgid "Hide expired pages"
-msgstr ""
+msgstr "Ẩn các trang hết hạn"
 
 #: simple_cms/templates.py:12
 msgid "Default Page"
-msgstr ""
+msgstr "Trang mặc định"
 
 #: simple_cms/templates.py:17
 msgid "Page with sidebar"
-msgstr ""
+msgstr "Trang với thanh bên"

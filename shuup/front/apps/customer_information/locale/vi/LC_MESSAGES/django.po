@@ -20,52 +20,52 @@ msgstr ""
 
 #: front/apps/customer_information/__init__.py:17
 msgid "Shuup Frontend - Customer Information Editing"
-msgstr ""
+msgstr "Shuup Frontend - Chỉnh sửa thông tin khách hàng"
 
 #: front/apps/customer_information/dashboard_items.py:17
 msgid "Customer Information"
-msgstr ""
+msgstr "Thông tin khách hàng"
 
 #: front/apps/customer_information/dashboard_items.py:30
 msgid "Company Information"
-msgstr ""
+msgstr "Thông tin công ty"
 
 #: front/apps/customer_information/dashboard_items.py:31
 msgid "Edit Company Information."
-msgstr ""
+msgstr "Chỉnh sửa thông tin công ty."
 
 #: front/apps/customer_information/dashboard_items.py:44
 #: front/apps/customer_information/dashboard_items.py:45
 msgid "Address Book"
-msgstr ""
+msgstr "Sách địa chỉ"
 
 #: front/apps/customer_information/forms.py:37
 msgid "Language"
-msgstr ""
+msgstr "Ngôn ngữ"
 
 #: front/apps/customer_information/forms.py:90
 msgid "Will become default user email when linked."
-msgstr ""
+msgstr "Sẽ trở thành email người dùng mặc định khi được liên kết."
 
 #: front/apps/customer_information/forms.py:101
 msgid "Given Tax Number already exists. Please contact support."
-msgstr ""
+msgstr "Cho số thuế đã tồn tại.Vui lòng liên hệ với hỗ trợ."
 
 #: front/apps/customer_information/forms.py:110
 msgid "Address Title"
-msgstr ""
+msgstr "Tiêu đề địa chỉ"
 
 #: front/apps/customer_information/forms.py:111
 msgid "Address Type"
-msgstr ""
+msgstr "Loại địa chỉ"
 
 #: front/apps/customer_information/forms.py:112
 msgid "Address Status"
-msgstr ""
+msgstr "Trạng thái địa chỉ"
 
 #: front/apps/customer_information/forms.py:199
 msgid "Company information was saved."
-msgstr ""
+msgstr "Thông tin công ty đã được lưu."
 
 #: front/apps/customer_information/forms.py:204
 msgid ""
@@ -75,20 +75,20 @@ msgstr ""
 
 #: front/apps/customer_information/notify_events.py:18
 msgid "Customer Email"
-msgstr ""
+msgstr "Email khách hàng"
 
 #: front/apps/customer_information/views.py:30
 msgid "Password changed."
-msgstr ""
+msgstr "Mật khẩu đã thay đổi."
 
 #: front/apps/customer_information/views.py:52
 msgid "Account information was saved."
-msgstr ""
+msgstr "Thông tin tài khoản đã được lưu."
 
 #: front/apps/customer_information/views.py:116
 msgid "Address information was saved."
-msgstr ""
+msgstr "Thông tin địa chỉ đã được lưu."
 
 #: front/apps/customer_information/views.py:124
 msgid "Cannot remove address because it doesn't exist."
-msgstr ""
+msgstr "Không thể xóa địa chỉ vì nó không tồn tại."

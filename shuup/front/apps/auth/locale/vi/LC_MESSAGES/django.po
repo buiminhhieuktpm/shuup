@@ -28,7 +28,7 @@ msgstr ""
 
 #: front/apps/auth/forms.py:28
 msgid "This account is inactive."
-msgstr ""
+msgstr "Tài khoản này không hoạt động."
 
 #: front/apps/auth/forms.py:33
 msgid "Username or email address"
@@ -36,8 +36,8 @@ msgstr "Tài khoản hoặc Email"
 
 #: front/apps/auth/forms.py:99
 msgid "You are not allowed to log in to this shop."
-msgstr ""
+msgstr "Bạn không được phép đăng nhập vào cửa hàng này."
 
 #: front/apps/auth/views.py:117
 msgid "Error! This recovery link is invalid."
-msgstr ""
+msgstr "Lỗi!Liên kết phục hồi này không hợp lệ."

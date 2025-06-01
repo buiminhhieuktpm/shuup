@@ -5,6 +5,8 @@ LABEL maintainer="Eero Ruohola <eero.ruohola@shuup.com>"
 
 RUN apt-get update \
     && apt-get --assume-yes install \
+        postgresql-client \
+        gettext \
         build-essential \
         libcairo2-dev \
         libpangocairo-1.0-0 \

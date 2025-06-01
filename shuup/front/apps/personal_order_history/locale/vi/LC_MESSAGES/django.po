@@ -20,12 +20,12 @@ msgstr ""
 
 #: front/apps/personal_order_history/__init__.py:16
 msgid "Shuup Frontend - Personal Order History"
-msgstr ""
+msgstr "Shuup Frontend - Lịch sử đặt hàng cá nhân"
 
 #: front/apps/personal_order_history/dashboard_items.py:15
 msgid "Order history"
-msgstr ""
+msgstr "Lịch sử đặt hàng"
 
 #: front/apps/personal_order_history/dashboard_items.py:18
 msgid "Show all"
-msgstr ""
+msgstr "Hiển thị tất cả"

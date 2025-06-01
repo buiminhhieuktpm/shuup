@@ -20,9 +20,9 @@ msgstr ""
 #: guide/admin_module.py:34
 #, python-format
 msgid "Guide: %s"
-msgstr ""
+msgstr "Hướng dẫn: %s"
 
 #: guide/admin_module.py:46
 #, python-format
 msgid "Search guide for: \"%s\""
-msgstr ""
+msgstr "Hướng dẫn tìm kiếm cho: \"%s\""

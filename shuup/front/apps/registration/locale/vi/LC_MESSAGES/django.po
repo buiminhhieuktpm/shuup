@@ -20,55 +20,55 @@ msgstr ""
 
 #: front/apps/registration/forms.py:33
 msgid "Name of the company"
-msgstr ""
+msgstr "Tên của công ty"
 
 #: front/apps/registration/notify_events.py:23
 msgid "Registration Received"
-msgstr ""
+msgstr "Đăng ký nhận được"
 
 #: front/apps/registration/notify_events.py:24
 msgid "Customer"
-msgstr ""
+msgstr "Khách hàng"
 
 #: front/apps/registration/notify_events.py:25
 msgid "Customer Email"
-msgstr ""
+msgstr "Email khách hàng"
 
 #: front/apps/registration/notify_events.py:26
 msgid "Activation URL"
-msgstr ""
+msgstr "URL kích hoạt"
 
 #: front/apps/registration/notify_events.py:27
 msgid "Is User Active"
-msgstr ""
+msgstr "Là người dùng đang hoạt động"
 
 #: front/apps/registration/notify_events.py:32
 msgid "Account Reactivation"
-msgstr ""
+msgstr "Kích hoạt lại tài khoản"
 
 #: front/apps/registration/notify_events.py:37
 msgid "Company Registration Received"
-msgstr ""
+msgstr "Đăng ký công ty nhận được"
 
 #: front/apps/registration/notify_events.py:42
 msgid "Company Approved"
-msgstr ""
+msgstr "Công ty được phê duyệt"
 
 #: front/apps/registration/notify_events.py:47
 msgid "Account Activation"
-msgstr ""
+msgstr "Kích hoạt tài khoản"
 
 #: front/apps/registration/notify_events.py:110
 msgid "Company has been activated."
-msgstr ""
+msgstr "Công ty đã được kích hoạt."
 
 #: front/apps/registration/notify_events.py:131
 msgid "Send Registration Received Email"
-msgstr ""
+msgstr "Gửi đăng ký nhận email"
 
 #: front/apps/registration/notify_events.py:132
 msgid "Send email when a user registers."
-msgstr ""
+msgstr "Gửi email khi người dùng đăng ký."
 
 #: front/apps/registration/notify_events.py:134
 #: front/apps/registration/notify_events.py:156
@@ -81,15 +81,15 @@ msgstr ""
 #: front/apps/registration/notify_events.py:158
 #: front/apps/registration/notify_events.py:169
 msgid "{{ order.shop }} - Welcome!"
-msgstr ""
+msgstr "{{order.shop}} - Chào mừng!"
 
 #: front/apps/registration/notify_events.py:142
 msgid "Send account reactivation email"
-msgstr ""
+msgstr "Gửi email kích hoạt lại tài khoản"
 
 #: front/apps/registration/notify_events.py:143
 msgid "Send email when a user account gets reactivated"
-msgstr ""
+msgstr "Gửi email khi tài khoản người dùng được kích hoạt lại"
 
 #: front/apps/registration/notify_events.py:145
 msgid ""
@@ -99,23 +99,23 @@ msgstr ""
 
 #: front/apps/registration/notify_events.py:147
 msgid "{{ customer.username }} is now active again!"
-msgstr ""
+msgstr "{{customer.username}} hiện đang hoạt động trở lại!"
 
 #: front/apps/registration/notify_events.py:153
 msgid "Send Company Registration Received Email"
-msgstr ""
+msgstr "Gửi đăng ký công ty nhận được email"
 
 #: front/apps/registration/notify_events.py:154
 msgid "Send email when a user registers as a company."
-msgstr ""
+msgstr "Gửi email khi người dùng đăng ký làm công ty."
 
 #: front/apps/registration/notify_events.py:164
 msgid "Send Company Activated Email"
-msgstr ""
+msgstr "Gửi email được kích hoạt của công ty"
 
 #: front/apps/registration/notify_events.py:165
 msgid "Notify company's contact person that company account is activated"
-msgstr ""
+msgstr "Thông báo cho người liên hệ của công ty rằng tài khoản công ty được kích hoạt"
 
 #: front/apps/registration/notify_events.py:167
 msgid ""
@@ -125,11 +125,11 @@ msgstr ""
 
 #: front/apps/registration/notify_events.py:176
 msgid "Send account activation email"
-msgstr ""
+msgstr "Gửi email kích hoạt tài khoản"
 
 #: front/apps/registration/notify_events.py:177
 msgid "Send email when a user account gets activated for the first time"
-msgstr ""
+msgstr "Gửi email khi tài khoản người dùng được kích hoạt lần đầu tiên"
 
 #: front/apps/registration/notify_events.py:179
 msgid ""
@@ -139,11 +139,11 @@ msgstr ""
 
 #: front/apps/registration/notify_events.py:182
 msgid "{{ customer.username }} is now active!"
-msgstr ""
+msgstr "{{customer.username}} hiện đang hoạt động!"
 
 #: front/apps/registration/views.py:25
 msgid "Activation successful"
-msgstr ""
+msgstr "Kích hoạt thành công"
 
 #: front/apps/registration/views.py:35
 msgid ""

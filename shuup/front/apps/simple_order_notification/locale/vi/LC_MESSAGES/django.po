@@ -20,4 +20,4 @@ msgstr ""
 
 #: front/apps/simple_order_notification/admin_module/__init__.py:16
 msgid "Simple order notifications"
-msgstr ""
+msgstr "Thông báo đơn hàng đơn giản"

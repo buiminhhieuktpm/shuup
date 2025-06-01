@@ -19,88 +19,88 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: reports/admin_module/__init__.py:19
 msgid "Reports"
-msgstr ""
+msgstr "Báo cáo"
 
 #: reports/admin_module/views.py:52
 msgid "Type"
-msgstr ""
+msgstr "Kiểu"
 
 #: reports/admin_module/views.py:55
 msgid "Select the type of report to run."
-msgstr ""
+msgstr "Chọn loại báo cáo để chạy."
 
 #: reports/forms.py:30
 msgid "Custom"
-msgstr ""
+msgstr "Phong tục"
 
 #: reports/forms.py:31
 msgid "Today"
-msgstr ""
+msgstr "Hôm nay"
 
 #: reports/forms.py:32
 msgid "Running Week (last 7 days)"
-msgstr ""
+msgstr "Tuần chạy (7 ngày cuối cùng)"
 
 #: reports/forms.py:33
 msgid "Running Month (last 30 days)"
-msgstr ""
+msgstr "Chạy tháng (30 ngày cuối cùng)"
 
 #: reports/forms.py:34
 msgid "This Week"
-msgstr ""
+msgstr "Tuần này"
 
 #: reports/forms.py:35
 msgid "This Month"
-msgstr ""
+msgstr "Tháng này"
 
 #: reports/forms.py:36
 msgid "This Year"
-msgstr ""
+msgstr "Năm nay"
 
 #: reports/forms.py:37
 msgid "All Time"
-msgstr ""
+msgstr "Tất cả thời gian"
 
 #: reports/forms.py:43
 msgid "Output Format"
-msgstr ""
+msgstr "Định dạng đầu ra"
 
 #: reports/forms.py:46
 msgid "The format to show the report results."
-msgstr ""
+msgstr "Định dạng để hiển thị kết quả báo cáo."
 
 #: reports/forms.py:49
 msgid "Download"
-msgstr ""
+msgstr "Tải xuống"
 
 #: reports/forms.py:49
 msgid "Enable this to download the report."
-msgstr ""
+msgstr "Cho phép này để tải xuống báo cáo."
 
 #: reports/forms.py:73
 msgid "Shop"
-msgstr ""
+msgstr "Cửa hàng"
 
 #: reports/forms.py:73
 msgid "Filter report results by shop."
-msgstr ""
+msgstr "Kết quả báo cáo lọc theo cửa hàng."
 
 #: reports/forms.py:76
 msgid "Date Range"
-msgstr ""
+msgstr "Phạm vi ngày"
 
 #: reports/forms.py:78
 msgid "Filter report results by a date range."
-msgstr ""
+msgstr "Kết quả báo cáo bộ lọc theo phạm vi ngày."
 
 #: reports/forms.py:80
 msgid "Start Date"
-msgstr ""
+msgstr "Ngày bắt đầu"
 
 #: reports/forms.py:80 reports/forms.py:81
 msgid "For a custom date range."
-msgstr ""
+msgstr "Cho một phạm vi ngày tùy chỉnh."
 
 #: reports/forms.py:81
 msgid "End Date"
-msgstr ""
+msgstr "Ngày kết thúc"
