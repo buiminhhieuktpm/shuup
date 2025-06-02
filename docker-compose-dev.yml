@@ -7,12 +7,16 @@ services:
       POSTGRES_DB: shuup
       POSTGRES_USER: shuup
       POSTGRES_PASSWORD: shuup
+      tz: "UTC"
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
   shuup:
-    build: .
+    build:
+      context: .
+      args:
+        editable: 1
     depends_on:
       - postgres
     ports:

@@ -98,6 +98,13 @@ WSGI_APPLICATION = "shuup_workbench.wsgi.application"
 # _sqlite_folder = os.path.join(BASE_DIR, "../.sqlite")
 # if not os.path.exists(_sqlite_folder):
 #     os.mkdir(_sqlite_folder)
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": os.path.join(_sqlite_folder, "db.sqlite3"),
+#     }
+# }
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",

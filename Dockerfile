@@ -33,7 +33,7 @@ WORKDIR /app
 
 # The dev compose file sets this to 1 to support development and editing the source code.
 # The default value of 0 just installs the demo for running.
-ARG editable=0
+ARG editable=1
 
 RUN pip3 install psycopg2-binary==2.8.6
 RUN pip3 install markupsafe==2.0.1
@@ -44,9 +44,8 @@ RUN if [ "$editable" -eq 1 ]; then pip3 install -r requirements-tests.txt && pyt
 RUN curl -o /usr/local/bin/wait-for-it.sh https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh && \
     chmod +x /usr/local/bin/wait-for-it.sh
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+RUN chmod +x /app/entrypoint.sh
+ENTRYPOINT ["/app/entrypoint.sh"]
 
 # RUN python3 -m shuup_workbench migrate
 # RUN python3 -m shuup_workbench shuup_init
