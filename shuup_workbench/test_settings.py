@@ -104,10 +104,10 @@ DATABASES = {
 }
 
 LANGUAGE_CODE = "vi"
-TIME_ZONE = "Asia/Ho_Chi_Minh"
+TIME_ZONE = "UTC"
 USE_I18N = True
 USE_L10N = True
-USE_TZ = False
+USE_TZ = True
 STATIC_URL = "/static/"
 LOGIN_REDIRECT_URL = "/"
 SOUTH_TESTS_MIGRATE = False  # Makes tests that much faster.

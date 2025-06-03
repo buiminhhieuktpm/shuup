@@ -35,9 +35,9 @@ WORKDIR /app
 # The default value of 0 just installs the demo for running.
 ARG editable=1
 
-RUN pip3 install psycopg2-binary==2.8.6
 RUN pip3 install markupsafe==2.0.1
-RUN pip3 install --upgrade pip && pip3 install django psycopg2-binary
+RUN pip3 install --upgrade pip && pip3 install django==2.2.24 psycopg2==2.8.6 \
+    && pip3 install --upgrade setuptools
 
 RUN if [ "$editable" -eq 1 ]; then pip3 install -r requirements-tests.txt && python3 setup.py build_resources; else pip3 install shuup; fi
 
