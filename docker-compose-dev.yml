@@ -7,7 +7,8 @@ services:
       POSTGRES_DB: shuup
       POSTGRES_USER: shuup
       POSTGRES_PASSWORD: shuup
-      tz: "UTC"
+      TZ: "UTC"
+      PGTZ: UTC
     ports:
       - "5432:5432"
     volumes:
